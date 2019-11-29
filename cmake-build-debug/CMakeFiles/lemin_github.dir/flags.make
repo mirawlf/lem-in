@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/samymone/Lemin/. -I/Users/samymone/Lemin/libft -I/Users/samymone/Lemin/libft/includes -I/Users/samymone/Lemin/libft/srcs 
+C_INCLUDES = -I/Users/samymone/lemin_github/. -I/Users/samymone/lemin_github/libft/includes 
 

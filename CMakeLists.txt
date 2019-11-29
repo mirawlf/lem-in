@@ -1,14 +1,12 @@
 cmake_minimum_required(VERSION 3.14)
-project(Lemin C)
+project(lemin_github C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
-include_directories(libft)
 include_directories(libft/includes)
-include_directories(libft/srcs)
 
-add_executable(Lemin
+add_executable(lemin_github
         libft/includes/get_next_line.h
         libft/includes/libft.h
         libft/srcs/ft_abs.c

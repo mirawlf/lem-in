@@ -43,6 +43,7 @@ typedef struct		s_ant
 }					t_ant;
 
 t_map				*parse_input(char **av, t_map *map);
-
+t_map				*structure_filling(char *line, t_map *map);
+void 				ft_error(void);
 
 #endif
