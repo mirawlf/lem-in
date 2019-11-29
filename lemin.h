@@ -34,6 +34,8 @@ typedef struct 		s_map
 	t_room			*next;		//указатель на следующие комнаты, для последней указатель == NULL. Для начала маллочим память
 								//next(имя любое) = malloc(sizeof(t_room) * t_room->links. Оращаться через next[0], next[1] итд
 	int 			is_valid; 	//стоит ли идти по этой связи, по умолчанию все равно 0
+	int 			start;		//фла начала заполнения структуры
+	int				ants;		//количество муравьев
 }					t_map;
 
 typedef struct		s_ant

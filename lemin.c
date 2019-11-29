@@ -20,7 +20,16 @@ void		ft_error(void)
 
 t_map		*structure_filling(char *line, t_map *map)
 {
-	if (ft_strstr("##start\n", line) || ft_strstr("##end\n", line))
+	if (map->start == 0)
+	{
+		map->ants = line[0] - '0';
+		map->start = 1;
+	}
+	else
+	{
+
+	}
+	return (map);
 
 }
 
@@ -28,11 +37,13 @@ t_map		*parse_input(char **av, t_map *map)
 {
 	int		ret;
 	char	*line;
+	int		fd;
 
+	fd = open(av[1], O_RDONLY);
 	ret = 1;
 	while (ret == 1)
 	{
-		ret = get_next_line(av[1], &line);
+		ret = get_next_line(fd, &line);
 		if (ret == -1)
 			ft_error();
 		else if (ret == 1)
@@ -51,6 +62,7 @@ int			main(int ac, char **av)
 	{
 		if (!(map = (t_map*)malloc(sizeof(t_map))))
 			return (0);
+		ft_bzero(map, sizeof(t_map));
 		map = parse_input(av, map);
 	}
 }
