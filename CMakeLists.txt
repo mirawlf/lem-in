@@ -77,4 +77,4 @@ add_executable(lemin_github
         libft/srcs/ft_toupper.c
         libft/srcs/get_next_line.c
         lemin.c
-        lemin.h)
+        lemin.h freeshing.c filling.c)

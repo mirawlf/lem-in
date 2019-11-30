@@ -15,7 +15,7 @@
 
 #include "./libft/includes/libft.h"
 #include "./libft/includes/get_next_line.h"
-
+#include <stdlib.h>
 typedef struct 		s_room
 {
 	int 			num;	//порядковый номер комнаты
@@ -34,18 +34,25 @@ typedef struct 		s_map
 	t_room			*next;		//указатель на следующие комнаты, для последней указатель == NULL. Для начала маллочим память
 								//next(имя любое) = malloc(sizeof(t_room) * t_room->links. Оращаться через next[0], next[1] итд
 	int 			is_valid; 	//стоит ли идти по этой связи, по умолчанию все равно 0
-	int 			start;		//фла начала заполнения структуры
+	int 			start;		//флаг начала заполнения структуры
 	int				ants;		//количество муравьев
+	struct s_ant	*first;		//первый муравей
+	struct s_ant	*last;		//последний муравей
 }					t_map;
 
 typedef struct		s_ant
 {
 	int 			num;		//порядковый номер муравья
-	int 			curr_room;	//в какой комнате он сейчас находится
+	t_room 			*curr_room;	//в какой комнате он сейчас находится
+	struct s_ant	*next;		//указатель на следующего муравья
+	struct s_ant	*prev;
 }					t_ant;
 
 t_map				*parse_input(char **av, t_map *map);
 t_map				*structure_filling(char *line, t_map *map);
 void 				ft_error(void);
+void 				free_map(t_map *map);
+void 				free_ant(int i, t_ant *ant);
+t_ant				*ant_colony_creation(int quant, t_map *map);
 
 #endif
