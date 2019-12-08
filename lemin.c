@@ -35,6 +35,7 @@ t_map		*structure_filling(char *line, t_map *map)
 			ft_error();
 		}
 		map->start = 1;
+		ant_colony_creation(map->ants, map);
 	}
 	else
 	{
@@ -70,9 +71,8 @@ int			main(int ac, char **av)
 
 	if (ac == 2)
 	{
-		if (!(map = (t_map*)malloc(sizeof(t_map))))
+		if (!(map = (t_map*)ft_memalloc(sizeof(t_map))))
 			return (0);
-		ft_bzero(map, sizeof(t_map));
 		map = parse_input(av, map);
 	}
 }

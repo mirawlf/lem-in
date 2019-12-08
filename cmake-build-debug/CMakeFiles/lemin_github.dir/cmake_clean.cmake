@@ -66,9 +66,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o"
   "CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o"
   "CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o"
-  "CMakeFiles/lemin_github.dir/lemin.c.o"
-  "CMakeFiles/lemin_github.dir/freeshing.c.o"
   "CMakeFiles/lemin_github.dir/filling.c.o"
+  "CMakeFiles/lemin_github.dir/freeshing.c.o"
+  "CMakeFiles/lemin_github.dir/lemin.c.o"
   "lemin_github.pdb"
   "lemin_github"
 )

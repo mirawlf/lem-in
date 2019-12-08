@@ -928,18 +928,18 @@ CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/get_next_line.c -o CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s
 
-CMakeFiles/lemin_github.dir/lemin.c.o: CMakeFiles/lemin_github.dir/flags.make
-CMakeFiles/lemin_github.dir/lemin.c.o: ../lemin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lemin_github.dir/lemin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/lemin.c.o   -c /Users/samymone/lemin_github/lemin.c
+CMakeFiles/lemin_github.dir/filling.c.o: CMakeFiles/lemin_github.dir/flags.make
+CMakeFiles/lemin_github.dir/filling.c.o: ../filling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lemin_github.dir/filling.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/filling.c.o   -c /Users/samymone/lemin_github/filling.c
 
-CMakeFiles/lemin_github.dir/lemin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/lemin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/lemin.c > CMakeFiles/lemin_github.dir/lemin.c.i
+CMakeFiles/lemin_github.dir/filling.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/filling.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/filling.c > CMakeFiles/lemin_github.dir/filling.c.i
 
-CMakeFiles/lemin_github.dir/lemin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/lemin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/lemin.c -o CMakeFiles/lemin_github.dir/lemin.c.s
+CMakeFiles/lemin_github.dir/filling.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/filling.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/filling.c -o CMakeFiles/lemin_github.dir/filling.c.s
 
 CMakeFiles/lemin_github.dir/freeshing.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/freeshing.c.o: ../freeshing.c
@@ -954,18 +954,18 @@ CMakeFiles/lemin_github.dir/freeshing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/freeshing.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/freeshing.c -o CMakeFiles/lemin_github.dir/freeshing.c.s
 
-CMakeFiles/lemin_github.dir/filling.c.o: CMakeFiles/lemin_github.dir/flags.make
-CMakeFiles/lemin_github.dir/filling.c.o: ../filling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lemin_github.dir/filling.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/filling.c.o   -c /Users/samymone/lemin_github/filling.c
+CMakeFiles/lemin_github.dir/lemin.c.o: CMakeFiles/lemin_github.dir/flags.make
+CMakeFiles/lemin_github.dir/lemin.c.o: ../lemin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lemin_github.dir/lemin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/lemin.c.o   -c /Users/samymone/lemin_github/lemin.c
 
-CMakeFiles/lemin_github.dir/filling.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/filling.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/filling.c > CMakeFiles/lemin_github.dir/filling.c.i
+CMakeFiles/lemin_github.dir/lemin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/lemin.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/lemin.c > CMakeFiles/lemin_github.dir/lemin.c.i
 
-CMakeFiles/lemin_github.dir/filling.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/filling.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/filling.c -o CMakeFiles/lemin_github.dir/filling.c.s
+CMakeFiles/lemin_github.dir/lemin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/lemin.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/lemin.c -o CMakeFiles/lemin_github.dir/lemin.c.s
 
 # Object files for target lemin_github
 lemin_github_OBJECTS = \
@@ -1036,9 +1036,9 @@ lemin_github_OBJECTS = \
 "CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o" \
 "CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o" \
 "CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o" \
-"CMakeFiles/lemin_github.dir/lemin.c.o" \
+"CMakeFiles/lemin_github.dir/filling.c.o" \
 "CMakeFiles/lemin_github.dir/freeshing.c.o" \
-"CMakeFiles/lemin_github.dir/filling.c.o"
+"CMakeFiles/lemin_github.dir/lemin.c.o"
 
 # External object files for target lemin_github
 lemin_github_EXTERNAL_OBJECTS =
@@ -1110,9 +1110,9 @@ lemin_github: CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.o
 lemin_github: CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o
 lemin_github: CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o
 lemin_github: CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o
-lemin_github: CMakeFiles/lemin_github.dir/lemin.c.o
-lemin_github: CMakeFiles/lemin_github.dir/freeshing.c.o
 lemin_github: CMakeFiles/lemin_github.dir/filling.c.o
+lemin_github: CMakeFiles/lemin_github.dir/freeshing.c.o
+lemin_github: CMakeFiles/lemin_github.dir/lemin.c.o
 lemin_github: CMakeFiles/lemin_github.dir/build.make
 lemin_github: CMakeFiles/lemin_github.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking C executable lemin_github"

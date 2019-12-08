@@ -16,6 +16,7 @@
 #include "./libft/includes/libft.h"
 #include "./libft/includes/get_next_line.h"
 #include <stdlib.h>
+
 typedef struct 		s_room
 {
 	int 			num;	//порядковый номер комнаты
@@ -24,6 +25,7 @@ typedef struct 		s_room
 	int 			links;	//колическтво связей с другими комнатами
 	int 			level;	//уровень комнаты
 	struct s_ant	*ant;
+	int 			is_valid; 	//стоит ли идти по этой связи, по умолчанию все равно 0
 }					t_room;
 
 typedef struct 		s_map
@@ -33,7 +35,7 @@ typedef struct 		s_map
 	t_room			*prev;		//указатель на предыдущую комнату, для самой первой указатель == NULL
 	t_room			*next;		//указатель на следующие комнаты, для последней указатель == NULL. Для начала маллочим память
 								//next(имя любое) = malloc(sizeof(t_room) * t_room->links. Оращаться через next[0], next[1] итд
-	int 			is_valid; 	//стоит ли идти по этой связи, по умолчанию все равно 0
+
 	int 			start;		//флаг начала заполнения структуры
 	int				ants;		//количество муравьев
 	struct s_ant	*first;		//первый муравей
