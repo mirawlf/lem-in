@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:26:38 by samymone          #+#    #+#             */
-/*   Updated: 2019/10/27 16:26:40 by samymone         ###   ########.fr       */
+/*   Updated: 2019/12/17 17:10:53 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,10 +69,12 @@ int			main(int ac, char **av)
 {
 	t_map	*map;
 
+
+
 	if (ac == 2)
 	{
 		if (!(map = (t_map*)ft_memalloc(sizeof(t_map))))
-			return (0);
+			return (-1);
 		map = parse_input(av, map);
 	}
 }
