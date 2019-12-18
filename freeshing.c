@@ -16,10 +16,23 @@
  * потом добавить чистку комнат и муравьев, тк если все збс при считывании, то
  * нужно будет все фришить в конце программы
  */
+/*
+ * так-то у нас экзит есть?
+ */
+/**
+ *
+ * @param message - текст ошибки
+ * потом делается экзит
+ */
+void		bad_shit_happened(char *message)
+{
+	ft_putstr_fd(message, 2);
+	exit(777);
+}
 
 void		free_map(t_map *map)
 {
-	if (map != NULL)
+	if (map)
 	{
 		free(map);
 	}
