@@ -79,3 +79,21 @@ int 	check_and_write_ants(char *line, t_map *map)
 		return (-1);
 	return (0);
 }
+
+int 	check_connection(char *line)
+{
+	char **split;
+	int i;
+
+	i = 0;
+	split = ft_strsplit(line, '-');
+	if (split)
+	{
+		while(split[i])
+			i++;
+		free_split(split);
+		if (i == 1)
+			return (0);
+	}
+	return (-1);
+}
