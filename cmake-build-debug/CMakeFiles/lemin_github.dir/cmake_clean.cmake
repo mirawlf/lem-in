@@ -69,6 +69,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/lemin_github.dir/filling.c.o"
   "CMakeFiles/lemin_github.dir/freeshing.c.o"
   "CMakeFiles/lemin_github.dir/lemin.c.o"
+  "CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o"
+  "CMakeFiles/lemin_github.dir/redrum.c.o"
+  "CMakeFiles/lemin_github.dir/valid.c.o"
   "lemin_github.pdb"
   "lemin_github"
 )

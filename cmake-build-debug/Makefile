@@ -150,6 +150,33 @@ filling.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/filling.c.s
 .PHONY : filling.c.s
 
+find_yourself_a_room.o: find_yourself_a_room.c.o
+
+.PHONY : find_yourself_a_room.o
+
+# target to build an object file
+find_yourself_a_room.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o
+.PHONY : find_yourself_a_room.c.o
+
+find_yourself_a_room.i: find_yourself_a_room.c.i
+
+.PHONY : find_yourself_a_room.i
+
+# target to preprocess a source file
+find_yourself_a_room.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i
+.PHONY : find_yourself_a_room.c.i
+
+find_yourself_a_room.s: find_yourself_a_room.c.s
+
+.PHONY : find_yourself_a_room.s
+
+# target to generate assembly for a file
+find_yourself_a_room.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s
+.PHONY : find_yourself_a_room.c.s
+
 freeshing.o: freeshing.c.o
 
 .PHONY : freeshing.o
@@ -2013,6 +2040,60 @@ libft/srcs/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s
 .PHONY : libft/srcs/get_next_line.c.s
 
+redrum.o: redrum.c.o
+
+.PHONY : redrum.o
+
+# target to build an object file
+redrum.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/redrum.c.o
+.PHONY : redrum.c.o
+
+redrum.i: redrum.c.i
+
+.PHONY : redrum.i
+
+# target to preprocess a source file
+redrum.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/redrum.c.i
+.PHONY : redrum.c.i
+
+redrum.s: redrum.c.s
+
+.PHONY : redrum.s
+
+# target to generate assembly for a file
+redrum.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/redrum.c.s
+.PHONY : redrum.c.s
+
+valid.o: valid.c.o
+
+.PHONY : valid.o
+
+# target to build an object file
+valid.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/valid.c.o
+.PHONY : valid.c.o
+
+valid.i: valid.c.i
+
+.PHONY : valid.i
+
+# target to preprocess a source file
+valid.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/valid.c.i
+.PHONY : valid.c.i
+
+valid.s: valid.c.s
+
+.PHONY : valid.s
+
+# target to generate assembly for a file
+valid.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/valid.c.s
+.PHONY : valid.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2025,6 +2106,9 @@ help:
 	@echo "... filling.o"
 	@echo "... filling.i"
 	@echo "... filling.s"
+	@echo "... find_yourself_a_room.o"
+	@echo "... find_yourself_a_room.i"
+	@echo "... find_yourself_a_room.s"
 	@echo "... freeshing.o"
 	@echo "... freeshing.i"
 	@echo "... freeshing.s"
@@ -2232,6 +2316,12 @@ help:
 	@echo "... libft/srcs/get_next_line.o"
 	@echo "... libft/srcs/get_next_line.i"
 	@echo "... libft/srcs/get_next_line.s"
+	@echo "... redrum.o"
+	@echo "... redrum.i"
+	@echo "... redrum.s"
+	@echo "... valid.o"
+	@echo "... valid.i"
+	@echo "... valid.s"
 .PHONY : help
 
 

@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2019/12/19 19:30:09 by cyuriko          ###   ########.fr       */
+/*   Updated: 2019/12/21 18:42:59 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,16 +59,22 @@ typedef struct		s_main
 	int 			ants;/////кол-во муравьев
 	t_room			*start;
 	t_room			*end;
+	t_ant	*first;		//первый муравей
+	t_ant	*last;
+	char 	*line;
 }					t_main;
 
+/**
+ * freeshing
+ */
+void		free_rooms(t_room *room);
 
-
-t_map				*parse_input(char **av, t_map *map);
-t_map				*structure_filling(char *line, t_map *map);
+t_main				*parse_input(char **av, t_main *map);
+t_main				*structure_filling(char *line, t_main *map, int fd);
 void 				ft_error(void);
-void 				free_map(t_map *map);
+void 				free_map(t_main *map);
 void 				free_ant(int i, t_ant *ant);
-t_ant				*ant_colony_creation(int quant, t_map *map);
+t_ant				*ant_colony_creation(int quant, t_main *map);
 
 /**
  * service functions
@@ -79,12 +85,14 @@ void				free_split(char **split);
  * validation
  */
 int 	check_connection(char *line);
-int 	check_and_write_ants(char *line, t_map *map);
+int 	check_and_write_ants(char *line, t_main *map);
 int 	check_command(char *line);
 int 	line_exists(char *line);
 int 	check_comment(char *line);
 /**
  * reading
  */
+t_room		*create_room(char *line);
+t_room 	*read_rooms(t_main *main, int fd);
 
 #endif

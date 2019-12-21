@@ -87,6 +87,9 @@
 		<Unit filename="/Users/cyuriko/lemin_in_progress/filling.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/cyuriko/lemin_in_progress/find_yourself_a_room.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/cyuriko/lemin_in_progress/freeshing.c">
 			<Option target="lemin_github"/>
 		</Unit>
@@ -301,6 +304,12 @@
 			<Option target="lemin_github"/>
 		</Unit>
 		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/get_next_line.c">
+			<Option target="lemin_github"/>
+		</Unit>
+		<Unit filename="/Users/cyuriko/lemin_in_progress/redrum.c">
+			<Option target="lemin_github"/>
+		</Unit>
+		<Unit filename="/Users/cyuriko/lemin_in_progress/valid.c">
 			<Option target="lemin_github"/>
 		</Unit>
 		<Unit filename="/Users/cyuriko/lemin_in_progress/CMakeLists.txt">

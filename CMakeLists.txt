@@ -79,4 +79,7 @@ add_executable(lemin_github
         filling.c
         freeshing.c
         lemin.c
+        find_yourself_a_room.c
+        redrum.c
+        valid.c
         lemin.h)

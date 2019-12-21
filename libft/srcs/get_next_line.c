@@ -54,7 +54,7 @@ int			get_next_line(const int fd, char **line)
 	char		buf[BUFF_SIZE + 1];
 	char		*tmp;
 
-	if (!line || BUFF_SIZE <= 0 || fd < 0 || fd > 10240)
+	if (BUFF_SIZE <= 0 || fd < 0 || fd > 10240)
 		return (-1);
 	s[fd] = (s[fd] == NULL) ? ft_strnew(0) : s[fd];
 	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)

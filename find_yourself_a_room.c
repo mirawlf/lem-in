@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/17 17:30:37 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/12/19 19:28:04 by cyuriko          ###   ########.fr       */
+/*   Updated: 2019/12/21 18:32:55 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void		free_split(char **split)
 	{
 		while(split[i])
 		{
-			free(split[i])
+			free(split[i]);
 			i++;
 		}
 		free(split);
@@ -47,13 +47,14 @@ void		free_split(char **split)
  * @param line строка очередная
  * @return расспличенную строку с названием и координатами, NULL при невалидном вводе
  */
-char 	**check_room(char *line)
+static char 	**check_room(char *line)
 {
 	char **split;
 	int counter;
+	int i;
 
 	counter = 0;
-	if (!(split = ft_strsplit(line, ' ')) || count_room_entries(split) != 2)
+	if (!(split = ft_strsplit(line, ' ')) || count_room_entries(split) != 3)
 	{
 		free_split(split);
 		return (NULL);
@@ -76,13 +77,12 @@ char 	**check_room(char *line)
 	return (split);
 }
 
-static t_room		*create_room(char *line)
+t_room		*create_room(char *line)
 {
 	char **split;
 	t_room	*room;
 
-	split = check_room(line);
-	if (!room_with_coords)
+	if (!(split = check_room(line)))
 		return (NULL);
 	if (!(room = ft_memalloc(sizeof(t_room))))
 		return (NULL);
@@ -90,7 +90,6 @@ static t_room		*create_room(char *line)
 	room->x = ft_atoi(split[1]);
 	room->y = ft_atoi(split[2]);
 	free_split(split);
-	ft_strdel(line);
 	return (room);
 }
 

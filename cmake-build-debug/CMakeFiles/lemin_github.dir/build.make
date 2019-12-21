@@ -967,6 +967,45 @@ CMakeFiles/lemin_github.dir/lemin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/lemin.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cyuriko/lemin_in_progress/lemin.c -o CMakeFiles/lemin_github.dir/lemin.c.s
 
+CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o: CMakeFiles/lemin_github.dir/flags.make
+CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o: ../find_yourself_a_room.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o   -c /Users/cyuriko/lemin_in_progress/find_yourself_a_room.c
+
+CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cyuriko/lemin_in_progress/find_yourself_a_room.c > CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i
+
+CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cyuriko/lemin_in_progress/find_yourself_a_room.c -o CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s
+
+CMakeFiles/lemin_github.dir/redrum.c.o: CMakeFiles/lemin_github.dir/flags.make
+CMakeFiles/lemin_github.dir/redrum.c.o: ../redrum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lemin_github.dir/redrum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/redrum.c.o   -c /Users/cyuriko/lemin_in_progress/redrum.c
+
+CMakeFiles/lemin_github.dir/redrum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/redrum.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cyuriko/lemin_in_progress/redrum.c > CMakeFiles/lemin_github.dir/redrum.c.i
+
+CMakeFiles/lemin_github.dir/redrum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/redrum.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cyuriko/lemin_in_progress/redrum.c -o CMakeFiles/lemin_github.dir/redrum.c.s
+
+CMakeFiles/lemin_github.dir/valid.c.o: CMakeFiles/lemin_github.dir/flags.make
+CMakeFiles/lemin_github.dir/valid.c.o: ../valid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lemin_github.dir/valid.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/valid.c.o   -c /Users/cyuriko/lemin_in_progress/valid.c
+
+CMakeFiles/lemin_github.dir/valid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/valid.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cyuriko/lemin_in_progress/valid.c > CMakeFiles/lemin_github.dir/valid.c.i
+
+CMakeFiles/lemin_github.dir/valid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/valid.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cyuriko/lemin_in_progress/valid.c -o CMakeFiles/lemin_github.dir/valid.c.s
+
 # Object files for target lemin_github
 lemin_github_OBJECTS = \
 "CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o" \
@@ -1038,7 +1077,10 @@ lemin_github_OBJECTS = \
 "CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o" \
 "CMakeFiles/lemin_github.dir/filling.c.o" \
 "CMakeFiles/lemin_github.dir/freeshing.c.o" \
-"CMakeFiles/lemin_github.dir/lemin.c.o"
+"CMakeFiles/lemin_github.dir/lemin.c.o" \
+"CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o" \
+"CMakeFiles/lemin_github.dir/redrum.c.o" \
+"CMakeFiles/lemin_github.dir/valid.c.o"
 
 # External object files for target lemin_github
 lemin_github_EXTERNAL_OBJECTS =
@@ -1113,9 +1155,12 @@ lemin_github: CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o
 lemin_github: CMakeFiles/lemin_github.dir/filling.c.o
 lemin_github: CMakeFiles/lemin_github.dir/freeshing.c.o
 lemin_github: CMakeFiles/lemin_github.dir/lemin.c.o
+lemin_github: CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o
+lemin_github: CMakeFiles/lemin_github.dir/redrum.c.o
+lemin_github: CMakeFiles/lemin_github.dir/valid.c.o
 lemin_github: CMakeFiles/lemin_github.dir/build.make
 lemin_github: CMakeFiles/lemin_github.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking C executable lemin_github"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking C executable lemin_github"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lemin_github.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

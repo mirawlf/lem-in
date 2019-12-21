@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/30 15:21:55 by samymone          #+#    #+#             */
-/*   Updated: 2019/11/30 15:21:56 by samymone         ###   ########.fr       */
+/*   Updated: 2019/12/21 13:54:04 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,23 @@
  * нужно будет все фришить в конце программы
  */
 
-void		free_map(t_map *map)
+void		free_map(t_main *map)
 {
 	if (map)
 	{
 		free(map);
 	}
+}
+
+void		free_rooms(t_room *room)
+{
+	if (!room)
+		return ;
+	while(room->next)
+		free_rooms(room->next);
+	if (room->name)
+		free(room->name);
+	free(room);
 }
 
 void		free_ant(int i, t_ant *ant)

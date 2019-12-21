@@ -14,14 +14,14 @@
 
 /* quant передается значение ants из структуры t_map */
 
-void		ants_fail(int i, t_ant *start, t_map *map)
+void		ants_fail(int i, t_ant *start, t_main *map)
 {
 	free_ant(i, start);
 	free_map(map);
 	ft_error();
 }
 
-t_ant		*ant_colony_creation(int quant, t_map *map)
+t_ant		*ant_colony_creation(int quant, t_main *map)
 {
 	int i;
 	t_ant *ant;
@@ -44,7 +44,7 @@ t_ant		*ant_colony_creation(int quant, t_map *map)
 		else if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
 			ants_fail(i, map->first, map);
 		ant->next->prev = ant;
-		ant->curr_room = map->current;
+		ant->curr_room = map->start;
 		ant = ant->next;
 		i++;
 	}
