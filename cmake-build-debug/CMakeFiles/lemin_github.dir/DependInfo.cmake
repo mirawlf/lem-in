@@ -76,6 +76,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/cyuriko/lemin_in_progress/libft/srcs/ft_toupper.c" "/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o"
   "/Users/cyuriko/lemin_in_progress/libft/srcs/get_next_line.c" "/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o"
   "/Users/cyuriko/lemin_in_progress/redrum.c" "/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles/lemin_github.dir/redrum.c.o"
+  "/Users/cyuriko/lemin_in_progress/soulmates.c" "/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles/lemin_github.dir/soulmates.c.o"
   "/Users/cyuriko/lemin_in_progress/valid.c" "/Users/cyuriko/lemin_in_progress/cmake-build-debug/CMakeFiles/lemin_github.dir/valid.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

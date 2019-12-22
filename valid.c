@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/17 17:11:52 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/12/21 18:02:22 by cyuriko          ###   ########.fr       */
+/*   Updated: 2019/12/22 16:43:05 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int 	check_command(char *line)
 		if (ft_strequ(line, "##end"))
 			return (2);
 		if (line[0] == '#' && line[1] == '#' && line[2] != '#')
-			return (3);
+			return (3);///////////////////вот эту хуйню поправь по сабджекту такое игнорится а не ошибку хуярит
 	}
 	return (0);
 }
@@ -80,20 +80,22 @@ int 	check_and_write_ants(char *line, t_main *map)
 	return (0);
 }
 
-int 	check_connection(char *line)
+char 	**check_connection(char *line)
 {
 	char **split;
 	int i;
 
 	i = 0;
-	split = ft_strsplit(line, '-');
+	if (!(split = ft_strsplit(line, '-')))
+		return (NULL);
 	if (split)
 	{
 		while(split[i])
 			i++;
-		free_split(split);
-		if (i == 2)
-			return (0);
+		if (i == 2 && (!(ft_strequ(split[0], split[1]))))
+			return (split);
+		else
+			free_split(split);
 	}
-	return (-1);
+	return (NULL);
 }

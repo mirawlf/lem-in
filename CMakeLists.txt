@@ -82,4 +82,5 @@ add_executable(lemin_github
         find_yourself_a_room.c
         redrum.c
         valid.c
+        soulmates.c
         lemin.h)

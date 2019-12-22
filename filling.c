@@ -18,7 +18,7 @@ void		ants_fail(int i, t_ant *start, t_main *map)
 {
 	free_ant(i, start);
 	free_map(map);
-	ft_error();
+	ft_error("ERROR: SOMETHING WRONG WITH ANTS");
 }
 
 t_ant		*ant_colony_creation(int quant, t_main *map)

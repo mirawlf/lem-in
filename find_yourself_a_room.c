@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/17 17:30:37 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/12/21 18:32:55 by cyuriko          ###   ########.fr       */
+/*   Updated: 2019/12/21 19:43:52 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,12 @@ void		free_split(char **split)
 	{
 		while(split[i])
 		{
-			free(split[i]);
+			ft_strdel(&split[i]);
 			i++;
 		}
 		free(split);
 	}
+	split = NULL;
 }
 /**
  *
@@ -93,4 +94,3 @@ t_room		*create_room(char *line)
 	return (room);
 }
 
-//////////////записать все комнаты

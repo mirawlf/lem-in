@@ -14,6 +14,8 @@
 
 static int read_me_a_room_line(t_main *main, int fd)
 {
+	char *kostyl_for_connection;
+
 	if (!(get_next_line(fd, &main->line)) || !(line_exists(main->line)))
 		return (-1); ///в строке опять хуйня
 	if (!(check_comment(main->line)))
@@ -22,8 +24,12 @@ static int read_me_a_room_line(t_main *main, int fd)
 		return (3);////это строка ##start
 	else if (check_command(main->line) == 2)
 		return (4);/////это строка ##end
-	if (!(check_connection(main->line)))
+	if ((kostyl_for_connection = check_connection(main->line)))
+	{
+		free_split(kostyl_for_connection);/////////ебаное уродство исправь блядь илюха не позорься
 		return (5);/////это коннекшн
+	}
+
 	return (0);
 }
 
@@ -99,7 +105,7 @@ t_room 	*read_rooms(t_main *main, int fd)
 			finished = 2;
 		else if (check == 4)
 			finished = 3;
-		if (main->line)
+		if (main->line && finished)
 			ft_strdel(&main->line);
 	}
 	return (start);

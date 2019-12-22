@@ -309,6 +309,9 @@
 		<Unit filename="/Users/cyuriko/lemin_in_progress/redrum.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/cyuriko/lemin_in_progress/soulmates.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/cyuriko/lemin_in_progress/valid.c">
 			<Option target="lemin_github"/>
 		</Unit>

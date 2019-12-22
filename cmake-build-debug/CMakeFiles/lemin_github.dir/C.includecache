@@ -34,10 +34,6 @@ stdio.h
 unistd.h
 -
 
-/Users/cyuriko/lemin_in_progress/find_yourself_a_room.c
-lemin.h
-/Users/cyuriko/lemin_in_progress/lemin.h
-
 /Users/cyuriko/lemin_in_progress/lemin.h
 ./libft/includes/libft.h
 /Users/cyuriko/lemin_in_progress/./libft/includes/libft.h
@@ -45,4 +41,8 @@ lemin.h
 /Users/cyuriko/lemin_in_progress/./libft/includes/get_next_line.h
 stdlib.h
 -
+
+/Users/cyuriko/lemin_in_progress/soulmates.c
+lemin.h
+/Users/cyuriko/lemin_in_progress/lemin.h
 

@@ -6,15 +6,15 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:26:38 by samymone          #+#    #+#             */
-/*   Updated: 2019/12/21 18:38:53 by cyuriko          ###   ########.fr       */
+/*   Updated: 2019/12/22 17:13:51 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void		ft_error(void)
+void		ft_error(char *error)
 {
-	ft_putendl_fd("Error", 2);
+	ft_putendl_fd(error, 2);
 	exit(1);
 }
 
@@ -37,9 +37,8 @@ t_main		*structure_filling(char *line, t_main *map, int fd)
 	//	map->start = 1;
 		ant_colony_creation(map->ants, map);
 		ft_strdel(&line);
-	t_room	*rooms;
-
-	rooms = read_rooms(map, fd);
+	map->all_rooms_here = read_rooms(map, fd);
+	map->all_links_here = get_me_links(map, fd, map->all_rooms_here);
 	return (map);
 }
 
@@ -52,11 +51,9 @@ t_main		*parse_input(char **av, t_main *map)
 	line = NULL;
 	fd = open(av[1], O_RDONLY);
 	ret = 1;
-//	while (ret == 1)
-//	{
 		ret = get_next_line(fd, &line);
 		if (ret == -1)
-			ft_error();
+			ft_error("ERROR: DON'T TRY TO SEGV ME");///////////убрать проверку на рид == -1 в дальнейших проверках, если это не уберем, этой проверки достаточно
 		else if (ret == 1)
 			structure_filling(line, map, fd);
 		else if (ret == 0)
