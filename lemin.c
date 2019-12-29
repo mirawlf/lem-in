@@ -28,18 +28,18 @@ t_main		*structure_filling(char *line, t_main *map, int fd)
 {
 //	if (map->start == 0)
 //	{
-	map->ants = ft_atoi(line);
+	map->ants = ft_atoi(line);////////стоит чекнуть коммент
 	//	if (map->ants != ft_atoi(ft_itoa(map->ants)))
 	//	{
 	//		free_map(map);
 	//		ft_error();
 	//	}
 	//	map->start = 1;
-	ant_colony_creation(map->ants, map);//////убрать в конец
-		ft_strdel(&line);
+
 	map->all_rooms_here = read_rooms(map, fd);
 	map->all_links_here = get_me_links(map, fd, map->all_rooms_here);
-
+	ant_colony_creation(map->ants, map);
+	ft_strdel(&line);
 	return (map);
 }
 
