@@ -1,4 +1,4 @@
-# Install script for directory: /Users/cyuriko/lemin_in_progress
+# Install script for directory: /Users/samymone/lemin_github
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/cyuriko/lemin_in_progress/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/samymone/lemin_github/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -32,17 +32,17 @@ t_ant		*ant_colony_creation(int quant, t_main *map)
 		if (!i)
 		{
 			if (!(ant = (t_ant*)ft_memalloc(sizeof(t_ant))))
-				ants_fail(i, map->first, map);
-			map->first = ant;
+				ants_fail(i, map->first_ant, map);
+			map->first_ant = ant;
 		}
 		ant->num = i + 1;
 		if ((i + 1) == quant)
 		{
-			map->last = ant;
+			map->last_ant = ant;
 			return (map->start);
 		}
 		else if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
-			ants_fail(i, map->first, map);
+			ants_fail(i, map->first_ant, map);
 		ant->next->prev = ant;
 		ant->curr_room = map->start;
 		ant = ant->next;

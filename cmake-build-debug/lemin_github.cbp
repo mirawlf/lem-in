@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/cyuriko/lemin_in_progress/cmake-build-debug"/>
+				<Option working_dir="/Users/samymone/lemin_github/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/cyuriko/lemin_in_progress/cmake-build-debug"/>
+				<Option working_dir="/Users/samymone/lemin_github/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/cyuriko/lemin_in_progress/cmake-build-debug"/>
+				<Option working_dir="/Users/samymone/lemin_github/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lemin_github">
-				<Option output="/Users/cyuriko/lemin_in_progress/cmake-build-debug/lemin_github" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/cyuriko/lemin_in_progress/cmake-build-debug"/>
+				<Option output="/Users/samymone/lemin_github/cmake-build-debug/lemin_github" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/samymone/lemin_github/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/cyuriko/lemin_in_progress/."/>
-					<Add directory="/Users/cyuriko/lemin_in_progress/libft/includes"/>
+					<Add directory="/Users/samymone/lemin_github/."/>
+					<Add directory="/Users/samymone/lemin_github/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -54,21 +54,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin_github"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin_github"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lemin_github/fast">
-				<Option output="/Users/cyuriko/lemin_in_progress/cmake-build-debug/lemin_github" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/cyuriko/lemin_in_progress/cmake-build-debug"/>
+				<Option output="/Users/samymone/lemin_github/cmake-build-debug/lemin_github" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/samymone/lemin_github/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/cyuriko/lemin_in_progress/."/>
-					<Add directory="/Users/cyuriko/lemin_in_progress/libft/includes"/>
+					<Add directory="/Users/samymone/lemin_github/."/>
+					<Add directory="/Users/samymone/lemin_github/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -77,245 +77,245 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin_github/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_in_progress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin_github/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/lemin_github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/filling.c">
+		<Unit filename="/Users/samymone/lemin_github/filling.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/find_yourself_a_room.c">
+		<Unit filename="/Users/samymone/lemin_github/find_yourself_a_room.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/freeshing.c">
+		<Unit filename="/Users/samymone/lemin_github/freeshing.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/lemin.c">
+		<Unit filename="/Users/samymone/lemin_github/lemin.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/lemin.h">
+		<Unit filename="/Users/samymone/lemin_github/lemin.h">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/includes/get_next_line.h">
+		<Unit filename="/Users/samymone/lemin_github/libft/includes/get_next_line.h">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/includes/libft.h">
+		<Unit filename="/Users/samymone/lemin_github/libft/includes/libft.h">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_abs.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_abs.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_atoi.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_atoi.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_atoi_base.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_atoi_base.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_bzero.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_bzero.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_isalnum.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_isalnum.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_isalpha.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_isalpha.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_isascii.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_isascii.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_isdigit.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_isdigit.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_isprint.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_isprint.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_itoa.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_itoa.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_itoa_base.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_itoa_base.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_lstadd.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_lstadd.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_lstaddback.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_lstaddback.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_lstdel.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_lstdel.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_lstdelone.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_lstdelone.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_lstiter.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_lstiter.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_lstmap.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_lstmap.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_lstnew.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_lstnew.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_memalloc.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_memalloc.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_memccpy.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_memccpy.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_memchr.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_memchr.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_memcmp.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_memcmp.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_memcpy.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_memcpy.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_memdel.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_memdel.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_memmove.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_memmove.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_memset.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_memset.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_power.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_power.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_putchar.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_putchar.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_putchar_fd.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_putchar_fd.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_putendl.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_putendl.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_putendl_fd.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_putendl_fd.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_putnbr.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_putnbr.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_putnbr_fd.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_putnbr_fd.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_putstr.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_putstr.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_putstr_fd.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_putstr_fd.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_revmemcpy.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_revmemcpy.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strcat.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strcat.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strchr.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strchr.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strclr.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strclr.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strcmp.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strcmp.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strcpy.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strcpy.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strdel.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strdel.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strdup.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strdup.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strequ.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strequ.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_striter.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_striter.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_striteri.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_striteri.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strjoin.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strjoin.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strlcat.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strlcat.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strlen.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strlen.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strmap.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strmap.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strmapi.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strmapi.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strncat.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strncat.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strncmp.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strncmp.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strncpy.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strncpy.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strndup.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strndup.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strnequ.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strnequ.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strnew.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strnew.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strnjoin.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strnjoin.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strnstr.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strnstr.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strrchr.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strrchr.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strsplit.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strsplit.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strstr.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strstr.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strsub.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strsub.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_strtrim.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_strtrim.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_tolower.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_tolower.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/ft_toupper.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/ft_toupper.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/libft/srcs/get_next_line.c">
+		<Unit filename="/Users/samymone/lemin_github/libft/srcs/get_next_line.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/redrum.c">
+		<Unit filename="/Users/samymone/lemin_github/redrum.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/soulmates.c">
+		<Unit filename="/Users/samymone/lemin_github/soulmates.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/valid.c">
+		<Unit filename="/Users/samymone/lemin_github/valid.c">
 			<Option target="lemin_github"/>
 		</Unit>
-		<Unit filename="/Users/cyuriko/lemin_in_progress/CMakeLists.txt">
+		<Unit filename="/Users/samymone/lemin_github/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -59,8 +59,8 @@ typedef struct		s_main
 	int 			ants;/////кол-во муравьев
 	t_room			*start;
 	t_room			*end;
-	t_ant			*first;		//первый муравей
-	t_ant			*last;
+	t_ant			*first_ant;		//первый муравей
+	t_ant			*last_ant;
 	char 			*line;
 	t_room			*all_rooms_here;
 	t_link			*all_links_here;
