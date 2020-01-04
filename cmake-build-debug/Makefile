@@ -2067,6 +2067,33 @@ redrum.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/redrum.c.s
 .PHONY : redrum.c.s
 
+search_path.o: search_path.c.o
+
+.PHONY : search_path.o
+
+# target to build an object file
+search_path.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_path.c.o
+.PHONY : search_path.c.o
+
+search_path.i: search_path.c.i
+
+.PHONY : search_path.i
+
+# target to preprocess a source file
+search_path.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_path.c.i
+.PHONY : search_path.c.i
+
+search_path.s: search_path.c.s
+
+.PHONY : search_path.s
+
+# target to generate assembly for a file
+search_path.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_path.c.s
+.PHONY : search_path.c.s
+
 soulmates.o: soulmates.c.o
 
 .PHONY : soulmates.o
@@ -2346,6 +2373,9 @@ help:
 	@echo "... redrum.o"
 	@echo "... redrum.i"
 	@echo "... redrum.s"
+	@echo "... search_path.o"
+	@echo "... search_path.i"
+	@echo "... search_path.s"
 	@echo "... soulmates.o"
 	@echo "... soulmates.i"
 	@echo "... soulmates.s"

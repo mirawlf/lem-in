@@ -76,6 +76,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/samymone/lemin_github/libft/srcs/ft_toupper.c" "/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o"
   "/Users/samymone/lemin_github/libft/srcs/get_next_line.c" "/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o"
   "/Users/samymone/lemin_github/redrum.c" "/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles/lemin_github.dir/redrum.c.o"
+  "/Users/samymone/lemin_github/search_path.c" "/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles/lemin_github.dir/search_path.c.o"
   "/Users/samymone/lemin_github/soulmates.c" "/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles/lemin_github.dir/soulmates.c.o"
   "/Users/samymone/lemin_github/valid.c" "/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles/lemin_github.dir/valid.c.o"
   )

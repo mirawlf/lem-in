@@ -64,7 +64,17 @@ typedef struct		s_main
 	char 			*line;
 	t_room			*all_rooms_here;
 	t_link			*all_links_here;
+	int 			path;
 }					t_main;
+
+typedef struct 		s_path
+{
+	char 			*name;	//название комнаты?
+	int 			x;		//x координата
+	int 			y;		//y координата
+	int 			level;
+	t_room			*next;
+}					t_path;
 
 /**
  * freeshing
@@ -97,5 +107,12 @@ int 	check_comment(char *line);
 t_room		*create_room(char *line);
 t_room 	*read_rooms(t_main *main, int fd);
 t_link	*get_me_links(t_main *main, int fd, t_room *room);
+
+/*
+ * algo
+ */
+t_path		*pre_algo(t_main *map);
+t_path		*next_step(t_path *path, t_main *map, int level);
+t_path		*remember_next_rooms(int i, t_link *links, int level, t_path *next);
 
 #endif

@@ -228,6 +228,11 @@ CMakeFiles/lemin_github.dir/redrum.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/redrum.c.o: ../lemin.h
 CMakeFiles/lemin_github.dir/redrum.c.o: ../redrum.c
 
+CMakeFiles/lemin_github.dir/search_path.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/lemin_github.dir/search_path.c.o: .././libft/includes/libft.h
+CMakeFiles/lemin_github.dir/search_path.c.o: ../lemin.h
+CMakeFiles/lemin_github.dir/search_path.c.o: ../search_path.c
+
 CMakeFiles/lemin_github.dir/soulmates.c.o: .././libft/includes/get_next_line.h
 CMakeFiles/lemin_github.dir/soulmates.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/soulmates.c.o: ../lemin.h

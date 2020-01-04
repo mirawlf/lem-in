@@ -83,4 +83,4 @@ add_executable(lemin_github
         redrum.c
         valid.c
         soulmates.c
-        lemin.h)
+        lemin.h search_path.c)

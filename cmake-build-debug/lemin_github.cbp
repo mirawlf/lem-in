@@ -309,6 +309,9 @@
 		<Unit filename="/Users/samymone/lemin_github/redrum.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/samymone/lemin_github/search_path.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/samymone/lemin_github/soulmates.c">
 			<Option target="lemin_github"/>
 		</Unit>

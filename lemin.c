@@ -68,7 +68,7 @@ return (NULL);
 int			main(int ac, char **av)
 {
 	t_main	*map;
-
+	t_path	*path;
 
 
 	if (ac == 2)
@@ -79,5 +79,6 @@ int			main(int ac, char **av)
 		printf("kewl!\n");
 	}
 	printf ("not kewl!\n");
+	path = pre_algo(map);
 	return (0);
 }
