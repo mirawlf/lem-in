@@ -113,6 +113,6 @@ t_link	*get_me_links(t_main *main, int fd, t_room *room);
  */
 t_path		*pre_algo(t_main *map);
 t_path		*next_step(t_path *path, t_main *map, int level);
-t_path		*remember_next_rooms(int i, t_link *links, int level, t_path *next);
+t_path		*remember_next_rooms(int i, t_link *links, int level, t_path *path);
 
 #endif

@@ -16,26 +16,20 @@ t_path		*pre_algo(t_main *map)
 {
 	t_path	*path;
 	t_path	*extra;
-	t_room	*current;
 
-	current = map->start;
 	if (!(path = (t_path*)ft_memalloc(sizeof(t_path))))
-		return (-1);
+		return (NULL);
 	extra = path;
-	while (current)
+	path->name = map->start->name;
+	path->x = map->start->x;
+	path->y = map->start->y;
+	if (map->path == 0)
 	{
-		path->name = current->name;
-		path->x = current->x;
-		path->y = current->y;
-		if (map->path == 0)
-		{
-			map->path += 1;
-			path->level = 0;
-		}
-		path->next = next_step(path, map, path->level);
-		path = path->next;
-		current = current->next;
+		map->path += 1;
+		path->level = 0;
 	}
+	path->next = next_step(path, map, path->level);
+	path = path->next;
 	return (extra);
 }
 
@@ -55,20 +49,27 @@ t_path		*next_step(t_path *path, t_main *map, int level)
 		curr = curr->next;
 	}
 	if (!(next = (t_path*)ft_memalloc(sizeof(t_path) * i)))
-		return (-1);
-	remember_next_rooms(i, map->all_links_here, level, next);
+		return (NULL);
+	remember_next_rooms(i, map->all_links_here, level, path);
 	return (next);
 }
 
-t_path		*remember_next_rooms(int i, t_link *links, int level, t_path *next)
+t_path		*remember_next_rooms(int i, t_link *links, int level, t_path *path)
 {
 	int 	j;
-	t_link	*tmp;
 
 	j = 0;
 	while(j < i)
 	{
-
+		while (links)
+		{
+			if (ft_strcmp(links->first_room->name, path->name) == 0)
+			{
+				path->next->name = links->second_room->name;
+				path->next++;
+			}
+			links = links->next;
+		}
 		j++;
 	}
 }

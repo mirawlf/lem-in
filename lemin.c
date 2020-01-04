@@ -78,7 +78,8 @@ int			main(int ac, char **av)
 		map = parse_input(av, map);
 		printf("kewl!\n");
 	}
-	printf ("not kewl!\n");
+
 	path = pre_algo(map);
+	printf ("not kewl!\n");
 	return (0);
 }
