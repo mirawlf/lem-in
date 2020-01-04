@@ -33,43 +33,39 @@ t_path		*pre_algo(t_main *map)
 	return (extra);
 }
 
-
 t_path		*next_step(t_path *path, t_main *map, int level)
 {
 	int 	i;
 	t_link	*curr;
-	t_path	*next;
 
 	curr = map->all_links_here;
 	i = 0;
 	while (curr)
 	{
-		if (ft_strcmp(curr->first_room->name, path->name) == 0)
+		if (ft_strcmp(curr->first_room->name, path->name) == 0 || ft_strcmp(curr->second_room->name, path->name) == 0)
 			i++;
 		curr = curr->next;
 	}
-	if (!(next = (t_path*)ft_memalloc(sizeof(t_path) * i)))
+	if (!(path->next = (t_path*)ft_memalloc(sizeof(t_path) * i)))
 		return (NULL);
-	remember_next_rooms(i, map->all_links_here, level, path);
-	return (next);
+	if (i == 1)
+		path = remember_next_room(i, map->all_links_here, level, path);
+	return (path);
 }
 
-t_path		*remember_next_rooms(int i, t_link *links, int level, t_path *path)
+t_path		*remember_next_room(int i, t_link *lnk, int level, t_path *path)
 {
-	int 	j;
+	t_link	*tmp;
 
-	j = 0;
-	while(j < i)
+	tmp = lnk;
+	while (tmp)
 	{
-		while (links)
+		if (ft_strcmp(tmp->first_room->name, path->name) == 0)
 		{
-			if (ft_strcmp(links->first_room->name, path->name) == 0)
-			{
-				path->next->name = links->second_room->name;
-				path->next++;
-			}
-			links = links->next;
+			path->next->name = ft_strdup(tmp->second_room->name);
+			return (path);
 		}
-		j++;
+		tmp = tmp->next;
 	}
+	return (NULL);
 }
