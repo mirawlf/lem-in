@@ -20,8 +20,10 @@
 typedef struct 		s_room
 {
 	char 			*name;	//название комнаты?
-	int 			x;		//x координата
-	int 			y;		//y координата
+	int 			x;		//x координата комнаты
+	int 			y;		//y координата комнаты
+	int 			level;  // 1 Step 1 шаг
+	int 			was_checked; // проверка Level
 	struct s_room	*next;
 }					t_room;
 
@@ -51,6 +53,7 @@ typedef struct 		s_link////структура со связью
 {
 	t_room			*first_room;////название говорит за себя
 	t_room			*second_room;
+	int 			is_valid;
 	struct s_link	*next;
 }					t_link;
 
@@ -65,6 +68,7 @@ typedef struct		s_main
 	t_room			*all_rooms_here;
 	t_link			*all_links_here;
 	int 			path;
+	int 			current_level;
 }					t_main;
 
 typedef struct 		s_path
@@ -111,7 +115,10 @@ t_link	*get_me_links(t_main *main, int fd, t_room *room);
 /*
  * algo
  */
-t_path		*pre_algo(t_main *map);
+void		*determine_levels(t_main *map);
+void 		determine_level(t_main *map);
+void		*except_excess_links(t_link *links);
+
 t_path		*next_step(t_path *path, t_main *map, int level);
 t_path		*remember_next_room(int i, t_link *lnk, int level, t_path *path);
 

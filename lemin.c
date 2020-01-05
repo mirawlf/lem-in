@@ -68,8 +68,6 @@ return (NULL);
 int			main(int ac, char **av)
 {
 	t_main	*map;
-	t_path	*path;
-
 
 	if (ac == 2)
 	{
@@ -78,8 +76,7 @@ int			main(int ac, char **av)
 		map = parse_input(av, map);
 		printf("kewl!\n");
 	}
-
-	path = pre_algo(map);
+	determine_levels(map);
 	printf ("not kewl!\n");
 	return (0);
 }

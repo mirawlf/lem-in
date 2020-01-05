@@ -34,6 +34,22 @@ stdio.h
 unistd.h
 -
 
+/Users/samymone/lemin_github/filling.c
+lemin.h
+/Users/samymone/lemin_github/lemin.h
+
+/Users/samymone/lemin_github/find_yourself_a_room.c
+lemin.h
+/Users/samymone/lemin_github/lemin.h
+
+/Users/samymone/lemin_github/freeshing.c
+lemin.h
+/Users/samymone/lemin_github/lemin.h
+
+/Users/samymone/lemin_github/lemin.c
+lemin.h
+/Users/samymone/lemin_github/lemin.h
+
 /Users/samymone/lemin_github/lemin.h
 ./libft/includes/libft.h
 /Users/samymone/lemin_github/./libft/includes/libft.h
@@ -42,7 +58,19 @@ unistd.h
 stdlib.h
 -
 
+/Users/samymone/lemin_github/redrum.c
+lemin.h
+/Users/samymone/lemin_github/lemin.h
+
 /Users/samymone/lemin_github/search_path.c
+lemin.h
+/Users/samymone/lemin_github/lemin.h
+
+/Users/samymone/lemin_github/soulmates.c
+lemin.h
+/Users/samymone/lemin_github/lemin.h
+
+/Users/samymone/lemin_github/valid.c
 lemin.h
 /Users/samymone/lemin_github/lemin.h
 

@@ -12,60 +12,50 @@
 
 #include "lemin.h"
 
-t_path		*pre_algo(t_main *map)
+void		*determine_levels(t_main *map)
 {
-	t_path	*path;
-	t_path	*extra;
+	t_room	*tmp_room;
+	t_link	*tmp_link;
 
-	if (!(path = (t_path*)ft_memalloc(sizeof(t_path))))
-		return (NULL);
-	extra = path;
-	path->name = map->start->name;
-	path->x = map->start->x;
-	path->y = map->start->y;
+	tmp_room = map->start;
 	if (map->path == 0)
 	{
 		map->path += 1;
-		path->level = 0;
+		tmp_room->level = 1;
+		tmp_room->was_checked = 1;
 	}
-	path->next = next_step(path, map, path->level);
-	path = path->next;
-	return (extra);
-}
-
-t_path		*next_step(t_path *path, t_main *map, int level)
-{
-	int 	i;
-	t_link	*curr;
-
-	curr = map->all_links_here;
-	i = 0;
-	while (curr)
+	while (tmp_room != map->end)
 	{
-		if (ft_strcmp(curr->first_room->name, path->name) == 0 || ft_strcmp(curr->second_room->name, path->name) == 0)
-			i++;
-		curr = curr->next;
-	}
-	if (!(path->next = (t_path*)ft_memalloc(sizeof(t_path) * i)))
-		return (NULL);
-	if (i == 1)
-		path = remember_next_room(i, map->all_links_here, level, path);
-	return (path);
-}
-
-t_path		*remember_next_room(int i, t_link *lnk, int level, t_path *path)
-{
-	t_link	*tmp;
-
-	tmp = lnk;
-	while (tmp)
-	{
-		if (ft_strcmp(tmp->first_room->name, path->name) == 0)
+		tmp_link = map->all_links_here;
+		while (tmp_link)
 		{
-			path->next->name = ft_strdup(tmp->second_room->name);
-			return (path);
+			if (ft_strequ(tmp_room->name, tmp_link->first_room->name) == 1
+			&& tmp_room->was_checked == 1 && tmp_link->second_room->was_checked == 0)
+			{
+				tmp_link->second_room->level = tmp_room->level + 1;
+				tmp_link->second_room->was_checked += 1;
+			}
+			else if (ft_strequ(tmp_room->name, tmp_link->second_room->name) == 1
+			&& tmp_room->was_checked == 1 && tmp_link->first_room->was_checked == 0)
+			{
+				tmp_link->first_room->level = tmp_room->level + 1;
+				tmp_link->first_room->was_checked += 1;
+			}
+			tmp_link = tmp_link->next;
 		}
-		tmp = tmp->next;
+		tmp_room = tmp_room->next;
 	}
-	return (NULL);
+	tmp_room->level = -1;
+	tmp_room->was_checked += 1;
+	except_excess_links(map->all_links_here);
+}
+
+void		*except_excess_links(t_link *links)
+{
+	while (links)
+	{
+		if (links->first_room->level == links->second_room->level)
+			links->is_valid = 2;
+		links = links->next;
+	}
 }
