@@ -231,6 +231,33 @@ lemin.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/lemin.c.s
 .PHONY : lemin.c.s
 
+levels_and_links.o: levels_and_links.c.o
+
+.PHONY : levels_and_links.o
+
+# target to build an object file
+levels_and_links.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/levels_and_links.c.o
+.PHONY : levels_and_links.c.o
+
+levels_and_links.i: levels_and_links.c.i
+
+.PHONY : levels_and_links.i
+
+# target to preprocess a source file
+levels_and_links.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/levels_and_links.c.i
+.PHONY : levels_and_links.c.i
+
+levels_and_links.s: levels_and_links.c.s
+
+.PHONY : levels_and_links.s
+
+# target to generate assembly for a file
+levels_and_links.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/levels_and_links.c.s
+.PHONY : levels_and_links.c.s
+
 libft/srcs/ft_abs.o: libft/srcs/ft_abs.c.o
 
 .PHONY : libft/srcs/ft_abs.o
@@ -2169,6 +2196,9 @@ help:
 	@echo "... lemin.o"
 	@echo "... lemin.i"
 	@echo "... lemin.s"
+	@echo "... levels_and_links.o"
+	@echo "... levels_and_links.i"
+	@echo "... levels_and_links.s"
 	@echo "... libft/srcs/ft_abs.o"
 	@echo "... libft/srcs/ft_abs.i"
 	@echo "... libft/srcs/ft_abs.s"

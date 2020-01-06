@@ -39,6 +39,7 @@ static t_room	*find_start(t_main *main, char *line, t_room *current)
 
 	if (!(start = create_room(line)))
 		return (NULL);
+	//start->is_part_of_path = 1;
 	main->start = start;
 	if (current)
 		current->next = start;
@@ -51,6 +52,7 @@ static t_room	*find_end(t_main *main, t_room *current, char *line)
 
 	if (!(end = create_room(line)))
 		return (NULL);
+	end->is_part_of_path = 1;
 	main->end = end;
 	current->next = end;
 	return (end);

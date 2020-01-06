@@ -21,6 +21,11 @@ CMakeFiles/lemin_github.dir/lemin.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/lemin.c.o: ../lemin.c
 CMakeFiles/lemin_github.dir/lemin.c.o: ../lemin.h
 
+CMakeFiles/lemin_github.dir/levels_and_links.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/lemin_github.dir/levels_and_links.c.o: .././libft/includes/libft.h
+CMakeFiles/lemin_github.dir/levels_and_links.c.o: ../lemin.h
+CMakeFiles/lemin_github.dir/levels_and_links.c.o: ../levels_and_links.c
+
 CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o: ../libft/includes/libft.h
 CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o: ../libft/srcs/ft_abs.c
 

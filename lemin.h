@@ -24,22 +24,11 @@ typedef struct 		s_room
 	int 			y;		//y координата комнаты
 	int 			level;  // 1 Step 1 шаг
 	int 			was_checked; // проверка Level
+	int 			neighbours; //количество соседей
+	int 			is_dead_end; //если тупик 1
+	int				is_part_of_path; //является ли комната частью пути
 	struct s_room	*next;
 }					t_room;
-
-/*typedef struct 		s_map
-{
-	t_room			*current;	//комната, в которой мы сейчас находимся
-	int				linked;		//со сколькими комнатами связана
-	t_room			**prev;		//указатель на предыдущую комнату, для самой первой указатель == NULL
-	t_room			**next;		//указатель на следующие комнаты, для последней указатель == NULL. Для начала маллочим память
-								//next(имя любое) = malloc(sizeof(t_room) * t_room->links. Оращаться через next[0], next[1] итд
-
-	int 			start;		//флаг начала заполнения структуры
-	int				ants;		//количество муравьев
-	struct s_ant	*first;		//первый муравей
-	struct s_ant	*last;		//последний муравей
-}					t_map;*/
 
 typedef struct		s_ant
 {
@@ -54,6 +43,7 @@ typedef struct 		s_link////структура со связью
 	t_room			*first_room;////название говорит за себя
 	t_room			*second_room;
 	int 			is_valid;
+
 	struct s_link	*next;
 }					t_link;
 
@@ -68,15 +58,13 @@ typedef struct		s_main
 	t_room			*all_rooms_here;
 	t_link			*all_links_here;
 	int 			path;
-	int 			current_level;
+	int 			max_current_level;
 }					t_main;
 
 typedef struct 		s_path
 {
-	char 			*name;	//название комнаты?
-	int 			x;		//x координата
-	int 			y;		//y координата
-	int 			level;
+	t_room 			*current;
+	int 			steps;
 	struct s_path	*next;
 }					t_path;
 
@@ -117,9 +105,10 @@ t_link	*get_me_links(t_main *main, int fd, t_room *room);
  */
 void		*determine_levels(t_main *map);
 void 		determine_level(t_main *map);
-void		*except_excess_links(t_link *links);
+void		*except_excess_links(t_link *links, t_room *rooms);
 
-t_path		*next_step(t_path *path, t_main *map, int level);
-t_path		*remember_next_room(int i, t_link *lnk, int level, t_path *path);
+void		*search_necessary_rooms(t_main *map);
+void		*search_previous_room(t_main *map, t_room *current);
+int			check_link(t_room *first, t_room *second, t_link *links);
 
 #endif

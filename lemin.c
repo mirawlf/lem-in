@@ -77,6 +77,7 @@ int			main(int ac, char **av)
 		printf("kewl!\n");
 	}
 	determine_levels(map);
+	search_necessary_rooms(map);
 	printf ("not kewl!\n");
 	return (0);
 }

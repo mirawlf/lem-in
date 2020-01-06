@@ -77,10 +77,12 @@ add_executable(lemin_github
         libft/srcs/ft_toupper.c
         libft/srcs/get_next_line.c
         filling.c
+        find_yourself_a_room.c
         freeshing.c
         lemin.c
-        find_yourself_a_room.c
+        lemin.h
         redrum.c
-        valid.c
+        levels_and_links.c
         soulmates.c
-        lemin.h search_path.c)
+        search_path.c
+        valid.c)
