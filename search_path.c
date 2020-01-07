@@ -27,11 +27,11 @@ void		*search_necessary_rooms(t_main *map)
 			while (auxiliary)
 			{
 				if (check_link(tmp, auxiliary, map->all_links_here) == 1
-					&& (auxiliary->level - tmp->level == 1 || auxiliary->level == -1)
+					&& (auxiliary->level <= tmp->level || auxiliary->level == -1)
 					&& (auxiliary->is_part_of_path >= 1 || auxiliary->was_checked == 2) && auxiliary != tmp)
 				{
-					auxiliary->is_part_of_path = 2;
-					tmp->was_checked += 1;
+					auxiliary->is_part_of_path += 1;
+					tmp->was_checked = 2;
 				}
 				auxiliary = auxiliary->next;
 			}
