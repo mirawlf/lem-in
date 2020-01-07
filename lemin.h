@@ -23,7 +23,7 @@ typedef struct 		s_room
 	int 			x;		//x координата комнаты
 	int 			y;		//y координата комнаты
 	int 			level;  // 1 Step 1 шаг
-	int 			was_checked; // проверка Level
+	int 			was_checked; // проверка Level == 1, поиск пути == 2
 	int 			neighbours; //количество соседей
 	int 			is_dead_end; //если тупик 1
 	int				is_part_of_path; //является ли комната частью пути
