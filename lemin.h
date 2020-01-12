@@ -42,6 +42,7 @@ typedef struct 		s_link////структура со связью
 {
 	t_room			*first_room;////название говорит за себя
 	t_room			*second_room;
+	int 			checked;
 	int 			is_valid;
 
 	struct s_link	*next;
@@ -106,9 +107,11 @@ t_link	*get_me_links(t_main *main, int fd, t_room *room);
 void		*determine_levels(t_main *map);
 void 		determine_level(t_main *map);
 void		*except_excess_links(t_link *links, t_room *rooms);
+int 		was_checked(t_room *first, t_room *second, t_link *links);
 
 void		*search_necessary_rooms(t_main *map);
 void		*search_previous_room(t_main *map, t_room *current);
 int			check_link(t_room *first, t_room *second, t_link *links);
+
 
 #endif
