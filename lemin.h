@@ -23,10 +23,11 @@ typedef struct 		s_room
 	int 			x;		//x координата комнаты
 	int 			y;		//y координата комнаты
 	int 			level;  // 1 Step 1 шаг
-	int 			was_checked; // проверка Level == 1, поиск пути == 2
+	int 			was_checked; // проверка Level == 1
 	int 			neighbours; //количество соседей
 	int 			is_dead_end; //если тупик 1
 	int				is_part_of_path; //является ли комната частью пути
+	int 			num_of_path;
 	struct s_room	*next;
 }					t_room;
 
@@ -110,7 +111,7 @@ void		*except_excess_links(t_link *links, t_room *rooms);
 int 		was_checked(t_room *first, t_room *second, t_link *links);
 
 void		*search_necessary_rooms(t_main *map);
-void		*search_previous_room(t_main *map, t_room *current);
+void		*search_previous_room(t_room *current, t_main *map);
 int			check_link(t_room *first, t_room *second, t_link *links);
 
 

@@ -52,7 +52,6 @@ static t_room	*find_end(t_main *main, t_room *current, char *line)
 
 	if (!(end = create_room(line)))
 		return (NULL);
-	end->is_part_of_path = 1;
 	main->end = end;
 	current->next = end;
 	return (end);

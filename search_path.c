@@ -17,100 +17,40 @@ void		*search_necessary_rooms(t_main *map)
 {
 	t_room	*tmp;
 	t_room	*auxiliary;
-	int i = 0;
+	int 	i;
 
-
-	while (map->start->was_checked != 2)
-	{
-		tmp = map->start;
-		while (tmp)
-		{
-			auxiliary = map->start;
-			while (auxiliary)
-			{
-				if (check_link(tmp, auxiliary, map->all_links_here) == 1 &&  auxiliary != tmp)
-				{
-					if ((auxiliary->level - tmp->level <= 1 || auxiliary->level == -1)
-						&& (auxiliary->is_part_of_path >= 1 || auxiliary->was_checked == 2)
-						&& tmp->is_dead_end != 1)
-					{
-						printf("checking if: %d: %s - %s;\n ", i,  auxiliary->name, tmp->name);
-						if (was_checked(tmp, auxiliary, map->all_links_here) == 1)
-						{
-							auxiliary->is_part_of_path += 1;
-							tmp->was_checked = 2;
-							printf("%d: %s - %s;\n ", i,  auxiliary->name, tmp->name);
-						}
-					}
-				}
-
-				auxiliary = auxiliary->next;
-			}
-			tmp = tmp->next;
-
-		}
-		i += 1;
-	}
-	map->end->is_part_of_path -= 1;
-}
-
-
-void		*search_previous_room(t_main *map, t_room *current)
-{
-	t_link	*tmp;
-
-	tmp = map->all_links_here;
-	while(tmp)
-	{
-		if (tmp->first_room == current && tmp->second_room->is_dead_end == 0)
-		{
-			if (tmp->second_room->is_part_of_path == 0)
-				tmp->second_room->is_part_of_path = 1;
-			else if (tmp->second_room->is_part_of_path > 0)
-				tmp->second_room->is_part_of_path += 1;
-			break;
-		}
-		else if (tmp->second_room == current && tmp->first_room->is_dead_end == 0)
-		{
-			if (tmp->first_room->is_part_of_path == 0)
-				tmp->first_room->is_part_of_path = 1;
-			else if (tmp->first_room->is_part_of_path > 0)
-				tmp->first_room->is_part_of_path += 1;
-			break;
-		}
+	tmp = map->start;
+	i = 0;
+	while (tmp->level != -1)
 		tmp = tmp->next;
-	}
+	search_previous_room(tmp, map);
+	while (i++ < map->end->is_part_of_path)
+
 }
 
-int 		was_checked(t_room *first, t_room *second, t_link *links)
+
+void		*search_previous_room(t_room *current, t_main *map)
 {
-	while (links)
+	t_link	*link;
+
+	link = map->all_links_here;
+	while (link)
 	{
-		if ((first == links->first_room && second == links->second_room)
-			|| (second == links->first_room && first == links->second_room))
+		if (link->first_room == current && (link->first_room->level >= link->second_room->level || link->first_room->level == -1) && link->checked == 0)
 		{
-			if (links->checked == 0 && (first->was_checked == 1 || second->was_checked == 1))
-			{
-				links->checked = 1;
-				printf("checked rooms: %s, %s\n", first->name, second->name);
-				return (1);
-			}
-			return (0);
+			link->first_room->is_part_of_path += 1;
+			link->checked = 1;
+			if (link->second_room->level != 1)
+				search_previous_room(link->second_room, map);
 		}
-		else
-			links = links->next;
+		else if (link->second_room == current && (link->second_room->level >= link->first_room->level || link->second_room->level == -1) && link->checked == 0)
+		{
+			link->second_room->is_part_of_path += 1;
+			link->checked = 1;
+			if (link->first_room->level != 1)
+				search_previous_room(link->first_room, map);
+		}
+		link = link->next;
 	}
 }
 
-int			check_link(t_room *first, t_room *second, t_link *links)
-{
-	while (links)
-	{
-		if ((first == links->first_room && second == links->second_room)
-			|| (second == links->first_room && first == links->second_room))
-			return (1);
-		else
-			links = links->next;
-	}
-	return (0);
-}
