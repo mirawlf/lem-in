@@ -89,7 +89,7 @@ int 		was_checked(t_room *first, t_room *second, t_link *links)
 		if ((first == links->first_room && second == links->second_room)
 			|| (second == links->first_room && first == links->second_room))
 		{
-			if (links->checked == 0)
+			if (links->checked == 0 && (first->was_checked == 1 || second->was_checked == 1))
 			{
 				links->checked = 1;
 				printf("checked rooms: %s, %s\n", first->name, second->name);
