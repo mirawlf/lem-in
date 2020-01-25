@@ -85,4 +85,5 @@ add_executable(lemin_github
         levels_and_links.c
         soulmates.c
         search_path.c
-        valid.c)
+        valid.c
+        utils.c)

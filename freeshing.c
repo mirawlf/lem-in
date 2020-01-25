@@ -20,9 +20,7 @@
 void		free_map(t_main *map)
 {
 	if (map)
-	{
 		free(map);
-	}
 }
 
 void		free_rooms(t_room *room)
@@ -30,7 +28,7 @@ void		free_rooms(t_room *room)
 	if (!room)
 		return ;
 	while(room->next)
-		free_rooms(room->next);
+		free_rooms(room->next);////////а room?
 	if (room->name)
 		free(room->name);
 	free(room);
@@ -44,7 +42,7 @@ void		free_ant(int i, t_ant *ant)
 	{
 		if (ant->next)
 			curr = ant->next;
-		ant->num = 0;
+		ant->num = 0;///////зачем
 		free(ant->prev);
 		free(ant->next);
 		free(ant->curr_room);

@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/21 12:45:41 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/12/21 19:41:35 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/01/25 21:13:52 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,20 @@
 
 static int read_me_a_room_line(t_main *main, int fd)
 {
-	char *kostyl_for_connection;
+	char **kostyl_for_connection;////////чекнуть правильно ли я понял сабжект ебучий
 
 	if (!(get_next_line(fd, &main->line)) || !(line_exists(main->line)))
 		return (-1); ///в строке опять хуйня
 	if (!(check_comment(main->line)))
-		return (2);////это ебучий коммент
+		return (print_line(2, main->line));////это ебучий коммент
 	if (check_command(main->line) == 1)
-		return (3);////это строка ##start
+		return (print_line(3, main->line));////это строка ##start
 	else if (check_command(main->line) == 2)
-		return (4);/////это строка ##end
+		return (print_line(4, main->line));/////это строка ##end
 	if ((kostyl_for_connection = check_connection(main->line)))
 	{
 		free_split(kostyl_for_connection);/////////ебаное уродство исправь блядь илюха не позорься
-		return (5);/////это коннекшн
+		return (print_line(5, main->line));/////это коннекшн
 	}
 
 	return (0);
@@ -85,7 +85,8 @@ t_room 	*read_rooms(t_main *main, int fd)
 		prev = current;
 		check = read_me_a_room_line(main, fd);
 		if (check == -1)
-			free_rooms(start);
+			ft_error("HUEVAIA KOMNATA");
+	//////////		free_rooms(start);чекнуть утечки и вообще
 		else if (check == 2)
 			continue;
 		else if (check == 5)

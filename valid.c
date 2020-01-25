@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/17 17:11:52 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/12/22 16:43:05 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/01/25 20:59:44 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,10 @@ int 	check_comment(char *line)
 {
 	if (ft_strlen(line) < 2)
 		return (1);
-	if (line[0] == '#' && line[1] != '#')
+	if (line[0] == '#' && line[1] != '#')//////////это лучше оставить отдельными ифами
+		return (0);
+	if (line[0] == '#' && line[1] == '#' &&
+	!ft_strequ(line, "##start") && !ft_strequ(line, "##end"))
 		return (0);
 	return (1);
 }
@@ -45,18 +48,12 @@ int 	line_exists(char *line)
  */
 int 	check_command(char *line)
 {
-	if (ft_strlen(line) > 3)
-	{
-		if (ft_strequ(line, "##start"))
-			return (1);
-		if (ft_strequ(line, "##end"))
-			return (2);
-		if (line[0] == '#' && line[1] == '#' && line[2] != '#')
-			return (3);///////////////////вот эту хуйню поправь по сабджекту такое игнорится а не ошибку хуярит
-	}
+	if (ft_strequ(line, "##start"))
+		return (1);
+	if (ft_strequ(line, "##end"))
+		return (2);
 	return (0);
 }
-
 /**
  *
  * @param line = проверяемая строка

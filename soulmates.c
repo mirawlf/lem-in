@@ -16,8 +16,6 @@ static int read_me_a_room_line(t_main *main, int fd)
 {
 	char **split;
 	int command;
-
-
 	if (!(get_next_line(fd, &main->line)))
 		return (0); //ДОЧИТАЛИ
 	if (!(line_exists(main->line)))
@@ -32,7 +30,6 @@ static int read_me_a_room_line(t_main *main, int fd)
 		free_split(split);//////уродство конечно пиздос
 		return (5);/////это коннекшн
 	}
-
 	return (-1);
 }
 
