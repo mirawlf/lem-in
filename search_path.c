@@ -50,7 +50,6 @@ void		*search_previous_room(t_room *current, t_main *map)
 						link->second_room->where = link->first_room;
 						link->first_room->from = link->second_room;
 					}
-
 				}
 				else
 					link->second_room->where = link->first_room;
@@ -72,7 +71,6 @@ void		*search_previous_room(t_room *current, t_main *map)
 						link->first_room->where = link->second_room;
 						link->second_room->from = link->first_room;
 					}
-
 				}
 				else
 					link->first_room->where = link->second_room;
