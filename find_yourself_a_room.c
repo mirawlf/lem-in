@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/17 17:30:37 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/12/21 19:43:52 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/01/26 11:15:25 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,23 +25,6 @@ static int 	count_room_entries(char **split)
 	while(split[i])
 		i++;
 	return (i);
-}
-
-void		free_split(char **split)
-{
-	int i;
-
-	i = 0;
-	if (split)
-	{
-		while(split[i])
-		{
-			ft_strdel(&split[i]);
-			i++;
-		}
-		free(split);
-	}
-	split = NULL;
 }
 /**
  *
@@ -64,11 +47,11 @@ static char 	**check_room(char *line)
 	while(counter < 3)
 	{
 		i = 0;
-		while(split[counter][i])/////////тэк бля вот эта херня течет не забыть бы ее поправить
+		while(split[counter][i])
 		{
 			if (!(ft_isdigit(split[counter][i])))
 			{
-				free(split);
+				free_split(split);
 				return (NULL);
 			}
 			i++;

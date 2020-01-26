@@ -50,3 +50,20 @@ void		free_ant(int i, t_ant *ant)
 	}
 	free(ant);
 }
+
+void		free_split(char **split)
+{
+	int i;
+
+	i = 0;
+	if (split)
+	{
+		while(split[i])
+		{
+			ft_strdel(&split[i]);
+			i++;
+		}
+		free(split);
+	}
+	split = NULL;
+}
