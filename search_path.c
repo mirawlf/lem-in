@@ -25,9 +25,24 @@ void		*search_necessary_rooms(t_main *map)
 	lets_go(map);
 }
 
-void		*lets_go(t_main *map)
+int 		how_many_steps(t_main *map)
 {
 
+}
+
+void		*lets_go(t_main *map)
+{
+	t_room	*current;
+	int 	n;
+	int 	iter;
+
+	current = map->start;
+	n = map->end->is_part_of_path;
+	iter = -1;
+	while (iter < map->iterations)
+	{
+
+	}
 }
 
 void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
@@ -91,6 +106,7 @@ void		*count_steps(t_main *map)
 			steps += 1;
 			current = current->where;
 		}
+	//	map->iterations < steps ? map->iterations = steps : map->iterations;
 		while (room->where)
 		{
 			room->steps = steps;

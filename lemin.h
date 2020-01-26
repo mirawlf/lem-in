@@ -63,6 +63,7 @@ typedef struct		s_main
 	t_link			*all_links_here;
 	int 			path;
 	int 			max_current_level;
+	int 			iterations;
 }					t_main;
 
 typedef struct 		s_path
@@ -115,6 +116,7 @@ int 		was_checked(t_room *first, t_room *second, t_link *links);
 void		*search_necessary_rooms(t_main *map);
 void		*search_previous_room(t_room *current, t_main *map);
 void 		*count_steps(t_main *map);
+void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
 void 		*lets_go(t_main *map);
 
 
