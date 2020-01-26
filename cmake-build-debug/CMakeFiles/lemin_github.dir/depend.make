@@ -243,6 +243,11 @@ CMakeFiles/lemin_github.dir/soulmates.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/soulmates.c.o: ../lemin.h
 CMakeFiles/lemin_github.dir/soulmates.c.o: ../soulmates.c
 
+CMakeFiles/lemin_github.dir/utils.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/lemin_github.dir/utils.c.o: .././libft/includes/libft.h
+CMakeFiles/lemin_github.dir/utils.c.o: ../lemin.h
+CMakeFiles/lemin_github.dir/utils.c.o: ../utils.c
+
 CMakeFiles/lemin_github.dir/valid.c.o: .././libft/includes/get_next_line.h
 CMakeFiles/lemin_github.dir/valid.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/valid.c.o: ../lemin.h

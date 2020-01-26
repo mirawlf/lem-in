@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-void 	print_step()/////////ф-ция для вывода шагов лемина
+//void 	print_step()/////////ф-ция для вывода шагов лемина
 
 int 	print_line(int ret, char *line)/////////это мне при правильном вводе понадобится
 {
