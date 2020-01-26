@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2019/12/22 17:13:51 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/01/26 18:59:22 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ typedef struct 		s_room
 	struct s_room	*where;
 	struct s_room	*from;
 	struct s_room	*next;
+	t_ant			*ant;
 }					t_room;
 
 typedef struct		s_ant
@@ -76,7 +77,7 @@ typedef struct 		s_path
 /**
  * freeshing
  */
-void		free_rooms(t_room *room);
+void				free_rooms(t_room *room);
 
 t_main				*parse_input(char **av, t_main *map);
 t_main				*structure_filling(char *line, t_main *map, int fd);
@@ -93,31 +94,36 @@ void				free_split(char **split);
 /**
  * validation
  */
-char 	**check_connection(char *line);
-int 	check_and_write_ants(char *line, t_main *map);
-int 	check_command(char *line);
-int 	line_exists(char *line);
-int 	check_comment(char *line);
+char 				**check_connection(char *line);
+int 				check_and_write_ants(char *line, t_main *map);
+int 				check_command(char *line);
+int 				line_exists(char *line);
+int 				check_comment(char *line);
 /**
  * reading
  */
-t_room		*create_room(char *line);
-t_room 	*read_rooms(t_main *main, int fd);
-t_link	*get_me_links(t_main *main, int fd, t_room *room);
+t_room				*create_room(char *line);
+t_room 				*read_rooms(t_main *main, int fd);
+t_link				*get_me_links(t_main *main, int fd, t_room *room);
+int 				print_line(int ret, char *line);
 
 /*
  * algo
  */
-void		*determine_levels(t_main *map);
-void 		determine_level(t_main *map);
-void		*except_excess_links(t_link *links, t_room *rooms);
-int 		was_checked(t_room *first, t_room *second, t_link *links);
+void				*determine_levels(t_main *map);
+void 				determine_level(t_main *map);
+void				*except_excess_links(t_link *links, t_room *rooms);
+int 				was_checked(t_room *first, t_room *second, t_link *links);
 
-void		*search_necessary_rooms(t_main *map);
-void		*search_previous_room(t_room *current, t_main *map);
-void 		*count_steps(t_main *map);
-void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
-void 		*lets_go(t_main *map);
+void				*search_necessary_rooms(t_main *map);
+void				*search_previous_room(t_room *current, t_main *map);
+void 				*count_steps(t_main *map);
+void				auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
+void 				*lets_go(t_main *map);
 
+/*
+ * ants will move now
+ */
+void 	print_step(int ant_num, char *room_name);
 
 #endif

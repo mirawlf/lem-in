@@ -43,6 +43,11 @@ static char 	**check_room(char *line)
 		free_split(split);
 		return (NULL);
 	}
+	if (split[counter][0] == 'L')
+	{
+		free_split(split);
+		return (NULL);
+	}
 	counter = 1;
 	while(counter < 3)
 	{

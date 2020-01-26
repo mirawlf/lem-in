@@ -29,6 +29,10 @@ t_main		*structure_filling(char *line, t_main *map, int fd)
 //	if (map->start == 0)
 //	{
 	map->ants = ft_atoi(line);////////стоит чекнуть коммент
+	print_line(0, line);
+	ft_strdel(&line);
+	if (map->ants < 1)
+		ft_error("INVALID ANTS NUM");
 	//	if (map->ants != ft_atoi(ft_itoa(map->ants)))
 	//	{
 	//		free_map(map);

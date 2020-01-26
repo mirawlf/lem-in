@@ -1,28 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils.c                                            :+:      :+:    :+:   */
+/*   ants_run_like_shit.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/25 21:16:14 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/01/26 18:56:31 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/01/26 18:57:50 by cyuriko           #+#    #+#             */
+/*   Updated: 2020/01/26 18:59:22 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lemin.h"
+#include "filler.h"
 
-void 	print_step(int ant_num, char *room_name)
+void 	ant_go_to_room(t_ant *ant, t_room *room)
 {
-	ft_putchar('L');
-	ft_putnbr(ant_num);
-	ft_putchar('-');
-	ft_putstr(room_name);
-	ft_putchar(' ');
+	ant->curr_room = room;
+	print_step(ant->num, room->name);
 }
 
-int 	print_line(int ret, char *line)/////////это мне при правильном вводе понадобится
+int 	can_i_go_please(t_room *room)
 {
-	ft_putstr_fd(line, 1);
-	return (ret);
+	if (!room->ant)
+		return (1);////если в комнате нет муравья
+	return (0);////если есть
 }
+
+void 	del_ant(t_room *room)
+{
+	room->ant = NULL;
+}
+
