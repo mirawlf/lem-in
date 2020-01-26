@@ -28,6 +28,8 @@ typedef struct 		s_room
 	int 			is_dead_end; //если тупик 1
 	int				is_part_of_path; //является ли комната частью пути
 	int 			num_of_path;
+	struct s_room	*where;
+	struct s_room	*from;
 	struct s_room	*next;
 }					t_room;
 
@@ -112,7 +114,7 @@ int 		was_checked(t_room *first, t_room *second, t_link *links);
 
 void		*search_necessary_rooms(t_main *map);
 void		*search_previous_room(t_room *current, t_main *map);
-int			check_link(t_room *first, t_room *second, t_link *links);
+void 		sequence_of_rooms(t_path *path, t_main *map, int i);
 
 
 #endif

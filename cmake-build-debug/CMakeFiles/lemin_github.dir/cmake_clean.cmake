@@ -75,6 +75,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lemin_github.dir/soulmates.c.o"
   "CMakeFiles/lemin_github.dir/search_path.c.o"
   "CMakeFiles/lemin_github.dir/valid.c.o"
+  "CMakeFiles/lemin_github.dir/utils.c.o"
   "lemin_github.pdb"
   "lemin_github"
 )

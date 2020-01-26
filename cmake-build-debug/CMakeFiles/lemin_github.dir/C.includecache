@@ -42,7 +42,9 @@ unistd.h
 stdlib.h
 -
 
-/Users/samymone/lemin_github/redrum.c
+/Users/samymone/lemin_github/search_path.c
 lemin.h
 /Users/samymone/lemin_github/lemin.h
+stdio.h
+-
 

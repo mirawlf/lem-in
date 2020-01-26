@@ -318,6 +318,9 @@
 		<Unit filename="/Users/samymone/lemin_github/soulmates.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/samymone/lemin_github/utils.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/samymone/lemin_github/valid.c">
 			<Option target="lemin_github"/>
 		</Unit>
