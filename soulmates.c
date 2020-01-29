@@ -22,13 +22,13 @@ static int read_me_a_room_line(t_main *main, int fd)
 		return (-1);///в строке опять хуйня
 	command = check_command(main->line);
 	if (!(check_comment(main->line)) || command == 3)
-		return (2);////это ебучий коммент
+		return (print_line(2, main->line));////это ебучий коммент
 	if (command < 3 && command > 0)
 		return (-1);////это команда ебучая
 	if (split = check_connection(main->line))
 	{
 		free_split(split);//////уродство конечно пиздос
-		return (5);/////это коннекшн
+		return (print_line(5, main->line));/////это коннекшн
 	}
 	return (-1);
 }

@@ -24,5 +24,6 @@ void 	print_step(int ant_num, char *room_name)
 int 	print_line(int ret, char *line)/////////это мне при правильном вводе понадобится
 {
 	ft_putstr_fd(line, 1);
+	ft_putchar('\n');
 	return (ret);
 }

@@ -31,7 +31,7 @@ typedef struct 		s_room
 	struct s_room	*where;
 	struct s_room	*from;
 	struct s_room	*next;
-	t_ant			*ant;
+	struct s_ant	*ant;
 }					t_room;
 
 typedef struct		s_ant
