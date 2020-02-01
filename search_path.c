@@ -17,36 +17,15 @@ void		*search_necessary_rooms(t_main *map)
 {
 	t_room	*tmp;
 
-	tmp = map->start;
-	while (tmp->level != -1)
-		tmp = tmp->next;
-	search_previous_room(tmp, map);
+	search_previous_room(map->end, map);
 	count_steps(map);
-	lets_go(map);
-}
-
-int 		how_many_steps(t_main *map)
-{
-
-}
-
-void		*lets_go(t_main *map)
-{
-	t_room	*current;
-	int 	n;
-	int 	iter;
-
-	current = map->start;
-	n = map->end->is_part_of_path;
-	iter = -1;
-	while (iter < map->iterations)
-	{
-
-	}
+	//lets_go(map);
 }
 
 void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
 {
+	t_path	*current;
+
 	first->is_part_of_path += 1;
 	link->checked = 1;
 	if (second->level != 1)
@@ -64,7 +43,24 @@ void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
 		search_previous_room(second, map);
 	}
 	else
+	{
 		first->from = second;
+		if (!map->paths)
+		{
+			if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
+				ft_error("malloc failed\n");
+			current = map->paths;
+		}
+		else
+		{
+			current = map->paths;
+			while (current->next)
+				current = current->next;
+			current->next = ft_memalloc(sizeof(t_path));
+			current = current->next;
+		}
+		current->current = first;
+	}
 }
 
 void		*search_previous_room(t_room *current, t_main *map)
@@ -84,6 +80,7 @@ void		*search_previous_room(t_room *current, t_main *map)
 			auxiliary(link->second_room, link->first_room, link, map);
 		link = link->next;
 	}
+//	return (second_rooms);
 }
 
 void		*count_steps(t_main *map)

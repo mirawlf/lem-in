@@ -65,12 +65,12 @@ typedef struct		s_main
 	int 			path;
 	int 			max_current_level;
 	int 			iterations;
+	struct s_path	*paths;
 }					t_main;
 
 typedef struct 		s_path
 {
 	t_room 			*current;
-	int 			steps;
 	struct s_path	*next;
 }					t_path;
 
