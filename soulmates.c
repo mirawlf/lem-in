@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/21 19:47:21 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/12/22 20:55:09 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/02 13:56:10 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ static t_link	*create_new_link(t_link *prev, t_main *main)
 	return (link);
 }
 
-static t_link 	*find_and_connect(t_link *link, t_room *rooms, char **split)
+static t_link 	*find_and_connect(t_link *link, t_room *rooms, char **split, t_main *main)
 {
 	t_room	*start;
 
@@ -61,6 +61,10 @@ static t_link 	*find_and_connect(t_link *link, t_room *rooms, char **split)
 	}
 	if (!(link->first_room) || !(link->second_room))
 		ft_error("ERROR: INVALID ROOM NAME IN A LINK");
+	if (link->first_room == main->start || link->second_room == main->start)
+		main->start_connections++;
+	if (link->first_room == main->end || link->second_room == main->end)
+		main->end_connections++;
 	return (link);
 }
 
@@ -71,7 +75,7 @@ static t_link	*initial_connection(t_main *main)
 
 	split = check_connection(main->line);
 	start = create_new_link(NULL, main);
-	start = find_and_connect(start, main->all_rooms_here, split);
+	start = find_and_connect(start, main->all_rooms_here, split, main);
 	return (start);
 }
 
@@ -100,7 +104,7 @@ t_link	*get_me_links(t_main *main, int fd, t_room *room)
 		{
 			split = check_connection(main->line);
 			current = create_new_link(current, main);
-			current = find_and_connect(current, room, split);
+			current = find_and_connect(current, room, split, main);
 			free_split(split);
 		}
 	}

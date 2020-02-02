@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/02 12:49:40 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/02 13:12:23 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,8 +72,10 @@ typedef struct		s_main
 	int 			max_current_level;
 	int 			iterations;
 	t_path			*paths;
-	t_path 			**path_array;
+	t_path 			*path_array;
 	int 			paths_amount;
+	int 			start_connections;
+	int				end_connections;
 }					t_main;
 
 
