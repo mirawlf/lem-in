@@ -52,6 +52,12 @@ typedef struct 		s_link////структура со связью
 	struct s_link	*next;
 }					t_link;
 
+typedef struct 		s_path
+{
+	t_room 			*current;
+	struct s_path	*next;
+}					t_path;
+
 typedef struct		s_main
 {
 	int 			ants;/////кол-во муравьев
@@ -65,14 +71,11 @@ typedef struct		s_main
 	int 			path;
 	int 			max_current_level;
 	int 			iterations;
-	struct s_path	*paths;
+	t_path			*paths;
+	t_path 			**path_array;
 }					t_main;
 
-typedef struct 		s_path
-{
-	t_room 			*current;
-	struct s_path	*next;
-}					t_path;
+
 
 /**
  * freeshing
