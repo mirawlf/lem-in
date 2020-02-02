@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2020/01/26 18:59:22 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/02 12:49:40 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ typedef struct		s_main
 	int 			iterations;
 	t_path			*paths;
 	t_path 			**path_array;
+	int 			paths_amount;
 }					t_main;
 
 
