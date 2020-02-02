@@ -19,7 +19,8 @@ void		*search_necessary_rooms(t_main *map)
 
 	search_previous_room(map->end, map);
 	count_steps(map);
-	//lets_go(map);
+//	if (map->start->is_part_of_path == 1 || map->end->is_part_of_path ==1)
+//		go_short_path();
 }
 
 void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
@@ -28,6 +29,8 @@ void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
 
 	first->is_part_of_path += 1;
 	link->checked = 1;
+	if (second == map->start)
+		second->is_part_of_path += 1;
 	if (second->level != 1)
 	{
 		if (first != map->end)
@@ -68,19 +71,24 @@ void		*search_previous_room(t_room *current, t_main *map)
 	t_link	*link;
 
 	link = map->all_links_here;
-	while (link)
+	while (current->level == 1 || current->level == -1|| current->where == NULL || current->from == NULL)
 	{
-		if (link->first_room == current &&
-		(link->first_room->level > link->second_room->level ||
-		link->first_room->level == -1) && link->checked == 0)
-			auxiliary(link->first_room, link->second_room, link, map);
-		else if (link->second_room == current &&
-		(link->second_room->level > link->first_room->level ||
-		link->second_room->level == -1) && link->checked == 0)
-			auxiliary(link->second_room, link->first_room, link, map);
-		link = link->next;
+		if (!link->checked)
+		{
+			if (link->first_room == current &&
+				(link->first_room->level > link->second_room->level ||
+				 link->first_room->level == -1) && link->checked == 0)
+				auxiliary(link->first_room, link->second_room, link, map);
+			else if (link->second_room == current &&
+					 (link->second_room->level > link->first_room->level ||
+					  link->second_room->level == -1) && link->checked == 0)
+				auxiliary(link->second_room, link->first_room, link, map);
+		}
+		if (link->next)
+			link = link->next;
+		else
+			break;
 	}
-//	return (second_rooms);
 }
 
 void		*count_steps(t_main *map)
@@ -103,7 +111,6 @@ void		*count_steps(t_main *map)
 			steps += 1;
 			current = current->where;
 		}
-	//	map->iterations < steps ? map->iterations = steps : map->iterations;
 		while (room->where)
 		{
 			room->steps = steps;
