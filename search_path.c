@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/06 15:09:34 by samymone          #+#    #+#             */
-/*   Updated: 2020/01/06 15:09:36 by samymone         ###   ########.fr       */
+/*   Updated: 2020/02/06 22:35:57 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,18 @@ static t_path	*shortest_way(t_path *paths)
 	}
 	return (actual);
 }
+////////////////////удоли то што СНИЗУ ВОТ ФУНКЦИЯ БЛЯ
+void test_path_array(t_path **path_array, int paths)
+{
+	int i;
+
+	i = 0;
+	while(i < paths)
+	{
+		printf("room_name:||%s||, room_len:||%d||\n", path_array[i]->current->name, path_array[i]->current->steps);
+		i++;
+	}
+}
 
 t_path		*search_necessary_rooms(t_main *map)
 {
@@ -36,6 +48,8 @@ t_path		*search_necessary_rooms(t_main *map)
 
 	search_previous_room(map->end, map);
 	count_steps(map);
+	if (!(map->path_array = make_path_array(map)))
+		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
 	best_way = shortest_way(map->paths);
 	return (best_way);
 

@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/02 13:12:23 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/06 22:14:27 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,8 +72,8 @@ typedef struct		s_main
 	int 			max_current_level;
 	int 			iterations;
 	t_path			*paths;
-//	t_path 			*path_array;
-//	int 			paths_amount;
+	t_path 			**path_array;
+	int 			paths_amount;
 	int 			start_connections;
 	int				end_connections;
 }					t_main;
@@ -126,12 +126,14 @@ void				*search_previous_room(t_room *current, t_main *map);
 void 				*count_steps(t_main *map);
 //void				auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
 void 				lets_go(t_path *best, t_main *map);
-void 				*sort_paths(t_path *paths);
+//void 				*sort_paths(t_path *paths);
 int 				is_sorted(t_path *paths);
 
 /*
  * ants will move now
  */
 void 	print_step(int ant_num, char *room_name);
+t_path	**make_path_array(t_main *main);
+void test_path_array(t_path **path_array, int paths);
 
 #endif

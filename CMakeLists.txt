@@ -87,4 +87,5 @@ add_executable(lemin_github
         search_path.c
         valid.c
         utils.c
-        go.c)
+        go.c
+        get_me_paths_lawd.c)

@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-void 				lets_go(t_path *best, t_main *map)
+/*void 				lets_go(t_path *best, t_main *map)
 {
 	t_ant			*colony;
 	t_ant			*aux;
@@ -25,7 +25,7 @@ void 				lets_go(t_path *best, t_main *map)
 		aux = map->first_ant;
 		if (map->first_ant->curr_room == map->start)
 		{
-			map->first_ant->curr_room
+			map->first_ant->curr_room;
 		}
 	}
-}
+}*/

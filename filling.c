@@ -43,7 +43,7 @@ t_ant		*ant_colony_creation(int quant, t_main *map)
 		}
 		else if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
 			ants_fail(i, map->first_ant, map);
-		ant->next->prev = ant;
+		ant->next->prev = ant;////////////////////////надо ли это?
 		ant->curr_room = map->start;
 		ant = ant->next;
 		i++;
