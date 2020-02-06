@@ -13,17 +13,33 @@
 #include "lemin.h"
 #include <stdio.h>
 
+static t_path	*shortest_way(t_path *paths)
+{
+	t_path		*tmp;
+	t_path		*actual;
+
+	tmp = paths;
+	actual = paths;
+	while (tmp)
+	{
+		if (tmp->current->steps < actual->current->steps)
+			actual = tmp;
+		tmp = tmp->next;
+	}
+	return (actual);
+}
+
 void		*search_necessary_rooms(t_main *map)
 {
 	t_room	*tmp;
+	t_path	*best_way;
 
 	search_previous_room(map->end, map);
 	count_steps(map);
-//	if (map->start->is_part_of_path == 1 || map->end->is_part_of_path ==1)
-//		go_short_path();
+	best_way = shortest_way(map->paths);
 }
 
-void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
+static void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
 {
 	t_path	*current;
 
@@ -71,23 +87,24 @@ void		*search_previous_room(t_room *current, t_main *map)
 	t_link	*link;
 
 	link = map->all_links_here;
-	while (current->level == 1 || current->level == -1|| current->where == NULL || current->from == NULL)
+	while (current->level == 1 || current->level == -1 ||
+	current->where == NULL || current->from == NULL)
 	{
 		if (!link->checked)
 		{
 			if (link->first_room == current &&
-				(link->first_room->level > link->second_room->level ||
-				 link->first_room->level == -1) && link->checked == 0)
+			(link->first_room->level > link->second_room->level ||
+			link->first_room->level == -1) && link->checked == 0)
 				auxiliary(link->first_room, link->second_room, link, map);
 			else if (link->second_room == current &&
-					 (link->second_room->level > link->first_room->level ||
-					  link->second_room->level == -1) && link->checked == 0)
+			(link->second_room->level > link->first_room->level ||
+			link->second_room->level == -1) && link->checked == 0)
 				auxiliary(link->second_room, link->first_room, link, map);
 		}
 		if (link->next)
 			link = link->next;
 		else
-			break;
+			break ;
 	}
 }
 
@@ -95,16 +112,14 @@ void		*count_steps(t_main *map)
 {
 	t_room	*current;
 	t_room	*room;
-	int		i;
 	int		steps;
+	t_path	*f;
 
-	i = -1;
-	while (++i < map->end->is_part_of_path)
+	f = map->paths;
+	while (f)
 	{
 		steps = 0;
-		current = map->start;
-		while (current->from != map->start || current->was_checked == 2)
-			current = current->next;
+		current = f->current;
 		room = current;
 		while (current->where)
 		{
@@ -117,5 +132,6 @@ void		*count_steps(t_main *map)
 			room->was_checked = 2;
 			room = room->where;
 		}
+		f = f->next;
 	}
 }

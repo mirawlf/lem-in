@@ -17,7 +17,7 @@ void		*determine_levels(t_main *map)
 	t_room	*tmp_room;
 	t_link	*tmp_link;
 
-	tmp_room = map->start;
+	tmp_room = map->all_rooms_here;
 	if (map->path == 0)
 	{
 		map->path += 1;
