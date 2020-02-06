@@ -204,6 +204,33 @@ freeshing.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/freeshing.c.s
 .PHONY : freeshing.c.s
 
+go.o: go.c.o
+
+.PHONY : go.o
+
+# target to build an object file
+go.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/go.c.o
+.PHONY : go.c.o
+
+go.i: go.c.i
+
+.PHONY : go.i
+
+# target to preprocess a source file
+go.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/go.c.i
+.PHONY : go.c.i
+
+go.s: go.c.s
+
+.PHONY : go.s
+
+# target to generate assembly for a file
+go.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/go.c.s
+.PHONY : go.c.s
+
 lemin.o: lemin.c.o
 
 .PHONY : lemin.o
@@ -2220,6 +2247,9 @@ help:
 	@echo "... freeshing.o"
 	@echo "... freeshing.i"
 	@echo "... freeshing.s"
+	@echo "... go.o"
+	@echo "... go.i"
+	@echo "... go.s"
 	@echo "... lemin.o"
 	@echo "... lemin.i"
 	@echo "... lemin.s"

@@ -86,4 +86,5 @@ add_executable(lemin_github
         soulmates.c
         search_path.c
         valid.c
-        utils.c)
+        utils.c
+        go.c)

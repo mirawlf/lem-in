@@ -29,7 +29,7 @@ static t_path	*shortest_way(t_path *paths)
 	return (actual);
 }
 
-void		*search_necessary_rooms(t_main *map)
+t_path		*search_necessary_rooms(t_main *map)
 {
 	t_room	*tmp;
 	t_path	*best_way;
@@ -37,6 +37,8 @@ void		*search_necessary_rooms(t_main *map)
 	search_previous_room(map->end, map);
 	count_steps(map);
 	best_way = shortest_way(map->paths);
+	return (best_way);
+
 }
 
 static void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)

@@ -121,11 +121,11 @@ void 				determine_level(t_main *map);
 void				*except_excess_links(t_link *links, t_room *rooms);
 int 				was_checked(t_room *first, t_room *second, t_link *links);
 
-void				*search_necessary_rooms(t_main *map);
+t_path				*search_necessary_rooms(t_main *map);
 void				*search_previous_room(t_room *current, t_main *map);
 void 				*count_steps(t_main *map);
 //void				auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
-void 				*lets_go(t_main *map);
+void 				lets_go(t_path *best, t_main *map);
 void 				*sort_paths(t_path *paths);
 int 				is_sorted(t_path *paths);
 

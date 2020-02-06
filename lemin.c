@@ -72,6 +72,7 @@ return (NULL);
 int			main(int ac, char **av)
 {
 	t_main	*map;
+	t_path	*best;
 
 	if (ac == 2)
 	{
@@ -81,7 +82,9 @@ int			main(int ac, char **av)
 		printf("kewl!\n");
 	}
 	determine_levels(map);
-	search_necessary_rooms(map);
+	best = search_necessary_rooms(map);
+	lets_go(best, map);
+
 	printf ("not kewl!\n");
 	return (0);
 }

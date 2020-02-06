@@ -93,6 +93,9 @@
 		<Unit filename="/Users/samymone/lemin_github/freeshing.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/samymone/lemin_github/go.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/samymone/lemin_github/lemin.c">
 			<Option target="lemin_github"/>
 		</Unit>
