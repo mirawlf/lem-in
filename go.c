@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 14:19:38 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/06 14:19:39 by samymone         ###   ########.fr       */
+/*   Updated: 2020/02/07 21:08:03 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,20 @@
 		}
 	}
 }*/
+static int go_one_way();
+{
+
+}
+
+static int go_many_ways()
+{
+
+}
+
+int 		lets_go(t_main *main)
+{
+	if (main->paths_amount == 1 || main->end_connections == 1 || main->start_connections == 1)
+		go_one_way();/////take the shortest route
+	else
+		go_many_ways();///////do all the cool stuff with different paths
+}

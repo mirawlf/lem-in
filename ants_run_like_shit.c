@@ -29,8 +29,3 @@ void 	del_ant(t_room *room)
 {
 	room->ant = NULL;
 }
-
-void 	initial_step(t_ant *ant, t_path **path_array, int path_nums)
-{
-
-}

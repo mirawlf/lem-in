@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/01 16:47:04 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/02/01 17:01:40 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/07 20:24:44 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ void	init_walkthrough(t_main *main)
 	if (!paths)
 		ft_error("FAILED TO FIND VALID PAthS TO MOVE EM ANTS");
 	if (!(path_array = (t_path**)ft_memdel(sizeof(t_path) * paths)))
-		ft_error("faild to alloc memory for paths array");
+		ft_error("failed to alloc memory for paths array");
 	while (++i < paths)
 	{
 		path_array[i] = curr;
@@ -68,7 +68,42 @@ void	init_walkthrough(t_main *main)
 	sort_path_array(path_array, paths);
 }
 
-int		make_step(t_ant *ant, t_path **path_array)
+int		make_step(t_main  *main, **path_array)
 {
-	
+	t_ant *ant;
+	int 	can_step;
+
+	can_step = 1;
+	ant = main->first_ant;
+	while (can_step)
+	{
+		if (ant->curr_room != main->start)
+		{
+			can_step = check_possibility;////////оптимизировать
+			if (!can_step)
+				break;
+			make_normal_step();
+			ant = ant->next;
+			continue ;
+		}
+		else if (ant->curr_room == main->start)
+		{
+			can_step = check_possibility;
+			if (!can_step)
+				break;
+			make_start_step();
+			ant = ant->next;
+			continue ;
+		}
+		else if (ant->curr_room == main->end)
+		{
+			if (ant->next)
+			{
+				ant = ant->next;
+				continue;
+			}
+			else
+				ft_error("GAEM FINISHED SUCCES URA YOU WIN >:D");
+		}
+	}
 }
