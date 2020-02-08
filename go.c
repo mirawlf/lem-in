@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 14:19:38 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/07 21:08:03 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/08 20:03:48 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,22 +29,22 @@
 		}
 	}
 }*/
+/*static int go_one_way();//////ЭТО КСТАТИ ПРОВЕРЯЮТ ВОТ ТАК ПРЕКОЛ БЛЯДЬ
+{
 
+}*/
 
-//static int go_one_way();
-//{
-//
-//}
-//
-//static int go_many_ways()
-//{
-//
-//}
-//
-//int 		lets_go(t_main *main)
-//{
-//	if (main->paths_amount == 1 || main->end_connections == 1 || main->start_connections == 1)
-//		go_one_way();/////take the shortest route
-//	else
-//		go_many_ways();///////do all the cool stuff with different paths
-//}
+static int go_many_ways(t_main *main)
+{
+	while (main->ants)
+		make_step(main, main->path_array);
+	ft_error("0 ANTS LEFT HOPE ITS OK");
+}
+
+void 		lets_go(t_main *main)
+{
+	/*if (main->paths_amount == 1 || main->end_connections == 1 || main->start_connections == 1)
+		go_one_way();/////take the shortest route
+	else*/
+		go_many_ways(main);///////do all the cool stuff with different paths
+}

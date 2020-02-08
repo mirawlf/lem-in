@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:26:38 by samymone          #+#    #+#             */
-/*   Updated: 2019/12/22 17:13:51 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/08 15:52:22 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,8 +83,7 @@ int			main(int ac, char **av)
 	}
 	determine_levels(map);
 	best = search_necessary_rooms(map);
-	//lets_go(best, map);
-
+	lets_go(map);
 	printf ("not kewl!\n");
 	return (0);
 }

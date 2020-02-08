@@ -34,7 +34,7 @@ void		free_rooms(t_room *room)
 	free(room);
 }
 
-void		free_ant(int i, t_ant *ant)
+/*/void		free_ant(int i, t_ant *ant)
 {
 	t_ant	*curr;
 
@@ -43,13 +43,13 @@ void		free_ant(int i, t_ant *ant)
 		if (ant->next)
 			curr = ant->next;
 		ant->num = 0;///////зачем
-		free(ant->prev);
+	//	free(ant->prev);
 		free(ant->next);
 		free(ant->curr_room);
 		ant = curr;
 	}
 	free(ant);
-}
+}*/
 
 void		free_split(char **split)
 {

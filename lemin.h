@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/08 14:15:45 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/08 15:58:11 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ typedef struct 		s_room
 	int 			was_checked; // проверка Level == 1
 	int 			neighbours; //количество соседей
 	int 			is_dead_end; //если тупик 1
-	//int				is_part_of_path; //является ли комната частью пути
 	int 			steps;
 	struct s_room	*where;
 	struct s_room	*from;
@@ -125,7 +124,7 @@ t_path				*search_necessary_rooms(t_main *map);
 void				*search_previous_room(t_room *current, t_main *map);
 void 				*count_steps(t_main *map);
 //void				auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
-//void 				lets_go(t_path *best, t_main *map);
+void 				lets_go(t_main *map);
 //void 				*sort_paths(t_path *paths);
 int 				is_sorted(t_path *paths);
 
@@ -134,7 +133,9 @@ int 				is_sorted(t_path *paths);
  */
 void 	print_step(int ant_num, char *room_name);
 t_path	**make_path_array(t_main *main);
-void test_path_array(t_path **path_array, int paths);
-void 	print_step(int ant_num, char *room_name);
+t_ant 	*make_normal_step(t_ant *ant, t_main *main);
+int 	can_i_go_please(t_room *room);
+int 	make_start_step(t_ant *ant, t_main *main);
+void		make_step(t_main  *main, t_path **path_array);
 
 #endif

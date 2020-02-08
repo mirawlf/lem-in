@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/01 16:47:04 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/02/08 14:15:45 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/08 14:44:36 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ void	init_walkthrough(t_main *main)
 	paths = count_paths(main->paths);
 	if (!paths)
 		ft_error("FAILED TO FIND VALID PAthS TO MOVE EM ANTS");
-	if (!(path_array = (t_path**)ft_memdel(sizeof(t_path) * paths)))
+	if (!(path_array = (t_path**)ft_memalloc(sizeof(t_path) * paths)))
 		ft_error("failed to alloc memory for paths array");
 	while (++i < paths)
 	{
@@ -68,7 +68,7 @@ void	init_walkthrough(t_main *main)
 	sort_path_array(path_array, paths);
 }
 
-int		make_step(t_main  *main, **path_array)
+void		make_step(t_main  *main, t_path **path_array)
 {
 	t_ant *ant;
 	int 	can_step;
@@ -79,30 +79,28 @@ int		make_step(t_main  *main, **path_array)
 	{
 		if (ant->curr_room != main->start)
 		{
-			can_step = check_possibility();////////оптимизировать
+			can_step = can_i_go_please(ant->curr_room->where);////////оптимизировать
 			if (!can_step)
 				break;
-			ant = make_normal_step(ant);
+			ant = make_normal_step(ant, main);
 			continue ;
 		}
 		else if (ant->curr_room == main->start)
 		{
-			can_step = check_possibility;
+			can_step = make_start_step(ant, main);
 			if (!can_step)
 				break;
-			make_start_step();
+
 			ant = ant->next;
 			continue ;
 		}
-		else if (ant->curr_room == main->end)
+		else if (ant->curr_room == main->end)/////а такое будет?
 		{
 			if (ant->next)
 			{
 				ant = ant->next;
 				continue;
 			}
-			else
-				ft_error("GAEM FINISHED SUCCES URA YOU WIN >:D");
 		}
 	}
 	ft_putchar('\n');

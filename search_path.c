@@ -1,3 +1,4 @@
+
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -55,7 +56,7 @@ t_path		*search_necessary_rooms(t_main *map)
 }
 
 static void		second_rooms(t_room *first, t_room *second,
-		t_path *current, t_main *map)
+								t_path *current, t_main *map)
 {
 	first->from = second;
 	if (!map->paths)
@@ -76,7 +77,7 @@ static void		second_rooms(t_room *first, t_room *second,
 }
 
 static void		auxiliary(t_room *first, t_room *second,
-		t_link *link, t_main *map)
+							 t_link *link, t_main *map)
 {
 	t_path	*current;
 
@@ -105,17 +106,17 @@ void		*search_previous_room(t_room *current, t_main *map)
 
 	link = map->all_links_here;
 	while (current->level == 1 || current->level == -1 ||
-	current->where == NULL || current->from == NULL)
+		   current->where == NULL || current->from == NULL)
 	{
 		if (!link->checked)
 		{
 			if (link->first_room == current &&
-			(link->first_room->level > link->second_room->level ||
-			link->first_room->level == -1) && link->checked == 0)
+				(link->first_room->level > link->second_room->level ||
+				 link->first_room->level == -1) && link->checked == 0)
 				auxiliary(link->first_room, link->second_room, link, map);
 			else if (link->second_room == current &&
-			(link->second_room->level > link->first_room->level ||
-			link->second_room->level == -1) && link->checked == 0)
+					 (link->second_room->level > link->first_room->level ||
+					  link->second_room->level == -1) && link->checked == 0)
 				auxiliary(link->second_room, link->first_room, link, map);
 		}
 		if (link->next)

@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/samymone/lminlmin/./libft/includes/get_next_line.h
+/Users/cyuriko/lemin_leminovich/filling.c
+lemin.h
+/Users/cyuriko/lemin_leminovich/lemin.h
+
+/Users/cyuriko/lemin_leminovich/lemin.h
+./libft/includes/libft.h
+/Users/cyuriko/lemin_leminovich/libft/includes/libft.h
+./libft/includes/get_next_line.h
+/Users/cyuriko/lemin_leminovich/libft/includes/get_next_line.h
+stdlib.h
+-
+
+/Users/cyuriko/lemin_leminovich/libft/includes/get_next_line.h
 stdio.h
 -
 sys/types.h
@@ -22,9 +34,9 @@ stdlib.h
 string.h
 -
 libft.h
-/Users/samymone/lminlmin/./libft/includes/libft.h
+/Users/cyuriko/lemin_leminovich/libft/includes/libft.h
 
-/Users/samymone/lminlmin/./libft/includes/libft.h
+/Users/cyuriko/lemin_leminovich/libft/includes/libft.h
 stdlib.h
 -
 string.h
@@ -32,19 +44,5 @@ string.h
 stdio.h
 -
 unistd.h
--
-
-/Users/samymone/lminlmin/lemin.h
-./libft/includes/libft.h
-/Users/samymone/lminlmin/./libft/includes/libft.h
-./libft/includes/get_next_line.h
-/Users/samymone/lminlmin/./libft/includes/get_next_line.h
-stdlib.h
--
-
-/Users/samymone/lminlmin/search_path.c
-lemin.h
-/Users/samymone/lminlmin/lemin.h
-stdio.h
 -
 
