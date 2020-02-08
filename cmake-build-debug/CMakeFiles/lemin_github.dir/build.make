@@ -43,10 +43,10 @@ RM = /Users/samymone/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/samymone/lemin_github
+CMAKE_SOURCE_DIR = /Users/samymone/lminlmin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/samymone/lemin_github/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/samymone/lminlmin/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lemin_github.dir/depend.make
@@ -59,1017 +59,1030 @@ include CMakeFiles/lemin_github.dir/flags.make
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o: ../libft/srcs/ft_abs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_abs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_abs.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_abs.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_abs.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_abs.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_abs.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.o: ../libft/srcs/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_atoi.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_atoi.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_atoi.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_atoi.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_atoi.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.o: ../libft/srcs/ft_atoi_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_atoi_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_atoi_base.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_atoi_base.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_atoi_base.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_atoi_base.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_atoi_base.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.o: ../libft/srcs/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_bzero.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_bzero.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_bzero.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_bzero.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_bzero.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.o: ../libft/srcs/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_isalnum.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_isalnum.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_isalnum.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_isalnum.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_isalnum.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.o: ../libft/srcs/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_isalpha.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_isalpha.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_isalpha.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_isalpha.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_isalpha.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.o: ../libft/srcs/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_isascii.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_isascii.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_isascii.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_isascii.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_isascii.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.o: ../libft/srcs/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_isdigit.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_isdigit.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_isdigit.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_isdigit.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_isdigit.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.o: ../libft/srcs/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_isprint.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_isprint.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_isprint.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_isprint.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_isprint.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.o: ../libft/srcs/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_itoa.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_itoa.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_itoa.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_itoa.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_itoa.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.o: ../libft/srcs/ft_itoa_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_itoa_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_itoa_base.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_itoa_base.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_itoa_base.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_itoa_base.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_itoa_base.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.o: ../libft/srcs/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_lstadd.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_lstadd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_lstadd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_lstadd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_lstadd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.o: ../libft/srcs/ft_lstaddback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_lstaddback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_lstaddback.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_lstaddback.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_lstaddback.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_lstaddback.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_lstaddback.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.o: ../libft/srcs/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_lstdel.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_lstdel.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_lstdel.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_lstdel.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_lstdel.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.o: ../libft/srcs/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_lstdelone.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_lstdelone.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_lstdelone.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_lstdelone.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_lstdelone.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.o: ../libft/srcs/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_lstiter.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_lstiter.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_lstiter.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_lstiter.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_lstiter.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.o: ../libft/srcs/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_lstmap.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_lstmap.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_lstmap.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_lstmap.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_lstmap.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.o: ../libft/srcs/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_lstnew.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_lstnew.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_lstnew.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_lstnew.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_lstnew.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.o: ../libft/srcs/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_memalloc.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_memalloc.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_memalloc.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_memalloc.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_memalloc.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.o: ../libft/srcs/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_memccpy.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_memccpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_memccpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_memccpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_memccpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.o: ../libft/srcs/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_memchr.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_memchr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_memchr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_memchr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_memchr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.o: ../libft/srcs/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_memcmp.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_memcmp.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_memcmp.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_memcmp.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_memcmp.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.o: ../libft/srcs/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_memcpy.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_memcpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_memcpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_memcpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_memcpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.o: ../libft/srcs/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_memdel.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_memdel.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_memdel.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_memdel.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_memdel.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.o: ../libft/srcs/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_memmove.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_memmove.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_memmove.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_memmove.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_memmove.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.o: ../libft/srcs/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_memset.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_memset.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_memset.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_memset.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_memset.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.o: ../libft/srcs/ft_power.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_power.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_power.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_power.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_power.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_power.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_power.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.o: ../libft/srcs/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_putchar.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_putchar.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_putchar.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_putchar.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_putchar.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.o: ../libft/srcs/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_putchar_fd.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_putchar_fd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_putchar_fd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_putchar_fd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_putchar_fd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.o: ../libft/srcs/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_putendl.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_putendl.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_putendl.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_putendl.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_putendl.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.o: ../libft/srcs/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_putendl_fd.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_putendl_fd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_putendl_fd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_putendl_fd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_putendl_fd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.o: ../libft/srcs/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_putnbr.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_putnbr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_putnbr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_putnbr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_putnbr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.o: ../libft/srcs/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_putnbr_fd.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_putnbr_fd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_putnbr_fd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_putnbr_fd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_putnbr_fd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.o: ../libft/srcs/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_putstr.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_putstr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_putstr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_putstr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_putstr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.o: ../libft/srcs/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_putstr_fd.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_putstr_fd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_putstr_fd.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_putstr_fd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_putstr_fd.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.o: ../libft/srcs/ft_revmemcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_revmemcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_revmemcpy.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_revmemcpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_revmemcpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_revmemcpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_revmemcpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.o: ../libft/srcs/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strcat.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strcat.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strcat.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strcat.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strcat.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.o: ../libft/srcs/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strchr.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strchr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strchr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strchr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strchr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.o: ../libft/srcs/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strclr.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strclr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strclr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strclr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strclr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.o: ../libft/srcs/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strcmp.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strcmp.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strcmp.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strcmp.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strcmp.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.o: ../libft/srcs/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strcpy.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strcpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strcpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strcpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strcpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.o: ../libft/srcs/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strdel.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strdel.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strdel.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strdel.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strdel.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.o: ../libft/srcs/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strdup.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strdup.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strdup.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strdup.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strdup.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.o: ../libft/srcs/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strequ.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strequ.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strequ.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strequ.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strequ.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.o: ../libft/srcs/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_striter.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_striter.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_striter.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_striter.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_striter.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.o: ../libft/srcs/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_striteri.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_striteri.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_striteri.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_striteri.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_striteri.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.o: ../libft/srcs/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strjoin.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strjoin.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strjoin.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strjoin.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strjoin.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.o: ../libft/srcs/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strlcat.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strlcat.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strlcat.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strlcat.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strlcat.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.o: ../libft/srcs/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strlen.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strlen.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strlen.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strlen.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strlen.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.o: ../libft/srcs/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strmap.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strmap.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strmap.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strmap.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strmap.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.o: ../libft/srcs/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strmapi.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strmapi.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strmapi.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strmapi.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strmapi.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.o: ../libft/srcs/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strncat.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strncat.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strncat.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strncat.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strncat.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.o: ../libft/srcs/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strncmp.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strncmp.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strncmp.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strncmp.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strncmp.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.o: ../libft/srcs/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strncpy.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strncpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strncpy.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strncpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strncpy.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.o: ../libft/srcs/ft_strndup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strndup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strndup.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strndup.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strndup.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strndup.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strndup.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.o: ../libft/srcs/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strnequ.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strnequ.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strnequ.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strnequ.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strnequ.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.o: ../libft/srcs/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strnew.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strnew.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strnew.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strnew.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strnew.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.o: ../libft/srcs/ft_strnjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strnjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strnjoin.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strnjoin.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strnjoin.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strnjoin.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strnjoin.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.o: ../libft/srcs/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strnstr.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strnstr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strnstr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strnstr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strnstr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.o: ../libft/srcs/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strrchr.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strrchr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strrchr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strrchr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strrchr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.o: ../libft/srcs/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strsplit.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strsplit.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strsplit.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strsplit.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strsplit.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.o: ../libft/srcs/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strstr.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strstr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strstr.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strstr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strstr.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.o: ../libft/srcs/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strsub.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strsub.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strsub.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strsub.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strsub.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.o: ../libft/srcs/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_strtrim.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_strtrim.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_strtrim.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_strtrim.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_strtrim.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o: ../libft/srcs/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_tolower.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_tolower.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_tolower.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_tolower.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_tolower.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o: ../libft/srcs/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o   -c /Users/samymone/lemin_github/libft/srcs/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o   -c /Users/samymone/lminlmin/libft/srcs/ft_toupper.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/ft_toupper.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/ft_toupper.c > CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/ft_toupper.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/ft_toupper.c -o CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.s
 
 CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o: ../libft/srcs/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o   -c /Users/samymone/lemin_github/libft/srcs/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o   -c /Users/samymone/lminlmin/libft/srcs/get_next_line.c
 
 CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/libft/srcs/get_next_line.c > CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/libft/srcs/get_next_line.c > CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.i
 
 CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/libft/srcs/get_next_line.c -o CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/libft/srcs/get_next_line.c -o CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s
 
 CMakeFiles/lemin_github.dir/filling.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/filling.c.o: ../filling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lemin_github.dir/filling.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/filling.c.o   -c /Users/samymone/lemin_github/filling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lemin_github.dir/filling.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/filling.c.o   -c /Users/samymone/lminlmin/filling.c
 
 CMakeFiles/lemin_github.dir/filling.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/filling.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/filling.c > CMakeFiles/lemin_github.dir/filling.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/filling.c > CMakeFiles/lemin_github.dir/filling.c.i
 
 CMakeFiles/lemin_github.dir/filling.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/filling.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/filling.c -o CMakeFiles/lemin_github.dir/filling.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/filling.c -o CMakeFiles/lemin_github.dir/filling.c.s
 
 CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o: ../find_yourself_a_room.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o   -c /Users/samymone/lemin_github/find_yourself_a_room.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o   -c /Users/samymone/lminlmin/find_yourself_a_room.c
 
 CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/find_yourself_a_room.c > CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/find_yourself_a_room.c > CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i
 
 CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/find_yourself_a_room.c -o CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/find_yourself_a_room.c -o CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s
 
 CMakeFiles/lemin_github.dir/freeshing.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/freeshing.c.o: ../freeshing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lemin_github.dir/freeshing.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/freeshing.c.o   -c /Users/samymone/lemin_github/freeshing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lemin_github.dir/freeshing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/freeshing.c.o   -c /Users/samymone/lminlmin/freeshing.c
 
 CMakeFiles/lemin_github.dir/freeshing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/freeshing.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/freeshing.c > CMakeFiles/lemin_github.dir/freeshing.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/freeshing.c > CMakeFiles/lemin_github.dir/freeshing.c.i
 
 CMakeFiles/lemin_github.dir/freeshing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/freeshing.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/freeshing.c -o CMakeFiles/lemin_github.dir/freeshing.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/freeshing.c -o CMakeFiles/lemin_github.dir/freeshing.c.s
 
 CMakeFiles/lemin_github.dir/lemin.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/lemin.c.o: ../lemin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lemin_github.dir/lemin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/lemin.c.o   -c /Users/samymone/lemin_github/lemin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lemin_github.dir/lemin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/lemin.c.o   -c /Users/samymone/lminlmin/lemin.c
 
 CMakeFiles/lemin_github.dir/lemin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/lemin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/lemin.c > CMakeFiles/lemin_github.dir/lemin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/lemin.c > CMakeFiles/lemin_github.dir/lemin.c.i
 
 CMakeFiles/lemin_github.dir/lemin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/lemin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/lemin.c -o CMakeFiles/lemin_github.dir/lemin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/lemin.c -o CMakeFiles/lemin_github.dir/lemin.c.s
 
 CMakeFiles/lemin_github.dir/redrum.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/redrum.c.o: ../redrum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lemin_github.dir/redrum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/redrum.c.o   -c /Users/samymone/lemin_github/redrum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lemin_github.dir/redrum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/redrum.c.o   -c /Users/samymone/lminlmin/redrum.c
 
 CMakeFiles/lemin_github.dir/redrum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/redrum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/redrum.c > CMakeFiles/lemin_github.dir/redrum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/redrum.c > CMakeFiles/lemin_github.dir/redrum.c.i
 
 CMakeFiles/lemin_github.dir/redrum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/redrum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/redrum.c -o CMakeFiles/lemin_github.dir/redrum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/redrum.c -o CMakeFiles/lemin_github.dir/redrum.c.s
 
 CMakeFiles/lemin_github.dir/levels_and_links.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/levels_and_links.c.o: ../levels_and_links.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lemin_github.dir/levels_and_links.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/levels_and_links.c.o   -c /Users/samymone/lemin_github/levels_and_links.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lemin_github.dir/levels_and_links.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/levels_and_links.c.o   -c /Users/samymone/lminlmin/levels_and_links.c
 
 CMakeFiles/lemin_github.dir/levels_and_links.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/levels_and_links.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/levels_and_links.c > CMakeFiles/lemin_github.dir/levels_and_links.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/levels_and_links.c > CMakeFiles/lemin_github.dir/levels_and_links.c.i
 
 CMakeFiles/lemin_github.dir/levels_and_links.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/levels_and_links.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/levels_and_links.c -o CMakeFiles/lemin_github.dir/levels_and_links.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/levels_and_links.c -o CMakeFiles/lemin_github.dir/levels_and_links.c.s
 
 CMakeFiles/lemin_github.dir/soulmates.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/soulmates.c.o: ../soulmates.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lemin_github.dir/soulmates.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/soulmates.c.o   -c /Users/samymone/lemin_github/soulmates.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lemin_github.dir/soulmates.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/soulmates.c.o   -c /Users/samymone/lminlmin/soulmates.c
 
 CMakeFiles/lemin_github.dir/soulmates.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/soulmates.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/soulmates.c > CMakeFiles/lemin_github.dir/soulmates.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/soulmates.c > CMakeFiles/lemin_github.dir/soulmates.c.i
 
 CMakeFiles/lemin_github.dir/soulmates.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/soulmates.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/soulmates.c -o CMakeFiles/lemin_github.dir/soulmates.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/soulmates.c -o CMakeFiles/lemin_github.dir/soulmates.c.s
 
 CMakeFiles/lemin_github.dir/search_path.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/search_path.c.o: ../search_path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lemin_github.dir/search_path.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/search_path.c.o   -c /Users/samymone/lemin_github/search_path.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lemin_github.dir/search_path.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/search_path.c.o   -c /Users/samymone/lminlmin/search_path.c
 
 CMakeFiles/lemin_github.dir/search_path.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/search_path.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/search_path.c > CMakeFiles/lemin_github.dir/search_path.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/search_path.c > CMakeFiles/lemin_github.dir/search_path.c.i
 
 CMakeFiles/lemin_github.dir/search_path.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/search_path.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/search_path.c -o CMakeFiles/lemin_github.dir/search_path.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/search_path.c -o CMakeFiles/lemin_github.dir/search_path.c.s
 
 CMakeFiles/lemin_github.dir/valid.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/valid.c.o: ../valid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lemin_github.dir/valid.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/valid.c.o   -c /Users/samymone/lemin_github/valid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lemin_github.dir/valid.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/valid.c.o   -c /Users/samymone/lminlmin/valid.c
 
 CMakeFiles/lemin_github.dir/valid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/valid.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/valid.c > CMakeFiles/lemin_github.dir/valid.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/valid.c > CMakeFiles/lemin_github.dir/valid.c.i
 
 CMakeFiles/lemin_github.dir/valid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/valid.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/valid.c -o CMakeFiles/lemin_github.dir/valid.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/valid.c -o CMakeFiles/lemin_github.dir/valid.c.s
 
 CMakeFiles/lemin_github.dir/utils.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/utils.c.o: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lemin_github.dir/utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/utils.c.o   -c /Users/samymone/lemin_github/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lemin_github.dir/utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/utils.c.o   -c /Users/samymone/lminlmin/utils.c
 
 CMakeFiles/lemin_github.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/utils.c > CMakeFiles/lemin_github.dir/utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/utils.c > CMakeFiles/lemin_github.dir/utils.c.i
 
 CMakeFiles/lemin_github.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/utils.c -o CMakeFiles/lemin_github.dir/utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/utils.c -o CMakeFiles/lemin_github.dir/utils.c.s
 
 CMakeFiles/lemin_github.dir/go.c.o: CMakeFiles/lemin_github.dir/flags.make
 CMakeFiles/lemin_github.dir/go.c.o: ../go.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lemin_github.dir/go.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/go.c.o   -c /Users/samymone/lemin_github/go.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lemin_github.dir/go.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/go.c.o   -c /Users/samymone/lminlmin/go.c
 
 CMakeFiles/lemin_github.dir/go.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/go.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lemin_github/go.c > CMakeFiles/lemin_github.dir/go.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/go.c > CMakeFiles/lemin_github.dir/go.c.i
 
 CMakeFiles/lemin_github.dir/go.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/go.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lemin_github/go.c -o CMakeFiles/lemin_github.dir/go.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/go.c -o CMakeFiles/lemin_github.dir/go.c.s
+
+CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o: CMakeFiles/lemin_github.dir/flags.make
+CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o: ../get_me_paths_lawd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o   -c /Users/samymone/lminlmin/get_me_paths_lawd.c
+
+CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/lminlmin/get_me_paths_lawd.c > CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.i
+
+CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/lminlmin/get_me_paths_lawd.c -o CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.s
 
 # Object files for target lemin_github
 lemin_github_OBJECTS = \
@@ -1150,7 +1163,8 @@ lemin_github_OBJECTS = \
 "CMakeFiles/lemin_github.dir/search_path.c.o" \
 "CMakeFiles/lemin_github.dir/valid.c.o" \
 "CMakeFiles/lemin_github.dir/utils.c.o" \
-"CMakeFiles/lemin_github.dir/go.c.o"
+"CMakeFiles/lemin_github.dir/go.c.o" \
+"CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o"
 
 # External object files for target lemin_github
 lemin_github_EXTERNAL_OBJECTS =
@@ -1233,9 +1247,10 @@ lemin_github: CMakeFiles/lemin_github.dir/search_path.c.o
 lemin_github: CMakeFiles/lemin_github.dir/valid.c.o
 lemin_github: CMakeFiles/lemin_github.dir/utils.c.o
 lemin_github: CMakeFiles/lemin_github.dir/go.c.o
+lemin_github: CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o
 lemin_github: CMakeFiles/lemin_github.dir/build.make
 lemin_github: CMakeFiles/lemin_github.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samymone/lemin_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking C executable lemin_github"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samymone/lminlmin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Linking C executable lemin_github"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lemin_github.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1248,6 +1263,6 @@ CMakeFiles/lemin_github.dir/clean:
 .PHONY : CMakeFiles/lemin_github.dir/clean
 
 CMakeFiles/lemin_github.dir/depend:
-	cd /Users/samymone/lemin_github/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/samymone/lemin_github /Users/samymone/lemin_github /Users/samymone/lemin_github/cmake-build-debug /Users/samymone/lemin_github/cmake-build-debug /Users/samymone/lemin_github/cmake-build-debug/CMakeFiles/lemin_github.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/samymone/lminlmin/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/samymone/lminlmin /Users/samymone/lminlmin /Users/samymone/lminlmin/cmake-build-debug /Users/samymone/lminlmin/cmake-build-debug /Users/samymone/lminlmin/cmake-build-debug/CMakeFiles/lemin_github.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lemin_github.dir/depend
 

@@ -34,7 +34,7 @@ void test_path_array(t_path **path_array, int paths)
 	int i;
 
 	i = 0;
-	while(i < paths)
+	while (i < paths)
 	{
 		printf("room_name:||%s||, room_len:||%d||\n", path_array[i]->current->name, path_array[i]->current->steps);
 		i++;
@@ -52,17 +52,35 @@ t_path		*search_necessary_rooms(t_main *map)
 		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
 	best_way = shortest_way(map->paths);
 	return (best_way);
-
 }
 
-static void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
+static void		second_rooms(t_room *first, t_room *second,
+		t_path *current, t_main *map)
+{
+	first->from = second;
+	if (!map->paths)
+	{
+		if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
+			ft_error("malloc failed\n");
+		current = map->paths;
+	}
+	else
+	{
+		current = map->paths;
+		while (current->next)
+			current = current->next;
+		current->next = ft_memalloc(sizeof(t_path));
+		current = current->next;
+	}
+	current->current = first;
+}
+
+static void		auxiliary(t_room *first, t_room *second,
+		t_link *link, t_main *map)
 {
 	t_path	*current;
 
-	first->is_part_of_path += 1;
 	link->checked = 1;
-	if (second == map->start)
-		second->is_part_of_path += 1;
 	if (second->level != 1)
 	{
 		if (first != map->end)
@@ -78,24 +96,7 @@ static void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
 		search_previous_room(second, map);
 	}
 	else
-	{
-		first->from = second;
-		if (!map->paths)
-		{
-			if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
-				ft_error("malloc failed\n");
-			current = map->paths;
-		}
-		else
-		{
-			current = map->paths;
-			while (current->next)
-				current = current->next;
-			current->next = ft_memalloc(sizeof(t_path));
-			current = current->next;
-		}
-		current->current = first;
-	}
+		second_rooms(first, second, current, map);
 }
 
 void		*search_previous_room(t_room *current, t_main *map)
@@ -145,7 +146,6 @@ void		*count_steps(t_main *map)
 		while (room->where)
 		{
 			room->steps = steps;
-			room->was_checked = 2;
 			room = room->where;
 		}
 		f = f->next;

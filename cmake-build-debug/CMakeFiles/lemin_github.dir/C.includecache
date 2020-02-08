@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/samymone/lemin_github/./libft/includes/get_next_line.h
+/Users/samymone/lminlmin/./libft/includes/get_next_line.h
 stdio.h
 -
 sys/types.h
@@ -22,9 +22,9 @@ stdlib.h
 string.h
 -
 libft.h
-/Users/samymone/lemin_github/./libft/includes/libft.h
+/Users/samymone/lminlmin/./libft/includes/libft.h
 
-/Users/samymone/lemin_github/./libft/includes/libft.h
+/Users/samymone/lminlmin/./libft/includes/libft.h
 stdlib.h
 -
 string.h
@@ -34,15 +34,17 @@ stdio.h
 unistd.h
 -
 
-/Users/samymone/lemin_github/go.c
-lemin.h
-/Users/samymone/lemin_github/lemin.h
-
-/Users/samymone/lemin_github/lemin.h
+/Users/samymone/lminlmin/lemin.h
 ./libft/includes/libft.h
-/Users/samymone/lemin_github/./libft/includes/libft.h
+/Users/samymone/lminlmin/./libft/includes/libft.h
 ./libft/includes/get_next_line.h
-/Users/samymone/lemin_github/./libft/includes/get_next_line.h
+/Users/samymone/lminlmin/./libft/includes/get_next_line.h
 stdlib.h
+-
+
+/Users/samymone/lminlmin/search_path.c
+lemin.h
+/Users/samymone/lminlmin/lemin.h
+stdio.h
 -
 

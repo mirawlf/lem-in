@@ -26,7 +26,7 @@ typedef struct 		s_room
 	int 			was_checked; // проверка Level == 1
 	int 			neighbours; //количество соседей
 	int 			is_dead_end; //если тупик 1
-//	int				is_part_of_path; //является ли комната частью пути
+	//int				is_part_of_path; //является ли комната частью пути
 	int 			steps;
 	struct s_room	*where;
 	struct s_room	*from;
@@ -125,7 +125,7 @@ t_path				*search_necessary_rooms(t_main *map);
 void				*search_previous_room(t_room *current, t_main *map);
 void 				*count_steps(t_main *map);
 //void				auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
-void 				lets_go(t_path *best, t_main *map);
+//void 				lets_go(t_path *best, t_main *map);
 //void 				*sort_paths(t_path *paths);
 int 				is_sorted(t_path *paths);
 

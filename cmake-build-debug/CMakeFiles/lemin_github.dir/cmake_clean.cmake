@@ -77,6 +77,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lemin_github.dir/valid.c.o"
   "CMakeFiles/lemin_github.dir/utils.c.o"
   "CMakeFiles/lemin_github.dir/go.c.o"
+  "CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o"
   "lemin_github.pdb"
   "lemin_github"
 )

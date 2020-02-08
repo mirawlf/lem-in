@@ -48,10 +48,10 @@ RM = /Users/samymone/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/samymone/lemin_github
+CMAKE_SOURCE_DIR = /Users/samymone/lminlmin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/samymone/lemin_github/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/samymone/lminlmin/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samymone/lemin_github/cmake-build-debug/CMakeFiles /Users/samymone/lemin_github/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samymone/lminlmin/cmake-build-debug/CMakeFiles /Users/samymone/lminlmin/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samymone/lemin_github/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samymone/lminlmin/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -203,6 +203,33 @@ freeshing.s: freeshing.c.s
 freeshing.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/freeshing.c.s
 .PHONY : freeshing.c.s
+
+get_me_paths_lawd.o: get_me_paths_lawd.c.o
+
+.PHONY : get_me_paths_lawd.o
+
+# target to build an object file
+get_me_paths_lawd.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o
+.PHONY : get_me_paths_lawd.c.o
+
+get_me_paths_lawd.i: get_me_paths_lawd.c.i
+
+.PHONY : get_me_paths_lawd.i
+
+# target to preprocess a source file
+get_me_paths_lawd.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.i
+.PHONY : get_me_paths_lawd.c.i
+
+get_me_paths_lawd.s: get_me_paths_lawd.c.s
+
+.PHONY : get_me_paths_lawd.s
+
+# target to generate assembly for a file
+get_me_paths_lawd.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.s
+.PHONY : get_me_paths_lawd.c.s
 
 go.o: go.c.o
 
@@ -2247,6 +2274,9 @@ help:
 	@echo "... freeshing.o"
 	@echo "... freeshing.i"
 	@echo "... freeshing.s"
+	@echo "... get_me_paths_lawd.o"
+	@echo "... get_me_paths_lawd.i"
+	@echo "... get_me_paths_lawd.s"
 	@echo "... go.o"
 	@echo "... go.i"
 	@echo "... go.s"

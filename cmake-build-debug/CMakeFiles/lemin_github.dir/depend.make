@@ -16,6 +16,11 @@ CMakeFiles/lemin_github.dir/freeshing.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/freeshing.c.o: ../freeshing.c
 CMakeFiles/lemin_github.dir/freeshing.c.o: ../lemin.h
 
+CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o: .././libft/includes/libft.h
+CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o: ../get_me_paths_lawd.c
+CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o: ../lemin.h
+
 CMakeFiles/lemin_github.dir/go.c.o: .././libft/includes/get_next_line.h
 CMakeFiles/lemin_github.dir/go.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/go.c.o: ../go.c

@@ -29,20 +29,22 @@
 		}
 	}
 }*/
-static int go_one_way();
-{
 
-}
 
-static int go_many_ways()
-{
-
-}
-
-int 		lets_go(t_main *main)
-{
-	if (main->paths_amount == 1 || main->end_connections == 1 || main->start_connections == 1)
-		go_one_way();/////take the shortest route
-	else
-		go_many_ways();///////do all the cool stuff with different paths
-}
+//static int go_one_way();
+//{
+//
+//}
+//
+//static int go_many_ways()
+//{
+//
+//}
+//
+//int 		lets_go(t_main *main)
+//{
+//	if (main->paths_amount == 1 || main->end_connections == 1 || main->start_connections == 1)
+//		go_one_way();/////take the shortest route
+//	else
+//		go_many_ways();///////do all the cool stuff with different paths
+//}
