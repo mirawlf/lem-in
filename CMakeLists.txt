@@ -88,4 +88,6 @@ add_executable(lemin_github
         valid.c
         utils.c
         go.c
-        get_me_paths_lawd.c)
+        get_me_paths_lawd.c
+        ant_steps.c
+        ants_run_like_shit.c)

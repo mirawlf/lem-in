@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/01 16:47:04 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/02/07 20:24:44 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/08 14:15:45 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,15 +75,14 @@ int		make_step(t_main  *main, **path_array)
 
 	can_step = 1;
 	ant = main->first_ant;
-	while (can_step)
+	while (ant != NULL)
 	{
 		if (ant->curr_room != main->start)
 		{
-			can_step = check_possibility;////////оптимизировать
+			can_step = check_possibility();////////оптимизировать
 			if (!can_step)
 				break;
-			make_normal_step();
-			ant = ant->next;
+			ant = make_normal_step(ant);
 			continue ;
 		}
 		else if (ant->curr_room == main->start)
@@ -106,4 +105,5 @@ int		make_step(t_main  *main, **path_array)
 				ft_error("GAEM FINISHED SUCCES URA YOU WIN >:D");
 		}
 	}
+	ft_putchar('\n');
 }
