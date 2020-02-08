@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/06 22:14:27 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/08 14:15:45 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ typedef struct 		s_room
 	int 			was_checked; // проверка Level == 1
 	int 			neighbours; //количество соседей
 	int 			is_dead_end; //если тупик 1
-	int				is_part_of_path; //является ли комната частью пути
+//	int				is_part_of_path; //является ли комната частью пути
 	int 			steps;
 	struct s_room	*where;
 	struct s_room	*from;
@@ -39,7 +39,7 @@ typedef struct		s_ant
 	int 			num;		//порядковый номер муравья
 	t_room 			*curr_room;	//в какой комнате он сейчас находится
 	struct s_ant	*next;		//указатель на следующего муравья
-	struct s_ant	*prev;
+//	struct s_ant	*prev;
 }					t_ant;
 
 typedef struct 		s_link////структура со связью
@@ -135,5 +135,6 @@ int 				is_sorted(t_path *paths);
 void 	print_step(int ant_num, char *room_name);
 t_path	**make_path_array(t_main *main);
 void test_path_array(t_path **path_array, int paths);
+void 	print_step(int ant_num, char *room_name);
 
 #endif
