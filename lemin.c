@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:26:38 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/08 15:52:22 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/09 16:13:40 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ t_main		*structure_filling(char *line, t_main *map, int fd)
 //	if (map->start == 0)
 //	{
 	map->ants = ft_atoi(line);////////стоит чекнуть коммент
+	map->original_ants = map->ants;
 	print_line(0, line);
 	ft_strdel(&line);
 	if (map->ants < 1)
@@ -82,7 +83,7 @@ int			main(int ac, char **av)
 		printf("kewl!\n");
 	}
 	determine_levels(map);
-	best = search_necessary_rooms(map);
+	search_necessary_rooms(map);
 	lets_go(map);
 	printf ("not kewl!\n");
 	return (0);

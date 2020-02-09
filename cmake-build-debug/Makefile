@@ -2175,6 +2175,33 @@ libft/srcs/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s
 .PHONY : libft/srcs/get_next_line.c.s
 
+move_one_way.o: move_one_way.c.o
+
+.PHONY : move_one_way.o
+
+# target to build an object file
+move_one_way.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/move_one_way.c.o
+.PHONY : move_one_way.c.o
+
+move_one_way.i: move_one_way.c.i
+
+.PHONY : move_one_way.i
+
+# target to preprocess a source file
+move_one_way.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/move_one_way.c.i
+.PHONY : move_one_way.c.i
+
+move_one_way.s: move_one_way.c.s
+
+.PHONY : move_one_way.s
+
+# target to generate assembly for a file
+move_one_way.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/move_one_way.c.s
+.PHONY : move_one_way.c.s
+
 redrum.o: redrum.c.o
 
 .PHONY : redrum.o
@@ -2547,6 +2574,9 @@ help:
 	@echo "... libft/srcs/get_next_line.o"
 	@echo "... libft/srcs/get_next_line.i"
 	@echo "... libft/srcs/get_next_line.s"
+	@echo "... move_one_way.o"
+	@echo "... move_one_way.i"
+	@echo "... move_one_way.s"
 	@echo "... redrum.o"
 	@echo "... redrum.i"
 	@echo "... redrum.s"

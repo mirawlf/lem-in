@@ -321,6 +321,9 @@
 		<Unit filename="/Users/cyuriko/lemin_leminovich/libft/srcs/get_next_line.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/cyuriko/lemin_leminovich/move_one_way.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/cyuriko/lemin_leminovich/redrum.c">
 			<Option target="lemin_github"/>
 		</Unit>

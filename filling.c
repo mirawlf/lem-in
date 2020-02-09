@@ -36,16 +36,14 @@ t_ant		*ant_colony_creation(int quant, t_main *map)
 			map->first_ant = ant;
 		}
 		ant->num = quant - i;
+		ant->curr_room = map->start;
 		if ((i + 1) == quant)
-		{
-			map->last_ant = ant;
 			return (map->start);
-		}
-		else if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
+		if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
 			ft_error("ANTS FAILED to ALLOC");
 //			ants_fail(i, map->first_ant, map);
 	//	ant->next->prev = ant;////////////////////////надо ли это?
-		ant->curr_room = map->start;
+
 		ant = ant->next;
 	}
 	return (NULL);

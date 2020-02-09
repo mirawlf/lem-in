@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/08 15:58:11 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/09 15:47:38 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,7 @@ typedef struct 		s_path
 typedef struct		s_main
 {
 	int 			ants;/////кол-во муравьев
+	int 			original_ants;
 	t_room			*start;
 	t_room			*end;
 	t_ant			*first_ant;		//первый муравей
@@ -120,7 +121,7 @@ void 				determine_level(t_main *map);
 void				*except_excess_links(t_link *links, t_room *rooms);
 int 				was_checked(t_room *first, t_room *second, t_link *links);
 
-t_path				*search_necessary_rooms(t_main *map);
+void				search_necessary_rooms(t_main *map);
 void				*search_previous_room(t_room *current, t_main *map);
 void 				*count_steps(t_main *map);
 //void				auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
@@ -131,11 +132,13 @@ int 				is_sorted(t_path *paths);
 /*
  * ants will move now
  */
-void 	print_step(int ant_num, char *room_name);
+void 	print_step(int ant_num, char *room_name, t_main *main);
 t_path	**make_path_array(t_main *main);
 t_ant 	*make_normal_step(t_ant *ant, t_main *main);
 int 	can_i_go_please(t_room *room);
 int 	make_start_step(t_ant *ant, t_main *main);
 void		make_step(t_main  *main, t_path **path_array);
+t_ant 	*del_ant(t_ant *ant, t_main *main);
+void		make_oneway_step(t_main  *main, t_path *best_path);
 
 #endif

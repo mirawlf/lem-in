@@ -75,6 +75,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o"
   "CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o"
   "CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o"
+  "CMakeFiles/lemin_github.dir/move_one_way.c.o"
   "CMakeFiles/lemin_github.dir/redrum.c.o"
   "CMakeFiles/lemin_github.dir/search_path.c.o"
   "CMakeFiles/lemin_github.dir/soulmates.c.o"

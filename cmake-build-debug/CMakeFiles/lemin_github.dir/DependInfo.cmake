@@ -80,6 +80,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/cyuriko/lemin_leminovich/libft/srcs/ft_tolower.c" "/Users/cyuriko/lemin_leminovich/cmake-build-debug/CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o"
   "/Users/cyuriko/lemin_leminovich/libft/srcs/ft_toupper.c" "/Users/cyuriko/lemin_leminovich/cmake-build-debug/CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o"
   "/Users/cyuriko/lemin_leminovich/libft/srcs/get_next_line.c" "/Users/cyuriko/lemin_leminovich/cmake-build-debug/CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o"
+  "/Users/cyuriko/lemin_leminovich/move_one_way.c" "/Users/cyuriko/lemin_leminovich/cmake-build-debug/CMakeFiles/lemin_github.dir/move_one_way.c.o"
   "/Users/cyuriko/lemin_leminovich/redrum.c" "/Users/cyuriko/lemin_leminovich/cmake-build-debug/CMakeFiles/lemin_github.dir/redrum.c.o"
   "/Users/cyuriko/lemin_leminovich/search_path.c" "/Users/cyuriko/lemin_leminovich/cmake-build-debug/CMakeFiles/lemin_github.dir/search_path.c.o"
   "/Users/cyuriko/lemin_leminovich/soulmates.c" "/Users/cyuriko/lemin_leminovich/cmake-build-debug/CMakeFiles/lemin_github.dir/soulmates.c.o"

@@ -6,16 +6,16 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/25 21:16:14 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/01/26 18:56:31 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/09 15:34:30 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void 	print_step(int ant_num, char *room_name)
+void 	print_step(int ant_num, char *room_name, t_main *main)
 {
 	ft_putchar('L');
-	ft_putnbr(ant_num);
+	ft_putnbr((main->original_ants + 1 - ant_num));
 	ft_putchar('-');
 	ft_putstr(room_name);
 	ft_putchar(' ');

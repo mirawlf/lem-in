@@ -90,4 +90,5 @@ add_executable(lemin_github
         go.c
         get_me_paths_lawd.c
         ant_steps.c
-        ants_run_like_shit.c)
+        ants_run_like_shit.c
+        move_one_way.c)

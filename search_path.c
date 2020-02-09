@@ -14,35 +14,9 @@
 #include "lemin.h"
 #include <stdio.h>
 
-static t_path	*shortest_way(t_path *paths)
-{
-	t_path		*tmp;
-	t_path		*actual;
 
-	tmp = paths;
-	actual = paths;
-	while (tmp)
-	{
-		if (tmp->current->steps < actual->current->steps)
-			actual = tmp;
-		tmp = tmp->next;
-	}
-	return (actual);
-}
-////////////////////удоли то што СНИЗУ ВОТ ФУНКЦИЯ БЛЯ
-void test_path_array(t_path **path_array, int paths)
-{
-	int i;
 
-	i = 0;
-	while (i < paths)
-	{
-		printf("room_name:||%s||, room_len:||%d||\n", path_array[i]->current->name, path_array[i]->current->steps);
-		i++;
-	}
-}
-
-t_path		*search_necessary_rooms(t_main *map)
+void		search_necessary_rooms(t_main *map)
 {
 	t_room	*tmp;
 	t_path	*best_way;
@@ -51,8 +25,7 @@ t_path		*search_necessary_rooms(t_main *map)
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
 		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
-	best_way = shortest_way(map->paths);
-	return (best_way);
+//	return (best_way);
 }
 
 static void		second_rooms(t_room *first, t_room *second,

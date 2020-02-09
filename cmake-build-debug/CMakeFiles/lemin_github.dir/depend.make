@@ -248,6 +248,11 @@ CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o: ../libft/includes/get_
 CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o: ../libft/includes/libft.h
 CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o: ../libft/srcs/get_next_line.c
 
+CMakeFiles/lemin_github.dir/move_one_way.c.o: ../lemin.h
+CMakeFiles/lemin_github.dir/move_one_way.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/lemin_github.dir/move_one_way.c.o: ../libft/includes/libft.h
+CMakeFiles/lemin_github.dir/move_one_way.c.o: ../move_one_way.c
+
 CMakeFiles/lemin_github.dir/redrum.c.o: ../lemin.h
 CMakeFiles/lemin_github.dir/redrum.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/lemin_github.dir/redrum.c.o: ../libft/includes/libft.h

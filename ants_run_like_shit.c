@@ -6,7 +6,7 @@
 /*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/26 18:57:50 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/02/08 20:03:48 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/09 14:16:38 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int 	can_i_go_please(t_room *room)///////пройтись по функциям,
 	return (0);////если есть
 }
 
-void	del_ant(t_ant *ant, t_main *main)
+t_ant 	*del_ant(t_ant *ant, t_main *main)
 {
 	////////////will be like this for now/////will optimize later if required
 	t_ant *start;
@@ -27,8 +27,9 @@ void	del_ant(t_ant *ant, t_main *main)
 	start = main->first_ant;
 	if (ant == start)
 	{
-		main->first_ant = main->first_ant->next;
-
+		main->first_ant = main->first_ant->next;/////////////тут везде сеги вылезут лол
+		ft_memdel((void*)&ant);
+		ant = main->first_ant;
 	}
 	else
 	{
@@ -40,17 +41,18 @@ void	del_ant(t_ant *ant, t_main *main)
 		ant = start->next;
 	}
 	main->ants--;
+	return (ant);
 }
 
 t_ant 	*make_normal_step(t_ant *ant, t_main *main)
 {
 	ant->curr_room->ant = NULL;
 	ant->curr_room = ant->curr_room->where;
-	print_step(ant->num, ant->curr_room->name);
+	print_step(ant->num, ant->curr_room->name, main);
 	if (ant->curr_room == main->end)
 	{
-		del_ant(ant, main);
-		return (ant);
+		ant = del_ant(ant, main);
+		return (ant);/////////сразу ретернить дел ант надо
 	}
 	ant = ant->next;
 	return (ant);
@@ -95,7 +97,7 @@ int 	make_start_step(t_ant *ant, t_main *main)
 	{
 		ant->curr_room = main->path_array[way]->current;
 		main->path_array[way]->current->ant = ant;
-		print_step(ant->num, main->path_array[way]->current->name);
+		print_step(ant->num, main->path_array[way]->current->name, main);
 		return (1);
 	}
 	return (0);
