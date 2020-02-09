@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/04 14:55:46 by samymone          #+#    #+#             */
-/*   Updated: 2020/01/04 14:55:48 by samymone         ###   ########.fr       */
+/*   Updated: 2020/02/09 17:14:14 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void		*determine_levels(t_main *map)
 	t_room	*tmp_room;
 	t_link	*tmp_link;
 
-	tmp_room = map->all_rooms_here;
+	tmp_room = map->start;
 	if (map->path == 0)
 	{
 		map->path += 1;
@@ -35,6 +35,7 @@ void		*determine_levels(t_main *map)
 				tmp_link->second_room->level = tmp_room->level + 1;
 				tmp_link->second_room->was_checked += 1;
 				map->max_current_level = (map->max_current_level < tmp_link->second_room->level ? tmp_link->second_room->level : map->max_current_level);
+				break ;
 			}
 			else if (ft_strequ(tmp_room->name, tmp_link->second_room->name) == 1
 			&& tmp_room->was_checked == 1 && tmp_link->first_room->was_checked == 0)
@@ -42,6 +43,7 @@ void		*determine_levels(t_main *map)
 				tmp_link->first_room->level = tmp_room->level + 1;
 				tmp_link->first_room->was_checked += 1;
 				map->max_current_level = (map->max_current_level < tmp_link->first_room->level ? tmp_link->first_room->level : map->max_current_level);
+				break ;
 			}
 			tmp_link = tmp_link->next;
 		}

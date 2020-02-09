@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/cyuriko/lemin_leminovich/lemin.c
-lemin.h
-/Users/cyuriko/lemin_leminovich/lemin.h
-
 /Users/cyuriko/lemin_leminovich/lemin.h
 ./libft/includes/libft.h
 /Users/cyuriko/lemin_leminovich/libft/includes/libft.h
@@ -17,6 +13,10 @@ lemin.h
 /Users/cyuriko/lemin_leminovich/libft/includes/get_next_line.h
 stdlib.h
 -
+
+/Users/cyuriko/lemin_leminovich/levels_and_links.c
+lemin.h
+/Users/cyuriko/lemin_leminovich/lemin.h
 
 /Users/cyuriko/lemin_leminovich/libft/includes/get_next_line.h
 stdio.h

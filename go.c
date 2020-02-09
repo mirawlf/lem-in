@@ -6,11 +6,12 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 14:19:38 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/09 15:48:54 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/02/09 16:13:24 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
+#include <stdio.h>//////УДОЛИ НЕ ЗАБУДЬ БЛЯ
 
 static t_path	*shortest_way(t_path *paths)
 {
@@ -33,16 +34,27 @@ static t_path	*shortest_way(t_path *paths)
 
 static int go_one_way(t_main *main)//////ЭТО КСТАТИ ПРОВЕРЯЮТ ВОТ ТАК ПРЕКОЛ БЛЯДЬ
 {
+	int i = 0; //////testiing lines
 	t_path *best_way = shortest_way(main->paths);
 	while (main->ants)
+	{
+		++i;
 		make_oneway_step(main, best_way);
+	}
+	printf("lines ||%d||\n", i);
 	ft_error("0 ANTS LEFT HOPE ITS OK");
 }
 
 static int go_many_ways(t_main *main)
 {
+	int i = 0; //////testiing lines
 	while (main->ants)
+	{
+		++i;
 		make_step(main, main->path_array);
+
+	}
+	printf("lines ||%d||\n", i);
 	ft_error("0 ANTS LEFT HOPE ITS OK");
 }
 
