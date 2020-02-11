@@ -41,9 +41,11 @@ static void		next_levels(t_main *map)
 			aux_for_levels(link, link->second_room, link->first_room, map);
 		link = link->next;
 	}
-	map->max_current_level += 1;
 	if (map->reached_end < map->end_connections)
+	{
+		map->max_current_level += 1;
 		next_levels(map);
+	}
 }
 
 void			*determine_levels(t_main *map)
