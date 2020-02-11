@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-static int make_start_oneway_step(t_ant *ant, t_main *main, t_path *best_way)
+static int	make_start_oneway_step(t_ant *ant, t_main *main, t_path *best_way)
 {
 	if (can_i_go_please(best_way->current))
 	{
@@ -24,10 +24,10 @@ static int make_start_oneway_step(t_ant *ant, t_main *main, t_path *best_way)
 	return (0);
 }
 
-void		make_oneway_step(t_main  *main, t_path *best_path)
+void		make_oneway_step(t_main *main, t_path *best_path)
 {
-	t_ant *ant;
-	int 	can_step;
+	t_ant	*ant;
+	int		can_step;
 
 	can_step = 1;
 	ant = main->first_ant;
@@ -37,7 +37,7 @@ void		make_oneway_step(t_main  *main, t_path *best_path)
 		{
 			can_step = can_i_go_please(ant->curr_room->where);////////оптимизировать
 			if (!can_step)
-				break;
+				break ;
 			ant = make_normal_step(ant, main);
 			continue ;
 		}
@@ -45,7 +45,7 @@ void		make_oneway_step(t_main  *main, t_path *best_path)
 		{
 			can_step = make_start_oneway_step(ant, main, best_path);
 			if (!can_step)
-				break;
+				break ;
 			ant = ant->next;
 			continue ;
 		}

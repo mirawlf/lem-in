@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-static int read_me_a_room_line(t_main *main, int fd)
+static int		read_me_a_room_line(t_main *main, int fd)
 {
 	char **kostyl_for_connection;////////чекнуть правильно ли я понял сабжект ебучий
 
@@ -29,13 +29,12 @@ static int read_me_a_room_line(t_main *main, int fd)
 		free_split(kostyl_for_connection);/////////ебаное уродство исправь блядь илюха не позорься
 		return (print_line(5, main->line));/////это коннекшн
 	}
-
 	return (0);
 }
 
 static t_room	*find_start(t_main *main, char *line, t_room *current)
 {
-	t_room	*start;
+	t_room		*start;
 
 	if (!(start = create_room(line)))
 		return (NULL);
@@ -68,13 +67,13 @@ static t_room	*find_middle(t_room *current, char *line)
 	return (incoming);
 }
 
-t_room 	*read_rooms(t_main *main, int fd)
+t_room			*read_rooms(t_main *main, int fd)
 {
-	t_room	*start;
-	t_room	*current;
-	t_room	*prev;
-	int 	check;
-	int finished;
+	t_room		*start;
+	t_room		*current;
+	t_room		*prev;
+	int 		check;
+	int 		finished;
 
 	start = NULL;
 	current = NULL;

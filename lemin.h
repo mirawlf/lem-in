@@ -68,7 +68,7 @@ typedef struct		s_main
 	char 			*line;
 	t_room			*all_rooms_here;
 	t_link			*all_links_here;
-	int 			path;
+	int 			reached_end;
 	int 			max_current_level;
 	int 			iterations;
 	t_path			*paths;

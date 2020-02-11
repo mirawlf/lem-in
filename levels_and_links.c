@@ -12,62 +12,63 @@
 
 #include "lemin.h"
 
-void		*determine_levels(t_main *map)
+static	void	aux_for_levels(t_link *link, t_room *first, t_room *second,
+		t_main *map)
+{
+	if (second != map->end)
+	{
+		second->level = first->level + 1;
+		link->checked = 1;
+	}
+	else
+		map->reached_end += 1;
+	if (ft_strcmp(second->name, "R_k2") == 0)
+		printf("%d\n", second->level);
+}
+
+static void		next_levels(t_main *map)
+{
+	t_link	*link;
+
+	link = map->all_links_here;
+	while (link)
+	{
+		if (link->first_room->level == map->max_current_level &&
+		!link->second_room->level && !link->checked)
+			aux_for_levels(link, link->first_room, link->second_room, map);
+		else if (link->second_room->level == map->max_current_level &&
+		!link->first_room->level && !link->checked)
+			aux_for_levels(link, link->second_room, link->first_room, map);
+		link = link->next;
+	}
+	map->max_current_level += 1;
+	if (map->reached_end < map->end_connections)
+		next_levels(map);
+}
+
+void			*determine_levels(t_main *map)
 {
 	t_room	*tmp_room;
 	t_link	*tmp_link;
 
 	tmp_room = map->start;
-	if (map->path == 0)
+	tmp_room->level = 1;
+	tmp_link = map->all_links_here;
+	while (tmp_link)
 	{
-		map->path += 1;
-		tmp_room->level = 1;
-		tmp_room->was_checked = 1;
-	}
-	while (tmp_room != map->end)
-	{
-		tmp_link = map->all_links_here;
-		while (tmp_link)
+		if (tmp_link->first_room == map->start)
 		{
-			if (ft_strequ(tmp_room->name, tmp_link->first_room->name) == 1
-			&& tmp_room->was_checked == 1 && tmp_link->second_room->was_checked == 0)
-			{
-				tmp_link->second_room->level = tmp_room->level + 1;
-				tmp_link->second_room->was_checked += 1;
-				map->max_current_level = (map->max_current_level < tmp_link->second_room->level ? tmp_link->second_room->level : map->max_current_level);
-				break ;
-			}
-			else if (ft_strequ(tmp_room->name, tmp_link->second_room->name) == 1
-			&& tmp_room->was_checked == 1 && tmp_link->first_room->was_checked == 0)
-			{
-				tmp_link->first_room->level = tmp_room->level + 1;
-				tmp_link->first_room->was_checked += 1;
-				map->max_current_level = (map->max_current_level < tmp_link->first_room->level ? tmp_link->first_room->level : map->max_current_level);
-				break ;
-			}
-			tmp_link = tmp_link->next;
+			tmp_link->second_room->level = 2;
+			tmp_link->checked = 1;
 		}
-		tmp_room = tmp_room->next;
+		else if (tmp_link->second_room == map->start)
+		{
+			tmp_link->first_room->level = 2;
+			tmp_link->checked = 1;
+		}
+		tmp_link = tmp_link->next;
 	}
-	tmp_room->level = -1;
-	tmp_room->was_checked += 1;
-	except_excess_links(map->all_links_here, map->start);
-}
-
-void		*except_excess_links(t_link *links, t_room *rooms)
-{
-	while (links)
-	{
-		links->first_room->neighbours += 1;
-		links->second_room->neighbours += 1;
-		if (links->first_room->level == links->second_room->level)
-			links->is_valid = 2;
-		links = links->next;
-	}
-	while (rooms)
-	{
-		if (rooms->neighbours == 1) //дописать проверку, что комната не старт или энд
-			rooms->is_dead_end = 1;
-		rooms = rooms->next;
-	}
+	map->max_current_level = 2;
+	next_levels(map);
+	map->end->level = -1;
 }

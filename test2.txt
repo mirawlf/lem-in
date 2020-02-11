@@ -1,4 +1,4 @@
-1
+6
 #Here is the number of lines required: 28
 ##start
 R_j1 0 0

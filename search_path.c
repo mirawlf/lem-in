@@ -1,4 +1,3 @@
-
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -14,22 +13,19 @@
 #include "lemin.h"
 #include <stdio.h>
 
-
-
-void		search_necessary_rooms(t_main *map)
+void			search_necessary_rooms(t_main *map)
 {
-	t_room	*tmp;
-	t_path	*best_way;
+	t_room		*tmp;
+	t_path		*best_way;
 
 	search_previous_room(map->end, map);
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
 		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
-//	return (best_way);
 }
 
-static void		second_rooms(t_room *first, t_room *second,
-								t_path *current, t_main *map)
+static void		second_rooms(t_room *first, t_room *second, t_path *current,
+		t_main *map)
 {
 	first->from = second;
 	if (!map->paths)
@@ -49,12 +45,12 @@ static void		second_rooms(t_room *first, t_room *second,
 	current->current = first;
 }
 
-static void		auxiliary(t_room *first, t_room *second,
-							 t_link *link, t_main *map)
+static void		auxiliary(t_room *first, t_room *second, t_link *link,
+		t_main *map)
 {
-	t_path	*current;
+	t_path		*current;
 
-	link->checked = 1;
+	link->checked = 2;
 	if (second->level != 1)
 	{
 		if (first != map->end)
@@ -73,25 +69,22 @@ static void		auxiliary(t_room *first, t_room *second,
 		second_rooms(first, second, current, map);
 }
 
-void		*search_previous_room(t_room *current, t_main *map)
+void			*search_previous_room(t_room *current, t_main *map)
 {
-	t_link	*link;
+	t_link		*link;
 
 	link = map->all_links_here;
 	while (current->level == 1 || current->level == -1 ||
-		   current->where == NULL || current->from == NULL)
+	current->where == NULL || current->from == NULL)
 	{
-		if (!link->checked)
-		{
-			if (link->first_room == current &&
-				(link->first_room->level > link->second_room->level ||
-				 link->first_room->level == -1) && link->checked == 0)
-				auxiliary(link->first_room, link->second_room, link, map);
-			else if (link->second_room == current &&
-					 (link->second_room->level > link->first_room->level ||
-					  link->second_room->level == -1) && link->checked == 0)
-				auxiliary(link->second_room, link->first_room, link, map);
-		}
+		if (link->first_room == current &&
+		(link->first_room->level > link->second_room->level ||
+		link->first_room->level == -1) && link->checked != 2)
+			auxiliary(link->first_room, link->second_room, link, map);
+		else if (link->second_room == current &&
+		(link->second_room->level > link->first_room->level ||
+		link->second_room->level == -1) && link->checked != 2)
+			auxiliary(link->second_room, link->first_room, link, map);
 		if (link->next)
 			link = link->next;
 		else
@@ -99,12 +92,12 @@ void		*search_previous_room(t_room *current, t_main *map)
 	}
 }
 
-void		*count_steps(t_main *map)
+void			*count_steps(t_main *map)
 {
-	t_room	*current;
-	t_room	*room;
-	int		steps;
-	t_path	*f;
+	t_room		*current;
+	t_room		*room;
+	int			steps;
+	t_path		*f;
 
 	f = map->paths;
 	while (f)
