@@ -12,30 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/check_end_connections.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lemin_github" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lemin_github" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lemin_github.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lemin_github.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.c" beforeDir="false" afterPath="$PROJECT_DIR$/go.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/lemin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/lemin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/levels_and_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/levels_and_links.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map1" beforeDir="false" afterPath="$PROJECT_DIR$/map1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redrum.c" beforeDir="false" afterPath="$PROJECT_DIR$/redrum.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +33,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/redrum.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="533">
+                <state relative-caret-position="534">
                   <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
                 </state>
               </provider>
@@ -140,11 +118,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/levels_and_links.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="51" selection-start-line="51" selection-end-line="51" />
+                <state relative-caret-position="754">
+                  <caret line="57" selection-start-line="57" selection-end-line="57" />
                 </state>
               </provider>
             </entry>
@@ -197,8 +175,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lemin.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="487">
-                  <caret line="84" selection-start-line="84" selection-end-line="84" />
+                <state relative-caret-position="503">
+                  <caret line="85" selection-start-line="85" selection-end-line="85" />
                 </state>
               </provider>
             </entry>
@@ -212,11 +190,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/check_end_connections.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="780">
-                  <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+                <state relative-caret-position="640">
+                  <caret line="52" column="104" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="104" />
                 </state>
               </provider>
             </entry>
@@ -281,10 +259,10 @@
         <option value="$PROJECT_DIR$/go.c" />
         <option value="$PROJECT_DIR$/redrum.c" />
         <option value="$PROJECT_DIR$/soulmates.c" />
-        <option value="$PROJECT_DIR$/levels_and_links.c" />
-        <option value="$PROJECT_DIR$/lemin.c" />
         <option value="$PROJECT_DIR$/lemin.h" />
         <option value="$PROJECT_DIR$/check_end_connections.c" />
+        <option value="$PROJECT_DIR$/lemin.c" />
+        <option value="$PROJECT_DIR$/levels_and_links.c" />
       </list>
     </option>
   </component>
@@ -416,12 +394,12 @@
       <workItem from="1581506333508" duration="90000" />
       <workItem from="1581506494948" duration="1263000" />
       <workItem from="1581507799597" duration="1288000" />
-      <workItem from="1581512314455" duration="5285000" />
+      <workItem from="1581512314455" duration="6186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25826000" />
+    <option name="totallyTimeSpent" value="26727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,8 +419,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3240876" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" weight="0.46715328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32335767" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" weight="0.46642336" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -451,7 +429,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007943" side_tool="true" weight="0.24087591" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.329927" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960285" weight="0.3211679" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960285" weight="0.32043797" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -593,28 +571,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/levels_and_links.c</url>
-          <line>83</line>
+          <line>87</line>
           <option name="timeStamp" value="298" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/levels_and_links.c</url>
-          <line>82</line>
+          <line>86</line>
           <option name="timeStamp" value="314" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
-          <line>80</line>
-          <option name="timeStamp" value="337" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/check_end_connections.c</url>
           <line>53</line>
           <option name="timeStamp" value="342" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lemin.c</url>
-          <line>84</line>
-          <option name="timeStamp" value="343" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/check_end_connections.c</url>
@@ -640,6 +608,16 @@
           <url>file://$PROJECT_DIR$/check_end_connections.c</url>
           <line>26</line>
           <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>83</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>56</line>
+          <option name="timeStamp" value="354" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -787,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redrum.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="534">
           <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
         </state>
       </provider>
@@ -820,24 +798,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/levels_and_links.c">
+    <entry file="file://$PROJECT_DIR$/check_end_connections.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="640">
+          <caret line="52" column="104" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="104" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lemin.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="503">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_end_connections.c">
+    <entry file="file://$PROJECT_DIR$/levels_and_links.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="754">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

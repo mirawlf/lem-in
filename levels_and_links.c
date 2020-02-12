@@ -49,11 +49,13 @@ static void		next_levels(t_main *map)
 	}
 	if (map->reached_end < map->end_connections)
 	{
+		if (map->max_current_level == map->rooms)
+			return;
 		printf("%d  ", map->max_current_level);
 		map->max_current_level += 1;
 		next_levels(map);
 	}
-}
+	}
 
 void			*determine_levels(t_main *map)
 {
@@ -78,6 +80,8 @@ void			*determine_levels(t_main *map)
 		tmp_link = tmp_link->next;
 	}
 	map->max_current_level = 2;
+	map->end_connections = (map->end_connections > map->start_connections ? map->start_connections :
+							map->end_connections - map->end_connections/map->start_connections);
 	next_levels(map);
 	map->end->level = -1;
 }
