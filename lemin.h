@@ -26,6 +26,7 @@ typedef struct 		s_room
 	int 			was_checked; // проверка Level == 1
 	int 			neighbours; //количество соседей
 	int 			is_dead_end; //если тупик 1
+	int 			has_pair;
 	int 			steps;
 	struct s_room	*where;
 	struct s_room	*from;
@@ -47,6 +48,7 @@ typedef struct 		s_link////структура со связью
 	t_room			*second_room;
 	int 			checked;
 	int 			is_valid;
+	int 			has_pair;
 
 	struct s_link	*next;
 }					t_link;
@@ -70,7 +72,7 @@ typedef struct		s_main
 	t_link			*all_links_here;
 	int 			reached_end;
 	int 			max_current_level;
-	int 			iterations;
+	int 			rooms;
 	t_path			*paths;
 	t_path 			**path_array;
 	int 			paths_amount;
@@ -140,5 +142,5 @@ int 	make_start_step(t_ant *ant, t_main *main);
 void		make_step(t_main  *main, t_path **path_array);
 t_ant 	*del_ant(t_ant *ant, t_main *main);
 void		make_oneway_step(t_main  *main, t_path *best_path);
-
+void		check_end_connections(t_main *map);
 #endif

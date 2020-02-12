@@ -34,6 +34,10 @@ stdio.h
 unistd.h
 -
 
+/Users/samymone/lminlmin/check_end_connections.c
+lemin.h
+/Users/samymone/lminlmin/lemin.h
+
 /Users/samymone/lminlmin/lemin.h
 ./libft/includes/libft.h
 /Users/samymone/lminlmin/./libft/includes/libft.h
@@ -41,8 +45,4 @@ unistd.h
 /Users/samymone/lminlmin/./libft/includes/get_next_line.h
 stdlib.h
 -
-
-/Users/samymone/lminlmin/levels_and_links.c
-lemin.h
-/Users/samymone/lminlmin/lemin.h
 

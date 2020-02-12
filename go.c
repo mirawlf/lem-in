@@ -29,9 +29,6 @@ static t_path	*shortest_way(t_path *paths)
 	return (actual);
 }
 
-
-
-
 static int go_one_way(t_main *main)//////ЭТО КСТАТИ ПРОВЕРЯЮТ ВОТ ТАК ПРЕКОЛ БЛЯДЬ
 {
 	int i = 0; //////testiing lines
@@ -45,9 +42,10 @@ static int go_one_way(t_main *main)//////ЭТО КСТАТИ ПРОВЕРЯЮТ 
 	ft_error("0 ANTS LEFT HOPE ITS OK");
 }
 
-static int go_many_ways(t_main *main)
+static int	go_many_ways(t_main *main)
 {
-	int i = 0; //////testiing lines
+	int		i = 0; //////testiing lines
+
 	while (main->ants)
 	{
 		++i;

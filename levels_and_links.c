@@ -22,8 +22,6 @@ static	void	aux_for_levels(t_link *link, t_room *first, t_room *second,
 	}
 	else
 		map->reached_end += 1;
-	if (ft_strcmp(second->name, "R_k2") == 0)
-		printf("%d\n", second->level);
 }
 
 static void		next_levels(t_main *map)
@@ -33,16 +31,25 @@ static void		next_levels(t_main *map)
 	link = map->all_links_here;
 	while (link)
 	{
+		if (link->checked)
+		{
+			link = link->next;
+			continue;
+		}
+//		if ((link->first_room == map->end && link->second_room->was_checked != map->iterations)
+//		|| (link->second_room == map->end && link->first_room->was_checked != map->iterations))
+//			map->end_connections--;
 		if (link->first_room->level == map->max_current_level &&
-		!link->second_room->level && !link->checked)
+				(!link->second_room->level || link->second_room->level == -10) && !link->checked)
 			aux_for_levels(link, link->first_room, link->second_room, map);
 		else if (link->second_room->level == map->max_current_level &&
-		!link->first_room->level && !link->checked)
+				(!link->first_room->level || link->first_room->level == -10) && !link->checked)
 			aux_for_levels(link, link->second_room, link->first_room, map);
 		link = link->next;
 	}
 	if (map->reached_end < map->end_connections)
 	{
+		printf("%d  ", map->max_current_level);
 		map->max_current_level += 1;
 		next_levels(map);
 	}

@@ -177,6 +177,33 @@ ants_run_like_shit.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/ants_run_like_shit.c.s
 .PHONY : ants_run_like_shit.c.s
 
+check_end_connections.o: check_end_connections.c.o
+
+.PHONY : check_end_connections.o
+
+# target to build an object file
+check_end_connections.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/check_end_connections.c.o
+.PHONY : check_end_connections.c.o
+
+check_end_connections.i: check_end_connections.c.i
+
+.PHONY : check_end_connections.i
+
+# target to preprocess a source file
+check_end_connections.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/check_end_connections.c.i
+.PHONY : check_end_connections.c.i
+
+check_end_connections.s: check_end_connections.c.s
+
+.PHONY : check_end_connections.s
+
+# target to generate assembly for a file
+check_end_connections.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/check_end_connections.c.s
+.PHONY : check_end_connections.c.s
+
 filling.o: filling.c.o
 
 .PHONY : filling.o
@@ -2352,6 +2379,9 @@ help:
 	@echo "... ants_run_like_shit.o"
 	@echo "... ants_run_like_shit.i"
 	@echo "... ants_run_like_shit.s"
+	@echo "... check_end_connections.o"
+	@echo "... check_end_connections.i"
+	@echo "... check_end_connections.s"
 	@echo "... filling.o"
 	@echo "... filling.i"
 	@echo "... filling.s"

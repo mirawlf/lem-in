@@ -82,6 +82,7 @@ int			main(int ac, char **av)
 		map = parse_input(av, map);
 		printf("kewl!\n");
 	}
+	check_end_connections(map);
 	determine_levels(map);
 	search_necessary_rooms(map);
 	lets_go(map);

@@ -91,4 +91,4 @@ add_executable(lemin_github
         get_me_paths_lawd.c
         ant_steps.c
         ants_run_like_shit.c
-        move_one_way.c)
+        move_one_way.c check_end_connections.c)

@@ -90,6 +90,9 @@
 		<Unit filename="/Users/samymone/lminlmin/ants_run_like_shit.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/samymone/lminlmin/check_end_connections.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/samymone/lminlmin/filling.c">
 			<Option target="lemin_github"/>
 		</Unit>

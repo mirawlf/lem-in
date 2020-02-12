@@ -14,7 +14,7 @@
 
 static int		read_me_a_room_line(t_main *main, int fd)
 {
-	char **kostyl_for_connection;////////чекнуть правильно ли я понял сабжект ебучий
+	char		**kostyl_for_connection;////////чекнуть правильно ли я понял сабжект ебучий
 
 	if (!(get_next_line(fd, &main->line)) || !(line_exists(main->line)))
 		return (-1); ///в строке опять хуйня
@@ -47,7 +47,7 @@ static t_room	*find_start(t_main *main, char *line, t_room *current)
 
 static t_room	*find_end(t_main *main, t_room *current, char *line)
 {
-	t_room	*end;
+	t_room		*end;
 
 	if (!(end = create_room(line)))
 		return (NULL);
@@ -58,7 +58,7 @@ static t_room	*find_end(t_main *main, t_room *current, char *line)
 
 static t_room	*find_middle(t_room *current, char *line)
 {
-	t_room	*incoming;
+	t_room		*incoming;
 
 	if (!(incoming = create_room(line)))
 		return (NULL);
@@ -93,9 +93,15 @@ t_room			*read_rooms(t_main *main, int fd)
 		else if (!check)
 		{
 			if (finished == 1)
+			{
 				current = find_middle(prev, main->line);
+				main->rooms++;
+			}
 			else if (finished == 2)
+			{
 				current = find_start(main, main->line, prev);
+				main->rooms++;
+			}
 			else if (finished == 3)
 				current = find_end(main, prev, main->line);
 			if (!start)

@@ -11,6 +11,11 @@ CMakeFiles/lemin_github.dir/ants_run_like_shit.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/ants_run_like_shit.c.o: ../ants_run_like_shit.c
 CMakeFiles/lemin_github.dir/ants_run_like_shit.c.o: ../lemin.h
 
+CMakeFiles/lemin_github.dir/check_end_connections.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/lemin_github.dir/check_end_connections.c.o: .././libft/includes/libft.h
+CMakeFiles/lemin_github.dir/check_end_connections.c.o: ../check_end_connections.c
+CMakeFiles/lemin_github.dir/check_end_connections.c.o: ../lemin.h
+
 CMakeFiles/lemin_github.dir/filling.c.o: .././libft/includes/get_next_line.h
 CMakeFiles/lemin_github.dir/filling.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/filling.c.o: ../filling.c
