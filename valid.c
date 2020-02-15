@@ -89,7 +89,7 @@ char 	**check_connection(char *line)
 	{
 		while(split[i])
 			i++;
-		if (i == 2 && (!(ft_strequ(split[0], split[1]))))
+		if (i == 2 && (!(ft_strequ(split[0], split[1]))))//////////зафришить лучше здесь
 			return (split);
 		else
 			free_split(split);

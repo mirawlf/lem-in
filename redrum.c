@@ -16,7 +16,7 @@ static int		read_me_a_room_line(t_main *main, int fd)
 {
 	char		**kostyl_for_connection;////////чекнуть правильно ли я понял сабжект ебучий
 
-	if (!(get_next_line(fd, &main->line)) || !(line_exists(main->line)))
+	if (!(get_next_line(fd, &main->line)) || !(line_exists(main->line)))/////////лайн течет как ебанутый
 		return (-1); ///в строке опять хуйня
 	if (!(check_comment(main->line)))
 		return (print_line(2, main->line));////это ебучий коммент

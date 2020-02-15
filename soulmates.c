@@ -25,7 +25,7 @@ static int read_me_a_room_line(t_main *main, int fd)
 		return (print_line(2, main->line));////это ебучий коммент
 	if (command < 3 && command > 0)
 		return (-1);////это команда ебучая
-	if (split = check_connection(main->line))
+	if ((split = check_connection(main->line)))
 	{
 		free_split(split);//////уродство конечно пиздос
 		return (print_line(5, main->line));/////это коннекшн
