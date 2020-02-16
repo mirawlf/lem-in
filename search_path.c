@@ -13,6 +13,22 @@
 #include "lemin.h"
 #include <stdio.h>
 
+//static void 	clear_path(t_room *room)
+//{
+//	t_room		*tmp;
+//
+//	tmp = room->from;
+//	room->from = NULL;
+//	room = tmp;
+//	while (room)
+//	{
+//		tmp = room->from;
+//		room->where = NULL;
+//
+//		room = tmp;
+//	}
+//}
+
 void			search_necessary_rooms(t_main *map)
 {
 	t_room		*tmp;
@@ -49,21 +65,38 @@ static void		auxiliary(t_room *first, t_room *second, t_link *link,
 		t_main *map)
 {
 	t_path		*current;
+	t_room		**tmp;
 
 	link->checked = 2;
 	if (second->level != 1)
 	{
-		if (first != map->end)
+		if (second == map->end)
 		{
-			if (first->from == NULL && second->where == NULL)
-			{
-				second->where = first;
-				first->from = second;
-			}
+			first->where = second;
+			search_previous_room(first, map);
 		}
 		else
-			second->where = first;
-		search_previous_room(second, map);
+		{
+			if (first != map->end)
+			{
+				if (first->from == NULL && second->where == NULL)
+				{
+					second->where = first;
+					first->from = second;
+				}
+//				else if (first->from == NULL && second->where != NULL)
+//				{
+//					tmp = second->where;
+//					second->where = first;
+//					first->from = second;
+//					search_previous_room(tmp, map);
+//				}
+			}
+			else
+				second->where = first;
+			search_previous_room(second, map);
+		}
+		
 	}
 	else
 		second_rooms(first, second, current, map);
@@ -77,13 +110,15 @@ void			*search_previous_room(t_room *current, t_main *map)
 	while (current->level == 1 || current->level == -1 ||
 	current->where == NULL || current->from == NULL)
 	{
+		if (ft_strcmp("Kvg2", link->first_room->name) == 0 || ft_strcmp("Kvg2", link->second_room->name) == 0)
+			printf("balbla\n");
 		if (link->first_room == current &&
 		(link->first_room->level > link->second_room->level ||
-		link->first_room->level == -1) && link->checked != 2)
+		link->first_room->level == -1) && link->checked != 2 /*&& !link->first_room->from && !link->second_room->where*/)
 			auxiliary(link->first_room, link->second_room, link, map);
 		else if (link->second_room == current &&
 		(link->second_room->level > link->first_room->level ||
-		link->second_room->level == -1) && link->checked != 2)
+		link->second_room->level == -1) && link->checked != 2 /*&& !link->second_room->from && !link->first_room->where*/)
 			auxiliary(link->second_room, link->first_room, link, map);
 		if (link->next)
 			link = link->next;

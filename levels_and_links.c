@@ -12,8 +12,8 @@
 
 #include "lemin.h"
 
-static	int	aux_for_levels(t_link *link, t_room *first, t_room *second,
-		t_main *map, int checked_rooms)
+static	int		aux_for_levels(t_link *link, t_room *first, t_room *second,
+		t_main *map)
 {
 	if (second != map->end)
 	{
@@ -26,10 +26,12 @@ static	int	aux_for_levels(t_link *link, t_room *first, t_room *second,
 	return (0);
 }
 
-static void		next_levels(t_main *map, int checked_rooms) {
-	t_link 		*link;
-	int 		change;
-	
+static void		next_levels(t_main *map, int checked_rooms)
+{
+	t_link		*link;
+	int			change;
+	int			k = 0;
+
 	link = map->all_links_here;
 	change = 0;
 	while (link)
@@ -39,40 +41,42 @@ static void		next_levels(t_main *map, int checked_rooms) {
 			link = link->next;
 			continue;
 		}
-//		if ((link->first_room == map->end && link->second_room->was_checked != map->iterations)
-//		|| (link->second_room == map->end && link->first_room->was_checked != map->iterations))
-//			map->end_connections--;
 		if (link->first_room->level == map->max_current_level &&
-			!link->second_room->level && !link->checked)
+		!link->second_room->level && !link->checked)
 		{
-			checked_rooms += aux_for_levels(link, link->first_room, link->second_room, map, checked_rooms);
+			checked_rooms += aux_for_levels(link, link->first_room, link->second_room, map);
 			change = 1;
+			if (map->max_current_level == 5)
+				k += 1;
 		}
 		else if (link->second_room->level == map->max_current_level &&
-				 !link->first_room->level && !link->checked)
+		!link->first_room->level && !link->checked)
 		{
-			checked_rooms += aux_for_levels(link, link->second_room, link->first_room, map, checked_rooms);
+			checked_rooms += aux_for_levels(link, link->second_room, link->first_room, map);
 			change = 1;
+			if (map->max_current_level == 5)
+				k += 1;
 		}
 		else if (link->first_room->level && link->second_room->level && !link->checked)
 			link->checked = 1;
 		link = link->next;
 	}
+	if (map->max_current_level == 5)
+		printf("5 level %d\n", k);
 	if (change == 0)
-		return;
+		return ;
 	if (checked_rooms < map->rooms)
 	{
 		map->max_current_level += 1;
 		next_levels(map, checked_rooms);
 	}
-	printf("rooms %d  map %d\n", checked_rooms, map->rooms);
 }
 
 void			*determine_levels(t_main *map)
 {
-	t_room	*tmp_room;
-	t_link	*tmp_link;
-	int 	checked_rooms;
+	t_room		*tmp_room;
+	t_link		*tmp_link;
+	int			checked_rooms;
 	
 	tmp_room = map->start;
 	tmp_room->level = 1;
@@ -94,6 +98,7 @@ void			*determine_levels(t_main *map)
 		}
 		tmp_link = tmp_link->next;
 	}
+	printf("2nd level %d\n map->start %d\n", checked_rooms, map->start_connections);
 	map->max_current_level = 2;
 	next_levels(map, checked_rooms);
 	map->end->level = -1;
