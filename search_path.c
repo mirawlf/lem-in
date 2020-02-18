@@ -170,6 +170,14 @@ static void		search_equal_level_room(t_room *current, t_main *map)
 	}
 }
 
+
+
+
+//////////////////
+/*
+ *
+ * в функции ниже поковырять пальцем link->room->lvl >= // > дают разные результаты на больших картах
+ */
 void			*search_previous_room(t_room *current, t_main *map)
 {
 	t_link		*link;
