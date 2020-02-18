@@ -13,9 +13,13 @@
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lemin_github" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lemin_github" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/levels_and_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/levels_and_links.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeshing.c" beforeDir="false" afterPath="$PROJECT_DIR$/freeshing.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/lemin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search_path.c" beforeDir="false" afterPath="$PROJECT_DIR$/search_path.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/valid.c" beforeDir="false" afterPath="$PROJECT_DIR$/valid.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +39,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/redrum.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
+                <state relative-caret-position="480">
                   <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
                 </state>
               </provider>
@@ -123,7 +127,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/levels_and_links.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="579">
+                <state relative-caret-position="720">
                   <caret line="104" selection-start-line="104" selection-end-line="104" />
                 </state>
               </provider>
@@ -132,8 +136,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/superposition">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="226">
-                  <caret line="5276" column="3" selection-start-line="5276" selection-end-line="5276" selection-end-column="3" />
+                <state relative-caret-position="273">
+                  <caret line="5277" column="4" selection-start-line="5277" selection-end-line="5277" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -141,8 +145,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/search_path.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="89" selection-start-line="89" selection-end-line="89" />
+                <state relative-caret-position="720">
+                  <caret line="217" selection-start-line="217" selection-end-line="217" />
                   <folding>
                     <element signature="e#892#910#0" expanded="true" />
                   </folding>
@@ -151,28 +155,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libft/srcs/ft_memalloc.c">
+            <entry file="file://$PROJECT_DIR$/utils.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="345">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
+                  <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libft/srcs/ft_bzero.c">
+            <entry file="file://$PROJECT_DIR$/valid.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" selection-start-line="27" selection-end-line="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1230">
-                  <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
+                <state relative-caret-position="735">
+                  <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -180,17 +175,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lemin.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="519">
+                <state relative-caret-position="660">
                   <caret line="86" selection-start-line="86" selection-end-line="86" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/soulmates.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1605">
-                  <caret line="107" selection-start-line="107" selection-end-line="107" />
                 </state>
               </provider>
             </entry>
@@ -198,8 +184,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/check_end_connections.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="780">
+                <state relative-caret-position="741">
                   <caret line="52" column="104" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="104" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/freeshing.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -213,14 +208,21 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/move_one_way.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-second>
     </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>opk</find>
-      <find>w__5</find>
       <find>Pnc7</find>
       <find>rdm4</find>
       <find>fnk</find>
@@ -246,6 +248,11 @@
       <find>end</find>
       <find>check</find>
       <find>Kvg</find>
+      <find>Rym</find>
+      <find>Wdh</find>
+      <find>Se_6</find>
+      <find>kvg2</find>
+      <find>wdh3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -264,12 +271,15 @@
         <option value="$PROJECT_DIR$/go.c" />
         <option value="$PROJECT_DIR$/redrum.c" />
         <option value="$PROJECT_DIR$/soulmates.c" />
-        <option value="$PROJECT_DIR$/lemin.h" />
         <option value="$PROJECT_DIR$/check_end_connections.c" />
         <option value="$PROJECT_DIR$/lemin.c" />
         <option value="$PROJECT_DIR$/map1" />
-        <option value="$PROJECT_DIR$/search_path.c" />
         <option value="$PROJECT_DIR$/levels_and_links.c" />
+        <option value="$PROJECT_DIR$/lemin.h" />
+        <option value="$PROJECT_DIR$/utils.c" />
+        <option value="$PROJECT_DIR$/valid.c" />
+        <option value="$PROJECT_DIR$/freeshing.c" />
+        <option value="$PROJECT_DIR$/search_path.c" />
       </list>
     </option>
   </component>
@@ -326,7 +336,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="lemin_github" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/superposition" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lemin_github" TARGET_NAME="lemin_github" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lemin_github" RUN_TARGET_NAME="lemin_github">
+    <configuration name="lemin_github" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/flow-big" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lemin_github" TARGET_NAME="lemin_github" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lemin_github" RUN_TARGET_NAME="lemin_github">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -404,12 +414,13 @@
       <workItem from="1581512314455" duration="6186000" />
       <workItem from="1581613262035" duration="957000" />
       <workItem from="1581766654225" duration="4830000" />
-      <workItem from="1581851703962" duration="8431000" />
+      <workItem from="1581851703962" duration="10914000" />
+      <workItem from="1582018861692" duration="10474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40945000" />
+    <option name="totallyTimeSpent" value="53902000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,14 +433,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1310564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13185067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35255474" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" visible="true" weight="0.46569344" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4518248" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" visible="true" weight="0.36277372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -438,7 +450,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007943" side_tool="true" weight="0.24087591" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.329927" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960285" weight="0.31678832" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960285" weight="0.31532848" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -565,7 +577,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>130</line>
+          <line>217</line>
           <option name="timeStamp" value="277" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -604,54 +616,39 @@
           <option name="timeStamp" value="351" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>21</line>
-          <option name="timeStamp" value="360" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>22</line>
-          <option name="timeStamp" value="361" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>123</line>
-          <option name="timeStamp" value="362" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>121</line>
-          <option name="timeStamp" value="363" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/levels_and_links.c</url>
           <line>104</line>
           <option name="timeStamp" value="364" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>26</line>
-          <option name="timeStamp" value="367" />
+          <line>15</line>
+          <option name="timeStamp" value="377" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>77</line>
-          <option name="timeStamp" value="368" />
+          <line>37</line>
+          <option name="timeStamp" value="385" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>93</line>
-          <option name="timeStamp" value="371" />
+          <line>137</line>
+          <option name="timeStamp" value="398" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>97</line>
-          <option name="timeStamp" value="372" />
+          <line>144</line>
+          <option name="timeStamp" value="399" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>89</line>
-          <option name="timeStamp" value="376" />
+          <line>151</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_path.c</url>
+          <line>38</line>
+          <option name="timeStamp" value="407" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -688,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/move_one_way.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/big2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91245">
@@ -716,10 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redrum.c">
+    <entry file="file://$PROJECT_DIR$/get_me_paths_lawd.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -782,17 +772,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lemin.h">
+    <entry file="file://$PROJECT_DIR$/libft/srcs/ft_memalloc.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_me_paths_lawd.c">
+    <entry file="file://$PROJECT_DIR$/libft/srcs/ft_bzero.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -810,10 +800,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_end_connections.c">
+    <entry file="file://$PROJECT_DIR$/lemin.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="104" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="104" />
+        <state relative-caret-position="720">
+          <caret line="145" column="66" selection-start-line="145" selection-start-column="66" selection-end-line="145" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redrum.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/valid.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -824,45 +835,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/srcs/ft_bzero.c">
+    <entry file="file://$PROJECT_DIR$/move_one_way.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="209">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/srcs/ft_memalloc.c">
+    <entry file="file://$PROJECT_DIR$/check_end_connections.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="741">
+          <caret line="52" column="104" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeshing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/superposition">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="5276" column="3" selection-start-line="5276" selection-end-line="5276" selection-end-column="3" />
+        <state relative-caret-position="273">
+          <caret line="5277" column="4" selection-start-line="5277" selection-end-line="5277" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/levels_and_links.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
+        <state relative-caret-position="720">
           <caret line="104" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lemin.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="660">
           <caret line="86" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search_path.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="720">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
           <folding>
             <element signature="e#892#910#0" expanded="true" />
           </folding>

@@ -11,12 +11,13 @@
 /* ************************************************************************** */
 
 #include "lemin.h"
+
 /**
  *
  * @param line = проверяемая строка, не NULL!
  * @return 0 если это коммент, 1 - если строка есть и это не коммент
  */
-int 	check_comment(char *line)
+int			check_comment(char *line)
 {
 	if (ft_strlen(line) < 2)
 		return (1);
@@ -32,7 +33,7 @@ int 	check_comment(char *line)
  * @param line  = проверяемая строка
  * @return 1 если строка существует, 0 если нет
  */
-int 	line_exists(char *line)
+int			line_exists(char *line)
 {
 	if (!line)
 		return (0);
@@ -46,7 +47,7 @@ int 	line_exists(char *line)
  * @param line  = проверяемая строка
  * @return 0 если это не команда вовсе, 1 если старт, 2 если энд, 3 если это странный коммент который надо игнорить
  */
-int 	check_command(char *line)
+int			check_command(char *line)
 {
 	if (ft_strequ(line, "##start"))
 		return (1);
@@ -60,7 +61,7 @@ int 	check_command(char *line)
  * @param map = запишет в map->ants количество муравьев
  * @return 0 при успехе, -1 - кажется, что-то пошло по пизде
  */
-int 	check_and_write_ants(char *line, t_main *map)
+int			check_and_write_ants(char *line, t_main *map)
 {
 	int		i;
 
@@ -77,17 +78,17 @@ int 	check_and_write_ants(char *line, t_main *map)
 	return (0);
 }
 
-char 	**check_connection(char *line)
+char		**check_connection(char *line)
 {
-	char **split;
-	int i;
+	char	**split;
+	int		i;
 
 	i = 0;
 	if (!(split = ft_strsplit(line, '-')))
 		return (NULL);
 	if (split)
 	{
-		while(split[i])
+		while (split[i])
 			i++;
 		if (i == 2 && (!(ft_strequ(split[0], split[1]))))//////////зафришить лучше здесь
 			return (split);

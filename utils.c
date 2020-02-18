@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-void 	print_step(int ant_num, char *room_name, t_main *main)
+void		print_step(int ant_num, char *room_name, t_main *main)
 {
 	ft_putchar('L');
 	ft_putnbr((main->original_ants + 1 - ant_num));
@@ -21,7 +21,7 @@ void 	print_step(int ant_num, char *room_name, t_main *main)
 	ft_putchar(' ');
 }
 
-int 	print_line(int ret, char *line)/////////это мне при правильном вводе понадобится
+int			print_line(int ret, char *line)/////////это мне при правильном вводе понадобится
 {
 	ft_putstr_fd(line, 1);
 	ft_putchar('\n');
