@@ -13,13 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lemin_github" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lemin_github" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freeshing.c" beforeDir="false" afterPath="$PROJECT_DIR$/freeshing.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/lemin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search_path.c" beforeDir="false" afterPath="$PROJECT_DIR$/search_path.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valid.c" beforeDir="false" afterPath="$PROJECT_DIR$/valid.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +32,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/redrum.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
+                <state relative-caret-position="516">
                   <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
                 </state>
               </provider>
@@ -145,8 +138,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/search_path.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="217" selection-start-line="217" selection-end-line="217" />
+                <state relative-caret-position="182">
+                  <caret line="172" selection-start-line="172" selection-end-line="172" />
                   <folding>
                     <element signature="e#892#910#0" expanded="true" />
                   </folding>
@@ -336,7 +329,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="lemin_github" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/flow-big" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lemin_github" TARGET_NAME="lemin_github" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lemin_github" RUN_TARGET_NAME="lemin_github">
+    <configuration name="lemin_github" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/superposition" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lemin_github" TARGET_NAME="lemin_github" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lemin_github" RUN_TARGET_NAME="lemin_github">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -415,12 +408,12 @@
       <workItem from="1581613262035" duration="957000" />
       <workItem from="1581766654225" duration="4830000" />
       <workItem from="1581851703962" duration="10914000" />
-      <workItem from="1582018861692" duration="10474000" />
+      <workItem from="1582018861692" duration="11423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53902000" />
+    <option name="totallyTimeSpent" value="54851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,7 +426,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13185067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,12 +433,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4518248" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" visible="true" weight="0.36277372" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" weight="0.36277372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992057" weight="0.35255474" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4992057" visible="true" weight="0.35255474" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007943" side_tool="true" weight="0.24087591" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.329927" />
@@ -650,6 +642,16 @@
           <line>38</line>
           <option name="timeStamp" value="407" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_path.c</url>
+          <line>168</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_path.c</url>
+          <line>172</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -816,7 +818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redrum.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="516">
           <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
         </state>
       </provider>
@@ -879,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search_path.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        <state relative-caret-position="182">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
           <folding>
             <element signature="e#892#910#0" expanded="true" />
           </folding>

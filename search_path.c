@@ -43,12 +43,16 @@ void			search_necessary_rooms(t_main *map)
 static void		second_rooms(t_room *first, t_room *second, t_path *current,
 		t_main *map)
 {
+	t_path	*tmp;
+	
 	first->from = second;
 	if (!map->paths)
 	{
 		if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
 			ft_error("malloc failed\n");
 		current = map->paths;
+		tmp = current;
+		
 	}
 	else
 	{
@@ -57,8 +61,14 @@ static void		second_rooms(t_room *first, t_room *second, t_path *current,
 			current = current->next;
 		current->next = ft_memalloc(sizeof(t_path));
 		current = current->next;
+		
 	}
 	current->current = first;
+	while(tmp)
+	{
+		tmp->current->is_part_of_path = 1;
+		tmp = tmp->next;
+	}
 }
 
 //static void		any_other_rooms(t_link *lnk, t_room *room)
@@ -118,13 +128,17 @@ void		auxiliary(t_room *first, t_room *second, t_link *link,
 //				}
 			}
 			else
+			{
 				second->where = first;
+			}
 			search_previous_room(second, map);
 		}
 		
 	}
 	else
 		second_rooms(first, second, current, map);
+	if (link->checked == 2)
+		link->checked = 1;
 }
 
 static void		search_equal_level_room(t_room *current, t_main *map)
@@ -134,14 +148,18 @@ static void		search_equal_level_room(t_room *current, t_main *map)
 	link = map->all_links_here;
 	while(link)
 	{
-		if (link->first_room == current && link->second_room->level == current->level && !link->second_room->from && !link->second_room->where && link->checked != 2)
+		if (link->first_room == current && link->second_room->level >= current->level
+		/*&& !link->second_room->from && !link->second_room->where && link->checked != 2*/
+		&& !link->first_room->is_part_of_path && !link->second_room->is_part_of_path)
 		{
 			link->first_room->from = link->second_room;
 			link->second_room->where = link->first_room;
 			link->checked = 2;
 			search_previous_room(link->second_room, map);
 		}
-		else if(link->second_room == current && link->first_room->level == current->level && !link->first_room->from && !link->second_room->where && link->checked != 2)
+		else if(link->second_room == current && link->first_room->level >= current->level
+		/* && !link->first_room->from && !link->second_room->where && link->checked != 2*/
+		&& !link->first_room->is_part_of_path && !link->second_room->is_part_of_path)
 		{
 			link->second_room->from = link->first_room;
 			link->first_room->where = link->second_room;
@@ -163,13 +181,17 @@ void			*search_previous_room(t_room *current, t_main *map)
 	{
 //		if (ft_strcmp("Kvg2", link->first_room->name) == 0 || ft_strcmp("Kvg2", link->second_room->name) == 0)
 //			printf("balbla\n");
-		if (link->first_room == current &&
-			(link->first_room->level >= link->second_room->level ||
-			 link->first_room->level == -1) && link->checked != 2 && !link->first_room->from && !link->second_room->where)
+		if (link->first_room == current && (link->first_room->level >= link->second_room->level ||
+			 link->first_room->level == -1) && link->checked != 2 /*&& !link->first_room->from && !link->second_room->where
+			 && */ && !link->first_room->is_part_of_path && !link->second_room->is_part_of_path)
+		{
 			auxiliary(link->first_room, link->second_room, link, map);
+			printf("wtf?");
+		}
 		else if (link->second_room == current &&
 				 (link->second_room->level >= link->first_room->level ||
-				  link->second_room->level == -1) && link->checked != 2 && !link->second_room->from && !link->first_room->where)
+				  link->second_room->level == -1) && link->checked != 2 /*&& !link->second_room->from && !link->first_room->where*/
+				  && !link->first_room->is_part_of_path && !link->second_room->is_part_of_path)
 			auxiliary(link->second_room, link->first_room, link, map);
 		if (link->next)
 			link = link->next;

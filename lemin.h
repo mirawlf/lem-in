@@ -28,6 +28,7 @@ typedef struct 		s_room
 	int 			is_dead_end; //если тупик 1
 	int 			has_pair;
 	int 			steps;
+	int 			is_part_of_path;
 	struct s_room	*where;
 	struct s_room	*from;
 	struct s_room	*next;
