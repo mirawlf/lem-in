@@ -333,6 +333,9 @@
 		<Unit filename="/Users/samymone/Desktop/linlin/search_path.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/samymone/Desktop/linlin/search_paths.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/samymone/Desktop/linlin/soulmates.c">
 			<Option target="lemin_github"/>
 		</Unit>

@@ -189,7 +189,7 @@ void			*search_previous_room(t_room *current, t_main *map)
 	{
 //		if (ft_strcmp("Kvg2", link->first_room->name) == 0 || ft_strcmp("Kvg2", link->second_room->name) == 0)
 //			printf("balbla\n");
-		if (link->first_room == current && (link->first_room->level >= link->second_room->level ||
+		if (link->first_room == current && (link->first_room->level > link->second_room->level ||
 			 link->first_room->level == -1) && link->checked != 2 /*&& !link->first_room->from && !link->second_room->where
 			 && */ && !link->first_room->is_part_of_path && !link->second_room->is_part_of_path)
 		{
@@ -197,7 +197,7 @@ void			*search_previous_room(t_room *current, t_main *map)
 			printf("wtf?");
 		}
 		else if (link->second_room == current &&
-				 (link->second_room->level >= link->first_room->level ||
+				 (link->second_room->level > link->first_room->level ||
 				  link->second_room->level == -1) && link->checked != 2 /*&& !link->second_room->from && !link->first_room->where*/
 				  && !link->first_room->is_part_of_path && !link->second_room->is_part_of_path)
 			auxiliary(link->second_room, link->first_room, link, map);

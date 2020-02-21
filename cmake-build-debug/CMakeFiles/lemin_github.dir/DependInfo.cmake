@@ -84,6 +84,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/samymone/Desktop/linlin/move_one_way.c" "/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles/lemin_github.dir/move_one_way.c.o"
   "/Users/samymone/Desktop/linlin/redrum.c" "/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles/lemin_github.dir/redrum.c.o"
   "/Users/samymone/Desktop/linlin/search_path.c" "/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles/lemin_github.dir/search_path.c.o"
+  "/Users/samymone/Desktop/linlin/search_paths.c" "/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles/lemin_github.dir/search_paths.c.o"
   "/Users/samymone/Desktop/linlin/soulmates.c" "/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles/lemin_github.dir/soulmates.c.o"
   "/Users/samymone/Desktop/linlin/utils.c" "/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles/lemin_github.dir/utils.c.o"
   "/Users/samymone/Desktop/linlin/valid.c" "/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles/lemin_github.dir/valid.c.o"

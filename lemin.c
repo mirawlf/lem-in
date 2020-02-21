@@ -84,7 +84,8 @@ int			main(int ac, char **av)
 	}
 //	check_end_connections(map);
 	determine_levels(map);
-	search_necessary_rooms(map);
+//	search_paths(map);
+//	search_necessary_rooms(map);
 	lets_go(map);
 	printf ("not kewl!\n");
 	return (0);

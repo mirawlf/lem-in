@@ -145,4 +145,5 @@ t_ant 	*del_ant(t_ant *ant, t_main *main);
 void		make_oneway_step(t_main  *main, t_path *best_path);
 void		check_end_connections(t_main *map);
 void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
+void 		search_paths(t_main *map);
 #endif

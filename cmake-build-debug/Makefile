@@ -2283,6 +2283,33 @@ search_path.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_path.c.s
 .PHONY : search_path.c.s
 
+search_paths.o: search_paths.c.o
+
+.PHONY : search_paths.o
+
+# target to build an object file
+search_paths.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_paths.c.o
+.PHONY : search_paths.c.o
+
+search_paths.i: search_paths.c.i
+
+.PHONY : search_paths.i
+
+# target to preprocess a source file
+search_paths.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_paths.c.i
+.PHONY : search_paths.c.i
+
+search_paths.s: search_paths.c.s
+
+.PHONY : search_paths.s
+
+# target to generate assembly for a file
+search_paths.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_paths.c.s
+.PHONY : search_paths.c.s
+
 soulmates.o: soulmates.c.o
 
 .PHONY : soulmates.o
@@ -2613,6 +2640,9 @@ help:
 	@echo "... search_path.o"
 	@echo "... search_path.i"
 	@echo "... search_path.s"
+	@echo "... search_paths.o"
+	@echo "... search_paths.i"
+	@echo "... search_paths.s"
 	@echo "... soulmates.o"
 	@echo "... soulmates.i"
 	@echo "... soulmates.s"

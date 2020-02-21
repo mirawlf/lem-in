@@ -12,7 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/search_paths.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lemin_github.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lemin_github" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lemin_github" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lemin_github.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lemin_github.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/lemin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/lemin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/levels_and_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/levels_and_links.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map1" beforeDir="false" afterPath="$PROJECT_DIR$/map1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_path.c" beforeDir="false" afterPath="$PROJECT_DIR$/search_path.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +49,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.37987307">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/redrum.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="472">
-                  <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+                <state relative-caret-position="526">
+                  <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -50,8 +70,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flow-one">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9825">
-                  <caret line="655" selection-start-line="655" selection-end-line="655" />
+                <state relative-caret-position="491">
+                  <caret line="639" column="8" selection-start-line="639" selection-start-column="5" selection-end-line="639" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -86,11 +106,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/flow-big">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63450">
-                  <caret line="4230" column="9" selection-start-line="4230" selection-start-column="9" selection-end-line="4230" selection-end-column="9" />
+                <state relative-caret-position="273">
+                  <caret line="2097" column="9" selection-start-line="2097" selection-start-column="5" selection-end-line="2097" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -117,29 +137,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/levels_and_links.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="104" selection-start-line="104" selection-end-line="104" />
+                <state relative-caret-position="233">
+                  <caret line="83" column="99" selection-start-line="83" selection-start-column="99" selection-end-line="83" selection-end-column="99" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/superposition">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="5277" column="4" selection-start-line="5277" selection-end-line="5277" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/search_path.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="178" column="101" selection-start-line="178" selection-start-column="101" selection-end-line="178" selection-end-column="101" />
+                <state relative-caret-position="721">
+                  <caret line="247" selection-start-line="247" selection-end-line="247" />
                   <folding>
                     <element signature="e#892#910#0" expanded="true" />
                   </folding>
@@ -150,17 +161,35 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lemin.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="770">
-                  <caret line="146" column="52" lean-forward="true" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
+                <state relative-caret-position="2220">
+                  <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/valid.c">
+            <entry file="file://$PROJECT_DIR$/search_paths.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+                <state relative-caret-position="1440">
+                  <caret line="96" column="50" selection-start-line="94" selection-start-column="4" selection-end-line="96" selection-end-column="60" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/get_me_paths_lawd.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" selection-start-line="28" selection-end-line="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libft/srcs/ft_memalloc.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="23" selection-start-line="23" selection-end-line="23" />
                 </state>
               </provider>
             </entry>
@@ -168,44 +197,35 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lemin.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="659">
+                <state relative-caret-position="631">
                   <caret line="85" selection-start-line="85" selection-end-line="85" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/check_end_connections.c">
+            <entry file="file://$PROJECT_DIR$/go.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="52" column="104" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="104" />
+                <state relative-caret-position="765">
+                  <caret line="51" selection-start-line="51" selection-end-line="51" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/freeshing.c">
+            <entry file="file://$PROJECT_DIR$/ant_steps.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+                <state relative-caret-position="1335">
+                  <caret line="89" selection-start-line="89" selection-end-line="89" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/map1">
+            <entry file="file://$PROJECT_DIR$/ants_run_like_shit.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/move_one_way.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+                <state relative-caret-position="1425">
+                  <caret line="95" selection-start-line="95" selection-end-line="95" />
                 </state>
               </provider>
             </entry>
@@ -216,9 +236,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Pnc7</find>
-      <find>rdm4</find>
-      <find>fnk</find>
       <find>dxz</find>
       <find>ped</find>
       <find>fnk1</find>
@@ -246,6 +263,9 @@
       <find>Se_6</find>
       <find>kvg2</find>
       <find>wdh3</find>
+      <find>kqz</find>
+      <find>skq4</find>
+      <find>db_2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -265,23 +285,22 @@
         <option value="$PROJECT_DIR$/redrum.c" />
         <option value="$PROJECT_DIR$/soulmates.c" />
         <option value="$PROJECT_DIR$/check_end_connections.c" />
-        <option value="$PROJECT_DIR$/lemin.c" />
-        <option value="$PROJECT_DIR$/map1" />
-        <option value="$PROJECT_DIR$/levels_and_links.c" />
         <option value="$PROJECT_DIR$/utils.c" />
         <option value="$PROJECT_DIR$/valid.c" />
         <option value="$PROJECT_DIR$/freeshing.c" />
-        <option value="$PROJECT_DIR$/lemin.h" />
         <option value="$PROJECT_DIR$/search_path.c" />
+        <option value="$PROJECT_DIR$/map1" />
+        <option value="$PROJECT_DIR$/lemin.h" />
+        <option value="$PROJECT_DIR$/search_paths.c" />
+        <option value="$PROJECT_DIR$/lemin.c" />
+        <option value="$PROJECT_DIR$/levels_and_links.c" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="602" />
-    <option name="y" value="79" />
-    <option name="width" value="1511" />
-    <option name="height" value="1162" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectId" id="1XWcxqgIaX4cWtYX4cqG0y2wEdc" />
   <component name="ProjectView">
@@ -289,7 +308,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,6 +319,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -331,7 +350,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="lemin_github" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/superposition" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lemin_github" TARGET_NAME="lemin_github" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lemin_github" RUN_TARGET_NAME="lemin_github">
+    <configuration name="lemin_github" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/flow-ten" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lemin_github" TARGET_NAME="lemin_github" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lemin_github" RUN_TARGET_NAME="lemin_github">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -411,11 +430,14 @@
       <workItem from="1581766654225" duration="4830000" />
       <workItem from="1581851703962" duration="10914000" />
       <workItem from="1582018861692" duration="14929000" />
+      <workItem from="1582199844132" duration="16311000" />
+      <workItem from="1582280681389" duration="960000" />
+      <workItem from="1582282522139" duration="4921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58357000" />
+    <option name="totallyTimeSpent" value="80549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,24 +449,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="602" y="79" width="1511" height="1162" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22600408" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10802224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4518248" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" weight="0.36277372" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45036498" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" weight="0.3620438" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4992057" visible="true" weight="0.45140186" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992057" weight="0.35255474" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007943" side_tool="true" weight="0.24087591" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.329927" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960285" weight="0.31532848" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960285" weight="0.3109489" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -551,28 +574,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/lemin.c</url>
-          <line>88</line>
+          <line>90</line>
           <option name="timeStamp" value="258" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/lemin.c</url>
-          <line>87</line>
+          <line>89</line>
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/lemin.c</url>
-          <line>86</line>
+          <line>88</line>
           <option name="timeStamp" value="263" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/lemin.c</url>
           <line>85</line>
           <option name="timeStamp" value="265" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/search_path.c</url>
-          <line>247</line>
-          <option name="timeStamp" value="277" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/get_me_paths_lawd.c</url>
@@ -649,16 +667,93 @@
           <line>140</line>
           <option name="timeStamp" value="416" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lemin.c</url>
+          <line>87</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_paths.c</url>
+          <line>2</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_paths.c</url>
+          <line>87</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_paths.c</url>
+          <line>89</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_paths.c</url>
+          <line>93</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_paths.c</url>
+          <line>40</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_paths.c</url>
+          <line>55</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/search_paths.c</url>
+          <line>71</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>14</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>145</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>150</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>152</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>156</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>105</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>86</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/levels_and_links.c</url>
+          <line>94</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="map-&gt;first_ant-&gt;next-&gt;next-&gt;num" />
-        <watch expression="map-&gt;last_ant" />
-        <watch expression="map-&gt;end" />
-        <watch expression="map-&gt;start-&gt;from" />
-        <watch expression="map-&gt;start" />
         <watch expression="map-&gt;max_current_level" />
+        <watch expression="room-&gt;from" />
       </configuration>
     </watches-manager>
   </component>
@@ -668,13 +763,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant_steps.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fllow-thousand" />
     <entry file="file://$PROJECT_DIR$/libft/srcs/ft_strequ.c">
@@ -691,90 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libft/srcs/ft_strcmp.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_me_paths_lawd.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_yourself_a_room.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow-one">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9825">
-          <caret line="655" selection-start-line="655" selection-end-line="655" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow-ten">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12555">
-          <caret line="837" selection-start-line="837" selection-end-line="837" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/srcs/get_next_line.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#892#918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow-thousand">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow-big">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63450">
-          <caret line="4230" column="9" selection-start-line="4230" selection-start-column="9" selection-end-line="4230" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/srcs/ft_strnew.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/srcs/ft_memalloc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -806,6 +814,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/superposition">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79155">
+          <caret line="5277" column="4" selection-start-line="5277" selection-end-line="5277" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/valid.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -813,76 +828,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/move_one_way.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check_end_connections.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
+        <state relative-caret-position="780">
           <caret line="52" column="104" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="104" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/freeshing.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="825">
           <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superposition">
+    <entry file="file://$PROJECT_DIR$/move_one_way.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="5277" column="4" selection-start-line="5277" selection-end-line="5277" selection-end-column="4" />
+        <state relative-caret-position="390">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/levels_and_links.c">
+    <entry file="file://$PROJECT_DIR$/map1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="285">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_yourself_a_room.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-ten">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12555">
+          <caret line="837" selection-start-line="837" selection-end-line="837" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/srcs/get_next_line.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#892#918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-thousand">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/srcs/ft_strnew.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lemin.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="146" column="52" lean-forward="true" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
+        <state relative-caret-position="2220">
+          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lemin.c">
+    <entry file="file://$PROJECT_DIR$/search_paths.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="1440">
+          <caret line="96" column="50" selection-start-line="94" selection-start-column="4" selection-end-line="96" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_me_paths_lawd.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/srcs/ft_memalloc.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant_steps.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ants_run_like_shit.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redrum.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="526">
+          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-one">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="639" column="8" selection-start-line="639" selection-start-column="5" selection-end-line="639" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-big">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="2097" column="9" selection-start-line="2097" selection-start-column="5" selection-end-line="2097" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lemin.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search_path.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="178" column="101" selection-start-line="178" selection-start-column="101" selection-end-line="178" selection-end-column="101" />
+        <state relative-caret-position="721">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
           <folding>
             <element signature="e#892#910#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/levels_and_links.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="83" column="99" selection-start-line="83" selection-start-column="99" selection-end-line="83" selection-end-column="99" />
         </state>
       </provider>
     </entry>
