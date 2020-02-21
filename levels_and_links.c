@@ -66,7 +66,56 @@ static	int		aux_for_levels(t_link *link, t_room *first, t_room *second,
 	return (0);
 }
 
-static void		next_levels(t_main *map, int checked_rooms)
+static int		another_room(t_main *map, int checked_room)
+{
+	t_link		*link;
+	
+	link = map->all_links_here;
+	while(link)
+	{
+		if (link->first_room->level == map->max_current_level && link->second_room->where == link->first_room)
+		{
+			link->second_room->where = NULL;
+			map->max_current_level--;
+			next_levels(map, checked_room);
+			if (link->second_room->where)
+				return (1);
+		}
+		else if (link->second_room->level == map->max_current_level && link->first_room->where == link->second_room)
+		{
+			link->first_room->where = NULL;
+			map->max_current_level--;
+			next_levels(map, checked_room);
+			if (link->first_room->where)
+				return (1);
+		}
+	}
+	return (0);
+}
+
+///функция, показывающая, есть ли у комнаты сзязи с другими, помимо комнаты уровнем меньше и тупиком
+
+static int	any_valid_rooms(t_room *checked, t_room *known, t_main *map)
+{
+	int		n;
+	t_link	*link;
+	
+	n = 0;
+	link = map->all_links_here;
+	while(link)
+	{
+		if (link->first_room == checked && link->second_room != known && !link->second_room->is_dead_end)
+			n++;
+		else if (link->second_room == checked &&link->first_room != known && !link->first_room->is_dead_end)
+			n++;
+		link = link->next;
+	}
+	if (n > 0)
+		return (1);
+	return (0);
+}
+
+void		next_levels(t_main *map, int checked_rooms)
 {
 	t_link		*link;
 	int			change;
@@ -81,7 +130,7 @@ static void		next_levels(t_main *map, int checked_rooms)
 			link = link->next;
 			continue;
 		}
-		if (link->first_room->level == map->max_current_level && !link->second_room->is_dead_end &&
+		if (link->first_room->level == map->max_current_level && any_valid_rooms(link->second_room, link->first_room, map) == 1 &&
 		(!link->second_room->level || link->second_room->level == -1) && (!link->second_room->from &&
 		!link->first_room->where))
 		{
@@ -89,7 +138,7 @@ static void		next_levels(t_main *map, int checked_rooms)
 			change = 1;
 			k += 1;
 		}
-		else if (link->second_room->level == map->max_current_level && !link->first_room->is_dead_end &&
+		else if (link->second_room->level == map->max_current_level && any_valid_rooms(link->first_room, link->second_room, map) &&
 		(!link->first_room->level || link->first_room->level == -1) && (!link->first_room->from &&
 		!link->second_room->where))
 		{
@@ -101,7 +150,11 @@ static void		next_levels(t_main *map, int checked_rooms)
 	}
 	printf("level: %d, rooms: %d\n", map->max_current_level, k);
 	if (change == 0)
+	{
+		//найти ьакс карент левел, его связь, переделать связь
+		
 		return ;
+	}
 	else
 	{
 		map->max_current_level += 1;
