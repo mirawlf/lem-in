@@ -104,9 +104,9 @@ static int	any_valid_rooms(t_room *checked, t_room *known, t_main *map)
 	link = map->all_links_here;
 	while(link)
 	{
-		if (link->first_room == checked && link->second_room != known && !link->second_room->is_dead_end)
+		if (link->first_room == checked && link->second_room != known && !link->second_room->is_dead_end && !link->second_room->from)
 			n++;
-		else if (link->second_room == checked &&link->first_room != known && !link->first_room->is_dead_end)
+		else if (link->second_room == checked &&link->first_room != known && !link->first_room->is_dead_end && !link->first_room->from)
 			n++;
 		link = link->next;
 	}
@@ -138,7 +138,7 @@ void		next_levels(t_main *map, int checked_rooms)
 			change = 1;
 			k += 1;
 		}
-		else if (link->second_room->level == map->max_current_level && any_valid_rooms(link->first_room, link->second_room, map) &&
+		else if (link->second_room->level == map->max_current_level && any_valid_rooms(link->first_room, link->second_room, map) == 1 &&
 		(!link->first_room->level || link->first_room->level == -1) && (!link->first_room->from &&
 		!link->second_room->where))
 		{
