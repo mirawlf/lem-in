@@ -16,6 +16,11 @@ CMakeFiles/lemin_github.dir/check_end_connections.c.o: .././libft/includes/libft
 CMakeFiles/lemin_github.dir/check_end_connections.c.o: ../check_end_connections.c
 CMakeFiles/lemin_github.dir/check_end_connections.c.o: ../lemin.h
 
+CMakeFiles/lemin_github.dir/delete_useless_links.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/lemin_github.dir/delete_useless_links.c.o: .././libft/includes/libft.h
+CMakeFiles/lemin_github.dir/delete_useless_links.c.o: ../delete_useless_links.c
+CMakeFiles/lemin_github.dir/delete_useless_links.c.o: ../lemin.h
+
 CMakeFiles/lemin_github.dir/filling.c.o: .././libft/includes/get_next_line.h
 CMakeFiles/lemin_github.dir/filling.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/filling.c.o: ../filling.c
@@ -257,6 +262,11 @@ CMakeFiles/lemin_github.dir/move_one_way.c.o: .././libft/includes/get_next_line.
 CMakeFiles/lemin_github.dir/move_one_way.c.o: .././libft/includes/libft.h
 CMakeFiles/lemin_github.dir/move_one_way.c.o: ../lemin.h
 CMakeFiles/lemin_github.dir/move_one_way.c.o: ../move_one_way.c
+
+CMakeFiles/lemin_github.dir/path_finder.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/lemin_github.dir/path_finder.c.o: .././libft/includes/libft.h
+CMakeFiles/lemin_github.dir/path_finder.c.o: ../lemin.h
+CMakeFiles/lemin_github.dir/path_finder.c.o: ../path_finder.c
 
 CMakeFiles/lemin_github.dir/redrum.c.o: .././libft/includes/get_next_line.h
 CMakeFiles/lemin_github.dir/redrum.c.o: .././libft/includes/libft.h

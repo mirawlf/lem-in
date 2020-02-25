@@ -93,6 +93,9 @@
 		<Unit filename="/Users/samymone/Desktop/linlin/check_end_connections.c">
 			<Option target="lemin_github"/>
 		</Unit>
+		<Unit filename="/Users/samymone/Desktop/linlin/delete_useless_links.c">
+			<Option target="lemin_github"/>
+		</Unit>
 		<Unit filename="/Users/samymone/Desktop/linlin/filling.c">
 			<Option target="lemin_github"/>
 		</Unit>
@@ -325,6 +328,9 @@
 			<Option target="lemin_github"/>
 		</Unit>
 		<Unit filename="/Users/samymone/Desktop/linlin/move_one_way.c">
+			<Option target="lemin_github"/>
+		</Unit>
+		<Unit filename="/Users/samymone/Desktop/linlin/path_finder.c">
 			<Option target="lemin_github"/>
 		</Unit>
 		<Unit filename="/Users/samymone/Desktop/linlin/redrum.c">

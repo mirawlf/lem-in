@@ -204,6 +204,33 @@ check_end_connections.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/check_end_connections.c.s
 .PHONY : check_end_connections.c.s
 
+delete_useless_links.o: delete_useless_links.c.o
+
+.PHONY : delete_useless_links.o
+
+# target to build an object file
+delete_useless_links.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/delete_useless_links.c.o
+.PHONY : delete_useless_links.c.o
+
+delete_useless_links.i: delete_useless_links.c.i
+
+.PHONY : delete_useless_links.i
+
+# target to preprocess a source file
+delete_useless_links.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/delete_useless_links.c.i
+.PHONY : delete_useless_links.c.i
+
+delete_useless_links.s: delete_useless_links.c.s
+
+.PHONY : delete_useless_links.s
+
+# target to generate assembly for a file
+delete_useless_links.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/delete_useless_links.c.s
+.PHONY : delete_useless_links.c.s
+
 filling.o: filling.c.o
 
 .PHONY : filling.o
@@ -2229,6 +2256,33 @@ move_one_way.c.s:
 	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/move_one_way.c.s
 .PHONY : move_one_way.c.s
 
+path_finder.o: path_finder.c.o
+
+.PHONY : path_finder.o
+
+# target to build an object file
+path_finder.c.o:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/path_finder.c.o
+.PHONY : path_finder.c.o
+
+path_finder.i: path_finder.c.i
+
+.PHONY : path_finder.i
+
+# target to preprocess a source file
+path_finder.c.i:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/path_finder.c.i
+.PHONY : path_finder.c.i
+
+path_finder.s: path_finder.c.s
+
+.PHONY : path_finder.s
+
+# target to generate assembly for a file
+path_finder.c.s:
+	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/path_finder.c.s
+.PHONY : path_finder.c.s
+
 redrum.o: redrum.c.o
 
 .PHONY : redrum.o
@@ -2409,6 +2463,9 @@ help:
 	@echo "... check_end_connections.o"
 	@echo "... check_end_connections.i"
 	@echo "... check_end_connections.s"
+	@echo "... delete_useless_links.o"
+	@echo "... delete_useless_links.i"
+	@echo "... delete_useless_links.s"
 	@echo "... filling.o"
 	@echo "... filling.i"
 	@echo "... filling.s"
@@ -2634,6 +2691,9 @@ help:
 	@echo "... move_one_way.o"
 	@echo "... move_one_way.i"
 	@echo "... move_one_way.s"
+	@echo "... path_finder.o"
+	@echo "... path_finder.i"
+	@echo "... path_finder.s"
 	@echo "... redrum.o"
 	@echo "... redrum.i"
 	@echo "... redrum.s"

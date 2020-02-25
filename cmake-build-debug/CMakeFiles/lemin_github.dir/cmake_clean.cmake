@@ -83,6 +83,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lemin_github.dir/move_one_way.c.o"
   "CMakeFiles/lemin_github.dir/check_end_connections.c.o"
   "CMakeFiles/lemin_github.dir/search_paths.c.o"
+  "CMakeFiles/lemin_github.dir/path_finder.c.o"
+  "CMakeFiles/lemin_github.dir/delete_useless_links.c.o"
   "lemin_github.pdb"
   "lemin_github"
 )

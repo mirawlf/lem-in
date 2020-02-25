@@ -1149,6 +1149,32 @@ CMakeFiles/lemin_github.dir/search_paths.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/search_paths.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/Desktop/linlin/search_paths.c -o CMakeFiles/lemin_github.dir/search_paths.c.s
 
+CMakeFiles/lemin_github.dir/path_finder.c.o: CMakeFiles/lemin_github.dir/flags.make
+CMakeFiles/lemin_github.dir/path_finder.c.o: ../path_finder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/lemin_github.dir/path_finder.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/path_finder.c.o   -c /Users/samymone/Desktop/linlin/path_finder.c
+
+CMakeFiles/lemin_github.dir/path_finder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/path_finder.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/Desktop/linlin/path_finder.c > CMakeFiles/lemin_github.dir/path_finder.c.i
+
+CMakeFiles/lemin_github.dir/path_finder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/path_finder.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/Desktop/linlin/path_finder.c -o CMakeFiles/lemin_github.dir/path_finder.c.s
+
+CMakeFiles/lemin_github.dir/delete_useless_links.c.o: CMakeFiles/lemin_github.dir/flags.make
+CMakeFiles/lemin_github.dir/delete_useless_links.c.o: ../delete_useless_links.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lemin_github.dir/delete_useless_links.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_github.dir/delete_useless_links.c.o   -c /Users/samymone/Desktop/linlin/delete_useless_links.c
+
+CMakeFiles/lemin_github.dir/delete_useless_links.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_github.dir/delete_useless_links.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/Desktop/linlin/delete_useless_links.c > CMakeFiles/lemin_github.dir/delete_useless_links.c.i
+
+CMakeFiles/lemin_github.dir/delete_useless_links.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_github.dir/delete_useless_links.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/Desktop/linlin/delete_useless_links.c -o CMakeFiles/lemin_github.dir/delete_useless_links.c.s
+
 # Object files for target lemin_github
 lemin_github_OBJECTS = \
 "CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o" \
@@ -1234,7 +1260,9 @@ lemin_github_OBJECTS = \
 "CMakeFiles/lemin_github.dir/ants_run_like_shit.c.o" \
 "CMakeFiles/lemin_github.dir/move_one_way.c.o" \
 "CMakeFiles/lemin_github.dir/check_end_connections.c.o" \
-"CMakeFiles/lemin_github.dir/search_paths.c.o"
+"CMakeFiles/lemin_github.dir/search_paths.c.o" \
+"CMakeFiles/lemin_github.dir/path_finder.c.o" \
+"CMakeFiles/lemin_github.dir/delete_useless_links.c.o"
 
 # External object files for target lemin_github
 lemin_github_EXTERNAL_OBJECTS =
@@ -1323,9 +1351,11 @@ lemin_github: CMakeFiles/lemin_github.dir/ants_run_like_shit.c.o
 lemin_github: CMakeFiles/lemin_github.dir/move_one_way.c.o
 lemin_github: CMakeFiles/lemin_github.dir/check_end_connections.c.o
 lemin_github: CMakeFiles/lemin_github.dir/search_paths.c.o
+lemin_github: CMakeFiles/lemin_github.dir/path_finder.c.o
+lemin_github: CMakeFiles/lemin_github.dir/delete_useless_links.c.o
 lemin_github: CMakeFiles/lemin_github.dir/build.make
 lemin_github: CMakeFiles/lemin_github.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking C executable lemin_github"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking C executable lemin_github"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lemin_github.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
