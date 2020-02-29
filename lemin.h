@@ -154,5 +154,6 @@ void		milky_way(t_main *map, int level);
 void		delete_useless_links(t_main *map);
 void		count_inputs_and_outputs(t_main *map);
 void		delete_bad_outputs(t_main *map);
+void			start_searching(t_room *room, t_main *map);
 
 #endif

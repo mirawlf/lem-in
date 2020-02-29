@@ -186,10 +186,7 @@ void			*determine_levels(t_main *map)
 	next_levels(map);
 	delete_useless_links(map);
 	count_inputs_and_outputs(map);
-	//milky_way(map, 2);
-	//search_paths(map);
-
-	search_previous_room(map->end, map);
+	start_searching(map->end, map);
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
 		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");

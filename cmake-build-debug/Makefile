@@ -2337,33 +2337,6 @@ search_paths.c.s:
 	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/search_paths.c.s
 .PHONY : search_paths.c.s
 
-sexy_levels.o: sexy_levels.c.o
-
-.PHONY : sexy_levels.o
-
-# target to build an object file
-sexy_levels.c.o:
-	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/sexy_levels.c.o
-.PHONY : sexy_levels.c.o
-
-sexy_levels.i: sexy_levels.c.i
-
-.PHONY : sexy_levels.i
-
-# target to preprocess a source file
-sexy_levels.c.i:
-	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/sexy_levels.c.i
-.PHONY : sexy_levels.c.i
-
-sexy_levels.s: sexy_levels.c.s
-
-.PHONY : sexy_levels.s
-
-# target to generate assembly for a file
-sexy_levels.c.s:
-	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/sexy_levels.c.s
-.PHONY : sexy_levels.c.s
-
 soulmates.o: soulmates.c.o
 
 .PHONY : soulmates.o
@@ -2727,9 +2700,6 @@ help:
 	@echo "... search_paths.o"
 	@echo "... search_paths.i"
 	@echo "... search_paths.s"
-	@echo "... sexy_levels.o"
-	@echo "... sexy_levels.i"
-	@echo "... sexy_levels.s"
 	@echo "... soulmates.o"
 	@echo "... soulmates.i"
 	@echo "... soulmates.s"

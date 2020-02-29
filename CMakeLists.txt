@@ -93,7 +93,6 @@ add_executable(last_lin
         redrum.c
         after_finding_paths.c
         search_paths.c
-        sexy_levels.c
         soulmates.c
         utils.c
         valid.c)
