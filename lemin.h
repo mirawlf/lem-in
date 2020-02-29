@@ -29,6 +29,8 @@ typedef struct 		s_room
 	int 			has_pair;
 	int 			steps;
 	int 			is_part_of_path;
+	int 			inputs;
+	int 			outputs;
 	struct s_room	*where;
 	struct s_room	*from;
 	struct s_room	*next;
@@ -59,6 +61,7 @@ typedef struct 		s_path
 	t_room 			*current;
 	struct s_path	*next;
 }					t_path;
+
 
 typedef struct		s_main
 {
@@ -125,7 +128,7 @@ void				*except_excess_links(t_link *links, t_room *rooms);
 int 				was_checked(t_room *first, t_room *second, t_link *links);
 
 void				search_necessary_rooms(t_main *map);
-void				*search_previous_room(t_room *current, t_main *map);
+void				search_previous_room(t_room *current, t_main *map);
 void 				*count_steps(t_main *map);
 //void				auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
 void 				lets_go(t_main *map);
@@ -144,10 +147,12 @@ void		make_step(t_main  *main, t_path **path_array);
 t_ant 	*del_ant(t_ant *ant, t_main *main);
 void		make_oneway_step(t_main  *main, t_path *best_path);
 void		check_end_connections(t_main *map);
-void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
+//void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
 void 		search_paths(t_main *map);
 void		next_levels(t_main *map);
 void		milky_way(t_main *map, int level);
 void		delete_useless_links(t_main *map);
+void		count_inputs_and_outputs(t_main *map);
+void		delete_bad_outputs(t_main *map);
 
 #endif

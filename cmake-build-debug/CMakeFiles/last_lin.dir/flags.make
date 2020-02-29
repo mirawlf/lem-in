@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/samymone/Desktop/linlin/. -I/Users/samymone/Desktop/linlin/libft/includes 
+C_INCLUDES = -I/Users/samymone/last_lin/. -I/Users/samymone/last_lin/libft/includes 
 

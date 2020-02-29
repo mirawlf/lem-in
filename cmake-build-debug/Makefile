@@ -48,10 +48,10 @@ RM = /Users/samymone/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/samymone/Desktop/linlin
+CMAKE_SOURCE_DIR = /Users/samymone/last_lin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/samymone/Desktop/linlin/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/samymone/last_lin/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles /Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samymone/last_lin/cmake-build-debug/CMakeFiles /Users/samymone/last_lin/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samymone/Desktop/linlin/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samymone/last_lin/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lemin_github
+# Target rules for targets named last_lin
 
 # Build rule for target.
-lemin_github: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lemin_github
-.PHONY : lemin_github
+last_lin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 last_lin
+.PHONY : last_lin
 
 # fast build rule for target.
-lemin_github/fast:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/build
-.PHONY : lemin_github/fast
+last_lin/fast:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/build
+.PHONY : last_lin/fast
+
+after_finding_paths.o: after_finding_paths.c.o
+
+.PHONY : after_finding_paths.o
+
+# target to build an object file
+after_finding_paths.c.o:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/after_finding_paths.c.o
+.PHONY : after_finding_paths.c.o
+
+after_finding_paths.i: after_finding_paths.c.i
+
+.PHONY : after_finding_paths.i
+
+# target to preprocess a source file
+after_finding_paths.c.i:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/after_finding_paths.c.i
+.PHONY : after_finding_paths.c.i
+
+after_finding_paths.s: after_finding_paths.c.s
+
+.PHONY : after_finding_paths.s
+
+# target to generate assembly for a file
+after_finding_paths.c.s:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/after_finding_paths.c.s
+.PHONY : after_finding_paths.c.s
 
 ant_steps.o: ant_steps.c.o
 
@@ -129,7 +156,7 @@ ant_steps.o: ant_steps.c.o
 
 # target to build an object file
 ant_steps.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/ant_steps.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/ant_steps.c.o
 .PHONY : ant_steps.c.o
 
 ant_steps.i: ant_steps.c.i
@@ -138,7 +165,7 @@ ant_steps.i: ant_steps.c.i
 
 # target to preprocess a source file
 ant_steps.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/ant_steps.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/ant_steps.c.i
 .PHONY : ant_steps.c.i
 
 ant_steps.s: ant_steps.c.s
@@ -147,7 +174,7 @@ ant_steps.s: ant_steps.c.s
 
 # target to generate assembly for a file
 ant_steps.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/ant_steps.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/ant_steps.c.s
 .PHONY : ant_steps.c.s
 
 ants_run_like_shit.o: ants_run_like_shit.c.o
@@ -156,7 +183,7 @@ ants_run_like_shit.o: ants_run_like_shit.c.o
 
 # target to build an object file
 ants_run_like_shit.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/ants_run_like_shit.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/ants_run_like_shit.c.o
 .PHONY : ants_run_like_shit.c.o
 
 ants_run_like_shit.i: ants_run_like_shit.c.i
@@ -165,7 +192,7 @@ ants_run_like_shit.i: ants_run_like_shit.c.i
 
 # target to preprocess a source file
 ants_run_like_shit.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/ants_run_like_shit.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/ants_run_like_shit.c.i
 .PHONY : ants_run_like_shit.c.i
 
 ants_run_like_shit.s: ants_run_like_shit.c.s
@@ -174,7 +201,7 @@ ants_run_like_shit.s: ants_run_like_shit.c.s
 
 # target to generate assembly for a file
 ants_run_like_shit.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/ants_run_like_shit.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/ants_run_like_shit.c.s
 .PHONY : ants_run_like_shit.c.s
 
 check_end_connections.o: check_end_connections.c.o
@@ -183,7 +210,7 @@ check_end_connections.o: check_end_connections.c.o
 
 # target to build an object file
 check_end_connections.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/check_end_connections.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/check_end_connections.c.o
 .PHONY : check_end_connections.c.o
 
 check_end_connections.i: check_end_connections.c.i
@@ -192,7 +219,7 @@ check_end_connections.i: check_end_connections.c.i
 
 # target to preprocess a source file
 check_end_connections.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/check_end_connections.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/check_end_connections.c.i
 .PHONY : check_end_connections.c.i
 
 check_end_connections.s: check_end_connections.c.s
@@ -201,35 +228,8 @@ check_end_connections.s: check_end_connections.c.s
 
 # target to generate assembly for a file
 check_end_connections.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/check_end_connections.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/check_end_connections.c.s
 .PHONY : check_end_connections.c.s
-
-delete_useless_links.o: delete_useless_links.c.o
-
-.PHONY : delete_useless_links.o
-
-# target to build an object file
-delete_useless_links.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/delete_useless_links.c.o
-.PHONY : delete_useless_links.c.o
-
-delete_useless_links.i: delete_useless_links.c.i
-
-.PHONY : delete_useless_links.i
-
-# target to preprocess a source file
-delete_useless_links.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/delete_useless_links.c.i
-.PHONY : delete_useless_links.c.i
-
-delete_useless_links.s: delete_useless_links.c.s
-
-.PHONY : delete_useless_links.s
-
-# target to generate assembly for a file
-delete_useless_links.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/delete_useless_links.c.s
-.PHONY : delete_useless_links.c.s
 
 filling.o: filling.c.o
 
@@ -237,7 +237,7 @@ filling.o: filling.c.o
 
 # target to build an object file
 filling.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/filling.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/filling.c.o
 .PHONY : filling.c.o
 
 filling.i: filling.c.i
@@ -246,7 +246,7 @@ filling.i: filling.c.i
 
 # target to preprocess a source file
 filling.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/filling.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/filling.c.i
 .PHONY : filling.c.i
 
 filling.s: filling.c.s
@@ -255,7 +255,7 @@ filling.s: filling.c.s
 
 # target to generate assembly for a file
 filling.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/filling.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/filling.c.s
 .PHONY : filling.c.s
 
 find_yourself_a_room.o: find_yourself_a_room.c.o
@@ -264,7 +264,7 @@ find_yourself_a_room.o: find_yourself_a_room.c.o
 
 # target to build an object file
 find_yourself_a_room.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/find_yourself_a_room.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/find_yourself_a_room.c.o
 .PHONY : find_yourself_a_room.c.o
 
 find_yourself_a_room.i: find_yourself_a_room.c.i
@@ -273,7 +273,7 @@ find_yourself_a_room.i: find_yourself_a_room.c.i
 
 # target to preprocess a source file
 find_yourself_a_room.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/find_yourself_a_room.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/find_yourself_a_room.c.i
 .PHONY : find_yourself_a_room.c.i
 
 find_yourself_a_room.s: find_yourself_a_room.c.s
@@ -282,7 +282,7 @@ find_yourself_a_room.s: find_yourself_a_room.c.s
 
 # target to generate assembly for a file
 find_yourself_a_room.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/find_yourself_a_room.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/find_yourself_a_room.c.s
 .PHONY : find_yourself_a_room.c.s
 
 freeshing.o: freeshing.c.o
@@ -291,7 +291,7 @@ freeshing.o: freeshing.c.o
 
 # target to build an object file
 freeshing.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/freeshing.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/freeshing.c.o
 .PHONY : freeshing.c.o
 
 freeshing.i: freeshing.c.i
@@ -300,7 +300,7 @@ freeshing.i: freeshing.c.i
 
 # target to preprocess a source file
 freeshing.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/freeshing.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/freeshing.c.i
 .PHONY : freeshing.c.i
 
 freeshing.s: freeshing.c.s
@@ -309,7 +309,7 @@ freeshing.s: freeshing.c.s
 
 # target to generate assembly for a file
 freeshing.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/freeshing.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/freeshing.c.s
 .PHONY : freeshing.c.s
 
 get_me_paths_lawd.o: get_me_paths_lawd.c.o
@@ -318,7 +318,7 @@ get_me_paths_lawd.o: get_me_paths_lawd.c.o
 
 # target to build an object file
 get_me_paths_lawd.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/get_me_paths_lawd.c.o
 .PHONY : get_me_paths_lawd.c.o
 
 get_me_paths_lawd.i: get_me_paths_lawd.c.i
@@ -327,7 +327,7 @@ get_me_paths_lawd.i: get_me_paths_lawd.c.i
 
 # target to preprocess a source file
 get_me_paths_lawd.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/get_me_paths_lawd.c.i
 .PHONY : get_me_paths_lawd.c.i
 
 get_me_paths_lawd.s: get_me_paths_lawd.c.s
@@ -336,7 +336,7 @@ get_me_paths_lawd.s: get_me_paths_lawd.c.s
 
 # target to generate assembly for a file
 get_me_paths_lawd.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/get_me_paths_lawd.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/get_me_paths_lawd.c.s
 .PHONY : get_me_paths_lawd.c.s
 
 go.o: go.c.o
@@ -345,7 +345,7 @@ go.o: go.c.o
 
 # target to build an object file
 go.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/go.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/go.c.o
 .PHONY : go.c.o
 
 go.i: go.c.i
@@ -354,7 +354,7 @@ go.i: go.c.i
 
 # target to preprocess a source file
 go.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/go.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/go.c.i
 .PHONY : go.c.i
 
 go.s: go.c.s
@@ -363,7 +363,7 @@ go.s: go.c.s
 
 # target to generate assembly for a file
 go.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/go.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/go.c.s
 .PHONY : go.c.s
 
 lemin.o: lemin.c.o
@@ -372,7 +372,7 @@ lemin.o: lemin.c.o
 
 # target to build an object file
 lemin.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/lemin.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/lemin.c.o
 .PHONY : lemin.c.o
 
 lemin.i: lemin.c.i
@@ -381,7 +381,7 @@ lemin.i: lemin.c.i
 
 # target to preprocess a source file
 lemin.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/lemin.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/lemin.c.i
 .PHONY : lemin.c.i
 
 lemin.s: lemin.c.s
@@ -390,7 +390,7 @@ lemin.s: lemin.c.s
 
 # target to generate assembly for a file
 lemin.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/lemin.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/lemin.c.s
 .PHONY : lemin.c.s
 
 levels_and_links.o: levels_and_links.c.o
@@ -399,7 +399,7 @@ levels_and_links.o: levels_and_links.c.o
 
 # target to build an object file
 levels_and_links.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/levels_and_links.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/levels_and_links.c.o
 .PHONY : levels_and_links.c.o
 
 levels_and_links.i: levels_and_links.c.i
@@ -408,7 +408,7 @@ levels_and_links.i: levels_and_links.c.i
 
 # target to preprocess a source file
 levels_and_links.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/levels_and_links.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/levels_and_links.c.i
 .PHONY : levels_and_links.c.i
 
 levels_and_links.s: levels_and_links.c.s
@@ -417,7 +417,7 @@ levels_and_links.s: levels_and_links.c.s
 
 # target to generate assembly for a file
 levels_and_links.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/levels_and_links.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/levels_and_links.c.s
 .PHONY : levels_and_links.c.s
 
 libft/srcs/ft_abs.o: libft/srcs/ft_abs.c.o
@@ -426,7 +426,7 @@ libft/srcs/ft_abs.o: libft/srcs/ft_abs.c.o
 
 # target to build an object file
 libft/srcs/ft_abs.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_abs.c.o
 .PHONY : libft/srcs/ft_abs.c.o
 
 libft/srcs/ft_abs.i: libft/srcs/ft_abs.c.i
@@ -435,7 +435,7 @@ libft/srcs/ft_abs.i: libft/srcs/ft_abs.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_abs.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_abs.c.i
 .PHONY : libft/srcs/ft_abs.c.i
 
 libft/srcs/ft_abs.s: libft/srcs/ft_abs.c.s
@@ -444,7 +444,7 @@ libft/srcs/ft_abs.s: libft/srcs/ft_abs.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_abs.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_abs.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_abs.c.s
 .PHONY : libft/srcs/ft_abs.c.s
 
 libft/srcs/ft_atoi.o: libft/srcs/ft_atoi.c.o
@@ -453,7 +453,7 @@ libft/srcs/ft_atoi.o: libft/srcs/ft_atoi.c.o
 
 # target to build an object file
 libft/srcs/ft_atoi.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_atoi.c.o
 .PHONY : libft/srcs/ft_atoi.c.o
 
 libft/srcs/ft_atoi.i: libft/srcs/ft_atoi.c.i
@@ -462,7 +462,7 @@ libft/srcs/ft_atoi.i: libft/srcs/ft_atoi.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_atoi.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_atoi.c.i
 .PHONY : libft/srcs/ft_atoi.c.i
 
 libft/srcs/ft_atoi.s: libft/srcs/ft_atoi.c.s
@@ -471,7 +471,7 @@ libft/srcs/ft_atoi.s: libft/srcs/ft_atoi.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_atoi.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_atoi.c.s
 .PHONY : libft/srcs/ft_atoi.c.s
 
 libft/srcs/ft_atoi_base.o: libft/srcs/ft_atoi_base.c.o
@@ -480,7 +480,7 @@ libft/srcs/ft_atoi_base.o: libft/srcs/ft_atoi_base.c.o
 
 # target to build an object file
 libft/srcs/ft_atoi_base.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_atoi_base.c.o
 .PHONY : libft/srcs/ft_atoi_base.c.o
 
 libft/srcs/ft_atoi_base.i: libft/srcs/ft_atoi_base.c.i
@@ -489,7 +489,7 @@ libft/srcs/ft_atoi_base.i: libft/srcs/ft_atoi_base.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_atoi_base.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_atoi_base.c.i
 .PHONY : libft/srcs/ft_atoi_base.c.i
 
 libft/srcs/ft_atoi_base.s: libft/srcs/ft_atoi_base.c.s
@@ -498,7 +498,7 @@ libft/srcs/ft_atoi_base.s: libft/srcs/ft_atoi_base.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_atoi_base.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_atoi_base.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_atoi_base.c.s
 .PHONY : libft/srcs/ft_atoi_base.c.s
 
 libft/srcs/ft_bzero.o: libft/srcs/ft_bzero.c.o
@@ -507,7 +507,7 @@ libft/srcs/ft_bzero.o: libft/srcs/ft_bzero.c.o
 
 # target to build an object file
 libft/srcs/ft_bzero.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_bzero.c.o
 .PHONY : libft/srcs/ft_bzero.c.o
 
 libft/srcs/ft_bzero.i: libft/srcs/ft_bzero.c.i
@@ -516,7 +516,7 @@ libft/srcs/ft_bzero.i: libft/srcs/ft_bzero.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_bzero.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_bzero.c.i
 .PHONY : libft/srcs/ft_bzero.c.i
 
 libft/srcs/ft_bzero.s: libft/srcs/ft_bzero.c.s
@@ -525,7 +525,7 @@ libft/srcs/ft_bzero.s: libft/srcs/ft_bzero.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_bzero.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_bzero.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_bzero.c.s
 .PHONY : libft/srcs/ft_bzero.c.s
 
 libft/srcs/ft_isalnum.o: libft/srcs/ft_isalnum.c.o
@@ -534,7 +534,7 @@ libft/srcs/ft_isalnum.o: libft/srcs/ft_isalnum.c.o
 
 # target to build an object file
 libft/srcs/ft_isalnum.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isalnum.c.o
 .PHONY : libft/srcs/ft_isalnum.c.o
 
 libft/srcs/ft_isalnum.i: libft/srcs/ft_isalnum.c.i
@@ -543,7 +543,7 @@ libft/srcs/ft_isalnum.i: libft/srcs/ft_isalnum.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_isalnum.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isalnum.c.i
 .PHONY : libft/srcs/ft_isalnum.c.i
 
 libft/srcs/ft_isalnum.s: libft/srcs/ft_isalnum.c.s
@@ -552,7 +552,7 @@ libft/srcs/ft_isalnum.s: libft/srcs/ft_isalnum.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_isalnum.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isalnum.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isalnum.c.s
 .PHONY : libft/srcs/ft_isalnum.c.s
 
 libft/srcs/ft_isalpha.o: libft/srcs/ft_isalpha.c.o
@@ -561,7 +561,7 @@ libft/srcs/ft_isalpha.o: libft/srcs/ft_isalpha.c.o
 
 # target to build an object file
 libft/srcs/ft_isalpha.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isalpha.c.o
 .PHONY : libft/srcs/ft_isalpha.c.o
 
 libft/srcs/ft_isalpha.i: libft/srcs/ft_isalpha.c.i
@@ -570,7 +570,7 @@ libft/srcs/ft_isalpha.i: libft/srcs/ft_isalpha.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_isalpha.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isalpha.c.i
 .PHONY : libft/srcs/ft_isalpha.c.i
 
 libft/srcs/ft_isalpha.s: libft/srcs/ft_isalpha.c.s
@@ -579,7 +579,7 @@ libft/srcs/ft_isalpha.s: libft/srcs/ft_isalpha.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_isalpha.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isalpha.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isalpha.c.s
 .PHONY : libft/srcs/ft_isalpha.c.s
 
 libft/srcs/ft_isascii.o: libft/srcs/ft_isascii.c.o
@@ -588,7 +588,7 @@ libft/srcs/ft_isascii.o: libft/srcs/ft_isascii.c.o
 
 # target to build an object file
 libft/srcs/ft_isascii.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isascii.c.o
 .PHONY : libft/srcs/ft_isascii.c.o
 
 libft/srcs/ft_isascii.i: libft/srcs/ft_isascii.c.i
@@ -597,7 +597,7 @@ libft/srcs/ft_isascii.i: libft/srcs/ft_isascii.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_isascii.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isascii.c.i
 .PHONY : libft/srcs/ft_isascii.c.i
 
 libft/srcs/ft_isascii.s: libft/srcs/ft_isascii.c.s
@@ -606,7 +606,7 @@ libft/srcs/ft_isascii.s: libft/srcs/ft_isascii.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_isascii.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isascii.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isascii.c.s
 .PHONY : libft/srcs/ft_isascii.c.s
 
 libft/srcs/ft_isdigit.o: libft/srcs/ft_isdigit.c.o
@@ -615,7 +615,7 @@ libft/srcs/ft_isdigit.o: libft/srcs/ft_isdigit.c.o
 
 # target to build an object file
 libft/srcs/ft_isdigit.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isdigit.c.o
 .PHONY : libft/srcs/ft_isdigit.c.o
 
 libft/srcs/ft_isdigit.i: libft/srcs/ft_isdigit.c.i
@@ -624,7 +624,7 @@ libft/srcs/ft_isdigit.i: libft/srcs/ft_isdigit.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_isdigit.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isdigit.c.i
 .PHONY : libft/srcs/ft_isdigit.c.i
 
 libft/srcs/ft_isdigit.s: libft/srcs/ft_isdigit.c.s
@@ -633,7 +633,7 @@ libft/srcs/ft_isdigit.s: libft/srcs/ft_isdigit.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_isdigit.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isdigit.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isdigit.c.s
 .PHONY : libft/srcs/ft_isdigit.c.s
 
 libft/srcs/ft_isprint.o: libft/srcs/ft_isprint.c.o
@@ -642,7 +642,7 @@ libft/srcs/ft_isprint.o: libft/srcs/ft_isprint.c.o
 
 # target to build an object file
 libft/srcs/ft_isprint.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isprint.c.o
 .PHONY : libft/srcs/ft_isprint.c.o
 
 libft/srcs/ft_isprint.i: libft/srcs/ft_isprint.c.i
@@ -651,7 +651,7 @@ libft/srcs/ft_isprint.i: libft/srcs/ft_isprint.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_isprint.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isprint.c.i
 .PHONY : libft/srcs/ft_isprint.c.i
 
 libft/srcs/ft_isprint.s: libft/srcs/ft_isprint.c.s
@@ -660,7 +660,7 @@ libft/srcs/ft_isprint.s: libft/srcs/ft_isprint.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_isprint.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_isprint.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_isprint.c.s
 .PHONY : libft/srcs/ft_isprint.c.s
 
 libft/srcs/ft_itoa.o: libft/srcs/ft_itoa.c.o
@@ -669,7 +669,7 @@ libft/srcs/ft_itoa.o: libft/srcs/ft_itoa.c.o
 
 # target to build an object file
 libft/srcs/ft_itoa.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_itoa.c.o
 .PHONY : libft/srcs/ft_itoa.c.o
 
 libft/srcs/ft_itoa.i: libft/srcs/ft_itoa.c.i
@@ -678,7 +678,7 @@ libft/srcs/ft_itoa.i: libft/srcs/ft_itoa.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_itoa.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_itoa.c.i
 .PHONY : libft/srcs/ft_itoa.c.i
 
 libft/srcs/ft_itoa.s: libft/srcs/ft_itoa.c.s
@@ -687,7 +687,7 @@ libft/srcs/ft_itoa.s: libft/srcs/ft_itoa.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_itoa.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_itoa.c.s
 .PHONY : libft/srcs/ft_itoa.c.s
 
 libft/srcs/ft_itoa_base.o: libft/srcs/ft_itoa_base.c.o
@@ -696,7 +696,7 @@ libft/srcs/ft_itoa_base.o: libft/srcs/ft_itoa_base.c.o
 
 # target to build an object file
 libft/srcs/ft_itoa_base.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_itoa_base.c.o
 .PHONY : libft/srcs/ft_itoa_base.c.o
 
 libft/srcs/ft_itoa_base.i: libft/srcs/ft_itoa_base.c.i
@@ -705,7 +705,7 @@ libft/srcs/ft_itoa_base.i: libft/srcs/ft_itoa_base.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_itoa_base.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_itoa_base.c.i
 .PHONY : libft/srcs/ft_itoa_base.c.i
 
 libft/srcs/ft_itoa_base.s: libft/srcs/ft_itoa_base.c.s
@@ -714,7 +714,7 @@ libft/srcs/ft_itoa_base.s: libft/srcs/ft_itoa_base.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_itoa_base.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_itoa_base.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_itoa_base.c.s
 .PHONY : libft/srcs/ft_itoa_base.c.s
 
 libft/srcs/ft_lstadd.o: libft/srcs/ft_lstadd.c.o
@@ -723,7 +723,7 @@ libft/srcs/ft_lstadd.o: libft/srcs/ft_lstadd.c.o
 
 # target to build an object file
 libft/srcs/ft_lstadd.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstadd.c.o
 .PHONY : libft/srcs/ft_lstadd.c.o
 
 libft/srcs/ft_lstadd.i: libft/srcs/ft_lstadd.c.i
@@ -732,7 +732,7 @@ libft/srcs/ft_lstadd.i: libft/srcs/ft_lstadd.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_lstadd.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstadd.c.i
 .PHONY : libft/srcs/ft_lstadd.c.i
 
 libft/srcs/ft_lstadd.s: libft/srcs/ft_lstadd.c.s
@@ -741,7 +741,7 @@ libft/srcs/ft_lstadd.s: libft/srcs/ft_lstadd.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_lstadd.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstadd.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstadd.c.s
 .PHONY : libft/srcs/ft_lstadd.c.s
 
 libft/srcs/ft_lstaddback.o: libft/srcs/ft_lstaddback.c.o
@@ -750,7 +750,7 @@ libft/srcs/ft_lstaddback.o: libft/srcs/ft_lstaddback.c.o
 
 # target to build an object file
 libft/srcs/ft_lstaddback.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstaddback.c.o
 .PHONY : libft/srcs/ft_lstaddback.c.o
 
 libft/srcs/ft_lstaddback.i: libft/srcs/ft_lstaddback.c.i
@@ -759,7 +759,7 @@ libft/srcs/ft_lstaddback.i: libft/srcs/ft_lstaddback.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_lstaddback.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstaddback.c.i
 .PHONY : libft/srcs/ft_lstaddback.c.i
 
 libft/srcs/ft_lstaddback.s: libft/srcs/ft_lstaddback.c.s
@@ -768,7 +768,7 @@ libft/srcs/ft_lstaddback.s: libft/srcs/ft_lstaddback.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_lstaddback.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstaddback.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstaddback.c.s
 .PHONY : libft/srcs/ft_lstaddback.c.s
 
 libft/srcs/ft_lstdel.o: libft/srcs/ft_lstdel.c.o
@@ -777,7 +777,7 @@ libft/srcs/ft_lstdel.o: libft/srcs/ft_lstdel.c.o
 
 # target to build an object file
 libft/srcs/ft_lstdel.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstdel.c.o
 .PHONY : libft/srcs/ft_lstdel.c.o
 
 libft/srcs/ft_lstdel.i: libft/srcs/ft_lstdel.c.i
@@ -786,7 +786,7 @@ libft/srcs/ft_lstdel.i: libft/srcs/ft_lstdel.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_lstdel.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstdel.c.i
 .PHONY : libft/srcs/ft_lstdel.c.i
 
 libft/srcs/ft_lstdel.s: libft/srcs/ft_lstdel.c.s
@@ -795,7 +795,7 @@ libft/srcs/ft_lstdel.s: libft/srcs/ft_lstdel.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_lstdel.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdel.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstdel.c.s
 .PHONY : libft/srcs/ft_lstdel.c.s
 
 libft/srcs/ft_lstdelone.o: libft/srcs/ft_lstdelone.c.o
@@ -804,7 +804,7 @@ libft/srcs/ft_lstdelone.o: libft/srcs/ft_lstdelone.c.o
 
 # target to build an object file
 libft/srcs/ft_lstdelone.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstdelone.c.o
 .PHONY : libft/srcs/ft_lstdelone.c.o
 
 libft/srcs/ft_lstdelone.i: libft/srcs/ft_lstdelone.c.i
@@ -813,7 +813,7 @@ libft/srcs/ft_lstdelone.i: libft/srcs/ft_lstdelone.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_lstdelone.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstdelone.c.i
 .PHONY : libft/srcs/ft_lstdelone.c.i
 
 libft/srcs/ft_lstdelone.s: libft/srcs/ft_lstdelone.c.s
@@ -822,7 +822,7 @@ libft/srcs/ft_lstdelone.s: libft/srcs/ft_lstdelone.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_lstdelone.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstdelone.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstdelone.c.s
 .PHONY : libft/srcs/ft_lstdelone.c.s
 
 libft/srcs/ft_lstiter.o: libft/srcs/ft_lstiter.c.o
@@ -831,7 +831,7 @@ libft/srcs/ft_lstiter.o: libft/srcs/ft_lstiter.c.o
 
 # target to build an object file
 libft/srcs/ft_lstiter.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstiter.c.o
 .PHONY : libft/srcs/ft_lstiter.c.o
 
 libft/srcs/ft_lstiter.i: libft/srcs/ft_lstiter.c.i
@@ -840,7 +840,7 @@ libft/srcs/ft_lstiter.i: libft/srcs/ft_lstiter.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_lstiter.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstiter.c.i
 .PHONY : libft/srcs/ft_lstiter.c.i
 
 libft/srcs/ft_lstiter.s: libft/srcs/ft_lstiter.c.s
@@ -849,7 +849,7 @@ libft/srcs/ft_lstiter.s: libft/srcs/ft_lstiter.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_lstiter.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstiter.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstiter.c.s
 .PHONY : libft/srcs/ft_lstiter.c.s
 
 libft/srcs/ft_lstmap.o: libft/srcs/ft_lstmap.c.o
@@ -858,7 +858,7 @@ libft/srcs/ft_lstmap.o: libft/srcs/ft_lstmap.c.o
 
 # target to build an object file
 libft/srcs/ft_lstmap.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstmap.c.o
 .PHONY : libft/srcs/ft_lstmap.c.o
 
 libft/srcs/ft_lstmap.i: libft/srcs/ft_lstmap.c.i
@@ -867,7 +867,7 @@ libft/srcs/ft_lstmap.i: libft/srcs/ft_lstmap.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_lstmap.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstmap.c.i
 .PHONY : libft/srcs/ft_lstmap.c.i
 
 libft/srcs/ft_lstmap.s: libft/srcs/ft_lstmap.c.s
@@ -876,7 +876,7 @@ libft/srcs/ft_lstmap.s: libft/srcs/ft_lstmap.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_lstmap.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstmap.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstmap.c.s
 .PHONY : libft/srcs/ft_lstmap.c.s
 
 libft/srcs/ft_lstnew.o: libft/srcs/ft_lstnew.c.o
@@ -885,7 +885,7 @@ libft/srcs/ft_lstnew.o: libft/srcs/ft_lstnew.c.o
 
 # target to build an object file
 libft/srcs/ft_lstnew.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstnew.c.o
 .PHONY : libft/srcs/ft_lstnew.c.o
 
 libft/srcs/ft_lstnew.i: libft/srcs/ft_lstnew.c.i
@@ -894,7 +894,7 @@ libft/srcs/ft_lstnew.i: libft/srcs/ft_lstnew.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_lstnew.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstnew.c.i
 .PHONY : libft/srcs/ft_lstnew.c.i
 
 libft/srcs/ft_lstnew.s: libft/srcs/ft_lstnew.c.s
@@ -903,7 +903,7 @@ libft/srcs/ft_lstnew.s: libft/srcs/ft_lstnew.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_lstnew.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_lstnew.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_lstnew.c.s
 .PHONY : libft/srcs/ft_lstnew.c.s
 
 libft/srcs/ft_memalloc.o: libft/srcs/ft_memalloc.c.o
@@ -912,7 +912,7 @@ libft/srcs/ft_memalloc.o: libft/srcs/ft_memalloc.c.o
 
 # target to build an object file
 libft/srcs/ft_memalloc.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memalloc.c.o
 .PHONY : libft/srcs/ft_memalloc.c.o
 
 libft/srcs/ft_memalloc.i: libft/srcs/ft_memalloc.c.i
@@ -921,7 +921,7 @@ libft/srcs/ft_memalloc.i: libft/srcs/ft_memalloc.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_memalloc.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memalloc.c.i
 .PHONY : libft/srcs/ft_memalloc.c.i
 
 libft/srcs/ft_memalloc.s: libft/srcs/ft_memalloc.c.s
@@ -930,7 +930,7 @@ libft/srcs/ft_memalloc.s: libft/srcs/ft_memalloc.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_memalloc.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memalloc.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memalloc.c.s
 .PHONY : libft/srcs/ft_memalloc.c.s
 
 libft/srcs/ft_memccpy.o: libft/srcs/ft_memccpy.c.o
@@ -939,7 +939,7 @@ libft/srcs/ft_memccpy.o: libft/srcs/ft_memccpy.c.o
 
 # target to build an object file
 libft/srcs/ft_memccpy.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memccpy.c.o
 .PHONY : libft/srcs/ft_memccpy.c.o
 
 libft/srcs/ft_memccpy.i: libft/srcs/ft_memccpy.c.i
@@ -948,7 +948,7 @@ libft/srcs/ft_memccpy.i: libft/srcs/ft_memccpy.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_memccpy.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memccpy.c.i
 .PHONY : libft/srcs/ft_memccpy.c.i
 
 libft/srcs/ft_memccpy.s: libft/srcs/ft_memccpy.c.s
@@ -957,7 +957,7 @@ libft/srcs/ft_memccpy.s: libft/srcs/ft_memccpy.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_memccpy.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memccpy.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memccpy.c.s
 .PHONY : libft/srcs/ft_memccpy.c.s
 
 libft/srcs/ft_memchr.o: libft/srcs/ft_memchr.c.o
@@ -966,7 +966,7 @@ libft/srcs/ft_memchr.o: libft/srcs/ft_memchr.c.o
 
 # target to build an object file
 libft/srcs/ft_memchr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memchr.c.o
 .PHONY : libft/srcs/ft_memchr.c.o
 
 libft/srcs/ft_memchr.i: libft/srcs/ft_memchr.c.i
@@ -975,7 +975,7 @@ libft/srcs/ft_memchr.i: libft/srcs/ft_memchr.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_memchr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memchr.c.i
 .PHONY : libft/srcs/ft_memchr.c.i
 
 libft/srcs/ft_memchr.s: libft/srcs/ft_memchr.c.s
@@ -984,7 +984,7 @@ libft/srcs/ft_memchr.s: libft/srcs/ft_memchr.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_memchr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memchr.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memchr.c.s
 .PHONY : libft/srcs/ft_memchr.c.s
 
 libft/srcs/ft_memcmp.o: libft/srcs/ft_memcmp.c.o
@@ -993,7 +993,7 @@ libft/srcs/ft_memcmp.o: libft/srcs/ft_memcmp.c.o
 
 # target to build an object file
 libft/srcs/ft_memcmp.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memcmp.c.o
 .PHONY : libft/srcs/ft_memcmp.c.o
 
 libft/srcs/ft_memcmp.i: libft/srcs/ft_memcmp.c.i
@@ -1002,7 +1002,7 @@ libft/srcs/ft_memcmp.i: libft/srcs/ft_memcmp.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_memcmp.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memcmp.c.i
 .PHONY : libft/srcs/ft_memcmp.c.i
 
 libft/srcs/ft_memcmp.s: libft/srcs/ft_memcmp.c.s
@@ -1011,7 +1011,7 @@ libft/srcs/ft_memcmp.s: libft/srcs/ft_memcmp.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_memcmp.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memcmp.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memcmp.c.s
 .PHONY : libft/srcs/ft_memcmp.c.s
 
 libft/srcs/ft_memcpy.o: libft/srcs/ft_memcpy.c.o
@@ -1020,7 +1020,7 @@ libft/srcs/ft_memcpy.o: libft/srcs/ft_memcpy.c.o
 
 # target to build an object file
 libft/srcs/ft_memcpy.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memcpy.c.o
 .PHONY : libft/srcs/ft_memcpy.c.o
 
 libft/srcs/ft_memcpy.i: libft/srcs/ft_memcpy.c.i
@@ -1029,7 +1029,7 @@ libft/srcs/ft_memcpy.i: libft/srcs/ft_memcpy.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_memcpy.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memcpy.c.i
 .PHONY : libft/srcs/ft_memcpy.c.i
 
 libft/srcs/ft_memcpy.s: libft/srcs/ft_memcpy.c.s
@@ -1038,7 +1038,7 @@ libft/srcs/ft_memcpy.s: libft/srcs/ft_memcpy.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_memcpy.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memcpy.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memcpy.c.s
 .PHONY : libft/srcs/ft_memcpy.c.s
 
 libft/srcs/ft_memdel.o: libft/srcs/ft_memdel.c.o
@@ -1047,7 +1047,7 @@ libft/srcs/ft_memdel.o: libft/srcs/ft_memdel.c.o
 
 # target to build an object file
 libft/srcs/ft_memdel.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memdel.c.o
 .PHONY : libft/srcs/ft_memdel.c.o
 
 libft/srcs/ft_memdel.i: libft/srcs/ft_memdel.c.i
@@ -1056,7 +1056,7 @@ libft/srcs/ft_memdel.i: libft/srcs/ft_memdel.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_memdel.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memdel.c.i
 .PHONY : libft/srcs/ft_memdel.c.i
 
 libft/srcs/ft_memdel.s: libft/srcs/ft_memdel.c.s
@@ -1065,7 +1065,7 @@ libft/srcs/ft_memdel.s: libft/srcs/ft_memdel.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_memdel.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memdel.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memdel.c.s
 .PHONY : libft/srcs/ft_memdel.c.s
 
 libft/srcs/ft_memmove.o: libft/srcs/ft_memmove.c.o
@@ -1074,7 +1074,7 @@ libft/srcs/ft_memmove.o: libft/srcs/ft_memmove.c.o
 
 # target to build an object file
 libft/srcs/ft_memmove.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memmove.c.o
 .PHONY : libft/srcs/ft_memmove.c.o
 
 libft/srcs/ft_memmove.i: libft/srcs/ft_memmove.c.i
@@ -1083,7 +1083,7 @@ libft/srcs/ft_memmove.i: libft/srcs/ft_memmove.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_memmove.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memmove.c.i
 .PHONY : libft/srcs/ft_memmove.c.i
 
 libft/srcs/ft_memmove.s: libft/srcs/ft_memmove.c.s
@@ -1092,7 +1092,7 @@ libft/srcs/ft_memmove.s: libft/srcs/ft_memmove.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_memmove.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memmove.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memmove.c.s
 .PHONY : libft/srcs/ft_memmove.c.s
 
 libft/srcs/ft_memset.o: libft/srcs/ft_memset.c.o
@@ -1101,7 +1101,7 @@ libft/srcs/ft_memset.o: libft/srcs/ft_memset.c.o
 
 # target to build an object file
 libft/srcs/ft_memset.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memset.c.o
 .PHONY : libft/srcs/ft_memset.c.o
 
 libft/srcs/ft_memset.i: libft/srcs/ft_memset.c.i
@@ -1110,7 +1110,7 @@ libft/srcs/ft_memset.i: libft/srcs/ft_memset.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_memset.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memset.c.i
 .PHONY : libft/srcs/ft_memset.c.i
 
 libft/srcs/ft_memset.s: libft/srcs/ft_memset.c.s
@@ -1119,7 +1119,7 @@ libft/srcs/ft_memset.s: libft/srcs/ft_memset.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_memset.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_memset.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_memset.c.s
 .PHONY : libft/srcs/ft_memset.c.s
 
 libft/srcs/ft_power.o: libft/srcs/ft_power.c.o
@@ -1128,7 +1128,7 @@ libft/srcs/ft_power.o: libft/srcs/ft_power.c.o
 
 # target to build an object file
 libft/srcs/ft_power.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_power.c.o
 .PHONY : libft/srcs/ft_power.c.o
 
 libft/srcs/ft_power.i: libft/srcs/ft_power.c.i
@@ -1137,7 +1137,7 @@ libft/srcs/ft_power.i: libft/srcs/ft_power.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_power.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_power.c.i
 .PHONY : libft/srcs/ft_power.c.i
 
 libft/srcs/ft_power.s: libft/srcs/ft_power.c.s
@@ -1146,7 +1146,7 @@ libft/srcs/ft_power.s: libft/srcs/ft_power.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_power.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_power.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_power.c.s
 .PHONY : libft/srcs/ft_power.c.s
 
 libft/srcs/ft_putchar.o: libft/srcs/ft_putchar.c.o
@@ -1155,7 +1155,7 @@ libft/srcs/ft_putchar.o: libft/srcs/ft_putchar.c.o
 
 # target to build an object file
 libft/srcs/ft_putchar.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putchar.c.o
 .PHONY : libft/srcs/ft_putchar.c.o
 
 libft/srcs/ft_putchar.i: libft/srcs/ft_putchar.c.i
@@ -1164,7 +1164,7 @@ libft/srcs/ft_putchar.i: libft/srcs/ft_putchar.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_putchar.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putchar.c.i
 .PHONY : libft/srcs/ft_putchar.c.i
 
 libft/srcs/ft_putchar.s: libft/srcs/ft_putchar.c.s
@@ -1173,7 +1173,7 @@ libft/srcs/ft_putchar.s: libft/srcs/ft_putchar.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_putchar.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putchar.c.s
 .PHONY : libft/srcs/ft_putchar.c.s
 
 libft/srcs/ft_putchar_fd.o: libft/srcs/ft_putchar_fd.c.o
@@ -1182,7 +1182,7 @@ libft/srcs/ft_putchar_fd.o: libft/srcs/ft_putchar_fd.c.o
 
 # target to build an object file
 libft/srcs/ft_putchar_fd.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putchar_fd.c.o
 .PHONY : libft/srcs/ft_putchar_fd.c.o
 
 libft/srcs/ft_putchar_fd.i: libft/srcs/ft_putchar_fd.c.i
@@ -1191,7 +1191,7 @@ libft/srcs/ft_putchar_fd.i: libft/srcs/ft_putchar_fd.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_putchar_fd.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putchar_fd.c.i
 .PHONY : libft/srcs/ft_putchar_fd.c.i
 
 libft/srcs/ft_putchar_fd.s: libft/srcs/ft_putchar_fd.c.s
@@ -1200,7 +1200,7 @@ libft/srcs/ft_putchar_fd.s: libft/srcs/ft_putchar_fd.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_putchar_fd.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putchar_fd.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putchar_fd.c.s
 .PHONY : libft/srcs/ft_putchar_fd.c.s
 
 libft/srcs/ft_putendl.o: libft/srcs/ft_putendl.c.o
@@ -1209,7 +1209,7 @@ libft/srcs/ft_putendl.o: libft/srcs/ft_putendl.c.o
 
 # target to build an object file
 libft/srcs/ft_putendl.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putendl.c.o
 .PHONY : libft/srcs/ft_putendl.c.o
 
 libft/srcs/ft_putendl.i: libft/srcs/ft_putendl.c.i
@@ -1218,7 +1218,7 @@ libft/srcs/ft_putendl.i: libft/srcs/ft_putendl.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_putendl.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putendl.c.i
 .PHONY : libft/srcs/ft_putendl.c.i
 
 libft/srcs/ft_putendl.s: libft/srcs/ft_putendl.c.s
@@ -1227,7 +1227,7 @@ libft/srcs/ft_putendl.s: libft/srcs/ft_putendl.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_putendl.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putendl.c.s
 .PHONY : libft/srcs/ft_putendl.c.s
 
 libft/srcs/ft_putendl_fd.o: libft/srcs/ft_putendl_fd.c.o
@@ -1236,7 +1236,7 @@ libft/srcs/ft_putendl_fd.o: libft/srcs/ft_putendl_fd.c.o
 
 # target to build an object file
 libft/srcs/ft_putendl_fd.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putendl_fd.c.o
 .PHONY : libft/srcs/ft_putendl_fd.c.o
 
 libft/srcs/ft_putendl_fd.i: libft/srcs/ft_putendl_fd.c.i
@@ -1245,7 +1245,7 @@ libft/srcs/ft_putendl_fd.i: libft/srcs/ft_putendl_fd.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_putendl_fd.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putendl_fd.c.i
 .PHONY : libft/srcs/ft_putendl_fd.c.i
 
 libft/srcs/ft_putendl_fd.s: libft/srcs/ft_putendl_fd.c.s
@@ -1254,7 +1254,7 @@ libft/srcs/ft_putendl_fd.s: libft/srcs/ft_putendl_fd.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_putendl_fd.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putendl_fd.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putendl_fd.c.s
 .PHONY : libft/srcs/ft_putendl_fd.c.s
 
 libft/srcs/ft_putnbr.o: libft/srcs/ft_putnbr.c.o
@@ -1263,7 +1263,7 @@ libft/srcs/ft_putnbr.o: libft/srcs/ft_putnbr.c.o
 
 # target to build an object file
 libft/srcs/ft_putnbr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putnbr.c.o
 .PHONY : libft/srcs/ft_putnbr.c.o
 
 libft/srcs/ft_putnbr.i: libft/srcs/ft_putnbr.c.i
@@ -1272,7 +1272,7 @@ libft/srcs/ft_putnbr.i: libft/srcs/ft_putnbr.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_putnbr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putnbr.c.i
 .PHONY : libft/srcs/ft_putnbr.c.i
 
 libft/srcs/ft_putnbr.s: libft/srcs/ft_putnbr.c.s
@@ -1281,7 +1281,7 @@ libft/srcs/ft_putnbr.s: libft/srcs/ft_putnbr.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_putnbr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putnbr.c.s
 .PHONY : libft/srcs/ft_putnbr.c.s
 
 libft/srcs/ft_putnbr_fd.o: libft/srcs/ft_putnbr_fd.c.o
@@ -1290,7 +1290,7 @@ libft/srcs/ft_putnbr_fd.o: libft/srcs/ft_putnbr_fd.c.o
 
 # target to build an object file
 libft/srcs/ft_putnbr_fd.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putnbr_fd.c.o
 .PHONY : libft/srcs/ft_putnbr_fd.c.o
 
 libft/srcs/ft_putnbr_fd.i: libft/srcs/ft_putnbr_fd.c.i
@@ -1299,7 +1299,7 @@ libft/srcs/ft_putnbr_fd.i: libft/srcs/ft_putnbr_fd.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_putnbr_fd.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putnbr_fd.c.i
 .PHONY : libft/srcs/ft_putnbr_fd.c.i
 
 libft/srcs/ft_putnbr_fd.s: libft/srcs/ft_putnbr_fd.c.s
@@ -1308,7 +1308,7 @@ libft/srcs/ft_putnbr_fd.s: libft/srcs/ft_putnbr_fd.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_putnbr_fd.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putnbr_fd.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putnbr_fd.c.s
 .PHONY : libft/srcs/ft_putnbr_fd.c.s
 
 libft/srcs/ft_putstr.o: libft/srcs/ft_putstr.c.o
@@ -1317,7 +1317,7 @@ libft/srcs/ft_putstr.o: libft/srcs/ft_putstr.c.o
 
 # target to build an object file
 libft/srcs/ft_putstr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putstr.c.o
 .PHONY : libft/srcs/ft_putstr.c.o
 
 libft/srcs/ft_putstr.i: libft/srcs/ft_putstr.c.i
@@ -1326,7 +1326,7 @@ libft/srcs/ft_putstr.i: libft/srcs/ft_putstr.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_putstr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putstr.c.i
 .PHONY : libft/srcs/ft_putstr.c.i
 
 libft/srcs/ft_putstr.s: libft/srcs/ft_putstr.c.s
@@ -1335,7 +1335,7 @@ libft/srcs/ft_putstr.s: libft/srcs/ft_putstr.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_putstr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putstr.c.s
 .PHONY : libft/srcs/ft_putstr.c.s
 
 libft/srcs/ft_putstr_fd.o: libft/srcs/ft_putstr_fd.c.o
@@ -1344,7 +1344,7 @@ libft/srcs/ft_putstr_fd.o: libft/srcs/ft_putstr_fd.c.o
 
 # target to build an object file
 libft/srcs/ft_putstr_fd.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putstr_fd.c.o
 .PHONY : libft/srcs/ft_putstr_fd.c.o
 
 libft/srcs/ft_putstr_fd.i: libft/srcs/ft_putstr_fd.c.i
@@ -1353,7 +1353,7 @@ libft/srcs/ft_putstr_fd.i: libft/srcs/ft_putstr_fd.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_putstr_fd.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putstr_fd.c.i
 .PHONY : libft/srcs/ft_putstr_fd.c.i
 
 libft/srcs/ft_putstr_fd.s: libft/srcs/ft_putstr_fd.c.s
@@ -1362,7 +1362,7 @@ libft/srcs/ft_putstr_fd.s: libft/srcs/ft_putstr_fd.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_putstr_fd.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_putstr_fd.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_putstr_fd.c.s
 .PHONY : libft/srcs/ft_putstr_fd.c.s
 
 libft/srcs/ft_revmemcpy.o: libft/srcs/ft_revmemcpy.c.o
@@ -1371,7 +1371,7 @@ libft/srcs/ft_revmemcpy.o: libft/srcs/ft_revmemcpy.c.o
 
 # target to build an object file
 libft/srcs/ft_revmemcpy.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_revmemcpy.c.o
 .PHONY : libft/srcs/ft_revmemcpy.c.o
 
 libft/srcs/ft_revmemcpy.i: libft/srcs/ft_revmemcpy.c.i
@@ -1380,7 +1380,7 @@ libft/srcs/ft_revmemcpy.i: libft/srcs/ft_revmemcpy.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_revmemcpy.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_revmemcpy.c.i
 .PHONY : libft/srcs/ft_revmemcpy.c.i
 
 libft/srcs/ft_revmemcpy.s: libft/srcs/ft_revmemcpy.c.s
@@ -1389,7 +1389,7 @@ libft/srcs/ft_revmemcpy.s: libft/srcs/ft_revmemcpy.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_revmemcpy.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_revmemcpy.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_revmemcpy.c.s
 .PHONY : libft/srcs/ft_revmemcpy.c.s
 
 libft/srcs/ft_strcat.o: libft/srcs/ft_strcat.c.o
@@ -1398,7 +1398,7 @@ libft/srcs/ft_strcat.o: libft/srcs/ft_strcat.c.o
 
 # target to build an object file
 libft/srcs/ft_strcat.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcat.c.o
 .PHONY : libft/srcs/ft_strcat.c.o
 
 libft/srcs/ft_strcat.i: libft/srcs/ft_strcat.c.i
@@ -1407,7 +1407,7 @@ libft/srcs/ft_strcat.i: libft/srcs/ft_strcat.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strcat.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcat.c.i
 .PHONY : libft/srcs/ft_strcat.c.i
 
 libft/srcs/ft_strcat.s: libft/srcs/ft_strcat.c.s
@@ -1416,7 +1416,7 @@ libft/srcs/ft_strcat.s: libft/srcs/ft_strcat.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strcat.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcat.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcat.c.s
 .PHONY : libft/srcs/ft_strcat.c.s
 
 libft/srcs/ft_strchr.o: libft/srcs/ft_strchr.c.o
@@ -1425,7 +1425,7 @@ libft/srcs/ft_strchr.o: libft/srcs/ft_strchr.c.o
 
 # target to build an object file
 libft/srcs/ft_strchr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strchr.c.o
 .PHONY : libft/srcs/ft_strchr.c.o
 
 libft/srcs/ft_strchr.i: libft/srcs/ft_strchr.c.i
@@ -1434,7 +1434,7 @@ libft/srcs/ft_strchr.i: libft/srcs/ft_strchr.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strchr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strchr.c.i
 .PHONY : libft/srcs/ft_strchr.c.i
 
 libft/srcs/ft_strchr.s: libft/srcs/ft_strchr.c.s
@@ -1443,7 +1443,7 @@ libft/srcs/ft_strchr.s: libft/srcs/ft_strchr.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strchr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strchr.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strchr.c.s
 .PHONY : libft/srcs/ft_strchr.c.s
 
 libft/srcs/ft_strclr.o: libft/srcs/ft_strclr.c.o
@@ -1452,7 +1452,7 @@ libft/srcs/ft_strclr.o: libft/srcs/ft_strclr.c.o
 
 # target to build an object file
 libft/srcs/ft_strclr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strclr.c.o
 .PHONY : libft/srcs/ft_strclr.c.o
 
 libft/srcs/ft_strclr.i: libft/srcs/ft_strclr.c.i
@@ -1461,7 +1461,7 @@ libft/srcs/ft_strclr.i: libft/srcs/ft_strclr.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strclr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strclr.c.i
 .PHONY : libft/srcs/ft_strclr.c.i
 
 libft/srcs/ft_strclr.s: libft/srcs/ft_strclr.c.s
@@ -1470,7 +1470,7 @@ libft/srcs/ft_strclr.s: libft/srcs/ft_strclr.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strclr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strclr.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strclr.c.s
 .PHONY : libft/srcs/ft_strclr.c.s
 
 libft/srcs/ft_strcmp.o: libft/srcs/ft_strcmp.c.o
@@ -1479,7 +1479,7 @@ libft/srcs/ft_strcmp.o: libft/srcs/ft_strcmp.c.o
 
 # target to build an object file
 libft/srcs/ft_strcmp.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcmp.c.o
 .PHONY : libft/srcs/ft_strcmp.c.o
 
 libft/srcs/ft_strcmp.i: libft/srcs/ft_strcmp.c.i
@@ -1488,7 +1488,7 @@ libft/srcs/ft_strcmp.i: libft/srcs/ft_strcmp.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strcmp.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcmp.c.i
 .PHONY : libft/srcs/ft_strcmp.c.i
 
 libft/srcs/ft_strcmp.s: libft/srcs/ft_strcmp.c.s
@@ -1497,7 +1497,7 @@ libft/srcs/ft_strcmp.s: libft/srcs/ft_strcmp.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strcmp.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcmp.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcmp.c.s
 .PHONY : libft/srcs/ft_strcmp.c.s
 
 libft/srcs/ft_strcpy.o: libft/srcs/ft_strcpy.c.o
@@ -1506,7 +1506,7 @@ libft/srcs/ft_strcpy.o: libft/srcs/ft_strcpy.c.o
 
 # target to build an object file
 libft/srcs/ft_strcpy.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcpy.c.o
 .PHONY : libft/srcs/ft_strcpy.c.o
 
 libft/srcs/ft_strcpy.i: libft/srcs/ft_strcpy.c.i
@@ -1515,7 +1515,7 @@ libft/srcs/ft_strcpy.i: libft/srcs/ft_strcpy.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strcpy.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcpy.c.i
 .PHONY : libft/srcs/ft_strcpy.c.i
 
 libft/srcs/ft_strcpy.s: libft/srcs/ft_strcpy.c.s
@@ -1524,7 +1524,7 @@ libft/srcs/ft_strcpy.s: libft/srcs/ft_strcpy.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strcpy.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strcpy.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strcpy.c.s
 .PHONY : libft/srcs/ft_strcpy.c.s
 
 libft/srcs/ft_strdel.o: libft/srcs/ft_strdel.c.o
@@ -1533,7 +1533,7 @@ libft/srcs/ft_strdel.o: libft/srcs/ft_strdel.c.o
 
 # target to build an object file
 libft/srcs/ft_strdel.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strdel.c.o
 .PHONY : libft/srcs/ft_strdel.c.o
 
 libft/srcs/ft_strdel.i: libft/srcs/ft_strdel.c.i
@@ -1542,7 +1542,7 @@ libft/srcs/ft_strdel.i: libft/srcs/ft_strdel.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strdel.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strdel.c.i
 .PHONY : libft/srcs/ft_strdel.c.i
 
 libft/srcs/ft_strdel.s: libft/srcs/ft_strdel.c.s
@@ -1551,7 +1551,7 @@ libft/srcs/ft_strdel.s: libft/srcs/ft_strdel.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strdel.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strdel.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strdel.c.s
 .PHONY : libft/srcs/ft_strdel.c.s
 
 libft/srcs/ft_strdup.o: libft/srcs/ft_strdup.c.o
@@ -1560,7 +1560,7 @@ libft/srcs/ft_strdup.o: libft/srcs/ft_strdup.c.o
 
 # target to build an object file
 libft/srcs/ft_strdup.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strdup.c.o
 .PHONY : libft/srcs/ft_strdup.c.o
 
 libft/srcs/ft_strdup.i: libft/srcs/ft_strdup.c.i
@@ -1569,7 +1569,7 @@ libft/srcs/ft_strdup.i: libft/srcs/ft_strdup.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strdup.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strdup.c.i
 .PHONY : libft/srcs/ft_strdup.c.i
 
 libft/srcs/ft_strdup.s: libft/srcs/ft_strdup.c.s
@@ -1578,7 +1578,7 @@ libft/srcs/ft_strdup.s: libft/srcs/ft_strdup.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strdup.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strdup.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strdup.c.s
 .PHONY : libft/srcs/ft_strdup.c.s
 
 libft/srcs/ft_strequ.o: libft/srcs/ft_strequ.c.o
@@ -1587,7 +1587,7 @@ libft/srcs/ft_strequ.o: libft/srcs/ft_strequ.c.o
 
 # target to build an object file
 libft/srcs/ft_strequ.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strequ.c.o
 .PHONY : libft/srcs/ft_strequ.c.o
 
 libft/srcs/ft_strequ.i: libft/srcs/ft_strequ.c.i
@@ -1596,7 +1596,7 @@ libft/srcs/ft_strequ.i: libft/srcs/ft_strequ.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strequ.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strequ.c.i
 .PHONY : libft/srcs/ft_strequ.c.i
 
 libft/srcs/ft_strequ.s: libft/srcs/ft_strequ.c.s
@@ -1605,7 +1605,7 @@ libft/srcs/ft_strequ.s: libft/srcs/ft_strequ.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strequ.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strequ.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strequ.c.s
 .PHONY : libft/srcs/ft_strequ.c.s
 
 libft/srcs/ft_striter.o: libft/srcs/ft_striter.c.o
@@ -1614,7 +1614,7 @@ libft/srcs/ft_striter.o: libft/srcs/ft_striter.c.o
 
 # target to build an object file
 libft/srcs/ft_striter.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_striter.c.o
 .PHONY : libft/srcs/ft_striter.c.o
 
 libft/srcs/ft_striter.i: libft/srcs/ft_striter.c.i
@@ -1623,7 +1623,7 @@ libft/srcs/ft_striter.i: libft/srcs/ft_striter.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_striter.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_striter.c.i
 .PHONY : libft/srcs/ft_striter.c.i
 
 libft/srcs/ft_striter.s: libft/srcs/ft_striter.c.s
@@ -1632,7 +1632,7 @@ libft/srcs/ft_striter.s: libft/srcs/ft_striter.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_striter.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_striter.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_striter.c.s
 .PHONY : libft/srcs/ft_striter.c.s
 
 libft/srcs/ft_striteri.o: libft/srcs/ft_striteri.c.o
@@ -1641,7 +1641,7 @@ libft/srcs/ft_striteri.o: libft/srcs/ft_striteri.c.o
 
 # target to build an object file
 libft/srcs/ft_striteri.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_striteri.c.o
 .PHONY : libft/srcs/ft_striteri.c.o
 
 libft/srcs/ft_striteri.i: libft/srcs/ft_striteri.c.i
@@ -1650,7 +1650,7 @@ libft/srcs/ft_striteri.i: libft/srcs/ft_striteri.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_striteri.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_striteri.c.i
 .PHONY : libft/srcs/ft_striteri.c.i
 
 libft/srcs/ft_striteri.s: libft/srcs/ft_striteri.c.s
@@ -1659,7 +1659,7 @@ libft/srcs/ft_striteri.s: libft/srcs/ft_striteri.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_striteri.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_striteri.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_striteri.c.s
 .PHONY : libft/srcs/ft_striteri.c.s
 
 libft/srcs/ft_strjoin.o: libft/srcs/ft_strjoin.c.o
@@ -1668,7 +1668,7 @@ libft/srcs/ft_strjoin.o: libft/srcs/ft_strjoin.c.o
 
 # target to build an object file
 libft/srcs/ft_strjoin.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strjoin.c.o
 .PHONY : libft/srcs/ft_strjoin.c.o
 
 libft/srcs/ft_strjoin.i: libft/srcs/ft_strjoin.c.i
@@ -1677,7 +1677,7 @@ libft/srcs/ft_strjoin.i: libft/srcs/ft_strjoin.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strjoin.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strjoin.c.i
 .PHONY : libft/srcs/ft_strjoin.c.i
 
 libft/srcs/ft_strjoin.s: libft/srcs/ft_strjoin.c.s
@@ -1686,7 +1686,7 @@ libft/srcs/ft_strjoin.s: libft/srcs/ft_strjoin.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strjoin.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strjoin.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strjoin.c.s
 .PHONY : libft/srcs/ft_strjoin.c.s
 
 libft/srcs/ft_strlcat.o: libft/srcs/ft_strlcat.c.o
@@ -1695,7 +1695,7 @@ libft/srcs/ft_strlcat.o: libft/srcs/ft_strlcat.c.o
 
 # target to build an object file
 libft/srcs/ft_strlcat.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strlcat.c.o
 .PHONY : libft/srcs/ft_strlcat.c.o
 
 libft/srcs/ft_strlcat.i: libft/srcs/ft_strlcat.c.i
@@ -1704,7 +1704,7 @@ libft/srcs/ft_strlcat.i: libft/srcs/ft_strlcat.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strlcat.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strlcat.c.i
 .PHONY : libft/srcs/ft_strlcat.c.i
 
 libft/srcs/ft_strlcat.s: libft/srcs/ft_strlcat.c.s
@@ -1713,7 +1713,7 @@ libft/srcs/ft_strlcat.s: libft/srcs/ft_strlcat.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strlcat.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strlcat.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strlcat.c.s
 .PHONY : libft/srcs/ft_strlcat.c.s
 
 libft/srcs/ft_strlen.o: libft/srcs/ft_strlen.c.o
@@ -1722,7 +1722,7 @@ libft/srcs/ft_strlen.o: libft/srcs/ft_strlen.c.o
 
 # target to build an object file
 libft/srcs/ft_strlen.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strlen.c.o
 .PHONY : libft/srcs/ft_strlen.c.o
 
 libft/srcs/ft_strlen.i: libft/srcs/ft_strlen.c.i
@@ -1731,7 +1731,7 @@ libft/srcs/ft_strlen.i: libft/srcs/ft_strlen.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strlen.c.i
 .PHONY : libft/srcs/ft_strlen.c.i
 
 libft/srcs/ft_strlen.s: libft/srcs/ft_strlen.c.s
@@ -1740,7 +1740,7 @@ libft/srcs/ft_strlen.s: libft/srcs/ft_strlen.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strlen.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strlen.c.s
 .PHONY : libft/srcs/ft_strlen.c.s
 
 libft/srcs/ft_strmap.o: libft/srcs/ft_strmap.c.o
@@ -1749,7 +1749,7 @@ libft/srcs/ft_strmap.o: libft/srcs/ft_strmap.c.o
 
 # target to build an object file
 libft/srcs/ft_strmap.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strmap.c.o
 .PHONY : libft/srcs/ft_strmap.c.o
 
 libft/srcs/ft_strmap.i: libft/srcs/ft_strmap.c.i
@@ -1758,7 +1758,7 @@ libft/srcs/ft_strmap.i: libft/srcs/ft_strmap.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strmap.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strmap.c.i
 .PHONY : libft/srcs/ft_strmap.c.i
 
 libft/srcs/ft_strmap.s: libft/srcs/ft_strmap.c.s
@@ -1767,7 +1767,7 @@ libft/srcs/ft_strmap.s: libft/srcs/ft_strmap.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strmap.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strmap.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strmap.c.s
 .PHONY : libft/srcs/ft_strmap.c.s
 
 libft/srcs/ft_strmapi.o: libft/srcs/ft_strmapi.c.o
@@ -1776,7 +1776,7 @@ libft/srcs/ft_strmapi.o: libft/srcs/ft_strmapi.c.o
 
 # target to build an object file
 libft/srcs/ft_strmapi.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strmapi.c.o
 .PHONY : libft/srcs/ft_strmapi.c.o
 
 libft/srcs/ft_strmapi.i: libft/srcs/ft_strmapi.c.i
@@ -1785,7 +1785,7 @@ libft/srcs/ft_strmapi.i: libft/srcs/ft_strmapi.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strmapi.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strmapi.c.i
 .PHONY : libft/srcs/ft_strmapi.c.i
 
 libft/srcs/ft_strmapi.s: libft/srcs/ft_strmapi.c.s
@@ -1794,7 +1794,7 @@ libft/srcs/ft_strmapi.s: libft/srcs/ft_strmapi.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strmapi.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strmapi.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strmapi.c.s
 .PHONY : libft/srcs/ft_strmapi.c.s
 
 libft/srcs/ft_strncat.o: libft/srcs/ft_strncat.c.o
@@ -1803,7 +1803,7 @@ libft/srcs/ft_strncat.o: libft/srcs/ft_strncat.c.o
 
 # target to build an object file
 libft/srcs/ft_strncat.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncat.c.o
 .PHONY : libft/srcs/ft_strncat.c.o
 
 libft/srcs/ft_strncat.i: libft/srcs/ft_strncat.c.i
@@ -1812,7 +1812,7 @@ libft/srcs/ft_strncat.i: libft/srcs/ft_strncat.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strncat.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncat.c.i
 .PHONY : libft/srcs/ft_strncat.c.i
 
 libft/srcs/ft_strncat.s: libft/srcs/ft_strncat.c.s
@@ -1821,7 +1821,7 @@ libft/srcs/ft_strncat.s: libft/srcs/ft_strncat.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strncat.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncat.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncat.c.s
 .PHONY : libft/srcs/ft_strncat.c.s
 
 libft/srcs/ft_strncmp.o: libft/srcs/ft_strncmp.c.o
@@ -1830,7 +1830,7 @@ libft/srcs/ft_strncmp.o: libft/srcs/ft_strncmp.c.o
 
 # target to build an object file
 libft/srcs/ft_strncmp.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncmp.c.o
 .PHONY : libft/srcs/ft_strncmp.c.o
 
 libft/srcs/ft_strncmp.i: libft/srcs/ft_strncmp.c.i
@@ -1839,7 +1839,7 @@ libft/srcs/ft_strncmp.i: libft/srcs/ft_strncmp.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strncmp.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncmp.c.i
 .PHONY : libft/srcs/ft_strncmp.c.i
 
 libft/srcs/ft_strncmp.s: libft/srcs/ft_strncmp.c.s
@@ -1848,7 +1848,7 @@ libft/srcs/ft_strncmp.s: libft/srcs/ft_strncmp.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strncmp.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncmp.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncmp.c.s
 .PHONY : libft/srcs/ft_strncmp.c.s
 
 libft/srcs/ft_strncpy.o: libft/srcs/ft_strncpy.c.o
@@ -1857,7 +1857,7 @@ libft/srcs/ft_strncpy.o: libft/srcs/ft_strncpy.c.o
 
 # target to build an object file
 libft/srcs/ft_strncpy.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncpy.c.o
 .PHONY : libft/srcs/ft_strncpy.c.o
 
 libft/srcs/ft_strncpy.i: libft/srcs/ft_strncpy.c.i
@@ -1866,7 +1866,7 @@ libft/srcs/ft_strncpy.i: libft/srcs/ft_strncpy.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strncpy.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncpy.c.i
 .PHONY : libft/srcs/ft_strncpy.c.i
 
 libft/srcs/ft_strncpy.s: libft/srcs/ft_strncpy.c.s
@@ -1875,7 +1875,7 @@ libft/srcs/ft_strncpy.s: libft/srcs/ft_strncpy.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strncpy.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strncpy.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strncpy.c.s
 .PHONY : libft/srcs/ft_strncpy.c.s
 
 libft/srcs/ft_strndup.o: libft/srcs/ft_strndup.c.o
@@ -1884,7 +1884,7 @@ libft/srcs/ft_strndup.o: libft/srcs/ft_strndup.c.o
 
 # target to build an object file
 libft/srcs/ft_strndup.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strndup.c.o
 .PHONY : libft/srcs/ft_strndup.c.o
 
 libft/srcs/ft_strndup.i: libft/srcs/ft_strndup.c.i
@@ -1893,7 +1893,7 @@ libft/srcs/ft_strndup.i: libft/srcs/ft_strndup.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strndup.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strndup.c.i
 .PHONY : libft/srcs/ft_strndup.c.i
 
 libft/srcs/ft_strndup.s: libft/srcs/ft_strndup.c.s
@@ -1902,7 +1902,7 @@ libft/srcs/ft_strndup.s: libft/srcs/ft_strndup.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strndup.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strndup.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strndup.c.s
 .PHONY : libft/srcs/ft_strndup.c.s
 
 libft/srcs/ft_strnequ.o: libft/srcs/ft_strnequ.c.o
@@ -1911,7 +1911,7 @@ libft/srcs/ft_strnequ.o: libft/srcs/ft_strnequ.c.o
 
 # target to build an object file
 libft/srcs/ft_strnequ.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnequ.c.o
 .PHONY : libft/srcs/ft_strnequ.c.o
 
 libft/srcs/ft_strnequ.i: libft/srcs/ft_strnequ.c.i
@@ -1920,7 +1920,7 @@ libft/srcs/ft_strnequ.i: libft/srcs/ft_strnequ.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strnequ.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnequ.c.i
 .PHONY : libft/srcs/ft_strnequ.c.i
 
 libft/srcs/ft_strnequ.s: libft/srcs/ft_strnequ.c.s
@@ -1929,7 +1929,7 @@ libft/srcs/ft_strnequ.s: libft/srcs/ft_strnequ.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strnequ.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnequ.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnequ.c.s
 .PHONY : libft/srcs/ft_strnequ.c.s
 
 libft/srcs/ft_strnew.o: libft/srcs/ft_strnew.c.o
@@ -1938,7 +1938,7 @@ libft/srcs/ft_strnew.o: libft/srcs/ft_strnew.c.o
 
 # target to build an object file
 libft/srcs/ft_strnew.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnew.c.o
 .PHONY : libft/srcs/ft_strnew.c.o
 
 libft/srcs/ft_strnew.i: libft/srcs/ft_strnew.c.i
@@ -1947,7 +1947,7 @@ libft/srcs/ft_strnew.i: libft/srcs/ft_strnew.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strnew.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnew.c.i
 .PHONY : libft/srcs/ft_strnew.c.i
 
 libft/srcs/ft_strnew.s: libft/srcs/ft_strnew.c.s
@@ -1956,7 +1956,7 @@ libft/srcs/ft_strnew.s: libft/srcs/ft_strnew.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strnew.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnew.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnew.c.s
 .PHONY : libft/srcs/ft_strnew.c.s
 
 libft/srcs/ft_strnjoin.o: libft/srcs/ft_strnjoin.c.o
@@ -1965,7 +1965,7 @@ libft/srcs/ft_strnjoin.o: libft/srcs/ft_strnjoin.c.o
 
 # target to build an object file
 libft/srcs/ft_strnjoin.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnjoin.c.o
 .PHONY : libft/srcs/ft_strnjoin.c.o
 
 libft/srcs/ft_strnjoin.i: libft/srcs/ft_strnjoin.c.i
@@ -1974,7 +1974,7 @@ libft/srcs/ft_strnjoin.i: libft/srcs/ft_strnjoin.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strnjoin.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnjoin.c.i
 .PHONY : libft/srcs/ft_strnjoin.c.i
 
 libft/srcs/ft_strnjoin.s: libft/srcs/ft_strnjoin.c.s
@@ -1983,7 +1983,7 @@ libft/srcs/ft_strnjoin.s: libft/srcs/ft_strnjoin.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strnjoin.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnjoin.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnjoin.c.s
 .PHONY : libft/srcs/ft_strnjoin.c.s
 
 libft/srcs/ft_strnstr.o: libft/srcs/ft_strnstr.c.o
@@ -1992,7 +1992,7 @@ libft/srcs/ft_strnstr.o: libft/srcs/ft_strnstr.c.o
 
 # target to build an object file
 libft/srcs/ft_strnstr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnstr.c.o
 .PHONY : libft/srcs/ft_strnstr.c.o
 
 libft/srcs/ft_strnstr.i: libft/srcs/ft_strnstr.c.i
@@ -2001,7 +2001,7 @@ libft/srcs/ft_strnstr.i: libft/srcs/ft_strnstr.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strnstr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnstr.c.i
 .PHONY : libft/srcs/ft_strnstr.c.i
 
 libft/srcs/ft_strnstr.s: libft/srcs/ft_strnstr.c.s
@@ -2010,7 +2010,7 @@ libft/srcs/ft_strnstr.s: libft/srcs/ft_strnstr.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strnstr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strnstr.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strnstr.c.s
 .PHONY : libft/srcs/ft_strnstr.c.s
 
 libft/srcs/ft_strrchr.o: libft/srcs/ft_strrchr.c.o
@@ -2019,7 +2019,7 @@ libft/srcs/ft_strrchr.o: libft/srcs/ft_strrchr.c.o
 
 # target to build an object file
 libft/srcs/ft_strrchr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strrchr.c.o
 .PHONY : libft/srcs/ft_strrchr.c.o
 
 libft/srcs/ft_strrchr.i: libft/srcs/ft_strrchr.c.i
@@ -2028,7 +2028,7 @@ libft/srcs/ft_strrchr.i: libft/srcs/ft_strrchr.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strrchr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strrchr.c.i
 .PHONY : libft/srcs/ft_strrchr.c.i
 
 libft/srcs/ft_strrchr.s: libft/srcs/ft_strrchr.c.s
@@ -2037,7 +2037,7 @@ libft/srcs/ft_strrchr.s: libft/srcs/ft_strrchr.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strrchr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strrchr.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strrchr.c.s
 .PHONY : libft/srcs/ft_strrchr.c.s
 
 libft/srcs/ft_strsplit.o: libft/srcs/ft_strsplit.c.o
@@ -2046,7 +2046,7 @@ libft/srcs/ft_strsplit.o: libft/srcs/ft_strsplit.c.o
 
 # target to build an object file
 libft/srcs/ft_strsplit.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strsplit.c.o
 .PHONY : libft/srcs/ft_strsplit.c.o
 
 libft/srcs/ft_strsplit.i: libft/srcs/ft_strsplit.c.i
@@ -2055,7 +2055,7 @@ libft/srcs/ft_strsplit.i: libft/srcs/ft_strsplit.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strsplit.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strsplit.c.i
 .PHONY : libft/srcs/ft_strsplit.c.i
 
 libft/srcs/ft_strsplit.s: libft/srcs/ft_strsplit.c.s
@@ -2064,7 +2064,7 @@ libft/srcs/ft_strsplit.s: libft/srcs/ft_strsplit.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strsplit.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strsplit.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strsplit.c.s
 .PHONY : libft/srcs/ft_strsplit.c.s
 
 libft/srcs/ft_strstr.o: libft/srcs/ft_strstr.c.o
@@ -2073,7 +2073,7 @@ libft/srcs/ft_strstr.o: libft/srcs/ft_strstr.c.o
 
 # target to build an object file
 libft/srcs/ft_strstr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strstr.c.o
 .PHONY : libft/srcs/ft_strstr.c.o
 
 libft/srcs/ft_strstr.i: libft/srcs/ft_strstr.c.i
@@ -2082,7 +2082,7 @@ libft/srcs/ft_strstr.i: libft/srcs/ft_strstr.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strstr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strstr.c.i
 .PHONY : libft/srcs/ft_strstr.c.i
 
 libft/srcs/ft_strstr.s: libft/srcs/ft_strstr.c.s
@@ -2091,7 +2091,7 @@ libft/srcs/ft_strstr.s: libft/srcs/ft_strstr.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strstr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strstr.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strstr.c.s
 .PHONY : libft/srcs/ft_strstr.c.s
 
 libft/srcs/ft_strsub.o: libft/srcs/ft_strsub.c.o
@@ -2100,7 +2100,7 @@ libft/srcs/ft_strsub.o: libft/srcs/ft_strsub.c.o
 
 # target to build an object file
 libft/srcs/ft_strsub.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strsub.c.o
 .PHONY : libft/srcs/ft_strsub.c.o
 
 libft/srcs/ft_strsub.i: libft/srcs/ft_strsub.c.i
@@ -2109,7 +2109,7 @@ libft/srcs/ft_strsub.i: libft/srcs/ft_strsub.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strsub.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strsub.c.i
 .PHONY : libft/srcs/ft_strsub.c.i
 
 libft/srcs/ft_strsub.s: libft/srcs/ft_strsub.c.s
@@ -2118,7 +2118,7 @@ libft/srcs/ft_strsub.s: libft/srcs/ft_strsub.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strsub.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strsub.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strsub.c.s
 .PHONY : libft/srcs/ft_strsub.c.s
 
 libft/srcs/ft_strtrim.o: libft/srcs/ft_strtrim.c.o
@@ -2127,7 +2127,7 @@ libft/srcs/ft_strtrim.o: libft/srcs/ft_strtrim.c.o
 
 # target to build an object file
 libft/srcs/ft_strtrim.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strtrim.c.o
 .PHONY : libft/srcs/ft_strtrim.c.o
 
 libft/srcs/ft_strtrim.i: libft/srcs/ft_strtrim.c.i
@@ -2136,7 +2136,7 @@ libft/srcs/ft_strtrim.i: libft/srcs/ft_strtrim.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_strtrim.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strtrim.c.i
 .PHONY : libft/srcs/ft_strtrim.c.i
 
 libft/srcs/ft_strtrim.s: libft/srcs/ft_strtrim.c.s
@@ -2145,7 +2145,7 @@ libft/srcs/ft_strtrim.s: libft/srcs/ft_strtrim.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_strtrim.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_strtrim.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_strtrim.c.s
 .PHONY : libft/srcs/ft_strtrim.c.s
 
 libft/srcs/ft_tolower.o: libft/srcs/ft_tolower.c.o
@@ -2154,7 +2154,7 @@ libft/srcs/ft_tolower.o: libft/srcs/ft_tolower.c.o
 
 # target to build an object file
 libft/srcs/ft_tolower.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_tolower.c.o
 .PHONY : libft/srcs/ft_tolower.c.o
 
 libft/srcs/ft_tolower.i: libft/srcs/ft_tolower.c.i
@@ -2163,7 +2163,7 @@ libft/srcs/ft_tolower.i: libft/srcs/ft_tolower.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_tolower.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_tolower.c.i
 .PHONY : libft/srcs/ft_tolower.c.i
 
 libft/srcs/ft_tolower.s: libft/srcs/ft_tolower.c.s
@@ -2172,7 +2172,7 @@ libft/srcs/ft_tolower.s: libft/srcs/ft_tolower.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_tolower.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_tolower.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_tolower.c.s
 .PHONY : libft/srcs/ft_tolower.c.s
 
 libft/srcs/ft_toupper.o: libft/srcs/ft_toupper.c.o
@@ -2181,7 +2181,7 @@ libft/srcs/ft_toupper.o: libft/srcs/ft_toupper.c.o
 
 # target to build an object file
 libft/srcs/ft_toupper.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_toupper.c.o
 .PHONY : libft/srcs/ft_toupper.c.o
 
 libft/srcs/ft_toupper.i: libft/srcs/ft_toupper.c.i
@@ -2190,7 +2190,7 @@ libft/srcs/ft_toupper.i: libft/srcs/ft_toupper.c.i
 
 # target to preprocess a source file
 libft/srcs/ft_toupper.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_toupper.c.i
 .PHONY : libft/srcs/ft_toupper.c.i
 
 libft/srcs/ft_toupper.s: libft/srcs/ft_toupper.c.s
@@ -2199,7 +2199,7 @@ libft/srcs/ft_toupper.s: libft/srcs/ft_toupper.c.s
 
 # target to generate assembly for a file
 libft/srcs/ft_toupper.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/ft_toupper.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/ft_toupper.c.s
 .PHONY : libft/srcs/ft_toupper.c.s
 
 libft/srcs/get_next_line.o: libft/srcs/get_next_line.c.o
@@ -2208,7 +2208,7 @@ libft/srcs/get_next_line.o: libft/srcs/get_next_line.c.o
 
 # target to build an object file
 libft/srcs/get_next_line.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/get_next_line.c.o
 .PHONY : libft/srcs/get_next_line.c.o
 
 libft/srcs/get_next_line.i: libft/srcs/get_next_line.c.i
@@ -2217,7 +2217,7 @@ libft/srcs/get_next_line.i: libft/srcs/get_next_line.c.i
 
 # target to preprocess a source file
 libft/srcs/get_next_line.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/get_next_line.c.i
 .PHONY : libft/srcs/get_next_line.c.i
 
 libft/srcs/get_next_line.s: libft/srcs/get_next_line.c.s
@@ -2226,7 +2226,7 @@ libft/srcs/get_next_line.s: libft/srcs/get_next_line.c.s
 
 # target to generate assembly for a file
 libft/srcs/get_next_line.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/libft/srcs/get_next_line.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/libft/srcs/get_next_line.c.s
 .PHONY : libft/srcs/get_next_line.c.s
 
 move_one_way.o: move_one_way.c.o
@@ -2235,7 +2235,7 @@ move_one_way.o: move_one_way.c.o
 
 # target to build an object file
 move_one_way.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/move_one_way.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/move_one_way.c.o
 .PHONY : move_one_way.c.o
 
 move_one_way.i: move_one_way.c.i
@@ -2244,7 +2244,7 @@ move_one_way.i: move_one_way.c.i
 
 # target to preprocess a source file
 move_one_way.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/move_one_way.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/move_one_way.c.i
 .PHONY : move_one_way.c.i
 
 move_one_way.s: move_one_way.c.s
@@ -2253,7 +2253,7 @@ move_one_way.s: move_one_way.c.s
 
 # target to generate assembly for a file
 move_one_way.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/move_one_way.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/move_one_way.c.s
 .PHONY : move_one_way.c.s
 
 path_finder.o: path_finder.c.o
@@ -2262,7 +2262,7 @@ path_finder.o: path_finder.c.o
 
 # target to build an object file
 path_finder.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/path_finder.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/path_finder.c.o
 .PHONY : path_finder.c.o
 
 path_finder.i: path_finder.c.i
@@ -2271,7 +2271,7 @@ path_finder.i: path_finder.c.i
 
 # target to preprocess a source file
 path_finder.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/path_finder.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/path_finder.c.i
 .PHONY : path_finder.c.i
 
 path_finder.s: path_finder.c.s
@@ -2280,7 +2280,7 @@ path_finder.s: path_finder.c.s
 
 # target to generate assembly for a file
 path_finder.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/path_finder.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/path_finder.c.s
 .PHONY : path_finder.c.s
 
 redrum.o: redrum.c.o
@@ -2289,7 +2289,7 @@ redrum.o: redrum.c.o
 
 # target to build an object file
 redrum.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/redrum.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/redrum.c.o
 .PHONY : redrum.c.o
 
 redrum.i: redrum.c.i
@@ -2298,7 +2298,7 @@ redrum.i: redrum.c.i
 
 # target to preprocess a source file
 redrum.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/redrum.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/redrum.c.i
 .PHONY : redrum.c.i
 
 redrum.s: redrum.c.s
@@ -2307,35 +2307,8 @@ redrum.s: redrum.c.s
 
 # target to generate assembly for a file
 redrum.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/redrum.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/redrum.c.s
 .PHONY : redrum.c.s
-
-search_path.o: search_path.c.o
-
-.PHONY : search_path.o
-
-# target to build an object file
-search_path.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_path.c.o
-.PHONY : search_path.c.o
-
-search_path.i: search_path.c.i
-
-.PHONY : search_path.i
-
-# target to preprocess a source file
-search_path.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_path.c.i
-.PHONY : search_path.c.i
-
-search_path.s: search_path.c.s
-
-.PHONY : search_path.s
-
-# target to generate assembly for a file
-search_path.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_path.c.s
-.PHONY : search_path.c.s
 
 search_paths.o: search_paths.c.o
 
@@ -2343,7 +2316,7 @@ search_paths.o: search_paths.c.o
 
 # target to build an object file
 search_paths.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_paths.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/search_paths.c.o
 .PHONY : search_paths.c.o
 
 search_paths.i: search_paths.c.i
@@ -2352,7 +2325,7 @@ search_paths.i: search_paths.c.i
 
 # target to preprocess a source file
 search_paths.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_paths.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/search_paths.c.i
 .PHONY : search_paths.c.i
 
 search_paths.s: search_paths.c.s
@@ -2361,8 +2334,35 @@ search_paths.s: search_paths.c.s
 
 # target to generate assembly for a file
 search_paths.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/search_paths.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/search_paths.c.s
 .PHONY : search_paths.c.s
+
+sexy_levels.o: sexy_levels.c.o
+
+.PHONY : sexy_levels.o
+
+# target to build an object file
+sexy_levels.c.o:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/sexy_levels.c.o
+.PHONY : sexy_levels.c.o
+
+sexy_levels.i: sexy_levels.c.i
+
+.PHONY : sexy_levels.i
+
+# target to preprocess a source file
+sexy_levels.c.i:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/sexy_levels.c.i
+.PHONY : sexy_levels.c.i
+
+sexy_levels.s: sexy_levels.c.s
+
+.PHONY : sexy_levels.s
+
+# target to generate assembly for a file
+sexy_levels.c.s:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/sexy_levels.c.s
+.PHONY : sexy_levels.c.s
 
 soulmates.o: soulmates.c.o
 
@@ -2370,7 +2370,7 @@ soulmates.o: soulmates.c.o
 
 # target to build an object file
 soulmates.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/soulmates.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/soulmates.c.o
 .PHONY : soulmates.c.o
 
 soulmates.i: soulmates.c.i
@@ -2379,7 +2379,7 @@ soulmates.i: soulmates.c.i
 
 # target to preprocess a source file
 soulmates.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/soulmates.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/soulmates.c.i
 .PHONY : soulmates.c.i
 
 soulmates.s: soulmates.c.s
@@ -2388,8 +2388,35 @@ soulmates.s: soulmates.c.s
 
 # target to generate assembly for a file
 soulmates.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/soulmates.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/soulmates.c.s
 .PHONY : soulmates.c.s
+
+tips_for_algo.o: tips_for_algo.c.o
+
+.PHONY : tips_for_algo.o
+
+# target to build an object file
+tips_for_algo.c.o:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/tips_for_algo.c.o
+.PHONY : tips_for_algo.c.o
+
+tips_for_algo.i: tips_for_algo.c.i
+
+.PHONY : tips_for_algo.i
+
+# target to preprocess a source file
+tips_for_algo.c.i:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/tips_for_algo.c.i
+.PHONY : tips_for_algo.c.i
+
+tips_for_algo.s: tips_for_algo.c.s
+
+.PHONY : tips_for_algo.s
+
+# target to generate assembly for a file
+tips_for_algo.c.s:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/tips_for_algo.c.s
+.PHONY : tips_for_algo.c.s
 
 utils.o: utils.c.o
 
@@ -2397,7 +2424,7 @@ utils.o: utils.c.o
 
 # target to build an object file
 utils.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/utils.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/utils.c.o
 .PHONY : utils.c.o
 
 utils.i: utils.c.i
@@ -2406,7 +2433,7 @@ utils.i: utils.c.i
 
 # target to preprocess a source file
 utils.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/utils.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/utils.c.i
 .PHONY : utils.c.i
 
 utils.s: utils.c.s
@@ -2415,7 +2442,7 @@ utils.s: utils.c.s
 
 # target to generate assembly for a file
 utils.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/utils.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/utils.c.s
 .PHONY : utils.c.s
 
 valid.o: valid.c.o
@@ -2424,7 +2451,7 @@ valid.o: valid.c.o
 
 # target to build an object file
 valid.c.o:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/valid.c.o
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/valid.c.o
 .PHONY : valid.c.o
 
 valid.i: valid.c.i
@@ -2433,7 +2460,7 @@ valid.i: valid.c.i
 
 # target to preprocess a source file
 valid.c.i:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/valid.c.i
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/valid.c.i
 .PHONY : valid.c.i
 
 valid.s: valid.c.s
@@ -2442,7 +2469,7 @@ valid.s: valid.c.s
 
 # target to generate assembly for a file
 valid.c.s:
-	$(MAKE) -f CMakeFiles/lemin_github.dir/build.make CMakeFiles/lemin_github.dir/valid.c.s
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/valid.c.s
 .PHONY : valid.c.s
 
 # Help Target
@@ -2453,7 +2480,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... lemin_github"
+	@echo "... last_lin"
+	@echo "... after_finding_paths.o"
+	@echo "... after_finding_paths.i"
+	@echo "... after_finding_paths.s"
 	@echo "... ant_steps.o"
 	@echo "... ant_steps.i"
 	@echo "... ant_steps.s"
@@ -2463,9 +2493,6 @@ help:
 	@echo "... check_end_connections.o"
 	@echo "... check_end_connections.i"
 	@echo "... check_end_connections.s"
-	@echo "... delete_useless_links.o"
-	@echo "... delete_useless_links.i"
-	@echo "... delete_useless_links.s"
 	@echo "... filling.o"
 	@echo "... filling.i"
 	@echo "... filling.s"
@@ -2697,15 +2724,18 @@ help:
 	@echo "... redrum.o"
 	@echo "... redrum.i"
 	@echo "... redrum.s"
-	@echo "... search_path.o"
-	@echo "... search_path.i"
-	@echo "... search_path.s"
 	@echo "... search_paths.o"
 	@echo "... search_paths.i"
 	@echo "... search_paths.s"
+	@echo "... sexy_levels.o"
+	@echo "... sexy_levels.i"
+	@echo "... sexy_levels.s"
 	@echo "... soulmates.o"
 	@echo "... soulmates.i"
 	@echo "... soulmates.s"
+	@echo "... tips_for_algo.o"
+	@echo "... tips_for_algo.i"
+	@echo "... tips_for_algo.s"
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"

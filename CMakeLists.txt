@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.14)
-project(lemin_github C)
+project(last_lin C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 include_directories(libft/includes)
 
-add_executable(lemin_github
+add_executable(last_lin
         libft/includes/get_next_line.h
         libft/includes/libft.h
         libft/srcs/ft_abs.c
@@ -76,22 +76,24 @@ add_executable(lemin_github
         libft/srcs/ft_tolower.c
         libft/srcs/ft_toupper.c
         libft/srcs/get_next_line.c
+        ant_steps.c
+        ants_run_like_shit.c
+        check_end_connections.c
+        tips_for_algo.c
         filling.c
         find_yourself_a_room.c
         freeshing.c
+        get_me_paths_lawd.c
+        go.c
         lemin.c
         lemin.h
-        redrum.c
         levels_and_links.c
-        soulmates.c
-        search_path.c
-        valid.c
-        utils.c
-        go.c
-        get_me_paths_lawd.c
-        ant_steps.c
-        ants_run_like_shit.c
         move_one_way.c
-        check_end_connections.c
+        path_finder.c
+        redrum.c
+        after_finding_paths.c
         search_paths.c
-        path_finder.c delete_useless_links.c)
+        sexy_levels.c
+        soulmates.c
+        utils.c
+        valid.c)
