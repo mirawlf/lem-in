@@ -1,6 +1,6 @@
 LEMIN = lemin
 
-FLAGS = -Wall -Wextra -Werror
+#FLAGS = -Wall -Wextra -Werror
 
 MAKE = make
 
@@ -21,7 +21,7 @@ all:$(LEMIN)
 	    gcc $(FLAGS) -c -o $@ $< -g
 
 $(LEMIN): $(LIB) $(OBJ)
-	    gcc $(FLAGS) -I $(INCL) $(LIB) -o $(LEMIN) $(SRC) -g
+	    gcc -g -I $(INCL) $(LIB) -o $(LEMIN) $(SRC)
 
 $(LIB):
 	    $(MAKE) -C ./libft/

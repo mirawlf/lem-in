@@ -84,8 +84,6 @@ typedef struct		s_main
 	int				end_connections;
 }					t_main;
 
-
-
 /**
  * freeshing
  */
@@ -155,5 +153,7 @@ void		delete_useless_links(t_main *map);
 void		count_inputs_and_outputs(t_main *map);
 void		delete_bad_outputs(t_main *map);
 void			start_searching(t_room *room, t_main *map);
+void 		exclude_forks(t_main * map);
+void 		delete_other_input_rooms(t_room *current, t_room *second, t_main *map);
 
 #endif
