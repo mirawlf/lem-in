@@ -57,6 +57,39 @@ static void		auxiliary(t_room *first, t_room *second, t_link *link,
 		second_rooms(first, map);
 }
 
+t_room			*best_variant(t_room *current, t_room *variant, t_main *map)
+{
+	t_link		*link;
+	t_room		*best;
+
+	best = NULL;
+	if (variant->outputs == 1 || variant == map->start)
+		return (variant);
+	else
+	{
+		link = map->all_links_here;
+		while(link)
+		{
+			if (link->first_room == current && link->second_room != variant
+			&& link->second_room->outputs == 1
+			&& link->first_room->level > link->second_room->level && !link->second_room->where)
+			{
+				best = link->second_room;
+				return (link->second_room);
+			}
+			else if (link->second_room == current && link->first_room != variant
+			&& link->first_room->outputs == 1 && link->first_room->level < link->second_room->level && !link->first_room->where)
+			{
+				best = link->first_room;
+				return (link->first_room);
+			}
+			link = link->next;
+		}
+	}
+	if (!best)
+		return (variant);
+}
+
 void			search_previous_room(t_room *current, t_main *map)
 {
 	t_link		*link;
@@ -66,18 +99,20 @@ void			search_previous_room(t_room *current, t_main *map)
 	tmp = NULL;
 	link = map->all_links_here;
 	while (current->level == 1 /*|| current->level == -1*/ ||
-		   current->where == NULL || current->from == NULL)
+	current->where == NULL || current->from == NULL)
 	{
 		if (link->first_room == current &&
-			(link->first_room->level > link->second_room->level &&
-			 link->second_room->level != -1) && link->checked != 2)
+		(link->first_room->level > link->second_room->level &&
+		link->second_room->level != -1) && link->checked != 2 && !link->second_room->where
+		&& best_variant(link->first_room, link->second_room,  map) == link->second_room)
 		{
 			auxiliary(link->first_room, link->second_room, link, map);
 			break;
 		}
 		else if (link->second_room == current &&
-				 (link->second_room->level > link->first_room->level &&
-				  link->first_room->level != -1) && link->checked != 2)
+		(link->second_room->level > link->first_room->level &&
+		link->first_room->level != -1) && link->checked != 2 && !link->first_room->where
+		&& best_variant(link->second_room, link->first_room, map) == link->first_room)
 		{
 			auxiliary(link->second_room, link->first_room, link, map);
 			break;
@@ -113,7 +148,9 @@ void			start_searching(t_room *room, t_main *map)
 		link = link->next;
 	}
 	if (tmp)
-		map->end_connections--;
-	tmp->where = map->end;
-	search_previous_room(tmp, map);
+	{
+		//map->end_connections--;
+		tmp->where = map->end;
+		search_previous_room(tmp, map);
+	}
 }

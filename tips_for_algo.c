@@ -18,13 +18,13 @@ void		delete_useless_links(t_main *map)
 	t_link	*link;
 	t_link	*tmp;
 
-	link = map->all_links_here;
 	if (map->all_links_here->first_room->is_dead_end || map->all_links_here->second_room->is_dead_end ||
 	map->all_links_here->first_room->level == map->all_links_here->second_room->level)
 	{
 		tmp = map->all_links_here;
 		map->all_links_here = map->all_links_here->next;
 		free(tmp);
+		delete_useless_links(map);
 	}
 	else
 	{
@@ -102,33 +102,47 @@ void 		exclude_forks(t_main * map)
 	change = 0;
 	while (room)
 	{
-		if (room->level == 2)
+		if ((room->outputs == 1 || room->inputs == 1) && room != map->start
+		&& room != map->end && !room->is_dead_end)
 		{
-			if (room->outputs == 1)
+			link = map->all_links_here;
+			while(link)
 			{
-				link = map->all_links_here;
-				while(link)
+				if (link->first_room == room && link->first_room->inputs == 1 && link->second_room != map->start
+					&& link->second_room != map->end && link->first_room->level > link->second_room->level
+					&& link->second_room->outputs > 1)
 				{
-					if (link->first_room == room && link->second_room != map->start
-						&& link->second_room != map->end && link->second_room->inputs > 1)
-					{
-						delete_other_input_rooms(link->second_room, link->first_room, map);
-						change = 1;
-					}
-					else if (link->second_room == room && link->first_room != map->start
-					&& link->first_room != map->end && link->first_room->inputs > 1)
-					{
-						delete_other_input_rooms(link->first_room, link->second_room, map);
-						change = 1;
-					}
-					link = link->next;
+					delete_other_input_rooms(link->second_room, link->first_room, map);
+					change = 1;
 				}
+				else if (link->first_room == room && link->first_room->outputs == 1 && link->second_room != map->start
+						 && link->second_room != map->end && link->first_room->level < link->second_room->level
+						 && link->second_room->inputs > 1)
+				{
+					delete_other_input_rooms(link->second_room, link->first_room, map);
+					change = 1;
+				}
+				else if (link->second_room == room && link->second_room->inputs == 1 && link->first_room != map->start
+						 && link->first_room != map->end && link->second_room->level > link->first_room->level
+						 && link->first_room->outputs > 1)
+				{
+					delete_other_input_rooms(link->first_room, link->second_room, map);
+					change = 1;
+				}
+				else if (link->second_room == room && link->second_room->outputs == 1 && link->first_room != map->start
+						 && link->first_room != map->end && link->second_room->level < link->first_room->level
+						 && link->first_room->inputs > 1)
+				{
+					delete_other_input_rooms(link->first_room, link->second_room, map);
+					change = 1;
+				}
+				link = link->next;
 			}
 		}
 		room = room->next;
 	}
-	if (change == 1)
-		exclude_forks(map);
+//	if (change == 1)
+//		exclude_forks(map);
 }
 
 void		count_inputs_and_outputs(t_main *map)
@@ -160,6 +174,6 @@ void		count_inputs_and_outputs(t_main *map)
 		}
 		link = link->next;
 	}
-	exclude_forks(map);
+	//exclude_forks(map);
 }
 

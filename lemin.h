@@ -75,7 +75,6 @@ typedef struct		s_main
 	t_room			*all_rooms_here;
 	t_link			*all_links_here;
 	int 			reached_end;
-	int 			max_current_level;
 	int 			rooms;
 	t_path			*paths;
 	t_path 			**path_array;
@@ -147,13 +146,14 @@ void		make_oneway_step(t_main  *main, t_path *best_path);
 void		check_end_connections(t_main *map);
 //void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
 void 		search_paths(t_main *map);
-void		next_levels(t_main *map);
+void		next_levels(t_main *map, int max_curr_lvl);
 void		milky_way(t_main *map, int level);
 void		delete_useless_links(t_main *map);
 void		count_inputs_and_outputs(t_main *map);
 void		delete_bad_outputs(t_main *map);
-void			start_searching(t_room *room, t_main *map);
+void		start_searching(t_room *room, t_main *map);
 void 		exclude_forks(t_main * map);
 void 		delete_other_input_rooms(t_room *current, t_room *second, t_main *map);
+t_room		*best_variant(t_room *current, t_room *variant, t_main *map);
 
 #endif
