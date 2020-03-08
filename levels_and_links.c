@@ -15,7 +15,7 @@
 static void		second_rooms(t_room *room, t_main *map)
 {
 	t_path		*tmp;
-	
+
 	if (!map->paths)
 	{
 		if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
@@ -44,7 +44,6 @@ void			next_levels(t_main *map, int max_curr_lvl)
 {
 	t_link		*link;
 	int			change;
-	int			k = 0;
 
 	link = map->all_links_here;
 	change = 0;
@@ -55,46 +54,25 @@ void			next_levels(t_main *map, int max_curr_lvl)
 			link = link->next;
 			continue;
 		}
-		if (link->first_room->level == max_curr_lvl && !link->second_room->level)
+//		if (ft_strcmp("Pd_3", link->first_room->name) == 0 || ft_strcmp("Pd_3", link->second_room->name == 0)
+//		|| ft_strcmp("Auf6", link->first_room->name) == 0 || ft_strcmp("Auf6", link->second_room->name) == 0)
+//			printf("STOP!!!\n");
+		if (link->first_room->level == max_curr_lvl && !link->second_room->level && !link->second_room->is_dead_end)
 		{
 			link->second_room->level = max_curr_lvl + 1;
 			link->checked = 1;
 			change = 1;
-			k += 1;
 		}
-		else if (link->second_room->level == max_curr_lvl && !link->first_room->level)
+		else if (link->second_room->level == max_curr_lvl && !link->first_room->level && !link->first_room->is_dead_end)
 		{
 			link->first_room->level = max_curr_lvl + 1;
 			link->checked = 1;
 			change = 1;
-			k += 1;
 		}
 		link = link->next;
 	}
-	printf("level: %d, rooms: %d\n", max_curr_lvl, k);
 	if (change == 1)
 		next_levels(map, max_curr_lvl + 1);
-}
-
-static void		dead_ends(t_main *map)
-{
-	t_room		*rooms;
-	t_link		*links;
-
-	rooms = map->all_rooms_here;
-	links = map->all_links_here;
-	while (links)
-	{
-		links->first_room->neighbours += 1;
-		links->second_room->neighbours += 1;
-		links = links->next;
-	}
-	while (rooms)
-	{
-		if (rooms->neighbours == 1 && rooms != map->start && rooms != map->end)
-			rooms->is_dead_end = 1;
-		rooms = rooms->next;
-	}
 }
 
 void			*determine_levels(t_main *map)

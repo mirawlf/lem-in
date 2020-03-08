@@ -18,6 +18,9 @@ static void 	sort_paths(t_path **paths, int paths_amount)
 		paths[i + 1] = temp;
 		i = -1;
 		}
+		//////delete below
+		else
+			printf ("ty pidor!\n");
 	}
 }
 
@@ -44,6 +47,6 @@ t_path	**make_path_array(t_main *main)
 		result[i] = start;
 		start = start->next;
 	}
-	sort_paths(result, paths_amount);
+//	sort_paths(result, paths_amount);
 	return (result);
 }
