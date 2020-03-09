@@ -41,6 +41,8 @@ void			count_inputs_and_outputs(t_main *map)
 	link = map->all_links_here;
 	while (link)
 	{
+//		if (ft_strcmp("Nml5", link->first_room->name) == 0 || ft_strcmp("Nml5", link->second_room->name) == 0)
+//			printf("STOP\n");
 		if (link->first_room == map->end ||
 		link->second_room->level < link->first_room->level)
 		{
@@ -53,6 +55,13 @@ void			count_inputs_and_outputs(t_main *map)
 			link->second_room->inputs++;
 			link->first_room->outputs++;
 		}
+//		else if (link->first_room->level == link->second_room->level)
+//		{
+//			link->first_room->inputs++;
+//			link->second_room->inputs++;
+//			link->first_room->outputs++;
+//			link->second_room->outputs++;
+//		}
 		link = link->next;
 	}
 }
