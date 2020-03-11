@@ -76,10 +76,10 @@ add_executable(last_lin
         libft/srcs/ft_tolower.c
         libft/srcs/ft_toupper.c
         libft/srcs/get_next_line.c
+        after_finding_paths.c
         ant_steps.c
         ants_run_like_shit.c
         check_end_connections.c
-        tips_for_algo.c
         filling.c
         find_yourself_a_room.c
         freeshing.c
@@ -91,8 +91,8 @@ add_executable(last_lin
         move_one_way.c
         path_finder.c
         redrum.c
-        after_finding_paths.c
         search_paths.c
         soulmates.c
+        tips_for_algo.c
         utils.c
         valid.c)

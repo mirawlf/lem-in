@@ -47,6 +47,6 @@ t_path	**make_path_array(t_main *main)
 		result[i] = start;
 		start = start->next;
 	}
-//	sort_paths(result, paths_amount);
+	sort_paths(result, paths_amount);
 	return (result);
 }

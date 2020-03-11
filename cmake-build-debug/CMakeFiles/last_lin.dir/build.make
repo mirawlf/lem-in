@@ -928,9 +928,22 @@ CMakeFiles/last_lin.dir/libft/srcs/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last_lin.dir/libft/srcs/get_next_line.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/last_lin/libft/srcs/get_next_line.c -o CMakeFiles/last_lin.dir/libft/srcs/get_next_line.c.s
 
+CMakeFiles/last_lin.dir/after_finding_paths.c.o: CMakeFiles/last_lin.dir/flags.make
+CMakeFiles/last_lin.dir/after_finding_paths.c.o: ../after_finding_paths.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/last_lin.dir/after_finding_paths.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/after_finding_paths.c.o   -c /Users/samymone/last_lin/after_finding_paths.c
+
+CMakeFiles/last_lin.dir/after_finding_paths.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/last_lin.dir/after_finding_paths.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/last_lin/after_finding_paths.c > CMakeFiles/last_lin.dir/after_finding_paths.c.i
+
+CMakeFiles/last_lin.dir/after_finding_paths.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last_lin.dir/after_finding_paths.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/last_lin/after_finding_paths.c -o CMakeFiles/last_lin.dir/after_finding_paths.c.s
+
 CMakeFiles/last_lin.dir/ant_steps.c.o: CMakeFiles/last_lin.dir/flags.make
 CMakeFiles/last_lin.dir/ant_steps.c.o: ../ant_steps.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/last_lin.dir/ant_steps.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/last_lin.dir/ant_steps.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/ant_steps.c.o   -c /Users/samymone/last_lin/ant_steps.c
 
 CMakeFiles/last_lin.dir/ant_steps.c.i: cmake_force
@@ -943,7 +956,7 @@ CMakeFiles/last_lin.dir/ant_steps.c.s: cmake_force
 
 CMakeFiles/last_lin.dir/ants_run_like_shit.c.o: CMakeFiles/last_lin.dir/flags.make
 CMakeFiles/last_lin.dir/ants_run_like_shit.c.o: ../ants_run_like_shit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/last_lin.dir/ants_run_like_shit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/last_lin.dir/ants_run_like_shit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/ants_run_like_shit.c.o   -c /Users/samymone/last_lin/ants_run_like_shit.c
 
 CMakeFiles/last_lin.dir/ants_run_like_shit.c.i: cmake_force
@@ -956,7 +969,7 @@ CMakeFiles/last_lin.dir/ants_run_like_shit.c.s: cmake_force
 
 CMakeFiles/last_lin.dir/check_end_connections.c.o: CMakeFiles/last_lin.dir/flags.make
 CMakeFiles/last_lin.dir/check_end_connections.c.o: ../check_end_connections.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/last_lin.dir/check_end_connections.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/last_lin.dir/check_end_connections.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/check_end_connections.c.o   -c /Users/samymone/last_lin/check_end_connections.c
 
 CMakeFiles/last_lin.dir/check_end_connections.c.i: cmake_force
@@ -966,19 +979,6 @@ CMakeFiles/last_lin.dir/check_end_connections.c.i: cmake_force
 CMakeFiles/last_lin.dir/check_end_connections.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last_lin.dir/check_end_connections.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/last_lin/check_end_connections.c -o CMakeFiles/last_lin.dir/check_end_connections.c.s
-
-CMakeFiles/last_lin.dir/tips_for_algo.c.o: CMakeFiles/last_lin.dir/flags.make
-CMakeFiles/last_lin.dir/tips_for_algo.c.o: ../tips_for_algo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/last_lin.dir/tips_for_algo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/tips_for_algo.c.o   -c /Users/samymone/last_lin/tips_for_algo.c
-
-CMakeFiles/last_lin.dir/tips_for_algo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/last_lin.dir/tips_for_algo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/last_lin/tips_for_algo.c > CMakeFiles/last_lin.dir/tips_for_algo.c.i
-
-CMakeFiles/last_lin.dir/tips_for_algo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last_lin.dir/tips_for_algo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/last_lin/tips_for_algo.c -o CMakeFiles/last_lin.dir/tips_for_algo.c.s
 
 CMakeFiles/last_lin.dir/filling.c.o: CMakeFiles/last_lin.dir/flags.make
 CMakeFiles/last_lin.dir/filling.c.o: ../filling.c
@@ -1110,22 +1110,9 @@ CMakeFiles/last_lin.dir/redrum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last_lin.dir/redrum.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/last_lin/redrum.c -o CMakeFiles/last_lin.dir/redrum.c.s
 
-CMakeFiles/last_lin.dir/after_finding_paths.c.o: CMakeFiles/last_lin.dir/flags.make
-CMakeFiles/last_lin.dir/after_finding_paths.c.o: ../after_finding_paths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/last_lin.dir/after_finding_paths.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/after_finding_paths.c.o   -c /Users/samymone/last_lin/after_finding_paths.c
-
-CMakeFiles/last_lin.dir/after_finding_paths.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/last_lin.dir/after_finding_paths.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/last_lin/after_finding_paths.c > CMakeFiles/last_lin.dir/after_finding_paths.c.i
-
-CMakeFiles/last_lin.dir/after_finding_paths.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last_lin.dir/after_finding_paths.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/last_lin/after_finding_paths.c -o CMakeFiles/last_lin.dir/after_finding_paths.c.s
-
 CMakeFiles/last_lin.dir/search_paths.c.o: CMakeFiles/last_lin.dir/flags.make
 CMakeFiles/last_lin.dir/search_paths.c.o: ../search_paths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/last_lin.dir/search_paths.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/last_lin.dir/search_paths.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/search_paths.c.o   -c /Users/samymone/last_lin/search_paths.c
 
 CMakeFiles/last_lin.dir/search_paths.c.i: cmake_force
@@ -1138,7 +1125,7 @@ CMakeFiles/last_lin.dir/search_paths.c.s: cmake_force
 
 CMakeFiles/last_lin.dir/soulmates.c.o: CMakeFiles/last_lin.dir/flags.make
 CMakeFiles/last_lin.dir/soulmates.c.o: ../soulmates.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/last_lin.dir/soulmates.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/last_lin.dir/soulmates.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/soulmates.c.o   -c /Users/samymone/last_lin/soulmates.c
 
 CMakeFiles/last_lin.dir/soulmates.c.i: cmake_force
@@ -1148,6 +1135,19 @@ CMakeFiles/last_lin.dir/soulmates.c.i: cmake_force
 CMakeFiles/last_lin.dir/soulmates.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last_lin.dir/soulmates.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/last_lin/soulmates.c -o CMakeFiles/last_lin.dir/soulmates.c.s
+
+CMakeFiles/last_lin.dir/tips_for_algo.c.o: CMakeFiles/last_lin.dir/flags.make
+CMakeFiles/last_lin.dir/tips_for_algo.c.o: ../tips_for_algo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samymone/last_lin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/last_lin.dir/tips_for_algo.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/last_lin.dir/tips_for_algo.c.o   -c /Users/samymone/last_lin/tips_for_algo.c
+
+CMakeFiles/last_lin.dir/tips_for_algo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/last_lin.dir/tips_for_algo.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/samymone/last_lin/tips_for_algo.c > CMakeFiles/last_lin.dir/tips_for_algo.c.i
+
+CMakeFiles/last_lin.dir/tips_for_algo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last_lin.dir/tips_for_algo.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/samymone/last_lin/tips_for_algo.c -o CMakeFiles/last_lin.dir/tips_for_algo.c.s
 
 CMakeFiles/last_lin.dir/utils.c.o: CMakeFiles/last_lin.dir/flags.make
 CMakeFiles/last_lin.dir/utils.c.o: ../utils.c
@@ -1244,10 +1244,10 @@ last_lin_OBJECTS = \
 "CMakeFiles/last_lin.dir/libft/srcs/ft_tolower.c.o" \
 "CMakeFiles/last_lin.dir/libft/srcs/ft_toupper.c.o" \
 "CMakeFiles/last_lin.dir/libft/srcs/get_next_line.c.o" \
+"CMakeFiles/last_lin.dir/after_finding_paths.c.o" \
 "CMakeFiles/last_lin.dir/ant_steps.c.o" \
 "CMakeFiles/last_lin.dir/ants_run_like_shit.c.o" \
 "CMakeFiles/last_lin.dir/check_end_connections.c.o" \
-"CMakeFiles/last_lin.dir/tips_for_algo.c.o" \
 "CMakeFiles/last_lin.dir/filling.c.o" \
 "CMakeFiles/last_lin.dir/find_yourself_a_room.c.o" \
 "CMakeFiles/last_lin.dir/freeshing.c.o" \
@@ -1258,9 +1258,9 @@ last_lin_OBJECTS = \
 "CMakeFiles/last_lin.dir/move_one_way.c.o" \
 "CMakeFiles/last_lin.dir/path_finder.c.o" \
 "CMakeFiles/last_lin.dir/redrum.c.o" \
-"CMakeFiles/last_lin.dir/after_finding_paths.c.o" \
 "CMakeFiles/last_lin.dir/search_paths.c.o" \
 "CMakeFiles/last_lin.dir/soulmates.c.o" \
+"CMakeFiles/last_lin.dir/tips_for_algo.c.o" \
 "CMakeFiles/last_lin.dir/utils.c.o" \
 "CMakeFiles/last_lin.dir/valid.c.o"
 
@@ -1334,10 +1334,10 @@ last_lin: CMakeFiles/last_lin.dir/libft/srcs/ft_strtrim.c.o
 last_lin: CMakeFiles/last_lin.dir/libft/srcs/ft_tolower.c.o
 last_lin: CMakeFiles/last_lin.dir/libft/srcs/ft_toupper.c.o
 last_lin: CMakeFiles/last_lin.dir/libft/srcs/get_next_line.c.o
+last_lin: CMakeFiles/last_lin.dir/after_finding_paths.c.o
 last_lin: CMakeFiles/last_lin.dir/ant_steps.c.o
 last_lin: CMakeFiles/last_lin.dir/ants_run_like_shit.c.o
 last_lin: CMakeFiles/last_lin.dir/check_end_connections.c.o
-last_lin: CMakeFiles/last_lin.dir/tips_for_algo.c.o
 last_lin: CMakeFiles/last_lin.dir/filling.c.o
 last_lin: CMakeFiles/last_lin.dir/find_yourself_a_room.c.o
 last_lin: CMakeFiles/last_lin.dir/freeshing.c.o
@@ -1348,9 +1348,9 @@ last_lin: CMakeFiles/last_lin.dir/levels_and_links.c.o
 last_lin: CMakeFiles/last_lin.dir/move_one_way.c.o
 last_lin: CMakeFiles/last_lin.dir/path_finder.c.o
 last_lin: CMakeFiles/last_lin.dir/redrum.c.o
-last_lin: CMakeFiles/last_lin.dir/after_finding_paths.c.o
 last_lin: CMakeFiles/last_lin.dir/search_paths.c.o
 last_lin: CMakeFiles/last_lin.dir/soulmates.c.o
+last_lin: CMakeFiles/last_lin.dir/tips_for_algo.c.o
 last_lin: CMakeFiles/last_lin.dir/utils.c.o
 last_lin: CMakeFiles/last_lin.dir/valid.c.o
 last_lin: CMakeFiles/last_lin.dir/build.make
