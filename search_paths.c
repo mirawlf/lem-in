@@ -67,157 +67,6 @@ static void		auxiliary(t_room *first, t_room *second, t_link *link,
 		second_rooms(first, map);
 }
 
-t_room			*best_variant4(t_room *current, t_room *variant, t_main *map)
-{
-	t_link *link;
-	t_room *best;
-
-	link = map->all_links_here;
-	best = NULL;
-	if (variant->level > current->level && variant->inputs > 1)
-		return (variant);
-	while (link)
-	{
-		if (ft_strcmp(current->name, link->first_room->name) == 0 ||
-			ft_strcmp(current->name, link->second_room->name) == 0)
-			printf("STOP\n");
-		if (link->first_room == current && link->second_room != variant
-		&& !link->second_room->is_dead_end
-		&& link->first_room->level < link->second_room->level && link->second_room->inputs > 1
-		&& !link->second_room->where)
-		{
-			best = link->second_room;
-			return (link->second_room);
-		}
-		else if (link->second_room == current && link->first_room != variant
-		&& !link->first_room->is_dead_end &&
-		link->first_room->level > link->second_room->level && link->first_room->inputs > 1
-		&& !link->first_room->where)
-		{
-			best = link->first_room;
-			return (link->first_room);
-		}
-		link = link->next;
-	}
-	if (!best)
-		return (variant);
-}
-
-t_room			*best_variant3(t_room *current, t_room *variant, t_main *map)
-{
-	t_link		*link;
-	t_room		*best;
-
-	link = map->all_links_here;
-	best = NULL;
-	if (variant->level == current->level && variant->outputs <= 1)
-		return (variant);
-	while (link)
-	{
-		if (ft_strcmp(current->name, link->first_room->name) == 0 || ft_strcmp(current->name, link->second_room->name) == 0)
-			printf("STOP\n");
-		if (link->first_room == current && link->second_room != variant
-		&& link->second_room->outputs == 1 && !link->second_room->is_dead_end
-		&& link->first_room->level == link->second_room->level
-		&& !link->second_room->where)
-		{
-			best = link->second_room;
-			return (link->second_room);
-		}
-		else if (link->second_room == current && link->first_room != variant
-		&& link->first_room->outputs == 1 && !link->first_room->is_dead_end &&
-		link->first_room->level == link->second_room->level
-		&& !link->first_room->where)
-		{
-			best = link->first_room;
-			return (link->first_room);
-		}
-		link = link->next;
-	}
-	if (!best)
-		return (best_variant4(current, variant, map));
-}
-
-
-t_room			*best_variant2(t_room *current, t_room *variant, t_main *map)
-{
-	t_link		*link;
-	t_room		*best;
-
-	link = map->all_links_here;
-	best = NULL;
-	if (variant->level < current->level || variant == map->start)
-		return (variant);
-	while (link)
-	{
-		if (ft_strcmp(current->name, link->first_room->name) == 0 || ft_strcmp(current->name, link->second_room->name) == 0)
-			printf("STOP\n");
-		if (link->first_room == current && link->second_room != variant
-		&& !link->second_room->is_dead_end
-		&& link->first_room->level > link->second_room->level && link->second_room != map->end
-		&& !link->second_room->where)
-		{
-			best = link->second_room;
-			return (link->second_room);
-		}
-		else if (link->second_room == current && link->first_room != variant
-		&& !link->first_room->is_dead_end &&
-		link->first_room->level < link->second_room->level && link->first_room != map->end
-		&& !link->first_room->where)
-		{
-			best = link->first_room;
-			return (link->first_room);
-		}
-		link = link->next;
-	}
-	if (!best)
-		return (best_variant3(current, variant, map));
-}
-
-/*
- * вернуть variant, если variant -  лучший результат, tmp, если есть результат лучше variant, null, если нет
- * лучшего результата. В том случае, если вернулся null, сделать проверку среди комнат равного уровня
- *
- *
- * переделать данную функцию на 2 этапа: 1) проверка комнат уровнем меньше, 2) проверка комнат того же уровня
- */
-t_room			*best_variant(t_room *current, t_room *variant, t_main *map)
-{
-	t_link		*link;
-	t_room		*best;
-
-	best = NULL;
-	if ((variant->outputs == 1 && variant->level < current->level)|| variant == map->start)
-		return (variant);
-	else
-	{
-		link = map->all_links_here;
-		while (link)
-		{
-			if (ft_strcmp(current->name, link->first_room->name) == 0 || ft_strcmp(current->name, link->second_room->name) == 0)
-				printf("STOP\n");
-			if (link->first_room == current && link->second_room != variant
-			&& link->second_room->outputs == 1 && !link->second_room->is_dead_end
-			&& link->first_room->level > link->second_room->level
-			&& !link->second_room->where)
-			{
-				best = link->second_room;
-				return (link->second_room);
-			}
-			else if (link->second_room == current && link->first_room != variant
-			&& link->first_room->outputs == 1 && !link->first_room->is_dead_end &&
-			link->first_room->level < link->second_room->level && !link->first_room->where)
-			{
-				best = link->first_room;
-				return (link->first_room);
-			}
-			link = link->next;
-		}
-	}
-	if (!best)
-		return (best_variant2(current, variant, map));
-}
-
 void			free_path(t_room *current, t_main *map)
 {
 	t_room		*tmp;
@@ -232,7 +81,6 @@ void			free_path(t_room *current, t_main *map)
 	}
 	if (current)
 		current->from = NULL;
-	//start_searching(map->end, map);
 }
 
 void			remake_paths(t_room *current, t_main *map)
@@ -285,17 +133,13 @@ void			search_previous_room(t_room *current, t_main *map)
 		if (ft_strcmp(current->name, link->first_room->name) == 0 || ft_strcmp(current->name, link->second_room->name) == 0)
 			printf("STOP\n");
 		if (link->first_room == current && !link->second_room->is_dead_end &&
-		/*link->first_room->level >= link->second_room->level *//*|| (link->first_room->level == link->second_room->level
-		&& link->second_room->outputs == 1))&&*/
 		link->second_room->level != -1 && link->checked != 2 && !link->second_room->where
 		&& best_variant(link->first_room, link->second_room,  map) == link->second_room)
 		{
 			auxiliary(link->first_room, link->second_room, link, map);
 			break ;
 		}
-		else if (link->second_room == current && !link->first_room->is_dead_end /*&&
-				link->first_room->level <= link->second_room->level*/ /*|| (link->first_room->level == link->second_room->level
-				&& link->first_room->outputs == 1))*/ &&
+		else if (link->second_room == current && !link->first_room->is_dead_end &&
 		link->first_room->level != -1 && link->checked != 2 && !link->first_room->where
 		&& best_variant(link->second_room, link->first_room, map) == link->first_room)
 		{

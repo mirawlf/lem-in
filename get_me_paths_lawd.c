@@ -1,36 +1,33 @@
 #include "lemin.h"
 
-static void 	sort_paths(t_path **paths, int paths_amount)
+static void		sort_paths(t_path **paths, int paths_amount)
 {
-	int i;
-	t_path *temp;
+	int			i;
+	t_path		*temp;
 
 	if (!paths || !paths_amount)
 		ft_error("NO PATHS IN SORTING!");
 	i = -1;
-
 	while (++i < (paths_amount - 1))
 	{
 		if (paths[i]->current->steps > paths[i + 1]->current->steps)
 		{
-		temp = paths[i];
-		paths[i] = paths[i + 1];
-		paths[i + 1] = temp;
-		i = -1;
+			temp = paths[i];
+			paths[i] = paths[i + 1];
+			paths[i + 1] = temp;
+			i = -1;
 		}
-		//////delete below
-		else
-			printf ("ty pidor!\n");
 	}
 }
 
-t_path	**make_path_array(t_main *main)
+t_path			**make_path_array(t_main *main)
 {
-	t_path	*start;
-	t_path **result;
-	int paths_amount;
-	int i = -1;
+	t_path		*start;
+	t_path		**result;
+	int			paths_amount;
+	int			i;
 
+	i = -1;
 	start = main->paths;
 	paths_amount = 0;
 	while (start)

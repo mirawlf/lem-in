@@ -204,6 +204,33 @@ ants_run_like_shit.c.s:
 	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/ants_run_like_shit.c.s
 .PHONY : ants_run_like_shit.c.s
 
+best_room_definition.o: best_room_definition.c.o
+
+.PHONY : best_room_definition.o
+
+# target to build an object file
+best_room_definition.c.o:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/best_room_definition.c.o
+.PHONY : best_room_definition.c.o
+
+best_room_definition.i: best_room_definition.c.i
+
+.PHONY : best_room_definition.i
+
+# target to preprocess a source file
+best_room_definition.c.i:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/best_room_definition.c.i
+.PHONY : best_room_definition.c.i
+
+best_room_definition.s: best_room_definition.c.s
+
+.PHONY : best_room_definition.s
+
+# target to generate assembly for a file
+best_room_definition.c.s:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/best_room_definition.c.s
+.PHONY : best_room_definition.c.s
+
 check_end_connections.o: check_end_connections.c.o
 
 .PHONY : check_end_connections.o
@@ -2463,6 +2490,9 @@ help:
 	@echo "... ants_run_like_shit.o"
 	@echo "... ants_run_like_shit.i"
 	@echo "... ants_run_like_shit.s"
+	@echo "... best_room_definition.o"
+	@echo "... best_room_definition.i"
+	@echo "... best_room_definition.s"
 	@echo "... check_end_connections.o"
 	@echo "... check_end_connections.i"
 	@echo "... check_end_connections.s"

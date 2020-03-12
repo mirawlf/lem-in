@@ -95,4 +95,5 @@ add_executable(last_lin
         soulmates.c
         tips_for_algo.c
         utils.c
-        valid.c)
+        valid.c
+        best_room_definition.c)

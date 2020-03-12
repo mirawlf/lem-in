@@ -40,6 +40,13 @@ static void		path_is_found(t_room *room, t_main *map)
 	second_rooms(room, map);
 }
 
+static int		appoint_level(t_room *room, t_link *link, int lvl)
+{
+	room->level = lvl;
+	link->checked = 1;
+	return (1);
+}
+
 void			next_levels(t_main *map, int max_curr_lvl)
 {
 	t_link		*link;
@@ -54,21 +61,12 @@ void			next_levels(t_main *map, int max_curr_lvl)
 			link = link->next;
 			continue;
 		}
-//		if (ft_strcmp("Pd_3", link->first_room->name) == 0 || ft_strcmp("Pd_3", link->second_room->name == 0)
-//		|| ft_strcmp("Auf6", link->first_room->name) == 0 || ft_strcmp("Auf6", link->second_room->name) == 0)
-//			printf("STOP!!!\n");
-		if (link->first_room->level == max_curr_lvl && !link->second_room->level && !link->second_room->is_dead_end)
-		{
-			link->second_room->level = max_curr_lvl + 1;
-			link->checked = 1;
-			change = 1;
-		}
-		else if (link->second_room->level == max_curr_lvl && !link->first_room->level && !link->first_room->is_dead_end)
-		{
-			link->first_room->level = max_curr_lvl + 1;
-			link->checked = 1;
-			change = 1;
-		}
+		if (link->first_room->level == max_curr_lvl
+		&& !link->second_room->level && !link->second_room->is_dead_end)
+			change = appoint_level(link->second_room, link, max_curr_lvl + 1);
+		else if (link->second_room->level == max_curr_lvl
+		&& !link->first_room->level && !link->first_room->is_dead_end)
+			change = appoint_level(link->first_room, link, max_curr_lvl + 1);
 		link = link->next;
 	}
 	if (change == 1)

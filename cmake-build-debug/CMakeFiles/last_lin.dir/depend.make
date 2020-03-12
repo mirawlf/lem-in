@@ -16,6 +16,11 @@ CMakeFiles/last_lin.dir/ants_run_like_shit.c.o: .././libft/includes/libft.h
 CMakeFiles/last_lin.dir/ants_run_like_shit.c.o: ../ants_run_like_shit.c
 CMakeFiles/last_lin.dir/ants_run_like_shit.c.o: ../lemin.h
 
+CMakeFiles/last_lin.dir/best_room_definition.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/last_lin.dir/best_room_definition.c.o: .././libft/includes/libft.h
+CMakeFiles/last_lin.dir/best_room_definition.c.o: ../best_room_definition.c
+CMakeFiles/last_lin.dir/best_room_definition.c.o: ../lemin.h
+
 CMakeFiles/last_lin.dir/check_end_connections.c.o: .././libft/includes/get_next_line.h
 CMakeFiles/last_lin.dir/check_end_connections.c.o: .././libft/includes/libft.h
 CMakeFiles/last_lin.dir/check_end_connections.c.o: ../check_end_connections.c
