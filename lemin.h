@@ -156,5 +156,6 @@ void 		exclude_forks(t_main * map);
 void 		delete_other_input_rooms(t_room *current, t_room *second, t_main *map);
 t_room		*best_variant(t_room *current, t_room *variant, t_main *map);
 void			dead_ends(t_main *map);
-
+void			free_path(t_room *current, t_main *map);
+void		take_a_glimse_of_paths(t_main *map);
 #endif

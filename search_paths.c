@@ -70,7 +70,7 @@ static void		auxiliary(t_room *first, t_room *second, t_link *link,
 void			free_path(t_room *current, t_main *map)
 {
 	t_room		*tmp;
-	map->end_connections++;
+	//map->end_connections++;
 	while (current && current->where != map->end)
 	{
 		current->where->from == NULL;
@@ -183,7 +183,7 @@ void			start_searching(t_room *room, t_main *map)
 	}
 	if (tmp)
 	{
-		map->end_connections--;
+		//map->end_connections--;
 		tmp->where = map->end;
 		search_previous_room(tmp, map);
 	}

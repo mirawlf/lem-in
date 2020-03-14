@@ -22,7 +22,7 @@ static void		sort_paths(t_path **paths, int paths_amount, t_room *start)
 	i = 0;
 	while (i < paths_amount)
 	{
-		printf("Path ||%d||, steps: %d\n%s ", i + 1, paths[i]->current->steps, start->name);
+		printf("Path ||%d||, steps: %d\n%s ", i + 1, paths[i]->current->steps + 1, start->name);
 		room = paths[i]->current;
 		while (room)
 		{

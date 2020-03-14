@@ -81,6 +81,8 @@ void			*determine_levels(t_main *map)
 	next_levels(map, 1);
 	count_inputs_and_outputs(map);
 	start_searching(map->end, map);
+
+	//take_a_glimse_of_paths(map);
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
 		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");

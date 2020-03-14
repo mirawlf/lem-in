@@ -12,22 +12,22 @@
 
 #include "lemin.h"
 
-int 			new_or_current(t_room *best, t_room *current)
+int 			compare_paths(t_room *best, t_room *current)
 {
-	int 		new;
 	int 		old;
+	int 		new;
 	t_room		*tmp;
 
-	new = 1;
 	old = 0;
+	new = 0;
 	tmp = best->where;
-	while (tmp->where)
+	while (tmp)
 	{
 		old++;
 		tmp = tmp->where;
 	}
 	tmp = current;
-	while (tmp->where)
+	while (tmp)
 	{
 		new++;
 		tmp = tmp->where;
@@ -35,19 +35,12 @@ int 			new_or_current(t_room *best, t_room *current)
 	return (old - new);
 }
 
-void			remake_step(t_room *best, t_room *current, t_main *map)
+void			remake_paths2(t_room *best, t_room *current, t_main *map)
 {
-	t_link		*link;
-
-	link = map->all_links_here;
-	while (link)
-	{
-		if ((link->first_room == best && link->second_room == current) ||
-			(link->second_room == best && link->first_room == current))
-			break;
-	}
-//	free_path(best->where, map);
-//	auxiliary(current, best, link, map);
+	free_path(best->where, map);
+	best->where = current;
+	current->from = best;
+	start_searching(map->end, map);
 }
 
 t_room			*best_variant4(t_room *current, t_room *variant, t_main *map)
@@ -67,18 +60,34 @@ t_room			*best_variant4(t_room *current, t_room *variant, t_main *map)
 		if (link->first_room == current && link->second_room != variant
 			&& !link->second_room->is_dead_end
 			&& link->first_room->level < link->second_room->level && link->second_room->inputs > 1
-			&& !link->second_room->where)
+			/*&& !link->second_room->where*/)
 		{
-			best = link->second_room;
-			return (link->second_room);
+			if (link->second_room->where && compare_paths(link->second_room, current) > 0)
+			{
+				best = link->second_room;
+				remake_paths2(best, current, map);
+			}
+			else if (!link->second_room->where)
+			{
+				best = link->second_room;
+				return (link->second_room);
+			}
 		}
 		else if (link->second_room == current && link->first_room != variant
 				 && !link->first_room->is_dead_end &&
 				 link->first_room->level > link->second_room->level && link->first_room->inputs > 1
-				 && !link->first_room->where)
+				/* && !link->first_room->where*/)
 		{
-			best = link->first_room;
-			return (link->first_room);
+			if (link->first_room->where && compare_paths(link->first_room, current) > 0)
+			{
+				best = link->first_room;
+				remake_paths2(link->first_room, current, map);
+			}
+			else if (!link->first_room->where)
+			{
+				best = link->first_room;
+				return (link->first_room);
+			}
 		}
 		link = link->next;
 	}
@@ -102,18 +111,34 @@ t_room			*best_variant3(t_room *current, t_room *variant, t_main *map)
 		if (link->first_room == current && link->second_room != variant
 			&& link->second_room->outputs == 1 && !link->second_room->is_dead_end
 			&& link->first_room->level == link->second_room->level
-			&& !link->second_room->where)
+			/*&& !link->second_room->where*/)
 		{
-			best = link->second_room;
-			return (link->second_room);
+			if (link->second_room->where && compare_paths(link->second_room, current) > 0)
+			{
+				best = link->second_room;
+				remake_paths2(best, current, map);
+			}
+			else if (!link->second_room->where)
+			{
+				best = link->second_room;
+				return (link->second_room);
+			}
 		}
 		else if (link->second_room == current && link->first_room != variant
 				 && link->first_room->outputs == 1 && !link->first_room->is_dead_end &&
 				 link->first_room->level == link->second_room->level
-				 && !link->first_room->where)
+				 /*&& !link->first_room->where*/)
 		{
-			best = link->first_room;
-			return (link->first_room);
+			if (link->first_room->where && compare_paths(link->first_room, current) > 0)
+			{
+				best = link->first_room;
+				remake_paths2(link->first_room, current, map);
+			}
+			else if (!link->first_room->where)
+			{
+				best = link->first_room;
+				return (link->first_room);
+			}
 		}
 		link = link->next;
 	}
@@ -138,18 +163,34 @@ t_room			*best_variant2(t_room *current, t_room *variant, t_main *map)
 		if (link->first_room == current && link->second_room != variant
 			&& !link->second_room->is_dead_end
 			&& link->first_room->level > link->second_room->level && link->second_room != map->end
-			&& !link->second_room->where)
+			/*&& !link->second_room->where*/)
 		{
-			best = link->second_room;
-			return (link->second_room);
+			if (link->second_room->where && compare_paths(link->second_room, current) > 0)
+			{
+				best = link->second_room;
+				remake_paths2(best, current, map);
+			}
+			else if (!link->second_room->where)
+			{
+				best = link->second_room;
+				return (link->second_room);
+			}
 		}
 		else if (link->second_room == current && link->first_room != variant
 				 && !link->first_room->is_dead_end &&
 				 link->first_room->level < link->second_room->level && link->first_room != map->end
-				 && !link->first_room->where)
+				/* && !link->first_room->where*/)
 		{
-			best = link->first_room;
-			return (link->first_room);
+			if (link->first_room->where && compare_paths(link->first_room, current) > 0)
+			{
+				best = link->first_room;
+				remake_paths2(link->first_room, current, map);
+			}
+			else if (!link->first_room->where)
+			{
+				best = link->first_room;
+				return (link->first_room);
+			}
 		}
 		link = link->next;
 	}

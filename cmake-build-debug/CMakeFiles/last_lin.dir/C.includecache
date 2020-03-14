@@ -34,10 +34,6 @@ stdio.h
 unistd.h
 -
 
-/Users/samymone/last_lin/get_me_paths_lawd.c
-lemin.h
-/Users/samymone/last_lin/lemin.h
-
 /Users/samymone/last_lin/lemin.h
 ./libft/includes/libft.h
 /Users/samymone/last_lin/./libft/includes/libft.h
@@ -45,4 +41,8 @@ lemin.h
 /Users/samymone/last_lin/./libft/includes/get_next_line.h
 stdlib.h
 -
+
+/Users/samymone/last_lin/levels_and_links.c
+lemin.h
+/Users/samymone/last_lin/lemin.h
 
