@@ -1,9 +1,10 @@
 #include "lemin.h"
 
-static void		sort_paths(t_path **paths, int paths_amount)
+static void		sort_paths(t_path **paths, int paths_amount, t_room *start)
 {
 	int			i;
 	t_path		*temp;
+	t_room		*room;
 
 	if (!paths || !paths_amount)
 		ft_error("NO PATHS IN SORTING!");
@@ -17,6 +18,19 @@ static void		sort_paths(t_path **paths, int paths_amount)
 			paths[i + 1] = temp;
 			i = -1;
 		}
+	}
+	i = 0;
+	while (i < paths_amount)
+	{
+		printf("Path ||%d||, steps: %d\n%s ", i + 1, paths[i]->current->steps, start->name);
+		room = paths[i]->current;
+		while (room)
+		{
+			printf("%s ", room->name);
+			room = room->where;
+		}
+		printf("\n\n");
+		i++;
 	}
 }
 
@@ -44,6 +58,6 @@ t_path			**make_path_array(t_main *main)
 		result[i] = start;
 		start = start->next;
 	}
-	sort_paths(result, paths_amount);
+	sort_paths(result, paths_amount, main->start);
 	return (result);
 }
