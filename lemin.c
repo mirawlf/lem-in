@@ -6,43 +6,30 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:26:38 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/09 16:13:40 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/03/15 22:08:57 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void		ft_error(char *error)
+static int 		read_data(t_main *data)
 {
-	ft_putendl_fd(error, 2);
-	exit(1);
+	if (!read_ants(data))
+		return (0);
+	if (!read_rooms(data))
+		return (0);
+	if (!data->start || !data->end)
+		return (0);
+	if (!read_links(data))
+		return (0);
+	return (1);
 }
 
-/*
- * здесь считывается нулевая комната и в ней маллочится map->ants
- * количество муравьев, для каждого из которых curr_room приравнивается
- * к порядковому номеру первой комнаты
- */
-
-t_main		*structure_filling(char *line, t_main *map, int fd)
+t_main		*structure_filling(char *line, t_main *map)
 {
-//	if (map->start == 0)
-//	{
-	map->ants = ft_atoi(line);////////стоит чекнуть коммент
-	map->original_ants = map->ants;
-	print_line(0, line);
-	ft_strdel(&line);
-	if (map->ants < 1)
-		ft_error("INVALID ANTS NUM");
-	//	if (map->ants != ft_atoi(ft_itoa(map->ants)))
-	//	{
-	//		free_map(map);
-	//		ft_error();
-	//	}
-	//	map->start = 1;
 
-	map->all_rooms_here = read_rooms(map, fd);
-	map->all_links_here = get_me_links(map, fd, map->all_rooms_here);
+	if (!read_data(map))
+		ft_error("CHTO TO POSHLO NE TAK LOL");//////////check leaks
 	ant_colony_creation(map->ants, map);
 	ft_strdel(&line);
 	return (map);
@@ -55,17 +42,11 @@ t_main		*parse_input(char **av, t_main *map)
 	int		fd;
 
 	line = NULL;
-	fd = open(av[1], O_RDONLY);
-	ret = 1;
-		ret = get_next_line(fd, &line);
-		if (ret == -1)
-			ft_error("ERROR: DON'T TRY TO SEGV ME");///////////убрать проверку на рид == -1 в дальнейших проверках, если это не уберем, этой проверки достаточно
-		else if (ret == 1)
-			structure_filling(line, map, fd);
-		else if (ret == 0)
-			return (map);
-//	}
-if (map)
+	map->del_me_fd = open(av[1], O_RDONLY);
+
+		map =	structure_filling(line, map);
+
+//эту всю парашу можно сократить вот этот вот стракчер филлинг на кой он вообще
 	return(map);
 return (NULL);
 }

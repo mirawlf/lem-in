@@ -81,7 +81,6 @@ add_executable(last_lin
         ants_run_like_shit.c
         check_end_connections.c
         filling.c
-        find_yourself_a_room.c
         freeshing.c
         get_me_paths_lawd.c
         go.c
@@ -90,11 +89,14 @@ add_executable(last_lin
         levels_and_links.c
         move_one_way.c
         path_finder.c
-        redrum.c
         search_paths.c
-        soulmates.c
         tips_for_algo.c
         utils.c
         valid.c
         best_room_definition.c
-        second_searching.c)
+        second_searching.c
+        read_ants.c
+        read_links.c
+        read_rooms.c
+        duplicate_values.c
+        )

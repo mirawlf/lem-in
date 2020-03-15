@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/samymone/last_lin/cmake-build-debug"/>
+				<Option working_dir="/Users/cyuriko/lemin_fix_reader/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/samymone/last_lin/cmake-build-debug"/>
+				<Option working_dir="/Users/cyuriko/lemin_fix_reader/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/samymone/last_lin/cmake-build-debug"/>
+				<Option working_dir="/Users/cyuriko/lemin_fix_reader/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="last_lin">
-				<Option output="/Users/samymone/last_lin/cmake-build-debug/last_lin" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/samymone/last_lin/cmake-build-debug"/>
+				<Option output="/Users/cyuriko/lemin_fix_reader/cmake-build-debug/last_lin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cyuriko/lemin_fix_reader/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/samymone/last_lin/."/>
-					<Add directory="/Users/samymone/last_lin/libft/includes"/>
+					<Add directory="/Users/cyuriko/lemin_fix_reader/."/>
+					<Add directory="/Users/cyuriko/lemin_fix_reader/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -54,21 +54,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 last_lin"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 last_lin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="last_lin/fast">
-				<Option output="/Users/samymone/last_lin/cmake-build-debug/last_lin" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/samymone/last_lin/cmake-build-debug"/>
+				<Option output="/Users/cyuriko/lemin_fix_reader/cmake-build-debug/last_lin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cyuriko/lemin_fix_reader/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/samymone/last_lin/."/>
-					<Add directory="/Users/samymone/last_lin/libft/includes"/>
+					<Add directory="/Users/cyuriko/lemin_fix_reader/."/>
+					<Add directory="/Users/cyuriko/lemin_fix_reader/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -77,287 +77,290 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 last_lin/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/last_lin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 last_lin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cyuriko/lemin_fix_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/samymone/last_lin/after_finding_paths.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/after_finding_paths.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/ant_steps.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/ant_steps.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/ants_run_like_shit.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/ants_run_like_shit.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/best_room_definition.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/best_room_definition.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/check_end_connections.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/check_end_connections.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/filling.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/duplicate_values.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/find_yourself_a_room.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/filling.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/freeshing.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/freeshing.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/get_me_paths_lawd.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/get_me_paths_lawd.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/go.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/go.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/lemin.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/lemin.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/lemin.h">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/lemin.h">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/levels_and_links.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/levels_and_links.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/includes/get_next_line.h">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/includes/get_next_line.h">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/includes/libft.h">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/includes/libft.h">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_abs.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_abs.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_atoi.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_atoi.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_atoi_base.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_atoi_base.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_bzero.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_bzero.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_isalnum.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_isalnum.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_isalpha.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_isalpha.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_isascii.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_isascii.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_isdigit.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_isdigit.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_isprint.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_isprint.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_itoa.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_itoa.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_itoa_base.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_itoa_base.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_lstadd.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_lstadd.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_lstaddback.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_lstaddback.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_lstdel.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_lstdel.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_lstdelone.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_lstdelone.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_lstiter.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_lstiter.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_lstmap.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_lstmap.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_lstnew.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_lstnew.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_memalloc.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_memalloc.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_memccpy.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_memccpy.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_memchr.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_memchr.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_memcmp.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_memcmp.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_memcpy.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_memcpy.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_memdel.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_memdel.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_memmove.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_memmove.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_memset.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_memset.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_power.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_power.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_putchar.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_putchar.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_putchar_fd.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_putchar_fd.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_putendl.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_putendl.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_putendl_fd.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_putendl_fd.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_putnbr.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_putnbr.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_putnbr_fd.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_putnbr_fd.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_putstr.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_putstr.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_putstr_fd.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_putstr_fd.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_revmemcpy.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_revmemcpy.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strcat.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strcat.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strchr.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strchr.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strclr.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strclr.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strcmp.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strcmp.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strcpy.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strcpy.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strdel.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strdel.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strdup.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strdup.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strequ.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strequ.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_striter.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_striter.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_striteri.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_striteri.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strjoin.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strjoin.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strlcat.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strlcat.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strlen.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strlen.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strmap.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strmap.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strmapi.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strmapi.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strncat.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strncat.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strncmp.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strncmp.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strncpy.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strncpy.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strndup.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strndup.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strnequ.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strnequ.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strnew.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strnew.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strnjoin.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strnjoin.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strnstr.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strnstr.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strrchr.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strrchr.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strsplit.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strsplit.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strstr.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strstr.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strsub.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strsub.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_strtrim.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_strtrim.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_tolower.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_tolower.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/ft_toupper.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/ft_toupper.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/libft/srcs/get_next_line.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/libft/srcs/get_next_line.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/move_one_way.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/move_one_way.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/path_finder.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/path_finder.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/redrum.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/read_ants.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/search_paths.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/read_links.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/second_searching.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/read_rooms.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/soulmates.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/search_paths.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/tips_for_algo.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/second_searching.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/utils.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/tips_for_algo.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/valid.c">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/utils.c">
 			<Option target="last_lin"/>
 		</Unit>
-		<Unit filename="/Users/samymone/last_lin/CMakeLists.txt">
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/valid.c">
+			<Option target="last_lin"/>
+		</Unit>
+		<Unit filename="/Users/cyuriko/lemin_fix_reader/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/samymone/last_lin/./libft/includes/get_next_line.h
+/Users/cyuriko/lemin_fix_reader/lemin.h
+./libft/includes/libft.h
+/Users/cyuriko/lemin_fix_reader/libft/includes/libft.h
+./libft/includes/get_next_line.h
+/Users/cyuriko/lemin_fix_reader/libft/includes/get_next_line.h
+stdlib.h
+-
+
+/Users/cyuriko/lemin_fix_reader/libft/includes/get_next_line.h
 stdio.h
 -
 sys/types.h
@@ -22,9 +30,9 @@ stdlib.h
 string.h
 -
 libft.h
-/Users/samymone/last_lin/./libft/includes/libft.h
+/Users/cyuriko/lemin_fix_reader/libft/includes/libft.h
 
-/Users/samymone/last_lin/./libft/includes/libft.h
+/Users/cyuriko/lemin_fix_reader/libft/includes/libft.h
 stdlib.h
 -
 string.h
@@ -34,15 +42,7 @@ stdio.h
 unistd.h
 -
 
-/Users/samymone/last_lin/lemin.h
-./libft/includes/libft.h
-/Users/samymone/last_lin/./libft/includes/libft.h
-./libft/includes/get_next_line.h
-/Users/samymone/last_lin/./libft/includes/get_next_line.h
-stdlib.h
--
-
-/Users/samymone/last_lin/search_paths.c
+/Users/cyuriko/lemin_fix_reader/read_links.c
 lemin.h
-/Users/samymone/last_lin/lemin.h
+/Users/cyuriko/lemin_fix_reader/lemin.h
 

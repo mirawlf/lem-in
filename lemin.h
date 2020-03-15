@@ -6,7 +6,7 @@
 /*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 16:23:08 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/09 15:47:38 by cyuriko          ###   ########.fr       */
+/*   Updated: 2020/03/15 21:29:55 by cyuriko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,6 +81,8 @@ typedef struct		s_main
 	int 			paths_amount;
 	int 			start_connections;
 	int				end_connections;
+	int 			del_me_fd;
+	char 			*courier;
 }					t_main;
 
 /**
@@ -89,32 +91,31 @@ typedef struct		s_main
 void				free_rooms(t_room *room);
 
 t_main				*parse_input(char **av, t_main *map);
-t_main				*structure_filling(char *line, t_main *map, int fd);
-void 				ft_error(char *error);
+t_main				*structure_filling(char *line, t_main *map);
+int 				ft_error(const char *error);
 void 				free_map(t_main *map);
 void 				free_ant(int i, t_ant *ant);
 t_ant				*ant_colony_creation(int quant, t_main *map);
 
-/**
- * service functions
- */
-void				free_split(char **split);
 
 /**
  * validation
  */
-char 				**check_connection(char *line);
-int 				check_and_write_ants(char *line, t_main *map);
-int 				check_command(char *line);
-int 				line_exists(char *line);
-int 				check_comment(char *line);
+int 	is_step(char *step);//////////////check more validation with the old shit folder; this one comes from viz, might be not good
+int 	is_link(char *line);
+int 	is_room(char *line);
+int 	is_comment(char *line);
+int 	valid_coords(t_room *room, t_room *list);
+int 	duplicate_links(t_link *link, t_main *data);
+
 /**
  * reading
  */
-t_room				*create_room(char *line);
-t_room 				*read_rooms(t_main *main, int fd);
-t_link				*get_me_links(t_main *main, int fd, t_room *room);
-int 				print_line(int ret, char *line);
+int 	read_ants(t_main *data);
+int 	read_links(t_main *data);
+int 	read_rooms(t_main *data);
+
+
 
 /*
  * algo
@@ -160,4 +161,13 @@ void			free_path(t_room *current, t_main *map);
 void		take_a_glimse_of_paths(t_main *map);
 int 			compare_paths(t_room *best, t_room *current);
 
+/*
+ * utils
+ */
+void		del_str_arr(char **to_delete);//////////эти функции делают одно и то же, надо бы убрать одну из них, ту, что похуже
+void				free_split(char **split);
+int 	split_bits(char *line, char e);
+int		is_all_digits(char *line);
+int 	del_line_and_return(char *line, int ret);
+int 				print_line(int ret, char *line);
 #endif

@@ -12,15 +12,6 @@
 
 #include "lemin.h"
 
-/* quant передается значение ants из структуры t_map */
-
-void		ants_fail(int i, t_ant *start, t_main *map)
-{
-//	free_ant(i, start);
-//	free_map(map);
-	ft_error("ERROR: SOMETHING WRONG WITH ANTS");
-}
-
 t_ant		*ant_colony_creation(int quant, t_main *map)
 {
 	int i;
@@ -41,9 +32,6 @@ t_ant		*ant_colony_creation(int quant, t_main *map)
 			return (map->start);
 		if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
 			ft_error("ANTS FAILED to ALLOC");
-//			ants_fail(i, map->first_ant, map);
-	//	ant->next->prev = ant;////////////////////////надо ли это?
-
 		ant = ant->next;
 	}
 	return (NULL);
