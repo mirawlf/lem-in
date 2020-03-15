@@ -86,6 +86,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/last_lin.dir/utils.c.o"
   "CMakeFiles/last_lin.dir/valid.c.o"
   "CMakeFiles/last_lin.dir/best_room_definition.c.o"
+  "CMakeFiles/last_lin.dir/second_searching.c.o"
   "last_lin.pdb"
   "last_lin"
 )

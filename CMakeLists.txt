@@ -96,4 +96,5 @@ add_executable(last_lin
         tips_for_algo.c
         utils.c
         valid.c
-        best_room_definition.c)
+        best_room_definition.c
+        second_searching.c)

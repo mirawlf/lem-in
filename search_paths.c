@@ -15,7 +15,7 @@
 static void		second_rooms(t_room *room, t_main *map)
 {
 	t_path		*tmp;
-	
+
 	if (!map->paths)
 	{
 		if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
@@ -30,9 +30,7 @@ static void		second_rooms(t_room *room, t_main *map)
 		tmp->next = (t_path *)ft_memalloc(sizeof(t_path));
 		tmp = tmp->next;
 		tmp->current = room;
-		
 	}
-	map->end_connections--;
 }
 
 static void		path_is_found(t_room *room, t_main *map)
@@ -43,7 +41,7 @@ static void		path_is_found(t_room *room, t_main *map)
 }
 
 static void		auxiliary(t_room *first, t_room *second, t_link *link,
-							 t_main *map)
+		t_main *map)
 {
 	if (second->level != 1)
 	{
@@ -70,7 +68,7 @@ static void		auxiliary(t_room *first, t_room *second, t_link *link,
 void			free_path(t_room *current, t_main *map)
 {
 	t_room		*tmp;
-	//map->end_connections++;
+
 	while (current && current->where != map->end)
 	{
 		current->where->from == NULL;
@@ -91,11 +89,8 @@ void			remake_paths(t_room *current, t_main *map)
 	next = current->where;
 	link = map->all_links_here;
 	next->from = NULL;
-
 	while (link)
 	{
-		if (ft_strcmp(next->name, link->first_room->name) == 0 || ft_strcmp(next->name, link->second_room->name) == 0)
-			printf("STOP\n");
 		if ((link->first_room == current && link->second_room == next)
 		|| (link->first_room == next && link->second_room == current))
 			link->checked = 1;
@@ -112,14 +107,41 @@ void			remake_paths(t_room *current, t_main *map)
 		&& best_variant(link->second_room, link->first_room, map) == link->first_room)
 		{
 			current->where = NULL;
-
 			auxiliary(link->second_room, link->first_room, link, map);
 			break ;
 		}
 		link = link->next;
 	}
-	if (!current->from)
+	if (!next->from)
 		free_path(current, map);
+}
+
+int				first_check_for_searching(t_room *current, t_link *link,
+		t_main *map)
+{
+	if (link->first_room == current)
+	{
+		if (!link->second_room->is_dead_end && link->checked != 2 &&
+		!link->second_room->where && link->second_room->level != -1 &&
+		best_variant(link->first_room, link->second_room, map) ==
+		link->second_room)
+			return (1);
+	}
+	return (0);
+}
+
+int				second_check_for_searching(t_room *current, t_link *link,
+		t_main *map)
+{
+	if (link->second_room == current)
+	{
+		if (!link->first_room->is_dead_end && !link->first_room->where
+		&& link->checked != 2 && link->first_room->level != -1 &&
+		best_variant(link->second_room, link->first_room, map) ==
+		link->first_room)
+			return (1);
+	}
+	return (0);
 }
 
 void			search_previous_room(t_room *current, t_main *map)
@@ -130,32 +152,23 @@ void			search_previous_room(t_room *current, t_main *map)
 	while (current->level == 1 ||
 	current->where == NULL || current->from == NULL)
 	{
-		if (ft_strcmp(current->name, link->first_room->name) == 0 || ft_strcmp(current->name, link->second_room->name) == 0)
-			printf("STOP\n");
-		if (link->first_room == current && !link->second_room->is_dead_end &&
-		link->second_room->level != -1 && link->checked != 2 && !link->second_room->where
-		&& best_variant(link->first_room, link->second_room,  map) == link->second_room)
+		if (first_check_for_searching(current, link, map))
 		{
 			auxiliary(link->first_room, link->second_room, link, map);
 			break ;
 		}
-		else if (link->second_room == current && !link->first_room->is_dead_end &&
-		link->first_room->level != -1 && link->checked != 2 && !link->first_room->where
-		&& best_variant(link->second_room, link->first_room, map) == link->first_room)
+		else if (second_check_for_searching(current, link, map))
 		{
 			auxiliary(link->second_room, link->first_room, link, map);
 			break ;
 		}
-
 		if (link->next)
 			link = link->next;
 		else if (!current->from)
 		{
 			remake_paths(current, map);
-			break;
-		}
-		else
 			break ;
+		}
 	}
 	start_searching(map->end, map);
 }
@@ -183,7 +196,6 @@ void			start_searching(t_room *room, t_main *map)
 	}
 	if (tmp)
 	{
-		//map->end_connections--;
 		tmp->where = map->end;
 		search_previous_room(tmp, map);
 	}

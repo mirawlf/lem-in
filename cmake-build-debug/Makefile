@@ -2364,6 +2364,33 @@ search_paths.c.s:
 	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/search_paths.c.s
 .PHONY : search_paths.c.s
 
+second_searching.o: second_searching.c.o
+
+.PHONY : second_searching.o
+
+# target to build an object file
+second_searching.c.o:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/second_searching.c.o
+.PHONY : second_searching.c.o
+
+second_searching.i: second_searching.c.i
+
+.PHONY : second_searching.i
+
+# target to preprocess a source file
+second_searching.c.i:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/second_searching.c.i
+.PHONY : second_searching.c.i
+
+second_searching.s: second_searching.c.s
+
+.PHONY : second_searching.s
+
+# target to generate assembly for a file
+second_searching.c.s:
+	$(MAKE) -f CMakeFiles/last_lin.dir/build.make CMakeFiles/last_lin.dir/second_searching.c.s
+.PHONY : second_searching.c.s
+
 soulmates.o: soulmates.c.o
 
 .PHONY : soulmates.o
@@ -2730,6 +2757,9 @@ help:
 	@echo "... search_paths.o"
 	@echo "... search_paths.i"
 	@echo "... search_paths.s"
+	@echo "... second_searching.o"
+	@echo "... second_searching.i"
+	@echo "... second_searching.s"
 	@echo "... soulmates.o"
 	@echo "... soulmates.i"
 	@echo "... soulmates.s"

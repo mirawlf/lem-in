@@ -283,6 +283,11 @@ CMakeFiles/last_lin.dir/search_paths.c.o: .././libft/includes/libft.h
 CMakeFiles/last_lin.dir/search_paths.c.o: ../lemin.h
 CMakeFiles/last_lin.dir/search_paths.c.o: ../search_paths.c
 
+CMakeFiles/last_lin.dir/second_searching.c.o: .././libft/includes/get_next_line.h
+CMakeFiles/last_lin.dir/second_searching.c.o: .././libft/includes/libft.h
+CMakeFiles/last_lin.dir/second_searching.c.o: ../lemin.h
+CMakeFiles/last_lin.dir/second_searching.c.o: ../second_searching.c
+
 CMakeFiles/last_lin.dir/soulmates.c.o: .././libft/includes/get_next_line.h
 CMakeFiles/last_lin.dir/soulmates.c.o: .././libft/includes/libft.h
 CMakeFiles/last_lin.dir/soulmates.c.o: ../lemin.h

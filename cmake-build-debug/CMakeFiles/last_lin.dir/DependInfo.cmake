@@ -87,6 +87,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/samymone/last_lin/path_finder.c" "/Users/samymone/last_lin/cmake-build-debug/CMakeFiles/last_lin.dir/path_finder.c.o"
   "/Users/samymone/last_lin/redrum.c" "/Users/samymone/last_lin/cmake-build-debug/CMakeFiles/last_lin.dir/redrum.c.o"
   "/Users/samymone/last_lin/search_paths.c" "/Users/samymone/last_lin/cmake-build-debug/CMakeFiles/last_lin.dir/search_paths.c.o"
+  "/Users/samymone/last_lin/second_searching.c" "/Users/samymone/last_lin/cmake-build-debug/CMakeFiles/last_lin.dir/second_searching.c.o"
   "/Users/samymone/last_lin/soulmates.c" "/Users/samymone/last_lin/cmake-build-debug/CMakeFiles/last_lin.dir/soulmates.c.o"
   "/Users/samymone/last_lin/tips_for_algo.c" "/Users/samymone/last_lin/cmake-build-debug/CMakeFiles/last_lin.dir/tips_for_algo.c.o"
   "/Users/samymone/last_lin/utils.c" "/Users/samymone/last_lin/cmake-build-debug/CMakeFiles/last_lin.dir/utils.c.o"

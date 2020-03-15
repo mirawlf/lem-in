@@ -158,4 +158,6 @@ t_room		*best_variant(t_room *current, t_room *variant, t_main *map);
 void			dead_ends(t_main *map);
 void			free_path(t_room *current, t_main *map);
 void		take_a_glimse_of_paths(t_main *map);
+int 			compare_paths(t_room *best, t_room *current);
+
 #endif
