@@ -1,85 +1,86 @@
-cmake_minimum_required(VERSION 3.14)
-project(last_lin C)
+cmake_minimum_required(VERSION 3.15)
+project(c_lemin C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
-include_directories(libft/includes)
+include_directories(libft)
 
-add_executable(last_lin
-        libft/includes/get_next_line.h
-        libft/includes/libft.h
-        libft/srcs/ft_abs.c
-        libft/srcs/ft_atoi.c
-        libft/srcs/ft_atoi_base.c
-        libft/srcs/ft_bzero.c
-        libft/srcs/ft_isalnum.c
-        libft/srcs/ft_isalpha.c
-        libft/srcs/ft_isascii.c
-        libft/srcs/ft_isdigit.c
-        libft/srcs/ft_isprint.c
-        libft/srcs/ft_itoa.c
-        libft/srcs/ft_itoa_base.c
-        libft/srcs/ft_lstadd.c
-        libft/srcs/ft_lstaddback.c
-        libft/srcs/ft_lstdel.c
-        libft/srcs/ft_lstdelone.c
-        libft/srcs/ft_lstiter.c
-        libft/srcs/ft_lstmap.c
-        libft/srcs/ft_lstnew.c
-        libft/srcs/ft_memalloc.c
-        libft/srcs/ft_memccpy.c
-        libft/srcs/ft_memchr.c
-        libft/srcs/ft_memcmp.c
-        libft/srcs/ft_memcpy.c
-        libft/srcs/ft_memdel.c
-        libft/srcs/ft_memmove.c
-        libft/srcs/ft_memset.c
-        libft/srcs/ft_power.c
-        libft/srcs/ft_putchar.c
-        libft/srcs/ft_putchar_fd.c
-        libft/srcs/ft_putendl.c
-        libft/srcs/ft_putendl_fd.c
-        libft/srcs/ft_putnbr.c
-        libft/srcs/ft_putnbr_fd.c
-        libft/srcs/ft_putstr.c
-        libft/srcs/ft_putstr_fd.c
-        libft/srcs/ft_revmemcpy.c
-        libft/srcs/ft_strcat.c
-        libft/srcs/ft_strchr.c
-        libft/srcs/ft_strclr.c
-        libft/srcs/ft_strcmp.c
-        libft/srcs/ft_strcpy.c
-        libft/srcs/ft_strdel.c
-        libft/srcs/ft_strdup.c
-        libft/srcs/ft_strequ.c
-        libft/srcs/ft_striter.c
-        libft/srcs/ft_striteri.c
-        libft/srcs/ft_strjoin.c
-        libft/srcs/ft_strlcat.c
-        libft/srcs/ft_strlen.c
-        libft/srcs/ft_strmap.c
-        libft/srcs/ft_strmapi.c
-        libft/srcs/ft_strncat.c
-        libft/srcs/ft_strncmp.c
-        libft/srcs/ft_strncpy.c
-        libft/srcs/ft_strndup.c
-        libft/srcs/ft_strnequ.c
-        libft/srcs/ft_strnew.c
-        libft/srcs/ft_strnjoin.c
-        libft/srcs/ft_strnstr.c
-        libft/srcs/ft_strrchr.c
-        libft/srcs/ft_strsplit.c
-        libft/srcs/ft_strstr.c
-        libft/srcs/ft_strsub.c
-        libft/srcs/ft_strtrim.c
-        libft/srcs/ft_tolower.c
-        libft/srcs/ft_toupper.c
-        libft/srcs/get_next_line.c
+add_executable(c_lemin
+        libft/ft_atoi.c
+        libft/ft_bzero.c
+        libft/ft_delarr.c
+        libft/ft_isalnum.c
+        libft/ft_isalpha.c
+        libft/ft_isascii.c
+        libft/ft_isdigit.c
+        libft/ft_isprint.c
+        libft/ft_itoa.c
+        libft/ft_listlast.c
+        libft/ft_lstadd.c
+        libft/ft_lstcount.c
+        libft/ft_lstdel.c
+        libft/ft_lstdelcont.c
+        libft/ft_lstdelone.c
+        libft/ft_lstfind.c
+        libft/ft_lstiter.c
+        libft/ft_lstmap.c
+        libft/ft_lstnew.c
+        libft/ft_memalloc.c
+        libft/ft_memccpy.c
+        libft/ft_memchr.c
+        libft/ft_memcmp.c
+        libft/ft_memcpy.c
+        libft/ft_memdel.c
+        libft/ft_memmove.c
+        libft/ft_memset.c
+        libft/ft_power.c
+        libft/ft_putchar.c
+        libft/ft_putchar_fd.c
+        libft/ft_putendl.c
+        libft/ft_putendl_fd.c
+        libft/ft_putnbr.c
+        libft/ft_putnbr_fd.c
+        libft/ft_putstr.c
+        libft/ft_putstr_fd.c
+        libft/ft_strcat.c
+        libft/ft_strchr.c
+        libft/ft_strclr.c
+        libft/ft_strcmp.c
+        libft/ft_strcpy.c
+        libft/ft_strdel.c
+        libft/ft_strdup.c
+        libft/ft_strequ.c
+        libft/ft_striter.c
+        libft/ft_striteri.c
+        libft/ft_strjoin.c
+        libft/ft_strlcat.c
+        libft/ft_strlen.c
+        libft/ft_strmap.c
+        libft/ft_strmapi.c
+        libft/ft_strncat.c
+        libft/ft_strncmp.c
+        libft/ft_strncpy.c
+        libft/ft_strnequ.c
+        libft/ft_strnew.c
+        libft/ft_strnstr.c
+        libft/ft_strrchr.c
+        libft/ft_strsplit.c
+        libft/ft_strstr.c
+        libft/ft_strsub.c
+        libft/ft_strtrim.c
+        libft/ft_swap.c
+        libft/ft_tolower.c
+        libft/ft_toupper.c
+        libft/get_next_line.c
+        libft/get_next_line.h
+        libft/libft.h
         after_finding_paths.c
         ant_steps.c
         ants_run_like_shit.c
+        best_room_definition.c
         check_end_connections.c
+        duplicate_values.c
         filling.c
         freeshing.c
         get_me_paths_lawd.c
@@ -89,14 +90,11 @@ add_executable(last_lin
         levels_and_links.c
         move_one_way.c
         path_finder.c
-        search_paths.c
-        tips_for_algo.c
-        utils.c
-        valid.c
-        best_room_definition.c
-        second_searching.c
         read_ants.c
         read_links.c
         read_rooms.c
-        duplicate_values.c
-        )
+        search_paths.c
+        second_searching.c
+        tips_for_algo.c
+        utils.c
+        valid.c)

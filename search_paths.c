@@ -71,7 +71,12 @@ void			free_path(t_room *current, t_main *map)
 
 	while (current && current->where != map->end)
 	{
-		current->where->from == NULL;
+		if (current)
+		{
+			if (current->where)
+				current->where->from = NULL;
+		}
+		current->where->from = NULL;//////////было вот так
 		tmp = current->where;
 		current->where = NULL;
 		current->from = NULL;

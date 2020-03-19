@@ -25,26 +25,21 @@ static int 		read_data(t_main *data)
 	return (1);
 }
 
-t_main		*structure_filling(char *line, t_main *map)
+t_main		*structure_filling(t_main *map)
 {
 
 	if (!read_data(map))
 		ft_error("CHTO TO POSHLO NE TAK LOL");//////////check leaks
 	ant_colony_creation(map->ants, map);
-	ft_strdel(&line);
 	return (map);
 }
 
 t_main		*parse_input(char **av, t_main *map)
 {
-	int		ret;
-	char	*line;
-	int		fd;
 
-	line = NULL;
 	map->del_me_fd = open(av[1], O_RDONLY);
 
-		map =	structure_filling(line, map);
+		map =	structure_filling(map);
 
 //эту всю парашу можно сократить вот этот вот стракчер филлинг на кой он вообще
 	return(map);

@@ -29,7 +29,7 @@ t_ant		*ant_colony_creation(int quant, t_main *map)
 		ant->num = quant - i;
 		ant->curr_room = map->start;
 		if ((i + 1) == quant)
-			return (map->start);
+			return (map->start);/////////////ЧТО ТУТ БЛЯДЬ ПРОИСХОДИТ
 		if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
 			ft_error("ANTS FAILED to ALLOC");
 		ant = ant->next;

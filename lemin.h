@@ -13,8 +13,7 @@
 #ifndef LEMIN_H
 #define LEMIN_H
 
-#include "./libft/includes/libft.h"
-#include "./libft/includes/get_next_line.h"
+#include "./libft/libft.h"
 #include <stdlib.h>
 
 typedef struct 		s_room
@@ -91,7 +90,7 @@ typedef struct		s_main
 void				free_rooms(t_room *room);
 
 t_main				*parse_input(char **av, t_main *map);
-t_main				*structure_filling(char *line, t_main *map);
+t_main				*structure_filling(t_main *map);
 int 				ft_error(const char *error);
 void 				free_map(t_main *map);
 void 				free_ant(int i, t_ant *ant);
