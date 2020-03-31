@@ -33,6 +33,27 @@ static void		second_rooms(t_room *room, t_main *map)
 	}
 }
 
+void            possible_ways(t_room *room, t_main *map)
+{
+    t_toend     *tmp;
+
+    if (!map->endway)
+    {
+        if (!(map->endway = (t_toend*)ft_memalloc(sizeof(t_toend))))
+            ft_error("malloc failed\n");
+        map->endway->current = room;
+    }
+    else
+    {
+        tmp = map->endway;
+        while(tmp->next)
+            tmp = tmp->next;
+        tmp->next = (t_toend*)ft_memalloc(sizeof(t_toend));
+        tmp = tmp->next;
+        tmp->current = room;
+    }
+}
+
 static void		path_is_found(t_room *room, t_main *map)
 {
 	while (room->from != map->start)
@@ -76,7 +97,7 @@ void			free_path(t_room *current, t_main *map)
 			if (current->where)
 				current->where->from = NULL;
 		}
-		current->where->from = NULL;//////////было вот так
+	//	current->where->from = NULL;//////////было вот так
 		tmp = current->where;
 		current->where = NULL;
 		current->from = NULL;
@@ -118,7 +139,14 @@ void			remake_paths(t_room *current, t_main *map)
 		link = link->next;
 	}
 	if (!next->from)
-		free_path(current, map);
+    {
+	    next->from = current;
+	    link = map->all_links_here;
+	    if ((link->first_room == current && link->second_room == next)
+	    || (link->first_room == next && link->second_room == current))
+	        link->checked = 2;
+        possible_ways(current, map);
+    }
 }
 
 int				first_check_for_searching(t_room *current, t_link *link,

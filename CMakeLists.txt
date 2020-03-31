@@ -1,12 +1,12 @@
-cmake_minimum_required(VERSION 3.15)
-project(c_lemin C)
+cmake_minimum_required(VERSION 3.14)
+project(c_check C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 include_directories(libft)
 
-add_executable(c_lemin
+add_executable(c_check
         libft/ft_atoi.c
         libft/ft_bzero.c
         libft/ft_delarr.c
@@ -97,4 +97,4 @@ add_executable(c_lemin
         second_searching.c
         tips_for_algo.c
         utils.c
-        valid.c)
+        valid.c best_next.c)

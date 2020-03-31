@@ -61,6 +61,17 @@ typedef struct 		s_path
 	struct s_path	*next;
 }					t_path;
 
+typedef struct      s_toend
+{
+    t_room          *current;
+    struct s_toend  *next;
+}                   t_toend;
+
+typedef struct      s_fromstart
+{
+    t_room          *current;
+    struct s_fromstart  *next;
+}                   t_fromstart;
 
 typedef struct		s_main
 {
@@ -82,6 +93,8 @@ typedef struct		s_main
 	int				end_connections;
 	int 			del_me_fd;
 	char 			*courier;
+	t_toend         *endway;
+	t_fromstart     *startway;
 }					t_main;
 
 /**
@@ -169,4 +182,8 @@ int 	split_bits(char *line, char e);
 int		is_all_digits(char *line);
 int 	del_line_and_return(char *line, int ret);
 int 				print_line(int ret, char *line);
+void        search_intersections(t_main *map);
+void             search_next_room(t_room *current, t_main *map);
+t_room      *best_room(t_room *current, t_room *variant, t_main *map);
+
 #endif
