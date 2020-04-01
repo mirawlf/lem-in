@@ -75,6 +75,8 @@ t_room			*best_variant4(t_room *current, t_room *variant, t_main *map)
     return (variant);
 }
 
+
+
 t_room			*best_variant3(t_room *current, t_room *variant, t_main *map)
 {
 	t_link		*link;
@@ -106,7 +108,6 @@ t_room			*best_variant3(t_room *current, t_room *variant, t_main *map)
 	}
     return (best_variant4(current, variant, map));
 }
-
 
 t_room			*best_variant2(t_room *current, t_room *variant, t_main *map)
 {
@@ -142,10 +143,10 @@ t_room			*best_variant2(t_room *current, t_room *variant, t_main *map)
 
 int				check_best_variant(t_room *room, t_room *variant)
 {
-	if (room != variant && room->outputs == 1 && !room->is_dead_end
-	&& !room->where)
-		return (1);
-	return (0);
+    if (room != variant && room->outputs == 1 && !room->is_dead_end
+        && !room->where)
+        return (1);
+    return (0);
 }
 
 t_room			*best_variant(t_room *current, t_room *variant, t_main *map)

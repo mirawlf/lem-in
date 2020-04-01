@@ -30,6 +30,7 @@ typedef struct 		s_room
 	int 			is_part_of_path;
 	int 			inputs;
 	int 			outputs;
+	int             equals; //input or output for rooms of same level
 	struct s_room	*where;
 	struct s_room	*from;
 	struct s_room	*next;

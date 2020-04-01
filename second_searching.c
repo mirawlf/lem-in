@@ -28,7 +28,7 @@ void             search_next_room(t_room *current, t_main *map)
     while (link)
     {
         if (link->first_room == current && !link->second_room->from
-        && !link->second_room->is_dead_end && link->checked != 2 &&
+        && !link->second_room->where && !link->second_room->is_dead_end && link->checked != 2 &&
         best_room(link->first_room, link->second_room, map)
         == link->second_room)
         {
@@ -36,7 +36,7 @@ void             search_next_room(t_room *current, t_main *map)
             break;
         }
         else if (link->second_room == current && !link->first_room->from
-        && !link->first_room->is_dead_end && link->checked != 2 &&
+        && !link->first_room->where && !link->first_room->is_dead_end && link->checked != 2 &&
         best_room(link->second_room, link->first_room, map)
         == link->first_room)
         {

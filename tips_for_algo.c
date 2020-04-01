@@ -53,6 +53,11 @@ void			count_inputs_and_outputs(t_main *map)
 			link->second_room->inputs++;
 			link->first_room->outputs++;
 		}
+		else if (link->second_room->level == link->first_room->level)
+        {
+		    link->second_room->equals += 1;
+		    link->first_room->equals += 1;
+        }
 		link = link->next;
 	}
 }
