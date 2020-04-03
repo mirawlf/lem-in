@@ -118,7 +118,7 @@ t_room			*best_variant2(t_room *current, t_room *variant, t_main *map)
 		return (variant);
 	while (link)
 	{
-		if (link->first_room == current && link->second_room != variant
+		if (link->first_room == current && link->second_room != variant && link->second_room != map->end
 		&& !link->second_room->is_dead_end && link->second_room != map->end
 		&& link->first_room->level > link->second_room->level)
 		{
@@ -127,7 +127,7 @@ t_room			*best_variant2(t_room *current, t_room *variant, t_main *map)
 			else if (!link->second_room->where)
 				return (link->second_room);
 		}
-		else if (link->second_room == current && link->first_room != variant
+		else if (link->second_room == current && link->first_room != variant && link->first_room != map->end
 		&& !link->first_room->is_dead_end && link->first_room != map->end
 		&& link->first_room->level < link->second_room->level)
 		{
@@ -161,13 +161,13 @@ t_room			*best_variant(t_room *current, t_room *variant, t_main *map)
 		link = map->all_links_here;
 		while (link)
 		{
-			if (link->first_room == current &&
+			if (link->first_room == current && link->second_room != map->end &&
 			check_best_variant(link->second_room, variant) &&
 			link->first_room->level > link->second_room->level)
 				return (link->second_room);
 			else if (link->second_room == current &&
 			link->first_room->level < link->second_room->level &&
-			check_best_variant(link->first_room, variant))
+			link->first_room != map->end && check_best_variant(link->first_room, variant))
 				return (link->first_room);
 			link = link->next;
 		}
