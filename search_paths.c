@@ -35,17 +35,18 @@ static void		second_rooms(t_room *room, t_main *map)
 
 void            possible_ways(t_room *room, t_main *map)
 {
-    t_toend     *tmp;
+    t_path     *tmp;
 
     if (!map->endway)
     {
-        if (!(map->endway = (t_toend*)ft_memalloc(sizeof(t_toend))))
+        if (!(map->endway = (t_toend*)ft_memalloc(sizeof(t_toend)))
+        || !(map->endway->path = (t_path*)ft_memalloc(sizeof(t_path))))
             ft_error("malloc failed\n");
-        map->endway->current = room;
+        map->endway->path->current = room;
     }
     else
     {
-        tmp = map->endway;
+        tmp = map->endway->path;
         while(tmp->next)
             tmp = tmp->next;
         tmp->next = (t_toend*)ft_memalloc(sizeof(t_toend));
@@ -97,7 +98,6 @@ void			free_path(t_room *current, t_main *map)
 			if (current->where)
 				current->where->from = NULL;
 		}
-	//	current->where->from = NULL;//////////было вот так
 		tmp = current->where;
 		current->where = NULL;
 		current->from = NULL;

@@ -51,19 +51,20 @@ void             search_next_room(t_room *current, t_main *map)
 
 void             another_possible_ways(t_room *room, t_main *map)
 {
-    t_fromstart *tmp;
+    t_path *tmp;
     if (!map->startway)
     {
-        if (!(map->startway = (t_fromstart*)ft_memalloc(sizeof(t_fromstart))))
+        if (!(map->startway = (t_fromstart*)ft_memalloc(sizeof(t_fromstart)))
+        || !(map->startway->path = (t_path*)ft_memalloc(sizeof(t_path))))
             ft_error("malloc failed\n");
-        map->startway->current = room;
+        map->startway->path->current = room;
     }
     else
     {
         tmp = map->startway;
         while (tmp->next)
             tmp = tmp->next;
-        tmp->next = (t_fromstart*)ft_memalloc(sizeof(t_fromstart));
+        tmp->next = (t_path*)ft_memalloc(sizeof(t_path));
         tmp = tmp->next;
         tmp->current = room;
     }

@@ -81,7 +81,6 @@ void			*determine_levels(t_main *map)
 	next_levels(map, 1);
 	count_inputs_and_outputs(map);
 	start_searching(map->end, map);
-
 	search_intersections(map);
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
