@@ -97,4 +97,4 @@ add_executable(c_check
         second_searching.c
         tips_for_algo.c
         utils.c
-        valid.c best_next.c ways_modification.c)
+        valid.c best_next.c ways_modification.c search_left_paths.c)

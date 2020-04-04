@@ -88,6 +88,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Elmira/Desktop/c_check/read_ants.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/read_ants.c.obj"
   "C:/Users/Elmira/Desktop/c_check/read_links.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/read_links.c.obj"
   "C:/Users/Elmira/Desktop/c_check/read_rooms.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/read_rooms.c.obj"
+  "C:/Users/Elmira/Desktop/c_check/search_left_paths.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/search_left_paths.c.obj"
   "C:/Users/Elmira/Desktop/c_check/search_paths.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/search_paths.c.obj"
   "C:/Users/Elmira/Desktop/c_check/second_searching.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/second_searching.c.obj"
   "C:/Users/Elmira/Desktop/c_check/tips_for_algo.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/tips_for_algo.c.obj"

@@ -89,6 +89,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_check.dir/valid.c.obj"
   "CMakeFiles/c_check.dir/best_next.c.obj"
   "CMakeFiles/c_check.dir/ways_modification.c.obj"
+  "CMakeFiles/c_check.dir/search_left_paths.c.obj"
   "c_check.pdb"
   "c_check.exe"
   "c_check.exe.manifest"

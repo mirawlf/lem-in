@@ -89,5 +89,5 @@ void        search_intersections(t_main *map)
             another_possible_ways(link->first_room, map);
         link = link->next;
     }
-    //suurbale_step(map);
+    search_left_paths(map);
 }

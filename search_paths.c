@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-static void		second_rooms(t_room *room, t_main *map)
+void			second_rooms(t_room *room, t_main *map)
 {
 	t_path		*tmp;
 

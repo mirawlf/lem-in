@@ -339,6 +339,9 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/read_rooms.c">
 			<Option target="c_check"/>
 		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/search_left_paths.c">
+			<Option target="c_check"/>
+		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/search_paths.c">
 			<Option target="c_check"/>
 		</Unit>

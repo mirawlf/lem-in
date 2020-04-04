@@ -2390,6 +2390,33 @@ read_rooms.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_rooms.c.s
 .PHONY : read_rooms.c.s
 
+search_left_paths.obj: search_left_paths.c.obj
+
+.PHONY : search_left_paths.obj
+
+# target to build an object file
+search_left_paths.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_left_paths.c.obj
+.PHONY : search_left_paths.c.obj
+
+search_left_paths.i: search_left_paths.c.i
+
+.PHONY : search_left_paths.i
+
+# target to preprocess a source file
+search_left_paths.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_left_paths.c.i
+.PHONY : search_left_paths.c.i
+
+search_left_paths.s: search_left_paths.c.s
+
+.PHONY : search_left_paths.s
+
+# target to generate assembly for a file
+search_left_paths.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_left_paths.c.s
+.PHONY : search_left_paths.c.s
+
 search_paths.obj: search_paths.c.obj
 
 .PHONY : search_paths.obj
@@ -2813,6 +2840,9 @@ help:
 	@echo ... read_rooms.obj
 	@echo ... read_rooms.i
 	@echo ... read_rooms.s
+	@echo ... search_left_paths.obj
+	@echo ... search_left_paths.i
+	@echo ... search_left_paths.s
 	@echo ... search_paths.obj
 	@echo ... search_paths.i
 	@echo ... search_paths.s

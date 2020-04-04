@@ -33,7 +33,7 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 	old = variant->from;
 	old->where = NULL;
 	new = current;
-	variant->from->where = NULL;
+	//variant->from->where = NULL;
 	variant->from = current;
 	current->where = variant;
 	while (old->from)
@@ -47,7 +47,7 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 	start = map->startway->path;
 	while (start->next->current != new)
 		start = start->next;
-	start->next = NULL;
+	start->next->current = old;
 }
 
 int 		reach_end(t_room *room,  t_room *end)

@@ -13,34 +13,34 @@
 #include "lemin.h"
 #include <stdio.h>
 
-static void		second_rooms(t_room *first, t_room *second, t_path *current,
-		t_main *map)
-{
-	t_path		*tmp;
-
-	first->from = second;
-	if (!map->paths)
-	{
-		if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
-			ft_error("malloc failed\n");
-		current = map->paths;
-		tmp = current;
-	}
-	else
-	{
-		current = map->paths;
-		while (current->next)
-			current = current->next;
-		current->next = ft_memalloc(sizeof(t_path));
-		current = current->next;
-	}
-	current->current = first;
-	while (tmp)
-	{
-		tmp->current->is_part_of_path = 1;
-		tmp = tmp->next;
-	}
-}
+//static void		second_rooms(t_room *first, t_room *second, t_path *current,
+//		t_main *map)
+//{
+//	t_path		*tmp;
+//
+//	first->from = second;
+//	if (!map->paths)
+//	{
+//		if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
+//			ft_error("malloc failed\n");
+//		current = map->paths;
+//		tmp = current;
+//	}
+//	else
+//	{
+//		current = map->paths;
+//		while (current->next)
+//			current = current->next;
+//		current->next = ft_memalloc(sizeof(t_path));
+//		current = current->next;
+//	}
+//	current->current = first;
+//	while (tmp)
+//	{
+//		tmp->current->is_part_of_path = 1;
+//		tmp = tmp->next;
+//	}
+//}
 
 void			*count_steps(t_main *map)
 {

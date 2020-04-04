@@ -125,10 +125,12 @@ void				search_previous_room(t_room *current, t_main *map);
 t_room				*best_variant(t_room *current, t_room *variant, t_main *map);
 int					compare_paths(t_room *best, t_room *current);
 void				free_path(t_room *current, t_main *map);
+void				second_rooms(t_room *room, t_main *map);
 void				search_intersections(t_main *map);
 void				search_next_room(t_room *current, t_main *map);
 t_room				*best_room(t_room *current, t_room *variant, t_main *map);
 void 				try_to_change_tails(t_room *current, t_main *map);
+void 				search_left_paths(t_main *map);
 
 /*
  * ants' movements
