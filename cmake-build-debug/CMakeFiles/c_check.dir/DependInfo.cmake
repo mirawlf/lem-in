@@ -93,6 +93,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Elmira/Desktop/c_check/tips_for_algo.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/tips_for_algo.c.obj"
   "C:/Users/Elmira/Desktop/c_check/utils.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/utils.c.obj"
   "C:/Users/Elmira/Desktop/c_check/valid.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/valid.c.obj"
+  "C:/Users/Elmira/Desktop/c_check/ways_modification.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/ways_modification.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

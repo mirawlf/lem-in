@@ -2525,6 +2525,33 @@ valid.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/valid.c.s
 .PHONY : valid.c.s
 
+ways_modification.obj: ways_modification.c.obj
+
+.PHONY : ways_modification.obj
+
+# target to build an object file
+ways_modification.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ways_modification.c.obj
+.PHONY : ways_modification.c.obj
+
+ways_modification.i: ways_modification.c.i
+
+.PHONY : ways_modification.i
+
+# target to preprocess a source file
+ways_modification.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ways_modification.c.i
+.PHONY : ways_modification.c.i
+
+ways_modification.s: ways_modification.c.s
+
+.PHONY : ways_modification.s
+
+# target to generate assembly for a file
+ways_modification.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ways_modification.c.s
+.PHONY : ways_modification.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2801,6 +2828,9 @@ help:
 	@echo ... valid.obj
 	@echo ... valid.i
 	@echo ... valid.s
+	@echo ... ways_modification.obj
+	@echo ... ways_modification.i
+	@echo ... ways_modification.s
 .PHONY : help
 
 

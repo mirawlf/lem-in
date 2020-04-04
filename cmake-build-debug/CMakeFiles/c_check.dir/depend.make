@@ -380,3 +380,8 @@ CMakeFiles/c_check.dir/valid.c.obj: .././libft/libft.h
 CMakeFiles/c_check.dir/valid.c.obj: ../lemin.h
 CMakeFiles/c_check.dir/valid.c.obj: ../valid.c
 
+CMakeFiles/c_check.dir/ways_modification.c.obj: .././libft/get_next_line.h
+CMakeFiles/c_check.dir/ways_modification.c.obj: .././libft/libft.h
+CMakeFiles/c_check.dir/ways_modification.c.obj: ../lemin.h
+CMakeFiles/c_check.dir/ways_modification.c.obj: ../ways_modification.c
+

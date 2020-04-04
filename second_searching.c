@@ -27,6 +27,9 @@ void             search_next_room(t_room *current, t_main *map)
     link = map->all_links_here;
     while (link)
     {
+    	if (ft_strcmp(link->first_room->name, current->name) == 0
+    	|| ft_strcmp(link->second_room->name, current->name) == 0)
+    		printf("stop\n");
         if (link->first_room == current && !link->second_room->from
         && !link->second_room->where && !link->second_room->is_dead_end && link->checked != 2 &&
         best_room(link->first_room, link->second_room, map)
@@ -46,12 +49,13 @@ void             search_next_room(t_room *current, t_main *map)
         link = link->next;
     }
     if (!current->where)
-        return;
+        try_to_change_tails(current, map);
 }
 
 void             another_possible_ways(t_room *room, t_main *map)
 {
     t_path *tmp;
+
     if (!map->startway)
     {
         if (!(map->startway = (t_fromstart*)ft_memalloc(sizeof(t_fromstart)))
@@ -61,7 +65,7 @@ void             another_possible_ways(t_room *room, t_main *map)
     }
     else
     {
-        tmp = map->startway;
+        tmp = map->startway->path;
         while (tmp->next)
             tmp = tmp->next;
         tmp->next = (t_path*)ft_memalloc(sizeof(t_path));
@@ -85,4 +89,5 @@ void        search_intersections(t_main *map)
             another_possible_ways(link->first_room, map);
         link = link->next;
     }
+    //suurbale_step(map);
 }

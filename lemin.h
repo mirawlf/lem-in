@@ -64,13 +64,11 @@ typedef struct 		s_path
 typedef struct      s_toend
 {
     t_path          *path;
-    t_room          *supp_prev;
 }                   t_toend;
 
 typedef struct      s_fromstart
 {
     t_path          *path;
-    t_room          *supp_next;
 }                   t_fromstart;
 
 typedef struct		s_main
@@ -130,6 +128,7 @@ void				free_path(t_room *current, t_main *map);
 void				search_intersections(t_main *map);
 void				search_next_room(t_room *current, t_main *map);
 t_room				*best_room(t_room *current, t_room *variant, t_main *map);
+void 				try_to_change_tails(t_room *current, t_main *map);
 
 /*
  * ants' movements

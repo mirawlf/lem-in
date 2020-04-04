@@ -49,7 +49,7 @@ void            possible_ways(t_room *room, t_main *map)
         tmp = map->endway->path;
         while(tmp->next)
             tmp = tmp->next;
-        tmp->next = (t_toend*)ft_memalloc(sizeof(t_toend));
+        tmp->next = (t_path*)ft_memalloc(sizeof(t_path));
         tmp = tmp->next;
         tmp->current = room;
     }

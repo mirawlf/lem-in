@@ -354,6 +354,9 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/valid.c">
 			<Option target="c_check"/>
 		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/ways_modification.c">
+			<Option target="c_check"/>
+		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
