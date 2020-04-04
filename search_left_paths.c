@@ -1,5 +1,22 @@
 #include "lemin.h"
 
+void		delete_this_path(t_main *map, t_path *path)
+{
+	t_path	*tmp;
+
+	if (map->endway->path == path)
+	{
+		map->endway->path = map->endway->path->next;
+	}
+	else
+	{
+		tmp = map->endway->path;
+		while (tmp->next != path)
+			tmp = tmp->next;
+		tmp->next = path->next;
+	}
+}
+
 int 		has_link(t_room *current, t_room *possible, t_main *map)
 {
 	t_link	*link;
@@ -33,6 +50,7 @@ int 		path_found(t_room *room, t_main *map)
 			{
 				current->where = possible;
 				possible->from = current;
+				delete_this_path(map, path);
 				return (1);
 			}
 			possible = possible->where;

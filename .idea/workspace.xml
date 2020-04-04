@@ -12,49 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/search_left_paths.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/after_finding_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/after_finding_paths.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/after_finding_paths.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/ants_run_like_shit.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/best_next.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/best_room_definition.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/duplicate_values.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/filling.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/freeshing.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/go.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/lemin.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/levels_and_links.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/move_one_way.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/path_finder.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/read_ants.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/read_links.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/read_rooms.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/search_paths.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/second_searching.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/tips_for_algo.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/utils.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/ways_modification.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_check.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_check.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_check.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/lemin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/levels_and_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/levels_and_links.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/path_finder.c" beforeDir="false" afterPath="$PROJECT_DIR$/path_finder.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/search_paths.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_searching.c" beforeDir="false" afterPath="$PROJECT_DIR$/second_searching.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ways_modification.c" beforeDir="false" afterPath="$PROJECT_DIR$/ways_modification.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_left_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/search_left_paths.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +26,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46387833">
+    <splitter split-orientation="horizontal" split-proportion="0.40399238">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -116,10 +74,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lemin.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
+                <state relative-caret-position="1">
                   <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
                 </state>
               </provider>
@@ -147,11 +105,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/search_paths.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                <state relative-caret-position="145">
+                  <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -163,68 +121,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ways_modification.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-327">
+                <state relative-caret-position="90">
                   <caret line="49" selection-start-line="49" selection-end-line="49" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flow-big2">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/big">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/superposition2">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/best_next.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-386">
-                  <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/second_searching.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="212">
-                  <caret line="91" selection-start-line="91" selection-end-line="91" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/search_left_paths.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="91">
-                  <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flow-superposition">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/superposition">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="21">
-                  <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+                <state relative-caret-position="68">
+                  <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -256,8 +163,8 @@
         <option value="$PROJECT_DIR$/path_finder.c" />
         <option value="$PROJECT_DIR$/levels_and_links.c" />
         <option value="$PROJECT_DIR$/second_searching.c" />
-        <option value="$PROJECT_DIR$/search_left_paths.c" />
         <option value="$PROJECT_DIR$/lemin.h" />
+        <option value="$PROJECT_DIR$/search_left_paths.c" />
       </list>
     </option>
   </component>
@@ -326,7 +233,7 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.c_check">
-    <configuration name="c_check" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\Elmira\Desktop\c_check\superposition2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_check" TARGET_NAME="c_check" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_check" RUN_TARGET_NAME="c_check">
+    <configuration name="c_check" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\Elmira\Desktop\c_check\superposition" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_check" TARGET_NAME="c_check" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_check" RUN_TARGET_NAME="c_check">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -458,12 +365,12 @@
       <workItem from="1585912652835" duration="12500000" />
       <workItem from="1585937263560" duration="1297000" />
       <workItem from="1585938698511" duration="1118000" />
-      <workItem from="1586000860318" duration="17318000" />
+      <workItem from="1586000860318" duration="18524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51963000" />
+    <option name="totallyTimeSpent" value="53169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +390,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.101472996" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.58756137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35188216" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,7 +400,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.39934534" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -695,17 +602,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_left_paths.c</url>
-          <line>58</line>
+          <line>76</line>
           <option name="timeStamp" value="946" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_left_paths.c</url>
-          <line>11</line>
+          <line>28</line>
           <option name="timeStamp" value="948" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/search_left_paths.c</url>
-          <line>61</line>
+          <line>79</line>
           <option name="timeStamp" value="950" />
         </line-breakpoint>
       </breakpoints>
@@ -798,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/best_next.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_strcmp.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -820,13 +720,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/big2">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ways_modification.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flow-big2">
       <provider selected="true" editor-type-id="text-editor" />
@@ -848,29 +741,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search_paths.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second_searching.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="91" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_left_paths.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow-superposition">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/levels_and_links.c">
       <provider selected="true" editor-type-id="text-editor">
@@ -886,17 +762,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/best_next.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ways_modification.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/superposition">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="1">
           <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flow-superposition">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lemin.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="1">
           <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_paths.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_left_paths.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
