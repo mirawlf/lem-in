@@ -65,24 +65,29 @@ void 		search_left_paths(t_main *map)
 	t_path	*path;
 	t_room	*current;
 	t_room	*tmp;
+	t_room	*start;
 
-	path = map->startway->path;
-	while (path)
+	if (map->startway)
 	{
-		current = path->current;
-		while (current)
+		path = map->startway->path;
+		while (path)
 		{
-			if (path_found(current, map) == 1)
+			current = path->current;
+			start = current;
+			while (current)
 			{
-				tmp = current;
-				while (tmp->from)
-					tmp = tmp->from;
-				current = tmp;
-				second_rooms(current, map);
-				break;
+				if (path_found(current, map) == 1)
+				{
+//				tmp = current;
+//				while (tmp->from)
+//					tmp = tmp->from;
+//				current = tmp;
+					second_rooms(start, map);
+					break;
+				}
+				current = current->where;
 			}
-			current = current->where;
+			path = path->next;
 		}
-		path = path->next;
 	}
 }
