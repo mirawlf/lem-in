@@ -37,10 +37,14 @@ int				compare_paths(t_room *best, t_room *current)
 
 void			remake_paths2(t_room *best, t_room *current, t_main *map)
 {
-	free_path(best->where, map);
-	best->where = current;
-	current->from = best;
-	start_searching(map->end, map);
+	if (reach_end(current, map->end) == 1)
+	{
+		free_path(best->where, map);
+		best->where = current;
+		current->from = best;
+		start_searching(map->end, map);
+	}
+
 }
 
 t_room			*best_variant4(t_room *current, t_room *variant, t_main *map)

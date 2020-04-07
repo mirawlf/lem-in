@@ -64,7 +64,6 @@ void 		search_left_paths(t_main *map)
 {
 	t_path	*path;
 	t_room	*current;
-	t_room	*tmp;
 	t_room	*start;
 
 	if (map->startway)
@@ -78,10 +77,6 @@ void 		search_left_paths(t_main *map)
 			{
 				if (path_found(current, map) == 1)
 				{
-//				tmp = current;
-//				while (tmp->from)
-//					tmp = tmp->from;
-//				current = tmp;
 					second_rooms(start, map);
 					break;
 				}
