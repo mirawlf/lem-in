@@ -980,341 +980,341 @@ CMakeFiles/c_check.dir/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/get_next_line.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\get_next_line.c -o CMakeFiles\c_check.dir\libft\get_next_line.c.s
 
-CMakeFiles/c_check.dir/after_finding_paths.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/after_finding_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/after_finding_paths.c.obj: ../after_finding_paths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/c_check.dir/after_finding_paths.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\after_finding_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\after_finding_paths.c
-
-CMakeFiles/c_check.dir/after_finding_paths.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/after_finding_paths.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\after_finding_paths.c > CMakeFiles\c_check.dir\after_finding_paths.c.i
-
-CMakeFiles/c_check.dir/after_finding_paths.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/after_finding_paths.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\after_finding_paths.c -o CMakeFiles\c_check.dir\after_finding_paths.c.s
-
-CMakeFiles/c_check.dir/ant_steps.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/ant_steps.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/ant_steps.c.obj: ../ant_steps.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/c_check.dir/ant_steps.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\ant_steps.c.obj   -c C:\Users\Elmira\Desktop\c_check\ant_steps.c
-
-CMakeFiles/c_check.dir/ant_steps.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/ant_steps.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\ant_steps.c > CMakeFiles\c_check.dir\ant_steps.c.i
-
-CMakeFiles/c_check.dir/ant_steps.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/ant_steps.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\ant_steps.c -o CMakeFiles\c_check.dir\ant_steps.c.s
-
-CMakeFiles/c_check.dir/ants_run_like_shit.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/ants_run_like_shit.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/ants_run_like_shit.c.obj: ../ants_run_like_shit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/c_check.dir/ants_run_like_shit.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\ants_run_like_shit.c.obj   -c C:\Users\Elmira\Desktop\c_check\ants_run_like_shit.c
-
-CMakeFiles/c_check.dir/ants_run_like_shit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/ants_run_like_shit.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\ants_run_like_shit.c > CMakeFiles\c_check.dir\ants_run_like_shit.c.i
-
-CMakeFiles/c_check.dir/ants_run_like_shit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/ants_run_like_shit.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\ants_run_like_shit.c -o CMakeFiles\c_check.dir\ants_run_like_shit.c.s
-
-CMakeFiles/c_check.dir/best_room_definition.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/best_room_definition.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/best_room_definition.c.obj: ../best_room_definition.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/c_check.dir/best_room_definition.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\best_room_definition.c.obj   -c C:\Users\Elmira\Desktop\c_check\best_room_definition.c
-
-CMakeFiles/c_check.dir/best_room_definition.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/best_room_definition.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\best_room_definition.c > CMakeFiles\c_check.dir\best_room_definition.c.i
-
-CMakeFiles/c_check.dir/best_room_definition.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/best_room_definition.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\best_room_definition.c -o CMakeFiles\c_check.dir\best_room_definition.c.s
-
-CMakeFiles/c_check.dir/duplicate_values.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/duplicate_values.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/duplicate_values.c.obj: ../duplicate_values.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/c_check.dir/duplicate_values.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\duplicate_values.c.obj   -c C:\Users\Elmira\Desktop\c_check\duplicate_values.c
-
-CMakeFiles/c_check.dir/duplicate_values.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/duplicate_values.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\duplicate_values.c > CMakeFiles\c_check.dir\duplicate_values.c.i
-
-CMakeFiles/c_check.dir/duplicate_values.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/duplicate_values.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\duplicate_values.c -o CMakeFiles\c_check.dir\duplicate_values.c.s
-
-CMakeFiles/c_check.dir/filling.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/filling.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/filling.c.obj: ../filling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/c_check.dir/filling.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\filling.c.obj   -c C:\Users\Elmira\Desktop\c_check\filling.c
-
-CMakeFiles/c_check.dir/filling.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/filling.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\filling.c > CMakeFiles\c_check.dir\filling.c.i
-
-CMakeFiles/c_check.dir/filling.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/filling.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\filling.c -o CMakeFiles\c_check.dir\filling.c.s
-
-CMakeFiles/c_check.dir/freeshing.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/freeshing.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/freeshing.c.obj: ../freeshing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/c_check.dir/freeshing.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\freeshing.c.obj   -c C:\Users\Elmira\Desktop\c_check\freeshing.c
-
-CMakeFiles/c_check.dir/freeshing.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/freeshing.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\freeshing.c > CMakeFiles\c_check.dir\freeshing.c.i
-
-CMakeFiles/c_check.dir/freeshing.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/freeshing.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\freeshing.c -o CMakeFiles\c_check.dir\freeshing.c.s
-
-CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj: ../get_me_paths_lawd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\get_me_paths_lawd.c.obj   -c C:\Users\Elmira\Desktop\c_check\get_me_paths_lawd.c
-
-CMakeFiles/c_check.dir/get_me_paths_lawd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/get_me_paths_lawd.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\get_me_paths_lawd.c > CMakeFiles\c_check.dir\get_me_paths_lawd.c.i
-
-CMakeFiles/c_check.dir/get_me_paths_lawd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/get_me_paths_lawd.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\get_me_paths_lawd.c -o CMakeFiles\c_check.dir\get_me_paths_lawd.c.s
-
-CMakeFiles/c_check.dir/go.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/go.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/go.c.obj: ../go.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/c_check.dir/go.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\go.c.obj   -c C:\Users\Elmira\Desktop\c_check\go.c
-
-CMakeFiles/c_check.dir/go.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/go.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\go.c > CMakeFiles\c_check.dir\go.c.i
-
-CMakeFiles/c_check.dir/go.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/go.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\go.c -o CMakeFiles\c_check.dir\go.c.s
-
-CMakeFiles/c_check.dir/lemin.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/lemin.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/lemin.c.obj: ../lemin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/c_check.dir/lemin.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\lemin.c.obj   -c C:\Users\Elmira\Desktop\c_check\lemin.c
-
-CMakeFiles/c_check.dir/lemin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/lemin.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\lemin.c > CMakeFiles\c_check.dir\lemin.c.i
-
-CMakeFiles/c_check.dir/lemin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/lemin.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\lemin.c -o CMakeFiles\c_check.dir\lemin.c.s
-
-CMakeFiles/c_check.dir/levels_and_links.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/levels_and_links.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/levels_and_links.c.obj: ../levels_and_links.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/c_check.dir/levels_and_links.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\levels_and_links.c.obj   -c C:\Users\Elmira\Desktop\c_check\levels_and_links.c
-
-CMakeFiles/c_check.dir/levels_and_links.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/levels_and_links.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\levels_and_links.c > CMakeFiles\c_check.dir\levels_and_links.c.i
-
-CMakeFiles/c_check.dir/levels_and_links.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/levels_and_links.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\levels_and_links.c -o CMakeFiles\c_check.dir\levels_and_links.c.s
-
-CMakeFiles/c_check.dir/move_one_way.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/move_one_way.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/move_one_way.c.obj: ../move_one_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/c_check.dir/move_one_way.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\move_one_way.c.obj   -c C:\Users\Elmira\Desktop\c_check\move_one_way.c
-
-CMakeFiles/c_check.dir/move_one_way.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/move_one_way.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\move_one_way.c > CMakeFiles\c_check.dir\move_one_way.c.i
-
-CMakeFiles/c_check.dir/move_one_way.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/move_one_way.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\move_one_way.c -o CMakeFiles\c_check.dir\move_one_way.c.s
-
-CMakeFiles/c_check.dir/path_finder.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/path_finder.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/path_finder.c.obj: ../path_finder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/c_check.dir/path_finder.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\path_finder.c.obj   -c C:\Users\Elmira\Desktop\c_check\path_finder.c
-
-CMakeFiles/c_check.dir/path_finder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/path_finder.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\path_finder.c > CMakeFiles\c_check.dir\path_finder.c.i
-
-CMakeFiles/c_check.dir/path_finder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/path_finder.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\path_finder.c -o CMakeFiles\c_check.dir\path_finder.c.s
-
-CMakeFiles/c_check.dir/read_ants.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/read_ants.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/read_ants.c.obj: ../read_ants.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/c_check.dir/read_ants.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\read_ants.c.obj   -c C:\Users\Elmira\Desktop\c_check\read_ants.c
-
-CMakeFiles/c_check.dir/read_ants.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/read_ants.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\read_ants.c > CMakeFiles\c_check.dir\read_ants.c.i
-
-CMakeFiles/c_check.dir/read_ants.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/read_ants.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\read_ants.c -o CMakeFiles\c_check.dir\read_ants.c.s
-
-CMakeFiles/c_check.dir/read_links.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/read_links.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/read_links.c.obj: ../read_links.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/c_check.dir/read_links.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\read_links.c.obj   -c C:\Users\Elmira\Desktop\c_check\read_links.c
-
-CMakeFiles/c_check.dir/read_links.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/read_links.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\read_links.c > CMakeFiles\c_check.dir\read_links.c.i
-
-CMakeFiles/c_check.dir/read_links.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/read_links.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\read_links.c -o CMakeFiles\c_check.dir\read_links.c.s
-
-CMakeFiles/c_check.dir/read_rooms.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/read_rooms.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/read_rooms.c.obj: ../read_rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/c_check.dir/read_rooms.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\read_rooms.c.obj   -c C:\Users\Elmira\Desktop\c_check\read_rooms.c
-
-CMakeFiles/c_check.dir/read_rooms.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/read_rooms.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\read_rooms.c > CMakeFiles\c_check.dir\read_rooms.c.i
-
-CMakeFiles/c_check.dir/read_rooms.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/read_rooms.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\read_rooms.c -o CMakeFiles\c_check.dir\read_rooms.c.s
-
-CMakeFiles/c_check.dir/search_paths.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/search_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/search_paths.c.obj: ../search_paths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/c_check.dir/search_paths.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\search_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\search_paths.c
-
-CMakeFiles/c_check.dir/search_paths.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/search_paths.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\search_paths.c > CMakeFiles\c_check.dir\search_paths.c.i
-
-CMakeFiles/c_check.dir/search_paths.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/search_paths.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\search_paths.c -o CMakeFiles\c_check.dir\search_paths.c.s
-
-CMakeFiles/c_check.dir/second_searching.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/second_searching.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/second_searching.c.obj: ../second_searching.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/c_check.dir/second_searching.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\second_searching.c.obj   -c C:\Users\Elmira\Desktop\c_check\second_searching.c
-
-CMakeFiles/c_check.dir/second_searching.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/second_searching.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\second_searching.c > CMakeFiles\c_check.dir\second_searching.c.i
-
-CMakeFiles/c_check.dir/second_searching.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/second_searching.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\second_searching.c -o CMakeFiles\c_check.dir\second_searching.c.s
-
-CMakeFiles/c_check.dir/tips_for_algo.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/tips_for_algo.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/tips_for_algo.c.obj: ../tips_for_algo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/c_check.dir/tips_for_algo.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\tips_for_algo.c.obj   -c C:\Users\Elmira\Desktop\c_check\tips_for_algo.c
-
-CMakeFiles/c_check.dir/tips_for_algo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/tips_for_algo.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\tips_for_algo.c > CMakeFiles\c_check.dir\tips_for_algo.c.i
-
-CMakeFiles/c_check.dir/tips_for_algo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/tips_for_algo.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\tips_for_algo.c -o CMakeFiles\c_check.dir\tips_for_algo.c.s
-
-CMakeFiles/c_check.dir/utils.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/utils.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/utils.c.obj: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/c_check.dir/utils.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\utils.c.obj   -c C:\Users\Elmira\Desktop\c_check\utils.c
-
-CMakeFiles/c_check.dir/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/utils.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\utils.c > CMakeFiles\c_check.dir\utils.c.i
-
-CMakeFiles/c_check.dir/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/utils.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\utils.c -o CMakeFiles\c_check.dir\utils.c.s
-
-CMakeFiles/c_check.dir/valid.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/valid.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/valid.c.obj: ../valid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/c_check.dir/valid.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\valid.c.obj   -c C:\Users\Elmira\Desktop\c_check\valid.c
-
-CMakeFiles/c_check.dir/valid.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/valid.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\valid.c > CMakeFiles\c_check.dir\valid.c.i
-
-CMakeFiles/c_check.dir/valid.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/valid.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\valid.c -o CMakeFiles\c_check.dir\valid.c.s
-
-CMakeFiles/c_check.dir/best_next.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/best_next.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/best_next.c.obj: ../best_next.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/c_check.dir/best_next.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\best_next.c.obj   -c C:\Users\Elmira\Desktop\c_check\best_next.c
-
-CMakeFiles/c_check.dir/best_next.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/best_next.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\best_next.c > CMakeFiles\c_check.dir\best_next.c.i
-
-CMakeFiles/c_check.dir/best_next.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/best_next.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\best_next.c -o CMakeFiles\c_check.dir\best_next.c.s
-
-CMakeFiles/c_check.dir/ways_modification.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/ways_modification.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/ways_modification.c.obj: ../ways_modification.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/c_check.dir/ways_modification.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\ways_modification.c.obj   -c C:\Users\Elmira\Desktop\c_check\ways_modification.c
-
-CMakeFiles/c_check.dir/ways_modification.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/ways_modification.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\ways_modification.c > CMakeFiles\c_check.dir\ways_modification.c.i
-
-CMakeFiles/c_check.dir/ways_modification.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/ways_modification.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\ways_modification.c -o CMakeFiles\c_check.dir\ways_modification.c.s
-
-CMakeFiles/c_check.dir/search_left_paths.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/search_left_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/search_left_paths.c.obj: ../search_left_paths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/c_check.dir/search_left_paths.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\search_left_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\search_left_paths.c
-
-CMakeFiles/c_check.dir/search_left_paths.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/search_left_paths.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\search_left_paths.c > CMakeFiles\c_check.dir\search_left_paths.c.i
-
-CMakeFiles/c_check.dir/search_left_paths.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/search_left_paths.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\search_left_paths.c -o CMakeFiles\c_check.dir\search_left_paths.c.s
+CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj: ../sources/after_finding_paths.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\after_finding_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c
+
+CMakeFiles/c_check.dir/sources/after_finding_paths.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/after_finding_paths.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c > CMakeFiles\c_check.dir\sources\after_finding_paths.c.i
+
+CMakeFiles/c_check.dir/sources/after_finding_paths.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/after_finding_paths.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c -o CMakeFiles\c_check.dir\sources\after_finding_paths.c.s
+
+CMakeFiles/c_check.dir/sources/ant_steps.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/ant_steps.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/ant_steps.c.obj: ../sources/ant_steps.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/c_check.dir/sources/ant_steps.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ant_steps.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c
+
+CMakeFiles/c_check.dir/sources/ant_steps.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/ant_steps.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c > CMakeFiles\c_check.dir\sources\ant_steps.c.i
+
+CMakeFiles/c_check.dir/sources/ant_steps.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/ant_steps.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c -o CMakeFiles\c_check.dir\sources\ant_steps.c.s
+
+CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj: ../sources/ants_run_like_shit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c
+
+CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c > CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.i
+
+CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c -o CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.s
+
+CMakeFiles/c_check.dir/sources/best_next.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/best_next.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/best_next.c.obj: ../sources/best_next.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/c_check.dir/sources/best_next.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\best_next.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\best_next.c
+
+CMakeFiles/c_check.dir/sources/best_next.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/best_next.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\best_next.c > CMakeFiles\c_check.dir\sources\best_next.c.i
+
+CMakeFiles/c_check.dir/sources/best_next.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/best_next.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\best_next.c -o CMakeFiles\c_check.dir\sources\best_next.c.s
+
+CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: ../sources/best_room_definition.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/c_check.dir/sources/best_room_definition.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\best_room_definition.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c
+
+CMakeFiles/c_check.dir/sources/best_room_definition.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/best_room_definition.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c > CMakeFiles\c_check.dir\sources\best_room_definition.c.i
+
+CMakeFiles/c_check.dir/sources/best_room_definition.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/best_room_definition.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c -o CMakeFiles\c_check.dir\sources\best_room_definition.c.s
+
+CMakeFiles/c_check.dir/sources/duplicate_values.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/duplicate_values.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/duplicate_values.c.obj: ../sources/duplicate_values.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/c_check.dir/sources/duplicate_values.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\duplicate_values.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\duplicate_values.c
+
+CMakeFiles/c_check.dir/sources/duplicate_values.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/duplicate_values.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\duplicate_values.c > CMakeFiles\c_check.dir\sources\duplicate_values.c.i
+
+CMakeFiles/c_check.dir/sources/duplicate_values.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/duplicate_values.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\duplicate_values.c -o CMakeFiles\c_check.dir\sources\duplicate_values.c.s
+
+CMakeFiles/c_check.dir/sources/filling.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/filling.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/filling.c.obj: ../sources/filling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/c_check.dir/sources/filling.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\filling.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\filling.c
+
+CMakeFiles/c_check.dir/sources/filling.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/filling.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\filling.c > CMakeFiles\c_check.dir\sources\filling.c.i
+
+CMakeFiles/c_check.dir/sources/filling.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/filling.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\filling.c -o CMakeFiles\c_check.dir\sources\filling.c.s
+
+CMakeFiles/c_check.dir/sources/freeshing.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/freeshing.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/freeshing.c.obj: ../sources/freeshing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/c_check.dir/sources/freeshing.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\freeshing.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\freeshing.c
+
+CMakeFiles/c_check.dir/sources/freeshing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/freeshing.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\freeshing.c > CMakeFiles\c_check.dir\sources\freeshing.c.i
+
+CMakeFiles/c_check.dir/sources/freeshing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/freeshing.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\freeshing.c -o CMakeFiles\c_check.dir\sources\freeshing.c.s
+
+CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj: ../sources/get_me_paths_lawd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\get_me_paths_lawd.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\get_me_paths_lawd.c
+
+CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\get_me_paths_lawd.c > CMakeFiles\c_check.dir\sources\get_me_paths_lawd.c.i
+
+CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\get_me_paths_lawd.c -o CMakeFiles\c_check.dir\sources\get_me_paths_lawd.c.s
+
+CMakeFiles/c_check.dir/sources/go.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/go.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/go.c.obj: ../sources/go.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/c_check.dir/sources/go.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\go.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\go.c
+
+CMakeFiles/c_check.dir/sources/go.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/go.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\go.c > CMakeFiles\c_check.dir\sources\go.c.i
+
+CMakeFiles/c_check.dir/sources/go.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/go.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\go.c -o CMakeFiles\c_check.dir\sources\go.c.s
+
+CMakeFiles/c_check.dir/sources/lemin.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/lemin.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/lemin.c.obj: ../sources/lemin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/c_check.dir/sources/lemin.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\lemin.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\lemin.c
+
+CMakeFiles/c_check.dir/sources/lemin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/lemin.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\lemin.c > CMakeFiles\c_check.dir\sources\lemin.c.i
+
+CMakeFiles/c_check.dir/sources/lemin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/lemin.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\lemin.c -o CMakeFiles\c_check.dir\sources\lemin.c.s
+
+CMakeFiles/c_check.dir/sources/main_algo_part.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/main_algo_part.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/main_algo_part.c.obj: ../sources/main_algo_part.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/c_check.dir/sources/main_algo_part.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\main_algo_part.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\main_algo_part.c
+
+CMakeFiles/c_check.dir/sources/main_algo_part.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/main_algo_part.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\main_algo_part.c > CMakeFiles\c_check.dir\sources\main_algo_part.c.i
+
+CMakeFiles/c_check.dir/sources/main_algo_part.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/main_algo_part.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\main_algo_part.c -o CMakeFiles\c_check.dir\sources\main_algo_part.c.s
+
+CMakeFiles/c_check.dir/sources/move_one_way.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/move_one_way.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../sources/move_one_way.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/c_check.dir/sources/move_one_way.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\move_one_way.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c
+
+CMakeFiles/c_check.dir/sources/move_one_way.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/move_one_way.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c > CMakeFiles\c_check.dir\sources\move_one_way.c.i
+
+CMakeFiles/c_check.dir/sources/move_one_way.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/move_one_way.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c -o CMakeFiles\c_check.dir\sources\move_one_way.c.s
+
+CMakeFiles/c_check.dir/sources/path_finder.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/path_finder.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/path_finder.c.obj: ../sources/path_finder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/c_check.dir/sources/path_finder.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\path_finder.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\path_finder.c
+
+CMakeFiles/c_check.dir/sources/path_finder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/path_finder.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\path_finder.c > CMakeFiles\c_check.dir\sources\path_finder.c.i
+
+CMakeFiles/c_check.dir/sources/path_finder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/path_finder.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\path_finder.c -o CMakeFiles\c_check.dir\sources\path_finder.c.s
+
+CMakeFiles/c_check.dir/sources/read_ants.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/read_ants.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/read_ants.c.obj: ../sources/read_ants.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/c_check.dir/sources/read_ants.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_ants.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_ants.c
+
+CMakeFiles/c_check.dir/sources/read_ants.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/read_ants.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_ants.c > CMakeFiles\c_check.dir\sources\read_ants.c.i
+
+CMakeFiles/c_check.dir/sources/read_ants.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/read_ants.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_ants.c -o CMakeFiles\c_check.dir\sources\read_ants.c.s
+
+CMakeFiles/c_check.dir/sources/read_links.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/read_links.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/read_links.c.obj: ../sources/read_links.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/c_check.dir/sources/read_links.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_links.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_links.c
+
+CMakeFiles/c_check.dir/sources/read_links.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/read_links.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_links.c > CMakeFiles\c_check.dir\sources\read_links.c.i
+
+CMakeFiles/c_check.dir/sources/read_links.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/read_links.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_links.c -o CMakeFiles\c_check.dir\sources\read_links.c.s
+
+CMakeFiles/c_check.dir/sources/read_rooms.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/read_rooms.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/read_rooms.c.obj: ../sources/read_rooms.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/c_check.dir/sources/read_rooms.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_rooms.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c
+
+CMakeFiles/c_check.dir/sources/read_rooms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/read_rooms.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c > CMakeFiles\c_check.dir\sources\read_rooms.c.i
+
+CMakeFiles/c_check.dir/sources/read_rooms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/read_rooms.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c -o CMakeFiles\c_check.dir\sources\read_rooms.c.s
+
+CMakeFiles/c_check.dir/sources/rooms_description.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/rooms_description.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/rooms_description.c.obj: ../sources/rooms_description.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/c_check.dir/sources/rooms_description.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\rooms_description.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c
+
+CMakeFiles/c_check.dir/sources/rooms_description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/rooms_description.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c > CMakeFiles\c_check.dir\sources\rooms_description.c.i
+
+CMakeFiles/c_check.dir/sources/rooms_description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/rooms_description.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c -o CMakeFiles\c_check.dir\sources\rooms_description.c.s
+
+CMakeFiles/c_check.dir/sources/search_intersections.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/search_intersections.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/search_intersections.c.obj: ../sources/search_intersections.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/c_check.dir/sources/search_intersections.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\search_intersections.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c
+
+CMakeFiles/c_check.dir/sources/search_intersections.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/search_intersections.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c > CMakeFiles\c_check.dir\sources\search_intersections.c.i
+
+CMakeFiles/c_check.dir/sources/search_intersections.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/search_intersections.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c -o CMakeFiles\c_check.dir\sources\search_intersections.c.s
+
+CMakeFiles/c_check.dir/sources/search_paths.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/search_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/search_paths.c.obj: ../sources/search_paths.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/c_check.dir/sources/search_paths.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\search_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\search_paths.c
+
+CMakeFiles/c_check.dir/sources/search_paths.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/search_paths.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\search_paths.c > CMakeFiles\c_check.dir\sources\search_paths.c.i
+
+CMakeFiles/c_check.dir/sources/search_paths.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/search_paths.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\search_paths.c -o CMakeFiles\c_check.dir\sources\search_paths.c.s
+
+CMakeFiles/c_check.dir/sources/second_searching.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/second_searching.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/second_searching.c.obj: ../sources/second_searching.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/c_check.dir/sources/second_searching.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\second_searching.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\second_searching.c
+
+CMakeFiles/c_check.dir/sources/second_searching.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/second_searching.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\second_searching.c > CMakeFiles\c_check.dir\sources\second_searching.c.i
+
+CMakeFiles/c_check.dir/sources/second_searching.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/second_searching.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\second_searching.c -o CMakeFiles\c_check.dir\sources\second_searching.c.s
+
+CMakeFiles/c_check.dir/sources/utils.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/utils.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/utils.c.obj: ../sources/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/c_check.dir/sources/utils.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\utils.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\utils.c
+
+CMakeFiles/c_check.dir/sources/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/utils.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\utils.c > CMakeFiles\c_check.dir\sources\utils.c.i
+
+CMakeFiles/c_check.dir/sources/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/utils.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\utils.c -o CMakeFiles\c_check.dir\sources\utils.c.s
+
+CMakeFiles/c_check.dir/sources/valid.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/valid.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/valid.c.obj: ../sources/valid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/c_check.dir/sources/valid.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\valid.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\valid.c
+
+CMakeFiles/c_check.dir/sources/valid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/valid.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\valid.c > CMakeFiles\c_check.dir\sources\valid.c.i
+
+CMakeFiles/c_check.dir/sources/valid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/valid.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\valid.c -o CMakeFiles\c_check.dir\sources\valid.c.s
+
+CMakeFiles/c_check.dir/sources/ways_modification.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/ways_modification.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/ways_modification.c.obj: ../sources/ways_modification.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/c_check.dir/sources/ways_modification.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ways_modification.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c
+
+CMakeFiles/c_check.dir/sources/ways_modification.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/ways_modification.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c > CMakeFiles\c_check.dir\sources\ways_modification.c.i
+
+CMakeFiles/c_check.dir/sources/ways_modification.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/ways_modification.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c -o CMakeFiles\c_check.dir\sources\ways_modification.c.s
 
 # Object files for target c_check
 c_check_OBJECTS = \
@@ -1384,30 +1384,30 @@ c_check_OBJECTS = \
 "CMakeFiles/c_check.dir/libft/ft_tolower.c.obj" \
 "CMakeFiles/c_check.dir/libft/ft_toupper.c.obj" \
 "CMakeFiles/c_check.dir/libft/get_next_line.c.obj" \
-"CMakeFiles/c_check.dir/after_finding_paths.c.obj" \
-"CMakeFiles/c_check.dir/ant_steps.c.obj" \
-"CMakeFiles/c_check.dir/ants_run_like_shit.c.obj" \
-"CMakeFiles/c_check.dir/best_room_definition.c.obj" \
-"CMakeFiles/c_check.dir/duplicate_values.c.obj" \
-"CMakeFiles/c_check.dir/filling.c.obj" \
-"CMakeFiles/c_check.dir/freeshing.c.obj" \
-"CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj" \
-"CMakeFiles/c_check.dir/go.c.obj" \
-"CMakeFiles/c_check.dir/lemin.c.obj" \
-"CMakeFiles/c_check.dir/levels_and_links.c.obj" \
-"CMakeFiles/c_check.dir/move_one_way.c.obj" \
-"CMakeFiles/c_check.dir/path_finder.c.obj" \
-"CMakeFiles/c_check.dir/read_ants.c.obj" \
-"CMakeFiles/c_check.dir/read_links.c.obj" \
-"CMakeFiles/c_check.dir/read_rooms.c.obj" \
-"CMakeFiles/c_check.dir/search_paths.c.obj" \
-"CMakeFiles/c_check.dir/second_searching.c.obj" \
-"CMakeFiles/c_check.dir/tips_for_algo.c.obj" \
-"CMakeFiles/c_check.dir/utils.c.obj" \
-"CMakeFiles/c_check.dir/valid.c.obj" \
-"CMakeFiles/c_check.dir/best_next.c.obj" \
-"CMakeFiles/c_check.dir/ways_modification.c.obj" \
-"CMakeFiles/c_check.dir/search_left_paths.c.obj"
+"CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj" \
+"CMakeFiles/c_check.dir/sources/ant_steps.c.obj" \
+"CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj" \
+"CMakeFiles/c_check.dir/sources/best_next.c.obj" \
+"CMakeFiles/c_check.dir/sources/best_room_definition.c.obj" \
+"CMakeFiles/c_check.dir/sources/duplicate_values.c.obj" \
+"CMakeFiles/c_check.dir/sources/filling.c.obj" \
+"CMakeFiles/c_check.dir/sources/freeshing.c.obj" \
+"CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj" \
+"CMakeFiles/c_check.dir/sources/go.c.obj" \
+"CMakeFiles/c_check.dir/sources/lemin.c.obj" \
+"CMakeFiles/c_check.dir/sources/main_algo_part.c.obj" \
+"CMakeFiles/c_check.dir/sources/move_one_way.c.obj" \
+"CMakeFiles/c_check.dir/sources/path_finder.c.obj" \
+"CMakeFiles/c_check.dir/sources/read_ants.c.obj" \
+"CMakeFiles/c_check.dir/sources/read_links.c.obj" \
+"CMakeFiles/c_check.dir/sources/read_rooms.c.obj" \
+"CMakeFiles/c_check.dir/sources/rooms_description.c.obj" \
+"CMakeFiles/c_check.dir/sources/search_intersections.c.obj" \
+"CMakeFiles/c_check.dir/sources/search_paths.c.obj" \
+"CMakeFiles/c_check.dir/sources/second_searching.c.obj" \
+"CMakeFiles/c_check.dir/sources/utils.c.obj" \
+"CMakeFiles/c_check.dir/sources/valid.c.obj" \
+"CMakeFiles/c_check.dir/sources/ways_modification.c.obj"
 
 # External object files for target c_check
 c_check_EXTERNAL_OBJECTS =
@@ -1478,30 +1478,30 @@ c_check.exe: CMakeFiles/c_check.dir/libft/ft_swap.c.obj
 c_check.exe: CMakeFiles/c_check.dir/libft/ft_tolower.c.obj
 c_check.exe: CMakeFiles/c_check.dir/libft/ft_toupper.c.obj
 c_check.exe: CMakeFiles/c_check.dir/libft/get_next_line.c.obj
-c_check.exe: CMakeFiles/c_check.dir/after_finding_paths.c.obj
-c_check.exe: CMakeFiles/c_check.dir/ant_steps.c.obj
-c_check.exe: CMakeFiles/c_check.dir/ants_run_like_shit.c.obj
-c_check.exe: CMakeFiles/c_check.dir/best_room_definition.c.obj
-c_check.exe: CMakeFiles/c_check.dir/duplicate_values.c.obj
-c_check.exe: CMakeFiles/c_check.dir/filling.c.obj
-c_check.exe: CMakeFiles/c_check.dir/freeshing.c.obj
-c_check.exe: CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj
-c_check.exe: CMakeFiles/c_check.dir/go.c.obj
-c_check.exe: CMakeFiles/c_check.dir/lemin.c.obj
-c_check.exe: CMakeFiles/c_check.dir/levels_and_links.c.obj
-c_check.exe: CMakeFiles/c_check.dir/move_one_way.c.obj
-c_check.exe: CMakeFiles/c_check.dir/path_finder.c.obj
-c_check.exe: CMakeFiles/c_check.dir/read_ants.c.obj
-c_check.exe: CMakeFiles/c_check.dir/read_links.c.obj
-c_check.exe: CMakeFiles/c_check.dir/read_rooms.c.obj
-c_check.exe: CMakeFiles/c_check.dir/search_paths.c.obj
-c_check.exe: CMakeFiles/c_check.dir/second_searching.c.obj
-c_check.exe: CMakeFiles/c_check.dir/tips_for_algo.c.obj
-c_check.exe: CMakeFiles/c_check.dir/utils.c.obj
-c_check.exe: CMakeFiles/c_check.dir/valid.c.obj
-c_check.exe: CMakeFiles/c_check.dir/best_next.c.obj
-c_check.exe: CMakeFiles/c_check.dir/ways_modification.c.obj
-c_check.exe: CMakeFiles/c_check.dir/search_left_paths.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/ant_steps.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/best_next.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/best_room_definition.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/duplicate_values.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/filling.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/freeshing.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/go.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/lemin.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/main_algo_part.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/move_one_way.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/path_finder.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/read_ants.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/read_links.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/read_rooms.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/rooms_description.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/search_intersections.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/search_paths.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/second_searching.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/utils.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/valid.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/ways_modification.c.obj
 c_check.exe: CMakeFiles/c_check.dir/build.make
 c_check.exe: CMakeFiles/c_check.dir/linklibs.rsp
 c_check.exe: CMakeFiles/c_check.dir/objects1.rsp

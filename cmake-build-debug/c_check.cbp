@@ -24,7 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Elmira/Desktop/c_check/."/>
+					<Add directory="C:/Users/Elmira/Desktop/c_check/includes"/>
 					<Add directory="C:/Users/Elmira/Desktop/c_check/libft"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
@@ -44,7 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Elmira/Desktop/c_check/."/>
+					<Add directory="C:/Users/Elmira/Desktop/c_check/includes"/>
 					<Add directory="C:/Users/Elmira/Desktop/c_check/libft"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
@@ -78,43 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/after_finding_paths.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/ant_steps.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/ants_run_like_shit.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/best_next.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/best_room_definition.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/duplicate_values.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/filling.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/freeshing.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/get_me_paths_lawd.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/go.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/lemin.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/lemin.h">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/levels_and_links.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/includes/lemin.h">
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/libft/ft_atoi.c">
@@ -321,40 +285,76 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/libft/libft.h">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/move_one_way.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/after_finding_paths.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/path_finder.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/ant_steps.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/read_ants.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/ants_run_like_shit.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/read_links.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/best_next.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/read_rooms.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/best_room_definition.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/search_left_paths.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/duplicate_values.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/search_paths.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/filling.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/second_searching.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/freeshing.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/tips_for_algo.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/get_me_paths_lawd.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/utils.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/go.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/valid.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/lemin.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/ways_modification.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/main_algo_part.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/move_one_way.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/path_finder.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/read_ants.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/read_links.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/read_rooms.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/rooms_description.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/search_intersections.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/search_paths.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/second_searching.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/utils.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/valid.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/ways_modification.c">
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/CMakeLists.txt">

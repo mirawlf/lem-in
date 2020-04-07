@@ -3,10 +3,11 @@ project(c_check C)
 
 set(CMAKE_C_STANDARD 11)
 
-include_directories(.)
+include_directories(includes)
 include_directories(libft)
 
 add_executable(c_check
+        includes/lemin.h
         libft/ft_atoi.c
         libft/ft_bzero.c
         libft/ft_delarr.c
@@ -75,25 +76,27 @@ add_executable(c_check
         libft/get_next_line.c
         libft/get_next_line.h
         libft/libft.h
-        after_finding_paths.c
-        ant_steps.c
-        ants_run_like_shit.c
-        best_room_definition.c
-        duplicate_values.c
-        filling.c
-        freeshing.c
-        get_me_paths_lawd.c
-        go.c
-        lemin.c
-        lemin.h
-        levels_and_links.c
-        move_one_way.c
-        path_finder.c
-        read_ants.c
-        read_links.c
-        read_rooms.c
-        search_paths.c
-        second_searching.c
-        tips_for_algo.c
-        utils.c
-        valid.c best_next.c ways_modification.c search_left_paths.c)
+        sources/after_finding_paths.c
+        sources/ant_steps.c
+        sources/ants_run_like_shit.c
+        sources/best_next.c
+        sources/best_room_definition.c
+        sources/duplicate_values.c
+        sources/filling.c
+        sources/freeshing.c
+        sources/get_me_paths_lawd.c
+        sources/go.c
+        sources/lemin.c
+        sources/main_algo_part.c
+        sources/move_one_way.c
+        sources/path_finder.c
+        sources/read_ants.c
+        sources/read_links.c
+        sources/read_rooms.c
+        sources/rooms_description.c
+        sources/search_intersections.c
+        sources/search_paths.c
+        sources/second_searching.c
+        sources/utils.c
+        sources/valid.c
+        sources/ways_modification.c)

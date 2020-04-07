@@ -13,7 +13,7 @@
 #ifndef LEMIN_H
 #define LEMIN_H
 
-#include "./libft/libft.h"
+#include "../libft/libft.h"
 #include <stdlib.h>
 
 typedef struct 		s_room
@@ -117,9 +117,10 @@ int					duplicate_links(t_link *link, t_main *data);
  * algo functions
  */
 
-void				*determine_levels(t_main *map);
-void				count_inputs_and_outputs(t_main *map);
+void				*main_algo_part(t_main *map);
 void				dead_ends(t_main *map);
+void				next_levels(t_main *map, int max_curr_lvl);
+void				count_inputs_and_outputs(t_main *map);
 void				start_searching(t_room *room, t_main *map);
 void				search_previous_room(t_room *current, t_main *map);
 t_room				*best_variant(t_room *current, t_room *variant, t_main *map);

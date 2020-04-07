@@ -122,330 +122,6 @@ c_check/fast:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/build
 .PHONY : c_check/fast
 
-after_finding_paths.obj: after_finding_paths.c.obj
-
-.PHONY : after_finding_paths.obj
-
-# target to build an object file
-after_finding_paths.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/after_finding_paths.c.obj
-.PHONY : after_finding_paths.c.obj
-
-after_finding_paths.i: after_finding_paths.c.i
-
-.PHONY : after_finding_paths.i
-
-# target to preprocess a source file
-after_finding_paths.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/after_finding_paths.c.i
-.PHONY : after_finding_paths.c.i
-
-after_finding_paths.s: after_finding_paths.c.s
-
-.PHONY : after_finding_paths.s
-
-# target to generate assembly for a file
-after_finding_paths.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/after_finding_paths.c.s
-.PHONY : after_finding_paths.c.s
-
-ant_steps.obj: ant_steps.c.obj
-
-.PHONY : ant_steps.obj
-
-# target to build an object file
-ant_steps.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ant_steps.c.obj
-.PHONY : ant_steps.c.obj
-
-ant_steps.i: ant_steps.c.i
-
-.PHONY : ant_steps.i
-
-# target to preprocess a source file
-ant_steps.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ant_steps.c.i
-.PHONY : ant_steps.c.i
-
-ant_steps.s: ant_steps.c.s
-
-.PHONY : ant_steps.s
-
-# target to generate assembly for a file
-ant_steps.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ant_steps.c.s
-.PHONY : ant_steps.c.s
-
-ants_run_like_shit.obj: ants_run_like_shit.c.obj
-
-.PHONY : ants_run_like_shit.obj
-
-# target to build an object file
-ants_run_like_shit.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ants_run_like_shit.c.obj
-.PHONY : ants_run_like_shit.c.obj
-
-ants_run_like_shit.i: ants_run_like_shit.c.i
-
-.PHONY : ants_run_like_shit.i
-
-# target to preprocess a source file
-ants_run_like_shit.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ants_run_like_shit.c.i
-.PHONY : ants_run_like_shit.c.i
-
-ants_run_like_shit.s: ants_run_like_shit.c.s
-
-.PHONY : ants_run_like_shit.s
-
-# target to generate assembly for a file
-ants_run_like_shit.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ants_run_like_shit.c.s
-.PHONY : ants_run_like_shit.c.s
-
-best_next.obj: best_next.c.obj
-
-.PHONY : best_next.obj
-
-# target to build an object file
-best_next.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/best_next.c.obj
-.PHONY : best_next.c.obj
-
-best_next.i: best_next.c.i
-
-.PHONY : best_next.i
-
-# target to preprocess a source file
-best_next.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/best_next.c.i
-.PHONY : best_next.c.i
-
-best_next.s: best_next.c.s
-
-.PHONY : best_next.s
-
-# target to generate assembly for a file
-best_next.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/best_next.c.s
-.PHONY : best_next.c.s
-
-best_room_definition.obj: best_room_definition.c.obj
-
-.PHONY : best_room_definition.obj
-
-# target to build an object file
-best_room_definition.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/best_room_definition.c.obj
-.PHONY : best_room_definition.c.obj
-
-best_room_definition.i: best_room_definition.c.i
-
-.PHONY : best_room_definition.i
-
-# target to preprocess a source file
-best_room_definition.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/best_room_definition.c.i
-.PHONY : best_room_definition.c.i
-
-best_room_definition.s: best_room_definition.c.s
-
-.PHONY : best_room_definition.s
-
-# target to generate assembly for a file
-best_room_definition.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/best_room_definition.c.s
-.PHONY : best_room_definition.c.s
-
-duplicate_values.obj: duplicate_values.c.obj
-
-.PHONY : duplicate_values.obj
-
-# target to build an object file
-duplicate_values.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/duplicate_values.c.obj
-.PHONY : duplicate_values.c.obj
-
-duplicate_values.i: duplicate_values.c.i
-
-.PHONY : duplicate_values.i
-
-# target to preprocess a source file
-duplicate_values.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/duplicate_values.c.i
-.PHONY : duplicate_values.c.i
-
-duplicate_values.s: duplicate_values.c.s
-
-.PHONY : duplicate_values.s
-
-# target to generate assembly for a file
-duplicate_values.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/duplicate_values.c.s
-.PHONY : duplicate_values.c.s
-
-filling.obj: filling.c.obj
-
-.PHONY : filling.obj
-
-# target to build an object file
-filling.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/filling.c.obj
-.PHONY : filling.c.obj
-
-filling.i: filling.c.i
-
-.PHONY : filling.i
-
-# target to preprocess a source file
-filling.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/filling.c.i
-.PHONY : filling.c.i
-
-filling.s: filling.c.s
-
-.PHONY : filling.s
-
-# target to generate assembly for a file
-filling.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/filling.c.s
-.PHONY : filling.c.s
-
-freeshing.obj: freeshing.c.obj
-
-.PHONY : freeshing.obj
-
-# target to build an object file
-freeshing.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/freeshing.c.obj
-.PHONY : freeshing.c.obj
-
-freeshing.i: freeshing.c.i
-
-.PHONY : freeshing.i
-
-# target to preprocess a source file
-freeshing.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/freeshing.c.i
-.PHONY : freeshing.c.i
-
-freeshing.s: freeshing.c.s
-
-.PHONY : freeshing.s
-
-# target to generate assembly for a file
-freeshing.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/freeshing.c.s
-.PHONY : freeshing.c.s
-
-get_me_paths_lawd.obj: get_me_paths_lawd.c.obj
-
-.PHONY : get_me_paths_lawd.obj
-
-# target to build an object file
-get_me_paths_lawd.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj
-.PHONY : get_me_paths_lawd.c.obj
-
-get_me_paths_lawd.i: get_me_paths_lawd.c.i
-
-.PHONY : get_me_paths_lawd.i
-
-# target to preprocess a source file
-get_me_paths_lawd.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/get_me_paths_lawd.c.i
-.PHONY : get_me_paths_lawd.c.i
-
-get_me_paths_lawd.s: get_me_paths_lawd.c.s
-
-.PHONY : get_me_paths_lawd.s
-
-# target to generate assembly for a file
-get_me_paths_lawd.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/get_me_paths_lawd.c.s
-.PHONY : get_me_paths_lawd.c.s
-
-go.obj: go.c.obj
-
-.PHONY : go.obj
-
-# target to build an object file
-go.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/go.c.obj
-.PHONY : go.c.obj
-
-go.i: go.c.i
-
-.PHONY : go.i
-
-# target to preprocess a source file
-go.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/go.c.i
-.PHONY : go.c.i
-
-go.s: go.c.s
-
-.PHONY : go.s
-
-# target to generate assembly for a file
-go.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/go.c.s
-.PHONY : go.c.s
-
-lemin.obj: lemin.c.obj
-
-.PHONY : lemin.obj
-
-# target to build an object file
-lemin.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/lemin.c.obj
-.PHONY : lemin.c.obj
-
-lemin.i: lemin.c.i
-
-.PHONY : lemin.i
-
-# target to preprocess a source file
-lemin.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/lemin.c.i
-.PHONY : lemin.c.i
-
-lemin.s: lemin.c.s
-
-.PHONY : lemin.s
-
-# target to generate assembly for a file
-lemin.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/lemin.c.s
-.PHONY : lemin.c.s
-
-levels_and_links.obj: levels_and_links.c.obj
-
-.PHONY : levels_and_links.obj
-
-# target to build an object file
-levels_and_links.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/levels_and_links.c.obj
-.PHONY : levels_and_links.c.obj
-
-levels_and_links.i: levels_and_links.c.i
-
-.PHONY : levels_and_links.i
-
-# target to preprocess a source file
-levels_and_links.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/levels_and_links.c.i
-.PHONY : levels_and_links.c.i
-
-levels_and_links.s: levels_and_links.c.s
-
-.PHONY : levels_and_links.s
-
-# target to generate assembly for a file
-levels_and_links.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/levels_and_links.c.s
-.PHONY : levels_and_links.c.s
-
 libft/ft_atoi.obj: libft/ft_atoi.c.obj
 
 .PHONY : libft/ft_atoi.obj
@@ -2228,329 +1904,653 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-move_one_way.obj: move_one_way.c.obj
+sources/after_finding_paths.obj: sources/after_finding_paths.c.obj
 
-.PHONY : move_one_way.obj
-
-# target to build an object file
-move_one_way.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/move_one_way.c.obj
-.PHONY : move_one_way.c.obj
-
-move_one_way.i: move_one_way.c.i
-
-.PHONY : move_one_way.i
-
-# target to preprocess a source file
-move_one_way.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/move_one_way.c.i
-.PHONY : move_one_way.c.i
-
-move_one_way.s: move_one_way.c.s
-
-.PHONY : move_one_way.s
-
-# target to generate assembly for a file
-move_one_way.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/move_one_way.c.s
-.PHONY : move_one_way.c.s
-
-path_finder.obj: path_finder.c.obj
-
-.PHONY : path_finder.obj
+.PHONY : sources/after_finding_paths.obj
 
 # target to build an object file
-path_finder.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/path_finder.c.obj
-.PHONY : path_finder.c.obj
+sources/after_finding_paths.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj
+.PHONY : sources/after_finding_paths.c.obj
 
-path_finder.i: path_finder.c.i
+sources/after_finding_paths.i: sources/after_finding_paths.c.i
 
-.PHONY : path_finder.i
+.PHONY : sources/after_finding_paths.i
 
 # target to preprocess a source file
-path_finder.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/path_finder.c.i
-.PHONY : path_finder.c.i
+sources/after_finding_paths.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/after_finding_paths.c.i
+.PHONY : sources/after_finding_paths.c.i
 
-path_finder.s: path_finder.c.s
+sources/after_finding_paths.s: sources/after_finding_paths.c.s
 
-.PHONY : path_finder.s
+.PHONY : sources/after_finding_paths.s
 
 # target to generate assembly for a file
-path_finder.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/path_finder.c.s
-.PHONY : path_finder.c.s
+sources/after_finding_paths.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/after_finding_paths.c.s
+.PHONY : sources/after_finding_paths.c.s
 
-read_ants.obj: read_ants.c.obj
+sources/ant_steps.obj: sources/ant_steps.c.obj
 
-.PHONY : read_ants.obj
+.PHONY : sources/ant_steps.obj
 
 # target to build an object file
-read_ants.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_ants.c.obj
-.PHONY : read_ants.c.obj
+sources/ant_steps.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ant_steps.c.obj
+.PHONY : sources/ant_steps.c.obj
 
-read_ants.i: read_ants.c.i
+sources/ant_steps.i: sources/ant_steps.c.i
 
-.PHONY : read_ants.i
+.PHONY : sources/ant_steps.i
 
 # target to preprocess a source file
-read_ants.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_ants.c.i
-.PHONY : read_ants.c.i
+sources/ant_steps.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ant_steps.c.i
+.PHONY : sources/ant_steps.c.i
 
-read_ants.s: read_ants.c.s
+sources/ant_steps.s: sources/ant_steps.c.s
 
-.PHONY : read_ants.s
+.PHONY : sources/ant_steps.s
 
 # target to generate assembly for a file
-read_ants.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_ants.c.s
-.PHONY : read_ants.c.s
+sources/ant_steps.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ant_steps.c.s
+.PHONY : sources/ant_steps.c.s
 
-read_links.obj: read_links.c.obj
+sources/ants_run_like_shit.obj: sources/ants_run_like_shit.c.obj
 
-.PHONY : read_links.obj
+.PHONY : sources/ants_run_like_shit.obj
 
 # target to build an object file
-read_links.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_links.c.obj
-.PHONY : read_links.c.obj
+sources/ants_run_like_shit.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj
+.PHONY : sources/ants_run_like_shit.c.obj
 
-read_links.i: read_links.c.i
+sources/ants_run_like_shit.i: sources/ants_run_like_shit.c.i
 
-.PHONY : read_links.i
+.PHONY : sources/ants_run_like_shit.i
 
 # target to preprocess a source file
-read_links.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_links.c.i
-.PHONY : read_links.c.i
+sources/ants_run_like_shit.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.i
+.PHONY : sources/ants_run_like_shit.c.i
 
-read_links.s: read_links.c.s
+sources/ants_run_like_shit.s: sources/ants_run_like_shit.c.s
 
-.PHONY : read_links.s
+.PHONY : sources/ants_run_like_shit.s
 
 # target to generate assembly for a file
-read_links.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_links.c.s
-.PHONY : read_links.c.s
+sources/ants_run_like_shit.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.s
+.PHONY : sources/ants_run_like_shit.c.s
 
-read_rooms.obj: read_rooms.c.obj
+sources/best_next.obj: sources/best_next.c.obj
 
-.PHONY : read_rooms.obj
+.PHONY : sources/best_next.obj
 
 # target to build an object file
-read_rooms.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_rooms.c.obj
-.PHONY : read_rooms.c.obj
+sources/best_next.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/best_next.c.obj
+.PHONY : sources/best_next.c.obj
 
-read_rooms.i: read_rooms.c.i
+sources/best_next.i: sources/best_next.c.i
 
-.PHONY : read_rooms.i
+.PHONY : sources/best_next.i
 
 # target to preprocess a source file
-read_rooms.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_rooms.c.i
-.PHONY : read_rooms.c.i
+sources/best_next.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/best_next.c.i
+.PHONY : sources/best_next.c.i
 
-read_rooms.s: read_rooms.c.s
+sources/best_next.s: sources/best_next.c.s
 
-.PHONY : read_rooms.s
+.PHONY : sources/best_next.s
 
 # target to generate assembly for a file
-read_rooms.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/read_rooms.c.s
-.PHONY : read_rooms.c.s
+sources/best_next.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/best_next.c.s
+.PHONY : sources/best_next.c.s
 
-search_left_paths.obj: search_left_paths.c.obj
+sources/best_room_definition.obj: sources/best_room_definition.c.obj
 
-.PHONY : search_left_paths.obj
+.PHONY : sources/best_room_definition.obj
 
 # target to build an object file
-search_left_paths.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_left_paths.c.obj
-.PHONY : search_left_paths.c.obj
+sources/best_room_definition.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/best_room_definition.c.obj
+.PHONY : sources/best_room_definition.c.obj
 
-search_left_paths.i: search_left_paths.c.i
+sources/best_room_definition.i: sources/best_room_definition.c.i
 
-.PHONY : search_left_paths.i
+.PHONY : sources/best_room_definition.i
 
 # target to preprocess a source file
-search_left_paths.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_left_paths.c.i
-.PHONY : search_left_paths.c.i
+sources/best_room_definition.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/best_room_definition.c.i
+.PHONY : sources/best_room_definition.c.i
 
-search_left_paths.s: search_left_paths.c.s
+sources/best_room_definition.s: sources/best_room_definition.c.s
 
-.PHONY : search_left_paths.s
+.PHONY : sources/best_room_definition.s
 
 # target to generate assembly for a file
-search_left_paths.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_left_paths.c.s
-.PHONY : search_left_paths.c.s
+sources/best_room_definition.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/best_room_definition.c.s
+.PHONY : sources/best_room_definition.c.s
 
-search_paths.obj: search_paths.c.obj
+sources/duplicate_values.obj: sources/duplicate_values.c.obj
 
-.PHONY : search_paths.obj
+.PHONY : sources/duplicate_values.obj
 
 # target to build an object file
-search_paths.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_paths.c.obj
-.PHONY : search_paths.c.obj
+sources/duplicate_values.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/duplicate_values.c.obj
+.PHONY : sources/duplicate_values.c.obj
 
-search_paths.i: search_paths.c.i
+sources/duplicate_values.i: sources/duplicate_values.c.i
 
-.PHONY : search_paths.i
+.PHONY : sources/duplicate_values.i
 
 # target to preprocess a source file
-search_paths.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_paths.c.i
-.PHONY : search_paths.c.i
+sources/duplicate_values.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/duplicate_values.c.i
+.PHONY : sources/duplicate_values.c.i
 
-search_paths.s: search_paths.c.s
+sources/duplicate_values.s: sources/duplicate_values.c.s
 
-.PHONY : search_paths.s
+.PHONY : sources/duplicate_values.s
 
 # target to generate assembly for a file
-search_paths.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/search_paths.c.s
-.PHONY : search_paths.c.s
+sources/duplicate_values.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/duplicate_values.c.s
+.PHONY : sources/duplicate_values.c.s
 
-second_searching.obj: second_searching.c.obj
+sources/filling.obj: sources/filling.c.obj
 
-.PHONY : second_searching.obj
+.PHONY : sources/filling.obj
 
 # target to build an object file
-second_searching.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/second_searching.c.obj
-.PHONY : second_searching.c.obj
+sources/filling.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/filling.c.obj
+.PHONY : sources/filling.c.obj
 
-second_searching.i: second_searching.c.i
+sources/filling.i: sources/filling.c.i
 
-.PHONY : second_searching.i
+.PHONY : sources/filling.i
 
 # target to preprocess a source file
-second_searching.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/second_searching.c.i
-.PHONY : second_searching.c.i
+sources/filling.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/filling.c.i
+.PHONY : sources/filling.c.i
 
-second_searching.s: second_searching.c.s
+sources/filling.s: sources/filling.c.s
 
-.PHONY : second_searching.s
+.PHONY : sources/filling.s
 
 # target to generate assembly for a file
-second_searching.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/second_searching.c.s
-.PHONY : second_searching.c.s
+sources/filling.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/filling.c.s
+.PHONY : sources/filling.c.s
 
-tips_for_algo.obj: tips_for_algo.c.obj
+sources/freeshing.obj: sources/freeshing.c.obj
 
-.PHONY : tips_for_algo.obj
+.PHONY : sources/freeshing.obj
 
 # target to build an object file
-tips_for_algo.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/tips_for_algo.c.obj
-.PHONY : tips_for_algo.c.obj
+sources/freeshing.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/freeshing.c.obj
+.PHONY : sources/freeshing.c.obj
 
-tips_for_algo.i: tips_for_algo.c.i
+sources/freeshing.i: sources/freeshing.c.i
 
-.PHONY : tips_for_algo.i
+.PHONY : sources/freeshing.i
 
 # target to preprocess a source file
-tips_for_algo.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/tips_for_algo.c.i
-.PHONY : tips_for_algo.c.i
+sources/freeshing.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/freeshing.c.i
+.PHONY : sources/freeshing.c.i
 
-tips_for_algo.s: tips_for_algo.c.s
+sources/freeshing.s: sources/freeshing.c.s
 
-.PHONY : tips_for_algo.s
+.PHONY : sources/freeshing.s
 
 # target to generate assembly for a file
-tips_for_algo.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/tips_for_algo.c.s
-.PHONY : tips_for_algo.c.s
+sources/freeshing.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/freeshing.c.s
+.PHONY : sources/freeshing.c.s
 
-utils.obj: utils.c.obj
+sources/get_me_paths_lawd.obj: sources/get_me_paths_lawd.c.obj
 
-.PHONY : utils.obj
+.PHONY : sources/get_me_paths_lawd.obj
 
 # target to build an object file
-utils.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/utils.c.obj
-.PHONY : utils.c.obj
+sources/get_me_paths_lawd.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj
+.PHONY : sources/get_me_paths_lawd.c.obj
 
-utils.i: utils.c.i
+sources/get_me_paths_lawd.i: sources/get_me_paths_lawd.c.i
 
-.PHONY : utils.i
+.PHONY : sources/get_me_paths_lawd.i
 
 # target to preprocess a source file
-utils.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/utils.c.i
-.PHONY : utils.c.i
+sources/get_me_paths_lawd.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.i
+.PHONY : sources/get_me_paths_lawd.c.i
 
-utils.s: utils.c.s
+sources/get_me_paths_lawd.s: sources/get_me_paths_lawd.c.s
 
-.PHONY : utils.s
+.PHONY : sources/get_me_paths_lawd.s
 
 # target to generate assembly for a file
-utils.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/utils.c.s
-.PHONY : utils.c.s
+sources/get_me_paths_lawd.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.s
+.PHONY : sources/get_me_paths_lawd.c.s
 
-valid.obj: valid.c.obj
+sources/go.obj: sources/go.c.obj
 
-.PHONY : valid.obj
+.PHONY : sources/go.obj
 
 # target to build an object file
-valid.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/valid.c.obj
-.PHONY : valid.c.obj
+sources/go.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/go.c.obj
+.PHONY : sources/go.c.obj
 
-valid.i: valid.c.i
+sources/go.i: sources/go.c.i
 
-.PHONY : valid.i
+.PHONY : sources/go.i
 
 # target to preprocess a source file
-valid.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/valid.c.i
-.PHONY : valid.c.i
+sources/go.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/go.c.i
+.PHONY : sources/go.c.i
 
-valid.s: valid.c.s
+sources/go.s: sources/go.c.s
 
-.PHONY : valid.s
+.PHONY : sources/go.s
 
 # target to generate assembly for a file
-valid.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/valid.c.s
-.PHONY : valid.c.s
+sources/go.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/go.c.s
+.PHONY : sources/go.c.s
 
-ways_modification.obj: ways_modification.c.obj
+sources/lemin.obj: sources/lemin.c.obj
 
-.PHONY : ways_modification.obj
+.PHONY : sources/lemin.obj
 
 # target to build an object file
-ways_modification.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ways_modification.c.obj
-.PHONY : ways_modification.c.obj
+sources/lemin.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/lemin.c.obj
+.PHONY : sources/lemin.c.obj
 
-ways_modification.i: ways_modification.c.i
+sources/lemin.i: sources/lemin.c.i
 
-.PHONY : ways_modification.i
+.PHONY : sources/lemin.i
 
 # target to preprocess a source file
-ways_modification.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ways_modification.c.i
-.PHONY : ways_modification.c.i
+sources/lemin.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/lemin.c.i
+.PHONY : sources/lemin.c.i
 
-ways_modification.s: ways_modification.c.s
+sources/lemin.s: sources/lemin.c.s
 
-.PHONY : ways_modification.s
+.PHONY : sources/lemin.s
 
 # target to generate assembly for a file
-ways_modification.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/ways_modification.c.s
-.PHONY : ways_modification.c.s
+sources/lemin.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/lemin.c.s
+.PHONY : sources/lemin.c.s
+
+sources/main_algo_part.obj: sources/main_algo_part.c.obj
+
+.PHONY : sources/main_algo_part.obj
+
+# target to build an object file
+sources/main_algo_part.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/main_algo_part.c.obj
+.PHONY : sources/main_algo_part.c.obj
+
+sources/main_algo_part.i: sources/main_algo_part.c.i
+
+.PHONY : sources/main_algo_part.i
+
+# target to preprocess a source file
+sources/main_algo_part.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/main_algo_part.c.i
+.PHONY : sources/main_algo_part.c.i
+
+sources/main_algo_part.s: sources/main_algo_part.c.s
+
+.PHONY : sources/main_algo_part.s
+
+# target to generate assembly for a file
+sources/main_algo_part.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/main_algo_part.c.s
+.PHONY : sources/main_algo_part.c.s
+
+sources/move_one_way.obj: sources/move_one_way.c.obj
+
+.PHONY : sources/move_one_way.obj
+
+# target to build an object file
+sources/move_one_way.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/move_one_way.c.obj
+.PHONY : sources/move_one_way.c.obj
+
+sources/move_one_way.i: sources/move_one_way.c.i
+
+.PHONY : sources/move_one_way.i
+
+# target to preprocess a source file
+sources/move_one_way.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/move_one_way.c.i
+.PHONY : sources/move_one_way.c.i
+
+sources/move_one_way.s: sources/move_one_way.c.s
+
+.PHONY : sources/move_one_way.s
+
+# target to generate assembly for a file
+sources/move_one_way.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/move_one_way.c.s
+.PHONY : sources/move_one_way.c.s
+
+sources/path_finder.obj: sources/path_finder.c.obj
+
+.PHONY : sources/path_finder.obj
+
+# target to build an object file
+sources/path_finder.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_finder.c.obj
+.PHONY : sources/path_finder.c.obj
+
+sources/path_finder.i: sources/path_finder.c.i
+
+.PHONY : sources/path_finder.i
+
+# target to preprocess a source file
+sources/path_finder.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_finder.c.i
+.PHONY : sources/path_finder.c.i
+
+sources/path_finder.s: sources/path_finder.c.s
+
+.PHONY : sources/path_finder.s
+
+# target to generate assembly for a file
+sources/path_finder.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_finder.c.s
+.PHONY : sources/path_finder.c.s
+
+sources/read_ants.obj: sources/read_ants.c.obj
+
+.PHONY : sources/read_ants.obj
+
+# target to build an object file
+sources/read_ants.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_ants.c.obj
+.PHONY : sources/read_ants.c.obj
+
+sources/read_ants.i: sources/read_ants.c.i
+
+.PHONY : sources/read_ants.i
+
+# target to preprocess a source file
+sources/read_ants.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_ants.c.i
+.PHONY : sources/read_ants.c.i
+
+sources/read_ants.s: sources/read_ants.c.s
+
+.PHONY : sources/read_ants.s
+
+# target to generate assembly for a file
+sources/read_ants.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_ants.c.s
+.PHONY : sources/read_ants.c.s
+
+sources/read_links.obj: sources/read_links.c.obj
+
+.PHONY : sources/read_links.obj
+
+# target to build an object file
+sources/read_links.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_links.c.obj
+.PHONY : sources/read_links.c.obj
+
+sources/read_links.i: sources/read_links.c.i
+
+.PHONY : sources/read_links.i
+
+# target to preprocess a source file
+sources/read_links.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_links.c.i
+.PHONY : sources/read_links.c.i
+
+sources/read_links.s: sources/read_links.c.s
+
+.PHONY : sources/read_links.s
+
+# target to generate assembly for a file
+sources/read_links.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_links.c.s
+.PHONY : sources/read_links.c.s
+
+sources/read_rooms.obj: sources/read_rooms.c.obj
+
+.PHONY : sources/read_rooms.obj
+
+# target to build an object file
+sources/read_rooms.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_rooms.c.obj
+.PHONY : sources/read_rooms.c.obj
+
+sources/read_rooms.i: sources/read_rooms.c.i
+
+.PHONY : sources/read_rooms.i
+
+# target to preprocess a source file
+sources/read_rooms.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_rooms.c.i
+.PHONY : sources/read_rooms.c.i
+
+sources/read_rooms.s: sources/read_rooms.c.s
+
+.PHONY : sources/read_rooms.s
+
+# target to generate assembly for a file
+sources/read_rooms.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_rooms.c.s
+.PHONY : sources/read_rooms.c.s
+
+sources/rooms_description.obj: sources/rooms_description.c.obj
+
+.PHONY : sources/rooms_description.obj
+
+# target to build an object file
+sources/rooms_description.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/rooms_description.c.obj
+.PHONY : sources/rooms_description.c.obj
+
+sources/rooms_description.i: sources/rooms_description.c.i
+
+.PHONY : sources/rooms_description.i
+
+# target to preprocess a source file
+sources/rooms_description.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/rooms_description.c.i
+.PHONY : sources/rooms_description.c.i
+
+sources/rooms_description.s: sources/rooms_description.c.s
+
+.PHONY : sources/rooms_description.s
+
+# target to generate assembly for a file
+sources/rooms_description.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/rooms_description.c.s
+.PHONY : sources/rooms_description.c.s
+
+sources/search_intersections.obj: sources/search_intersections.c.obj
+
+.PHONY : sources/search_intersections.obj
+
+# target to build an object file
+sources/search_intersections.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/search_intersections.c.obj
+.PHONY : sources/search_intersections.c.obj
+
+sources/search_intersections.i: sources/search_intersections.c.i
+
+.PHONY : sources/search_intersections.i
+
+# target to preprocess a source file
+sources/search_intersections.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/search_intersections.c.i
+.PHONY : sources/search_intersections.c.i
+
+sources/search_intersections.s: sources/search_intersections.c.s
+
+.PHONY : sources/search_intersections.s
+
+# target to generate assembly for a file
+sources/search_intersections.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/search_intersections.c.s
+.PHONY : sources/search_intersections.c.s
+
+sources/search_paths.obj: sources/search_paths.c.obj
+
+.PHONY : sources/search_paths.obj
+
+# target to build an object file
+sources/search_paths.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/search_paths.c.obj
+.PHONY : sources/search_paths.c.obj
+
+sources/search_paths.i: sources/search_paths.c.i
+
+.PHONY : sources/search_paths.i
+
+# target to preprocess a source file
+sources/search_paths.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/search_paths.c.i
+.PHONY : sources/search_paths.c.i
+
+sources/search_paths.s: sources/search_paths.c.s
+
+.PHONY : sources/search_paths.s
+
+# target to generate assembly for a file
+sources/search_paths.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/search_paths.c.s
+.PHONY : sources/search_paths.c.s
+
+sources/second_searching.obj: sources/second_searching.c.obj
+
+.PHONY : sources/second_searching.obj
+
+# target to build an object file
+sources/second_searching.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/second_searching.c.obj
+.PHONY : sources/second_searching.c.obj
+
+sources/second_searching.i: sources/second_searching.c.i
+
+.PHONY : sources/second_searching.i
+
+# target to preprocess a source file
+sources/second_searching.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/second_searching.c.i
+.PHONY : sources/second_searching.c.i
+
+sources/second_searching.s: sources/second_searching.c.s
+
+.PHONY : sources/second_searching.s
+
+# target to generate assembly for a file
+sources/second_searching.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/second_searching.c.s
+.PHONY : sources/second_searching.c.s
+
+sources/utils.obj: sources/utils.c.obj
+
+.PHONY : sources/utils.obj
+
+# target to build an object file
+sources/utils.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/utils.c.obj
+.PHONY : sources/utils.c.obj
+
+sources/utils.i: sources/utils.c.i
+
+.PHONY : sources/utils.i
+
+# target to preprocess a source file
+sources/utils.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/utils.c.i
+.PHONY : sources/utils.c.i
+
+sources/utils.s: sources/utils.c.s
+
+.PHONY : sources/utils.s
+
+# target to generate assembly for a file
+sources/utils.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/utils.c.s
+.PHONY : sources/utils.c.s
+
+sources/valid.obj: sources/valid.c.obj
+
+.PHONY : sources/valid.obj
+
+# target to build an object file
+sources/valid.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/valid.c.obj
+.PHONY : sources/valid.c.obj
+
+sources/valid.i: sources/valid.c.i
+
+.PHONY : sources/valid.i
+
+# target to preprocess a source file
+sources/valid.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/valid.c.i
+.PHONY : sources/valid.c.i
+
+sources/valid.s: sources/valid.c.s
+
+.PHONY : sources/valid.s
+
+# target to generate assembly for a file
+sources/valid.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/valid.c.s
+.PHONY : sources/valid.c.s
+
+sources/ways_modification.obj: sources/ways_modification.c.obj
+
+.PHONY : sources/ways_modification.obj
+
+# target to build an object file
+sources/ways_modification.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ways_modification.c.obj
+.PHONY : sources/ways_modification.c.obj
+
+sources/ways_modification.i: sources/ways_modification.c.i
+
+.PHONY : sources/ways_modification.i
+
+# target to preprocess a source file
+sources/ways_modification.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ways_modification.c.i
+.PHONY : sources/ways_modification.c.i
+
+sources/ways_modification.s: sources/ways_modification.c.s
+
+.PHONY : sources/ways_modification.s
+
+# target to generate assembly for a file
+sources/ways_modification.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/ways_modification.c.s
+.PHONY : sources/ways_modification.c.s
 
 # Help Target
 help:
@@ -2561,42 +2561,6 @@ help:
 	@echo ... c_check
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... after_finding_paths.obj
-	@echo ... after_finding_paths.i
-	@echo ... after_finding_paths.s
-	@echo ... ant_steps.obj
-	@echo ... ant_steps.i
-	@echo ... ant_steps.s
-	@echo ... ants_run_like_shit.obj
-	@echo ... ants_run_like_shit.i
-	@echo ... ants_run_like_shit.s
-	@echo ... best_next.obj
-	@echo ... best_next.i
-	@echo ... best_next.s
-	@echo ... best_room_definition.obj
-	@echo ... best_room_definition.i
-	@echo ... best_room_definition.s
-	@echo ... duplicate_values.obj
-	@echo ... duplicate_values.i
-	@echo ... duplicate_values.s
-	@echo ... filling.obj
-	@echo ... filling.i
-	@echo ... filling.s
-	@echo ... freeshing.obj
-	@echo ... freeshing.i
-	@echo ... freeshing.s
-	@echo ... get_me_paths_lawd.obj
-	@echo ... get_me_paths_lawd.i
-	@echo ... get_me_paths_lawd.s
-	@echo ... go.obj
-	@echo ... go.i
-	@echo ... go.s
-	@echo ... lemin.obj
-	@echo ... lemin.i
-	@echo ... lemin.s
-	@echo ... levels_and_links.obj
-	@echo ... levels_and_links.i
-	@echo ... levels_and_links.s
 	@echo ... libft/ft_atoi.obj
 	@echo ... libft/ft_atoi.i
 	@echo ... libft/ft_atoi.s
@@ -2795,42 +2759,78 @@ help:
 	@echo ... libft/get_next_line.obj
 	@echo ... libft/get_next_line.i
 	@echo ... libft/get_next_line.s
-	@echo ... move_one_way.obj
-	@echo ... move_one_way.i
-	@echo ... move_one_way.s
-	@echo ... path_finder.obj
-	@echo ... path_finder.i
-	@echo ... path_finder.s
-	@echo ... read_ants.obj
-	@echo ... read_ants.i
-	@echo ... read_ants.s
-	@echo ... read_links.obj
-	@echo ... read_links.i
-	@echo ... read_links.s
-	@echo ... read_rooms.obj
-	@echo ... read_rooms.i
-	@echo ... read_rooms.s
-	@echo ... search_left_paths.obj
-	@echo ... search_left_paths.i
-	@echo ... search_left_paths.s
-	@echo ... search_paths.obj
-	@echo ... search_paths.i
-	@echo ... search_paths.s
-	@echo ... second_searching.obj
-	@echo ... second_searching.i
-	@echo ... second_searching.s
-	@echo ... tips_for_algo.obj
-	@echo ... tips_for_algo.i
-	@echo ... tips_for_algo.s
-	@echo ... utils.obj
-	@echo ... utils.i
-	@echo ... utils.s
-	@echo ... valid.obj
-	@echo ... valid.i
-	@echo ... valid.s
-	@echo ... ways_modification.obj
-	@echo ... ways_modification.i
-	@echo ... ways_modification.s
+	@echo ... sources/after_finding_paths.obj
+	@echo ... sources/after_finding_paths.i
+	@echo ... sources/after_finding_paths.s
+	@echo ... sources/ant_steps.obj
+	@echo ... sources/ant_steps.i
+	@echo ... sources/ant_steps.s
+	@echo ... sources/ants_run_like_shit.obj
+	@echo ... sources/ants_run_like_shit.i
+	@echo ... sources/ants_run_like_shit.s
+	@echo ... sources/best_next.obj
+	@echo ... sources/best_next.i
+	@echo ... sources/best_next.s
+	@echo ... sources/best_room_definition.obj
+	@echo ... sources/best_room_definition.i
+	@echo ... sources/best_room_definition.s
+	@echo ... sources/duplicate_values.obj
+	@echo ... sources/duplicate_values.i
+	@echo ... sources/duplicate_values.s
+	@echo ... sources/filling.obj
+	@echo ... sources/filling.i
+	@echo ... sources/filling.s
+	@echo ... sources/freeshing.obj
+	@echo ... sources/freeshing.i
+	@echo ... sources/freeshing.s
+	@echo ... sources/get_me_paths_lawd.obj
+	@echo ... sources/get_me_paths_lawd.i
+	@echo ... sources/get_me_paths_lawd.s
+	@echo ... sources/go.obj
+	@echo ... sources/go.i
+	@echo ... sources/go.s
+	@echo ... sources/lemin.obj
+	@echo ... sources/lemin.i
+	@echo ... sources/lemin.s
+	@echo ... sources/main_algo_part.obj
+	@echo ... sources/main_algo_part.i
+	@echo ... sources/main_algo_part.s
+	@echo ... sources/move_one_way.obj
+	@echo ... sources/move_one_way.i
+	@echo ... sources/move_one_way.s
+	@echo ... sources/path_finder.obj
+	@echo ... sources/path_finder.i
+	@echo ... sources/path_finder.s
+	@echo ... sources/read_ants.obj
+	@echo ... sources/read_ants.i
+	@echo ... sources/read_ants.s
+	@echo ... sources/read_links.obj
+	@echo ... sources/read_links.i
+	@echo ... sources/read_links.s
+	@echo ... sources/read_rooms.obj
+	@echo ... sources/read_rooms.i
+	@echo ... sources/read_rooms.s
+	@echo ... sources/rooms_description.obj
+	@echo ... sources/rooms_description.i
+	@echo ... sources/rooms_description.s
+	@echo ... sources/search_intersections.obj
+	@echo ... sources/search_intersections.i
+	@echo ... sources/search_intersections.s
+	@echo ... sources/search_paths.obj
+	@echo ... sources/search_paths.i
+	@echo ... sources/search_paths.s
+	@echo ... sources/second_searching.obj
+	@echo ... sources/second_searching.i
+	@echo ... sources/second_searching.s
+	@echo ... sources/utils.obj
+	@echo ... sources/utils.i
+	@echo ... sources/utils.s
+	@echo ... sources/valid.obj
+	@echo ... sources/valid.i
+	@echo ... sources/valid.s
+	@echo ... sources/ways_modification.obj
+	@echo ... sources/ways_modification.i
+	@echo ... sources/ways_modification.s
 .PHONY : help
 
 
