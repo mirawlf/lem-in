@@ -3,3 +3,11 @@
 .DS_Store
 a.out
 .idea
+*.dll
+*.so
+*.so.*
+*.dylib
+*.dSYM/
+*.su
+*.idb
+*.pdb
