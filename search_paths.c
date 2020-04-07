@@ -114,7 +114,8 @@ void			remake_paths(t_room *current, t_main *map)
 
 	next = current->where;
 	link = map->all_links_here;
-	next->from = NULL;
+	if (next)
+		next->from = NULL;
 	while (link)
 	{
 		if ((link->first_room == current && link->second_room == next)
@@ -138,7 +139,7 @@ void			remake_paths(t_room *current, t_main *map)
 		}
 		link = link->next;
 	}
-	if (!next->from)
+	if (next && !next->from)
     {
 	    next->from = current;
 	    link = map->all_links_here;

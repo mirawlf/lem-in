@@ -1036,24 +1036,10 @@ CMakeFiles/c_check.dir/best_room_definition.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/best_room_definition.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\best_room_definition.c -o CMakeFiles\c_check.dir\best_room_definition.c.s
 
-CMakeFiles/c_check.dir/check_end_connections.c.obj: CMakeFiles/c_check.dir/flags.make
-CMakeFiles/c_check.dir/check_end_connections.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
-CMakeFiles/c_check.dir/check_end_connections.c.obj: ../check_end_connections.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/c_check.dir/check_end_connections.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\check_end_connections.c.obj   -c C:\Users\Elmira\Desktop\c_check\check_end_connections.c
-
-CMakeFiles/c_check.dir/check_end_connections.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/check_end_connections.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\check_end_connections.c > CMakeFiles\c_check.dir\check_end_connections.c.i
-
-CMakeFiles/c_check.dir/check_end_connections.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/check_end_connections.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\check_end_connections.c -o CMakeFiles\c_check.dir\check_end_connections.c.s
-
 CMakeFiles/c_check.dir/duplicate_values.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/duplicate_values.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/duplicate_values.c.obj: ../duplicate_values.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/c_check.dir/duplicate_values.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/c_check.dir/duplicate_values.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\duplicate_values.c.obj   -c C:\Users\Elmira\Desktop\c_check\duplicate_values.c
 
 CMakeFiles/c_check.dir/duplicate_values.c.i: cmake_force
@@ -1067,7 +1053,7 @@ CMakeFiles/c_check.dir/duplicate_values.c.s: cmake_force
 CMakeFiles/c_check.dir/filling.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/filling.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/filling.c.obj: ../filling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/c_check.dir/filling.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/c_check.dir/filling.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\filling.c.obj   -c C:\Users\Elmira\Desktop\c_check\filling.c
 
 CMakeFiles/c_check.dir/filling.c.i: cmake_force
@@ -1081,7 +1067,7 @@ CMakeFiles/c_check.dir/filling.c.s: cmake_force
 CMakeFiles/c_check.dir/freeshing.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/freeshing.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/freeshing.c.obj: ../freeshing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/c_check.dir/freeshing.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/c_check.dir/freeshing.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\freeshing.c.obj   -c C:\Users\Elmira\Desktop\c_check\freeshing.c
 
 CMakeFiles/c_check.dir/freeshing.c.i: cmake_force
@@ -1095,7 +1081,7 @@ CMakeFiles/c_check.dir/freeshing.c.s: cmake_force
 CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj: ../get_me_paths_lawd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/c_check.dir/get_me_paths_lawd.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\get_me_paths_lawd.c.obj   -c C:\Users\Elmira\Desktop\c_check\get_me_paths_lawd.c
 
 CMakeFiles/c_check.dir/get_me_paths_lawd.c.i: cmake_force
@@ -1109,7 +1095,7 @@ CMakeFiles/c_check.dir/get_me_paths_lawd.c.s: cmake_force
 CMakeFiles/c_check.dir/go.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/go.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/go.c.obj: ../go.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/c_check.dir/go.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/c_check.dir/go.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\go.c.obj   -c C:\Users\Elmira\Desktop\c_check\go.c
 
 CMakeFiles/c_check.dir/go.c.i: cmake_force
@@ -1123,7 +1109,7 @@ CMakeFiles/c_check.dir/go.c.s: cmake_force
 CMakeFiles/c_check.dir/lemin.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/lemin.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/lemin.c.obj: ../lemin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/c_check.dir/lemin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/c_check.dir/lemin.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\lemin.c.obj   -c C:\Users\Elmira\Desktop\c_check\lemin.c
 
 CMakeFiles/c_check.dir/lemin.c.i: cmake_force
@@ -1137,7 +1123,7 @@ CMakeFiles/c_check.dir/lemin.c.s: cmake_force
 CMakeFiles/c_check.dir/levels_and_links.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/levels_and_links.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/levels_and_links.c.obj: ../levels_and_links.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/c_check.dir/levels_and_links.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/c_check.dir/levels_and_links.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\levels_and_links.c.obj   -c C:\Users\Elmira\Desktop\c_check\levels_and_links.c
 
 CMakeFiles/c_check.dir/levels_and_links.c.i: cmake_force
@@ -1151,7 +1137,7 @@ CMakeFiles/c_check.dir/levels_and_links.c.s: cmake_force
 CMakeFiles/c_check.dir/move_one_way.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/move_one_way.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/move_one_way.c.obj: ../move_one_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/c_check.dir/move_one_way.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/c_check.dir/move_one_way.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\move_one_way.c.obj   -c C:\Users\Elmira\Desktop\c_check\move_one_way.c
 
 CMakeFiles/c_check.dir/move_one_way.c.i: cmake_force
@@ -1165,7 +1151,7 @@ CMakeFiles/c_check.dir/move_one_way.c.s: cmake_force
 CMakeFiles/c_check.dir/path_finder.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/path_finder.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/path_finder.c.obj: ../path_finder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/c_check.dir/path_finder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/c_check.dir/path_finder.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\path_finder.c.obj   -c C:\Users\Elmira\Desktop\c_check\path_finder.c
 
 CMakeFiles/c_check.dir/path_finder.c.i: cmake_force
@@ -1179,7 +1165,7 @@ CMakeFiles/c_check.dir/path_finder.c.s: cmake_force
 CMakeFiles/c_check.dir/read_ants.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/read_ants.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/read_ants.c.obj: ../read_ants.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/c_check.dir/read_ants.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/c_check.dir/read_ants.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\read_ants.c.obj   -c C:\Users\Elmira\Desktop\c_check\read_ants.c
 
 CMakeFiles/c_check.dir/read_ants.c.i: cmake_force
@@ -1193,7 +1179,7 @@ CMakeFiles/c_check.dir/read_ants.c.s: cmake_force
 CMakeFiles/c_check.dir/read_links.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/read_links.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/read_links.c.obj: ../read_links.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/c_check.dir/read_links.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/c_check.dir/read_links.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\read_links.c.obj   -c C:\Users\Elmira\Desktop\c_check\read_links.c
 
 CMakeFiles/c_check.dir/read_links.c.i: cmake_force
@@ -1207,7 +1193,7 @@ CMakeFiles/c_check.dir/read_links.c.s: cmake_force
 CMakeFiles/c_check.dir/read_rooms.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/read_rooms.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/read_rooms.c.obj: ../read_rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/c_check.dir/read_rooms.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/c_check.dir/read_rooms.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\read_rooms.c.obj   -c C:\Users\Elmira\Desktop\c_check\read_rooms.c
 
 CMakeFiles/c_check.dir/read_rooms.c.i: cmake_force
@@ -1221,7 +1207,7 @@ CMakeFiles/c_check.dir/read_rooms.c.s: cmake_force
 CMakeFiles/c_check.dir/search_paths.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/search_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/search_paths.c.obj: ../search_paths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/c_check.dir/search_paths.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/c_check.dir/search_paths.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\search_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\search_paths.c
 
 CMakeFiles/c_check.dir/search_paths.c.i: cmake_force
@@ -1235,7 +1221,7 @@ CMakeFiles/c_check.dir/search_paths.c.s: cmake_force
 CMakeFiles/c_check.dir/second_searching.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/second_searching.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/second_searching.c.obj: ../second_searching.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/c_check.dir/second_searching.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/c_check.dir/second_searching.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\second_searching.c.obj   -c C:\Users\Elmira\Desktop\c_check\second_searching.c
 
 CMakeFiles/c_check.dir/second_searching.c.i: cmake_force
@@ -1249,7 +1235,7 @@ CMakeFiles/c_check.dir/second_searching.c.s: cmake_force
 CMakeFiles/c_check.dir/tips_for_algo.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/tips_for_algo.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/tips_for_algo.c.obj: ../tips_for_algo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/c_check.dir/tips_for_algo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/c_check.dir/tips_for_algo.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\tips_for_algo.c.obj   -c C:\Users\Elmira\Desktop\c_check\tips_for_algo.c
 
 CMakeFiles/c_check.dir/tips_for_algo.c.i: cmake_force
@@ -1263,7 +1249,7 @@ CMakeFiles/c_check.dir/tips_for_algo.c.s: cmake_force
 CMakeFiles/c_check.dir/utils.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/utils.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/utils.c.obj: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/c_check.dir/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/c_check.dir/utils.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\utils.c.obj   -c C:\Users\Elmira\Desktop\c_check\utils.c
 
 CMakeFiles/c_check.dir/utils.c.i: cmake_force
@@ -1277,7 +1263,7 @@ CMakeFiles/c_check.dir/utils.c.s: cmake_force
 CMakeFiles/c_check.dir/valid.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/valid.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/valid.c.obj: ../valid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/c_check.dir/valid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/c_check.dir/valid.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\valid.c.obj   -c C:\Users\Elmira\Desktop\c_check\valid.c
 
 CMakeFiles/c_check.dir/valid.c.i: cmake_force
@@ -1291,7 +1277,7 @@ CMakeFiles/c_check.dir/valid.c.s: cmake_force
 CMakeFiles/c_check.dir/best_next.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/best_next.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/best_next.c.obj: ../best_next.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/c_check.dir/best_next.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/c_check.dir/best_next.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\best_next.c.obj   -c C:\Users\Elmira\Desktop\c_check\best_next.c
 
 CMakeFiles/c_check.dir/best_next.c.i: cmake_force
@@ -1305,7 +1291,7 @@ CMakeFiles/c_check.dir/best_next.c.s: cmake_force
 CMakeFiles/c_check.dir/ways_modification.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/ways_modification.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/ways_modification.c.obj: ../ways_modification.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/c_check.dir/ways_modification.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/c_check.dir/ways_modification.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\ways_modification.c.obj   -c C:\Users\Elmira\Desktop\c_check\ways_modification.c
 
 CMakeFiles/c_check.dir/ways_modification.c.i: cmake_force
@@ -1319,7 +1305,7 @@ CMakeFiles/c_check.dir/ways_modification.c.s: cmake_force
 CMakeFiles/c_check.dir/search_left_paths.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/search_left_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/search_left_paths.c.obj: ../search_left_paths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/c_check.dir/search_left_paths.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/c_check.dir/search_left_paths.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\search_left_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\search_left_paths.c
 
 CMakeFiles/c_check.dir/search_left_paths.c.i: cmake_force
@@ -1402,7 +1388,6 @@ c_check_OBJECTS = \
 "CMakeFiles/c_check.dir/ant_steps.c.obj" \
 "CMakeFiles/c_check.dir/ants_run_like_shit.c.obj" \
 "CMakeFiles/c_check.dir/best_room_definition.c.obj" \
-"CMakeFiles/c_check.dir/check_end_connections.c.obj" \
 "CMakeFiles/c_check.dir/duplicate_values.c.obj" \
 "CMakeFiles/c_check.dir/filling.c.obj" \
 "CMakeFiles/c_check.dir/freeshing.c.obj" \
@@ -1497,7 +1482,6 @@ c_check.exe: CMakeFiles/c_check.dir/after_finding_paths.c.obj
 c_check.exe: CMakeFiles/c_check.dir/ant_steps.c.obj
 c_check.exe: CMakeFiles/c_check.dir/ants_run_like_shit.c.obj
 c_check.exe: CMakeFiles/c_check.dir/best_room_definition.c.obj
-c_check.exe: CMakeFiles/c_check.dir/check_end_connections.c.obj
 c_check.exe: CMakeFiles/c_check.dir/duplicate_values.c.obj
 c_check.exe: CMakeFiles/c_check.dir/filling.c.obj
 c_check.exe: CMakeFiles/c_check.dir/freeshing.c.obj
@@ -1522,7 +1506,7 @@ c_check.exe: CMakeFiles/c_check.dir/build.make
 c_check.exe: CMakeFiles/c_check.dir/linklibs.rsp
 c_check.exe: CMakeFiles/c_check.dir/objects1.rsp
 c_check.exe: CMakeFiles/c_check.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Linking C executable c_check.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Linking C executable c_check.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c_check.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

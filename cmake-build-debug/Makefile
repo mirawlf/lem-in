@@ -257,33 +257,6 @@ best_room_definition.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/best_room_definition.c.s
 .PHONY : best_room_definition.c.s
 
-check_end_connections.obj: check_end_connections.c.obj
-
-.PHONY : check_end_connections.obj
-
-# target to build an object file
-check_end_connections.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/check_end_connections.c.obj
-.PHONY : check_end_connections.c.obj
-
-check_end_connections.i: check_end_connections.c.i
-
-.PHONY : check_end_connections.i
-
-# target to preprocess a source file
-check_end_connections.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/check_end_connections.c.i
-.PHONY : check_end_connections.c.i
-
-check_end_connections.s: check_end_connections.c.s
-
-.PHONY : check_end_connections.s
-
-# target to generate assembly for a file
-check_end_connections.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/check_end_connections.c.s
-.PHONY : check_end_connections.c.s
-
 duplicate_values.obj: duplicate_values.c.obj
 
 .PHONY : duplicate_values.obj
@@ -2603,9 +2576,6 @@ help:
 	@echo ... best_room_definition.obj
 	@echo ... best_room_definition.i
 	@echo ... best_room_definition.s
-	@echo ... check_end_connections.obj
-	@echo ... check_end_connections.i
-	@echo ... check_end_connections.s
 	@echo ... duplicate_values.obj
 	@echo ... duplicate_values.i
 	@echo ... duplicate_values.s

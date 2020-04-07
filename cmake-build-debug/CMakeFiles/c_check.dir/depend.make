@@ -26,11 +26,6 @@ CMakeFiles/c_check.dir/best_room_definition.c.obj: .././libft/libft.h
 CMakeFiles/c_check.dir/best_room_definition.c.obj: ../best_room_definition.c
 CMakeFiles/c_check.dir/best_room_definition.c.obj: ../lemin.h
 
-CMakeFiles/c_check.dir/check_end_connections.c.obj: .././libft/get_next_line.h
-CMakeFiles/c_check.dir/check_end_connections.c.obj: .././libft/libft.h
-CMakeFiles/c_check.dir/check_end_connections.c.obj: ../check_end_connections.c
-CMakeFiles/c_check.dir/check_end_connections.c.obj: ../lemin.h
-
 CMakeFiles/c_check.dir/duplicate_values.c.obj: .././libft/get_next_line.h
 CMakeFiles/c_check.dir/duplicate_values.c.obj: .././libft/libft.h
 CMakeFiles/c_check.dir/duplicate_values.c.obj: ../duplicate_values.c

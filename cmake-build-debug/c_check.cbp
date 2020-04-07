@@ -93,9 +93,6 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/best_room_definition.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/check_end_connections.c">
-			<Option target="c_check"/>
-		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/duplicate_values.c">
 			<Option target="c_check"/>
 		</Unit>

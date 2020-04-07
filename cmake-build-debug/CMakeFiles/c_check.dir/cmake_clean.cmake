@@ -69,7 +69,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_check.dir/ant_steps.c.obj"
   "CMakeFiles/c_check.dir/ants_run_like_shit.c.obj"
   "CMakeFiles/c_check.dir/best_room_definition.c.obj"
-  "CMakeFiles/c_check.dir/check_end_connections.c.obj"
   "CMakeFiles/c_check.dir/duplicate_values.c.obj"
   "CMakeFiles/c_check.dir/filling.c.obj"
   "CMakeFiles/c_check.dir/freeshing.c.obj"

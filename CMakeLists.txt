@@ -79,7 +79,6 @@ add_executable(c_check
         ant_steps.c
         ants_run_like_shit.c
         best_room_definition.c
-        check_end_connections.c
         duplicate_values.c
         filling.c
         freeshing.c
