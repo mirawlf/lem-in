@@ -12,6 +12,23 @@
 
 #include "lemin.h"
 
+int			valid_coords(t_room *room, t_room *list)
+{
+	t_room	*start;
+
+	start = list;
+	while (start)
+	{
+		if (start->x == room->x)
+		{
+			if (start->y == room->y)
+				return (0);
+		}
+		start = start->next;
+	}
+	return (1);
+}
+
 static t_room *make_room(t_room *room, char *line, t_main *data)
 {
 	t_room	*result;

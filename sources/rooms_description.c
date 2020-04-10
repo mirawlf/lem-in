@@ -34,29 +34,6 @@ void			dead_ends(t_main *map)
 	}
 }
 
-void			count_inputs_and_outputs(t_main *map)
-{
-	t_link		*link;
-
-	link = map->all_links_here;
-	while (link)
-	{
-		if (link->first_room == map->end ||
-		link->second_room->level < link->first_room->level)
-		{
-			link->first_room->inputs++;
-			link->second_room->outputs++;
-		}
-		else if (link->second_room == map->end ||
-		link->first_room->level < link->second_room->level)
-		{
-			link->second_room->inputs++;
-			link->first_room->outputs++;
-		}
-		link = link->next;
-	}
-}
-
 static int		appoint_level(t_room *room, t_link *link, int lvl)
 {
 	room->level = lvl;
@@ -88,4 +65,27 @@ void			next_levels(t_main *map, int max_curr_lvl)
 	}
 	if (change == 1)
 		next_levels(map, max_curr_lvl + 1);
+}
+
+void			count_inputs_and_outputs(t_main *map)
+{
+	t_link		*link;
+
+	link = map->all_links_here;
+	while (link)
+	{
+		if (link->first_room == map->end ||
+			link->second_room->level < link->first_room->level)
+		{
+			link->first_room->inputs++;
+			link->second_room->outputs++;
+		}
+		else if (link->second_room == map->end ||
+				 link->first_room->level < link->second_room->level)
+		{
+			link->second_room->inputs++;
+			link->first_room->outputs++;
+		}
+		link = link->next;
+	}
 }

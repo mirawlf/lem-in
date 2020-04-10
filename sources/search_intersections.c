@@ -5,9 +5,7 @@ void		delete_this_path(t_main *map, t_path *path)
 	t_path	*tmp;
 
 	if (map->endway->path == path)
-	{
 		map->endway->path = map->endway->path->next;
-	}
 	else
 	{
 		tmp = map->endway->path;
@@ -38,7 +36,6 @@ int 		path_found(t_room *room, t_main *map)
 	t_path	*path;
 	t_room	*possible;
 
-
 	current = room;
 	path = map->endway->path;
 	while (path)
@@ -46,7 +43,7 @@ int 		path_found(t_room *room, t_main *map)
 		possible = path->current;
 		while (possible)
 		{
-			if (has_link(current, possible, map) == 1)
+			if (has_link(current, possible, map))
 			{
 				current->where = possible;
 				possible->from = current;

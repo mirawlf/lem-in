@@ -2039,60 +2039,6 @@ sources/best_room_definition.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/best_room_definition.c.s
 .PHONY : sources/best_room_definition.c.s
 
-sources/duplicate_values.obj: sources/duplicate_values.c.obj
-
-.PHONY : sources/duplicate_values.obj
-
-# target to build an object file
-sources/duplicate_values.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/duplicate_values.c.obj
-.PHONY : sources/duplicate_values.c.obj
-
-sources/duplicate_values.i: sources/duplicate_values.c.i
-
-.PHONY : sources/duplicate_values.i
-
-# target to preprocess a source file
-sources/duplicate_values.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/duplicate_values.c.i
-.PHONY : sources/duplicate_values.c.i
-
-sources/duplicate_values.s: sources/duplicate_values.c.s
-
-.PHONY : sources/duplicate_values.s
-
-# target to generate assembly for a file
-sources/duplicate_values.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/duplicate_values.c.s
-.PHONY : sources/duplicate_values.c.s
-
-sources/filling.obj: sources/filling.c.obj
-
-.PHONY : sources/filling.obj
-
-# target to build an object file
-sources/filling.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/filling.c.obj
-.PHONY : sources/filling.c.obj
-
-sources/filling.i: sources/filling.c.i
-
-.PHONY : sources/filling.i
-
-# target to preprocess a source file
-sources/filling.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/filling.c.i
-.PHONY : sources/filling.c.i
-
-sources/filling.s: sources/filling.c.s
-
-.PHONY : sources/filling.s
-
-# target to generate assembly for a file
-sources/filling.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/filling.c.s
-.PHONY : sources/filling.c.s
-
 sources/freeshing.obj: sources/freeshing.c.obj
 
 .PHONY : sources/freeshing.obj
@@ -2119,33 +2065,6 @@ sources/freeshing.s: sources/freeshing.c.s
 sources/freeshing.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/freeshing.c.s
 .PHONY : sources/freeshing.c.s
-
-sources/get_me_paths_lawd.obj: sources/get_me_paths_lawd.c.obj
-
-.PHONY : sources/get_me_paths_lawd.obj
-
-# target to build an object file
-sources/get_me_paths_lawd.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj
-.PHONY : sources/get_me_paths_lawd.c.obj
-
-sources/get_me_paths_lawd.i: sources/get_me_paths_lawd.c.i
-
-.PHONY : sources/get_me_paths_lawd.i
-
-# target to preprocess a source file
-sources/get_me_paths_lawd.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.i
-.PHONY : sources/get_me_paths_lawd.c.i
-
-sources/get_me_paths_lawd.s: sources/get_me_paths_lawd.c.s
-
-.PHONY : sources/get_me_paths_lawd.s
-
-# target to generate assembly for a file
-sources/get_me_paths_lawd.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.s
-.PHONY : sources/get_me_paths_lawd.c.s
 
 sources/go.obj: sources/go.c.obj
 
@@ -2201,32 +2120,32 @@ sources/lemin.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/lemin.c.s
 .PHONY : sources/lemin.c.s
 
-sources/main_algo_part.obj: sources/main_algo_part.c.obj
+sources/link_left_pieces_of_parts.obj: sources/link_left_pieces_of_parts.c.obj
 
-.PHONY : sources/main_algo_part.obj
+.PHONY : sources/link_left_pieces_of_parts.obj
 
 # target to build an object file
-sources/main_algo_part.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/main_algo_part.c.obj
-.PHONY : sources/main_algo_part.c.obj
+sources/link_left_pieces_of_parts.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.obj
+.PHONY : sources/link_left_pieces_of_parts.c.obj
 
-sources/main_algo_part.i: sources/main_algo_part.c.i
+sources/link_left_pieces_of_parts.i: sources/link_left_pieces_of_parts.c.i
 
-.PHONY : sources/main_algo_part.i
+.PHONY : sources/link_left_pieces_of_parts.i
 
 # target to preprocess a source file
-sources/main_algo_part.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/main_algo_part.c.i
-.PHONY : sources/main_algo_part.c.i
+sources/link_left_pieces_of_parts.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.i
+.PHONY : sources/link_left_pieces_of_parts.c.i
 
-sources/main_algo_part.s: sources/main_algo_part.c.s
+sources/link_left_pieces_of_parts.s: sources/link_left_pieces_of_parts.c.s
 
-.PHONY : sources/main_algo_part.s
+.PHONY : sources/link_left_pieces_of_parts.s
 
 # target to generate assembly for a file
-sources/main_algo_part.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/main_algo_part.c.s
-.PHONY : sources/main_algo_part.c.s
+sources/link_left_pieces_of_parts.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.s
+.PHONY : sources/link_left_pieces_of_parts.c.s
 
 sources/move_one_way.obj: sources/move_one_way.c.obj
 
@@ -2255,6 +2174,33 @@ sources/move_one_way.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/move_one_way.c.s
 .PHONY : sources/move_one_way.c.s
 
+sources/parser_and_filling.obj: sources/parser_and_filling.c.obj
+
+.PHONY : sources/parser_and_filling.obj
+
+# target to build an object file
+sources/parser_and_filling.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj
+.PHONY : sources/parser_and_filling.c.obj
+
+sources/parser_and_filling.i: sources/parser_and_filling.c.i
+
+.PHONY : sources/parser_and_filling.i
+
+# target to preprocess a source file
+sources/parser_and_filling.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/parser_and_filling.c.i
+.PHONY : sources/parser_and_filling.c.i
+
+sources/parser_and_filling.s: sources/parser_and_filling.c.s
+
+.PHONY : sources/parser_and_filling.s
+
+# target to generate assembly for a file
+sources/parser_and_filling.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/parser_and_filling.c.s
+.PHONY : sources/parser_and_filling.c.s
+
 sources/path_finder.obj: sources/path_finder.c.obj
 
 .PHONY : sources/path_finder.obj
@@ -2281,6 +2227,33 @@ sources/path_finder.s: sources/path_finder.c.s
 sources/path_finder.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_finder.c.s
 .PHONY : sources/path_finder.c.s
+
+sources/path_or_its_part_is_found.obj: sources/path_or_its_part_is_found.c.obj
+
+.PHONY : sources/path_or_its_part_is_found.obj
+
+# target to build an object file
+sources/path_or_its_part_is_found.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj
+.PHONY : sources/path_or_its_part_is_found.c.obj
+
+sources/path_or_its_part_is_found.i: sources/path_or_its_part_is_found.c.i
+
+.PHONY : sources/path_or_its_part_is_found.i
+
+# target to preprocess a source file
+sources/path_or_its_part_is_found.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.i
+.PHONY : sources/path_or_its_part_is_found.c.i
+
+sources/path_or_its_part_is_found.s: sources/path_or_its_part_is_found.c.s
+
+.PHONY : sources/path_or_its_part_is_found.s
+
+# target to generate assembly for a file
+sources/path_or_its_part_is_found.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.s
+.PHONY : sources/path_or_its_part_is_found.c.s
 
 sources/read_ants.obj: sources/read_ants.c.obj
 
@@ -2362,6 +2335,33 @@ sources/read_rooms.s: sources/read_rooms.c.s
 sources/read_rooms.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/read_rooms.c.s
 .PHONY : sources/read_rooms.c.s
+
+sources/remake_paths.obj: sources/remake_paths.c.obj
+
+.PHONY : sources/remake_paths.obj
+
+# target to build an object file
+sources/remake_paths.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/remake_paths.c.obj
+.PHONY : sources/remake_paths.c.obj
+
+sources/remake_paths.i: sources/remake_paths.c.i
+
+.PHONY : sources/remake_paths.i
+
+# target to preprocess a source file
+sources/remake_paths.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/remake_paths.c.i
+.PHONY : sources/remake_paths.c.i
+
+sources/remake_paths.s: sources/remake_paths.c.s
+
+.PHONY : sources/remake_paths.s
+
+# target to generate assembly for a file
+sources/remake_paths.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/remake_paths.c.s
+.PHONY : sources/remake_paths.c.s
 
 sources/rooms_description.obj: sources/rooms_description.c.obj
 
@@ -2774,33 +2774,30 @@ help:
 	@echo ... sources/best_room_definition.obj
 	@echo ... sources/best_room_definition.i
 	@echo ... sources/best_room_definition.s
-	@echo ... sources/duplicate_values.obj
-	@echo ... sources/duplicate_values.i
-	@echo ... sources/duplicate_values.s
-	@echo ... sources/filling.obj
-	@echo ... sources/filling.i
-	@echo ... sources/filling.s
 	@echo ... sources/freeshing.obj
 	@echo ... sources/freeshing.i
 	@echo ... sources/freeshing.s
-	@echo ... sources/get_me_paths_lawd.obj
-	@echo ... sources/get_me_paths_lawd.i
-	@echo ... sources/get_me_paths_lawd.s
 	@echo ... sources/go.obj
 	@echo ... sources/go.i
 	@echo ... sources/go.s
 	@echo ... sources/lemin.obj
 	@echo ... sources/lemin.i
 	@echo ... sources/lemin.s
-	@echo ... sources/main_algo_part.obj
-	@echo ... sources/main_algo_part.i
-	@echo ... sources/main_algo_part.s
+	@echo ... sources/link_left_pieces_of_parts.obj
+	@echo ... sources/link_left_pieces_of_parts.i
+	@echo ... sources/link_left_pieces_of_parts.s
 	@echo ... sources/move_one_way.obj
 	@echo ... sources/move_one_way.i
 	@echo ... sources/move_one_way.s
+	@echo ... sources/parser_and_filling.obj
+	@echo ... sources/parser_and_filling.i
+	@echo ... sources/parser_and_filling.s
 	@echo ... sources/path_finder.obj
 	@echo ... sources/path_finder.i
 	@echo ... sources/path_finder.s
+	@echo ... sources/path_or_its_part_is_found.obj
+	@echo ... sources/path_or_its_part_is_found.i
+	@echo ... sources/path_or_its_part_is_found.s
 	@echo ... sources/read_ants.obj
 	@echo ... sources/read_ants.i
 	@echo ... sources/read_ants.s
@@ -2810,6 +2807,9 @@ help:
 	@echo ... sources/read_rooms.obj
 	@echo ... sources/read_rooms.i
 	@echo ... sources/read_rooms.s
+	@echo ... sources/remake_paths.obj
+	@echo ... sources/remake_paths.i
+	@echo ... sources/remake_paths.s
 	@echo ... sources/rooms_description.obj
 	@echo ... sources/rooms_description.i
 	@echo ... sources/rooms_description.s

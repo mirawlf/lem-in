@@ -11,36 +11,71 @@
 /* ************************************************************************** */
 
 #include "lemin.h"
-#include <stdio.h>
 
-//static void		second_rooms(t_room *first, t_room *second, t_path *current,
-//		t_main *map)
-//{
-//	t_path		*tmp;
-//
-//	first->from = second;
-//	if (!map->paths)
-//	{
-//		if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
-//			ft_error("malloc failed\n");
-//		current = map->paths;
-//		tmp = current;
-//	}
-//	else
-//	{
-//		current = map->paths;
-//		while (current->next)
-//			current = current->next;
-//		current->next = ft_memalloc(sizeof(t_path));
-//		current = current->next;
-//	}
-//	current->current = first;
-//	while (tmp)
-//	{
-//		tmp->current->is_part_of_path = 1;
-//		tmp = tmp->next;
-//	}
-//}
+
+static void		sort_paths(t_path **paths, int paths_amount, t_room *start)
+{
+	int			i;
+	t_path		*temp;
+	t_room		*room;
+
+	if (!paths || !paths_amount)
+		ft_error("NO PATHS IN SORTING!");
+	i = -1;
+	while (++i < (paths_amount - 1))
+	{
+		if (paths[i]->current->steps > paths[i + 1]->current->steps)
+		{
+			temp = paths[i];
+			paths[i] = paths[i + 1];
+			paths[i + 1] = temp;
+			i = -1;
+		}
+	}
+	i = 0;
+	while (i < paths_amount)
+	{
+		printf("Path ||%d||, steps: %d\n%s ", i + 1, paths[i]->current->steps + 1, start->name);
+		room = paths[i]->current;
+		while (room)
+		{
+			printf("%s ", room->name);
+			room = room->where;
+		}
+		printf("\n\n");
+		i++;
+	}
+
+}
+
+t_path			**make_path_array(t_main *main)
+{
+	t_path		*start;
+	t_path		**result;
+	int			paths_amount;
+	int			i;
+
+	i = -1;
+	start = main->paths;
+	paths_amount = 0;
+	while (start)
+	{
+		paths_amount++;
+		start = start->next;
+	}
+	main->paths_amount = paths_amount;
+	start = main->paths;
+	if (!(result = (t_path**)ft_memalloc(sizeof(t_path*) * paths_amount)))
+		ft_error("FAILED TO ALLOC PATH ARRAY");
+	while (++i < paths_amount)
+	{
+		result[i] = start;
+		start = start->next;
+	}
+	sort_paths(result, paths_amount, main->start);
+	return (result);
+}
+
 
 void			*count_steps(t_main *map)
 {

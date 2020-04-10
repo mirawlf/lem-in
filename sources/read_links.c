@@ -12,9 +12,24 @@
 
 #include "lemin.h"
 
-static t_room *find_room(t_main *data, char *name)
+int				duplicate_links(t_link *link, t_main *data)
 {
-	t_room *room;
+	t_link		*start;
+
+	start = data->all_links_here;
+	while (start != link && start)
+	{
+		if ((start->first_room == link->first_room && start->second_room == link->second_room)
+		|| (start->first_room == link->second_room && start->second_room == link->first_room))
+			return (1);
+		start = start->next;
+	}
+	return (0);
+}
+
+static t_room	*find_room(t_main *data, char *name)
+{
+	t_room		*room;
 
 	room = data->all_rooms_here;
 	while (room)
@@ -26,10 +41,10 @@ static t_room *find_room(t_main *data, char *name)
 	return (NULL);
 }
 
-static t_link 	*make_link(char *line, t_link *link, t_main *data)
+static t_link	*make_link(char *line, t_link *link, t_main *data)
 {
-	t_link	*result;
-	char **split;
+	t_link		*result;
+	char		**split;
 
 	if (!(result = (t_link*)ft_memalloc(sizeof(t_link))))
 	{
@@ -46,15 +61,15 @@ static t_link 	*make_link(char *line, t_link *link, t_main *data)
 	result->first_room = find_room(data, split[0]);
 	result->second_room = find_room(data, split[1]);
 	del_str_arr(split);
-	if (!result->first_room || !result->second_room|| duplicate_links(result, data))
+	if (!result->first_room || !result->second_room || duplicate_links(result, data))
 		return (NULL);////////////////will leak on duplicate links, add clearing
 	return (result);
 }
 
-static t_link *initital_link(t_main *data)
+static t_link	*initital_link(t_main *data)
 {
-	t_link *result;
-	char **split;
+	t_link		*result;
+	char		**split;
 
 	split = NULL;
 	if (!(result = (t_link*)ft_memalloc(sizeof(t_link))))
@@ -71,18 +86,18 @@ static t_link *initital_link(t_main *data)
 	return (result);
 }
 
-static int is_command(char *line)
+static int		is_command(char *line)
 {
 	if (ft_strequ(line, "##start") || ft_strequ(line, "##end"))
 		return (1);
 	return (0);
 }
 
-int 	read_links(t_main *data)
+int				read_links(t_main *data)
 {
-	t_link	*link;
-	char *line;
-	int check;
+	t_link		*link;
+	char		*line;
+	int			check;
 
 	if (!(link = initital_link(data)))
 		return (0);

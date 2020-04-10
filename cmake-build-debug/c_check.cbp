@@ -300,16 +300,7 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/best_room_definition.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/duplicate_values.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/filling.c">
-			<Option target="c_check"/>
-		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/freeshing.c">
-			<Option target="c_check"/>
-		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/get_me_paths_lawd.c">
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/go.c">
@@ -318,13 +309,19 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/lemin.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/main_algo_part.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/link_left_pieces_of_parts.c">
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/move_one_way.c">
 			<Option target="c_check"/>
 		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/parser_and_filling.c">
+			<Option target="c_check"/>
+		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/path_finder.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/path_or_its_part_is_found.c">
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/read_ants.c">
@@ -334,6 +331,9 @@
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/read_rooms.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/remake_paths.c">
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/rooms_description.c">

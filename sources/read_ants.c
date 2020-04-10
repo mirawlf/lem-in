@@ -19,10 +19,10 @@ static int		is_ants(char *line)
 	return (0);
 }
 
-int 	read_ants(t_main *data)
+int				read_ants(t_main *data)
 {
-	char *line;
-	int ants;
+	char		*line;
+	int			ants;
 
 	ants = 0;
 	while (get_next_line(data->del_me_fd, &line) > 0)

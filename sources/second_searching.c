@@ -27,16 +27,17 @@ void             search_next_room(t_room *current, t_main *map)
     link = map->all_links_here;
     while (link)
     {
-    	if (ft_strcmp(link->first_room->name, current->name) == 0
-    	|| ft_strcmp(link->second_room->name, current->name) == 0)
-    		printf("stop\n");
-        if (link->first_room == current && !link->second_room->from
-        && !link->second_room->where && !link->second_room->is_dead_end && link->checked != 2 &&
+//    	if (!ft_strcmp(link->first_room->name, "Yip3") || !ft_strcmp(link->first_room->name, "Gva3")
+//    	|| !ft_strcmp(link->first_room, "Wzv0") || !ft_strcmp(link->second_room->name, "Yip3") ||
+//    	!ft_strcmp(link->second_room->name, "Gva3") || !ft_strcmp(link->second_room, "Wzv0"))
+//    		printf("stop");
+        if (link->first_room == current && !link->second_room->from && !link->second_room->where
+        && !link->second_room->is_dead_end && link->checked != 2 &&
         best_room(link->first_room, link->second_room, map)
         == link->second_room)
         {
-            auxiliary2(link->first_room, link->second_room, link, map);
-            break;
+       		auxiliary2(link->first_room, link->second_room, link, map);
+			break;
         }
         else if (link->second_room == current && !link->first_room->from
         && !link->first_room->where && !link->first_room->is_dead_end && link->checked != 2 &&
@@ -68,13 +69,13 @@ void             another_possible_ways(t_room *room, t_main *map)
         tmp = map->startway->path;
         while (tmp->next)
             tmp = tmp->next;
-        tmp->next = (t_path*)ft_memalloc(sizeof(t_path));
+        if (!(tmp->next = (t_path*)ft_memalloc(sizeof(t_path))))
+			return ;
         tmp = tmp->next;
         tmp->current = room;
     }
     search_next_room(room, map);
 }
-
 
 void        search_intersections(t_main *map)
 {
@@ -90,4 +91,5 @@ void        search_intersections(t_main *map)
         link = link->next;
     }
     search_left_paths(map);
+//    link_left_pieces(map);
 }

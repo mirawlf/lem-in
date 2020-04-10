@@ -12,44 +12,64 @@
 
 #include "lemin.h"
 
-static int 		read_data(t_main *data)
+//void			tmp_function(t_main	*map)
+//{
+//	t_path		*tmp;
+//	t_room		*room;
+//	int 		i;
+//
+//	printf("\nSTARTWAYS:\n");
+//	i = 1;
+//
+//	tmp = map->startway->path;
+//	while (tmp)
+//	{
+//		printf("\n%d\n", i);
+//		room = tmp->current;
+//		while (room)
+//		{
+//			printf("%s ", room->name);
+//			room = room->where;
+//		}
+//		i++;
+//		tmp = tmp->next;
+//	}
+//	tmp = map->endway->path;
+//	i = 1;
+//	printf("\nENDWAYS:\n");
+//	while (tmp)
+//	{
+//		printf("\n%d\n", i);
+//		room = tmp->current;
+//		while (room)
+//		{
+//			printf("%s ", room->name);
+//			room = room->where;
+//		}
+//		i++;
+//		tmp = tmp->next;
+//	}
+//	printf("\n\n");
+//}
+
+void			*main_algo_part(t_main *map)
 {
-	if (!read_ants(data))
-		return (0);
-	if (!read_rooms(data))
-		return (0);
-	if (!data->start || !data->end)
-		return (0);
-	if (!read_links(data))
-		return (0);
-	return (1);
-}
-
-t_main		*structure_filling(t_main *map)
-{
-
-	if (!read_data(map))
-		ft_error("CHTO TO POSHLO NE TAK LOL");//////////check leaks
-	ant_colony_creation(map->ants, map);
-	return (map);
-}
-
-t_main		*parse_input(char **av, t_main *map)
-{
-
-	map->del_me_fd = open(av[1], O_RDONLY);
-
-		map =	structure_filling(map);
-
-//эту всю парашу можно сократить вот этот вот стракчер филлинг на кой он вообще
-	return(map);
-return (NULL);
+	map->start->level = 1;
+	map->end->level = -1;
+	dead_ends(map);
+	next_levels(map, 1);
+	count_inputs_and_outputs(map);
+	start_searching(map->end, map);
+	search_intersections(map);
+	count_steps(map);
+	if (!(map->path_array = make_path_array(map)))
+		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
+	//tmp_function(map);
 }
 
 int			main(int ac, char **av)
 {
 	t_main	*map;
-	t_path	*best;
 
 	if (ac == 2)
 	{
@@ -59,8 +79,6 @@ int			main(int ac, char **av)
 		printf("kewl!\n");
 	}
 	main_algo_part(map);
-//	search_paths(map);
-//	search_necessary_rooms(map);
 	lets_go(map);
 	printf ("not kewl!\n");
 	return (0);

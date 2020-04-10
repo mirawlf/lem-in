@@ -290,25 +290,10 @@ CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: ../libft/get_next_lin
 CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: ../sources/best_room_definition.c
 
-CMakeFiles/c_check.dir/sources/duplicate_values.c.obj: ../includes/lemin.h
-CMakeFiles/c_check.dir/sources/duplicate_values.c.obj: ../libft/get_next_line.h
-CMakeFiles/c_check.dir/sources/duplicate_values.c.obj: ../libft/libft.h
-CMakeFiles/c_check.dir/sources/duplicate_values.c.obj: ../sources/duplicate_values.c
-
-CMakeFiles/c_check.dir/sources/filling.c.obj: ../includes/lemin.h
-CMakeFiles/c_check.dir/sources/filling.c.obj: ../libft/get_next_line.h
-CMakeFiles/c_check.dir/sources/filling.c.obj: ../libft/libft.h
-CMakeFiles/c_check.dir/sources/filling.c.obj: ../sources/filling.c
-
 CMakeFiles/c_check.dir/sources/freeshing.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/freeshing.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/freeshing.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/freeshing.c.obj: ../sources/freeshing.c
-
-CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj: ../includes/lemin.h
-CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj: ../libft/get_next_line.h
-CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj: ../libft/libft.h
-CMakeFiles/c_check.dir/sources/get_me_paths_lawd.c.obj: ../sources/get_me_paths_lawd.c
 
 CMakeFiles/c_check.dir/sources/go.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/go.c.obj: ../libft/get_next_line.h
@@ -320,20 +305,27 @@ CMakeFiles/c_check.dir/sources/lemin.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/lemin.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/lemin.c.obj: ../sources/lemin.c
 
-CMakeFiles/c_check.dir/sources/main_algo_part.c.obj: ../includes/lemin.h
-CMakeFiles/c_check.dir/sources/main_algo_part.c.obj: ../libft/get_next_line.h
-CMakeFiles/c_check.dir/sources/main_algo_part.c.obj: ../libft/libft.h
-CMakeFiles/c_check.dir/sources/main_algo_part.c.obj: ../sources/main_algo_part.c
+CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.obj: ../sources/link_left_pieces_of_parts.c
 
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../sources/move_one_way.c
 
+CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: ../includes/lemin.h
+CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: ../libft/get_next_line.h
+CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: ../libft/libft.h
+CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: ../sources/parser_and_filling.c
+
 CMakeFiles/c_check.dir/sources/path_finder.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/path_finder.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/path_finder.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/path_finder.c.obj: ../sources/path_finder.c
+
+CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj: ../includes/lemin.h
+CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj: ../libft/get_next_line.h
+CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj: ../libft/libft.h
+CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj: ../sources/path_or_its_part_is_found.c
 
 CMakeFiles/c_check.dir/sources/read_ants.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/read_ants.c.obj: ../libft/get_next_line.h
@@ -349,6 +341,11 @@ CMakeFiles/c_check.dir/sources/read_rooms.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/read_rooms.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/read_rooms.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/read_rooms.c.obj: ../sources/read_rooms.c
+
+CMakeFiles/c_check.dir/sources/remake_paths.c.obj: ../includes/lemin.h
+CMakeFiles/c_check.dir/sources/remake_paths.c.obj: ../libft/get_next_line.h
+CMakeFiles/c_check.dir/sources/remake_paths.c.obj: ../libft/libft.h
+CMakeFiles/c_check.dir/sources/remake_paths.c.obj: ../sources/remake_paths.c
 
 CMakeFiles/c_check.dir/sources/rooms_description.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/rooms_description.c.obj: ../libft/get_next_line.h

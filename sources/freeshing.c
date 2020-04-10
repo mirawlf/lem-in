@@ -67,3 +67,23 @@ void		free_split(char **split)
 	}
 	split = NULL;
 }
+
+void			free_path(t_room *current, t_main *map)
+{
+	t_room		*tmp;
+
+	while (current && current->where != map->end)
+	{
+		if (current)
+		{
+			if (current->where)
+				current->where->from = NULL;
+		}
+		tmp = current->where;
+		current->where = NULL;
+		current->from = NULL;
+		current = tmp;
+	}
+	if (current)
+		current->from = NULL;
+}

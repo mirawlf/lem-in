@@ -15,6 +15,7 @@
 
 #include "../libft/libft.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 typedef struct 		s_room
 {
@@ -124,15 +125,22 @@ void				count_inputs_and_outputs(t_main *map);
 void				start_searching(t_room *room, t_main *map);
 void				search_previous_room(t_room *current, t_main *map);
 t_room				*best_variant(t_room *current, t_room *variant, t_main *map);
+void				auxiliary(t_room *first, t_room *second, t_link *link, t_main *map);
 int					compare_paths(t_room *best, t_room *current);
+void				remake_paths(t_room *current, t_main *map);
 void				free_path(t_room *current, t_main *map);
 void				second_rooms(t_room *room, t_main *map);
+void				possible_ways(t_room *room, t_main *map);
 void				search_intersections(t_main *map);
 void				search_next_room(t_room *current, t_main *map);
 t_room				*best_room(t_room *current, t_room *variant, t_main *map);
+int 				check_length(t_room *current, t_room *prev);
 void 				try_to_change_tails(t_room *current, t_main *map);
 void 				search_left_paths(t_main *map);
+void				auxiliary2(t_room *from, t_room *where, t_link *link, t_main *map);
+int 				has_link(t_room *current, t_room *possible, t_main *map);
 int 				reach_end(t_room *room,  t_room *end);
+void 				link_left_pieces(t_main *map);
 
 /*
  * ants' movements
@@ -154,7 +162,7 @@ t_ant				*del_ant(t_ant *ant, t_main *main);
  */
 
 void				del_str_arr(char **to_delete);//////////эти функции делают одно и то же, надо бы убрать одну из них, ту, что похуже
-int					split_bits(char *line, char e);
+int					split_bits(char *line, char c);
 int					is_all_digits(char *line);
 int					del_line_and_return(char *line, int ret);
 
@@ -167,6 +175,6 @@ void				free_rooms(t_room *room);
 t_main				*parse_input(char **av, t_main *map);
 t_main				*structure_filling(t_main *map);
 int 				ft_error(const char *error);
-t_ant				*ant_colony_creation(int quant, t_main *map);
+t_main				*ant_colony_creation(int quant, t_main *map);
 
 #endif

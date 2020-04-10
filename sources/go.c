@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "lemin.h"
-#include <stdio.h>//////УДОЛИ НЕ ЗАБУДЬ БЛЯ
 
 static t_path	*shortest_way(t_path *paths)
 {

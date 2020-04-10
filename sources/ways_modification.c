@@ -1,6 +1,6 @@
 #include "lemin.h"
 
-static int 	check_length(t_room *current, t_room *prev)
+int 		check_length(t_room *current, t_room *prev)
 {
 	t_room	*tmp;
 	int 	old;
@@ -33,7 +33,6 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 	old = variant->from;
 	old->where = NULL;
 	new = current;
-	//variant->from->where = NULL;
 	variant->from = current;
 	current->where = variant;
 	while (old->from)
@@ -71,15 +70,10 @@ void 		try_to_change_tails(t_room *current, t_main *map)
 	link = map->all_links_here;
 	while (link)
 	{
-		if (ft_strcmp(link->first_room->name, current->name) == 0
-		|| ft_strcmp(link->second_room->name, current->name) == 0)
-			printf("stop\n");
 		if (link->first_room == current && !link->second_room->is_dead_end
 		&& check_length(current, link->second_room->from) > 0
 		&& reach_end(link->second_room, map->end) == 1)
-		{
 			exchange(current, link->second_room, map);
-		}
 		else if (link->second_room == current && !link->first_room->is_dead_end
 		&& check_length(current, link->first_room->from) > 0
 		&& reach_end(link->first_room, map->end) == 1)

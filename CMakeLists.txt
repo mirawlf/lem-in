@@ -81,13 +81,9 @@ add_executable(c_check
         sources/ants_run_like_shit.c
         sources/best_next.c
         sources/best_room_definition.c
-        sources/duplicate_values.c
-        sources/filling.c
         sources/freeshing.c
-        sources/get_me_paths_lawd.c
         sources/go.c
         sources/lemin.c
-        sources/main_algo_part.c
         sources/move_one_way.c
         sources/path_finder.c
         sources/read_ants.c
@@ -99,4 +95,4 @@ add_executable(c_check
         sources/second_searching.c
         sources/utils.c
         sources/valid.c
-        sources/ways_modification.c)
+        sources/ways_modification.c sources/parser_and_filling.c sources/path_or_its_part_is_found.c sources/remake_paths.c sources/link_left_pieces_of_parts.c)
