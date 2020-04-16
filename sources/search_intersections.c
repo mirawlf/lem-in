@@ -6,7 +6,8 @@ void		delete_this_path(t_main *map, t_path *path)
 
 	if (map->endway->path == path)
 	{
-		free(path);
+		//free(path);
+		ft_memdel((void*)path);
 		map->endway->path = map->endway->path->next;
 	}
 	else
@@ -15,7 +16,8 @@ void		delete_this_path(t_main *map, t_path *path)
 		while (tmp->next != path)
 			tmp = tmp->next;
 		tmp->next = path->next;
-		free(path);
+		//free(path);
+		ft_memdel((void*)path);
 	}
 }
 
