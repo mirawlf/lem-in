@@ -12,45 +12,49 @@
 
 #include "lemin.h"
 
-//void			tmp_function(t_main	*map)
-//{
-//	t_path		*tmp;
-//	t_room		*room;
-//	int 		i;
-//
-//	printf("\nSTARTWAYS:\n");
-//	i = 1;
-//
-//	tmp = map->startway->path;
-//	while (tmp)
-//	{
-//		printf("\n%d\n", i);
-//		room = tmp->current;
-//		while (room)
-//		{
-//			printf("%s ", room->name);
-//			room = room->where;
-//		}
-//		i++;
-//		tmp = tmp->next;
-//	}
-//	tmp = map->endway->path;
-//	i = 1;
-//	printf("\nENDWAYS:\n");
-//	while (tmp)
-//	{
-//		printf("\n%d\n", i);
-//		room = tmp->current;
-//		while (room)
-//		{
-//			printf("%s ", room->name);
-//			room = room->where;
-//		}
-//		i++;
-//		tmp = tmp->next;
-//	}
-//	printf("\n\n");
-//}
+void			tmp_function(t_main	*map)
+{
+	t_path		*tmp;
+	t_room		*room;
+	int 		i;
+
+	printf("\nSTARTWAYS:\n");
+	i = 1;
+
+	if (map->startway)
+	{
+		tmp = map->startway->path;
+	while (tmp)
+	{
+		printf("\n%d\n", i);
+		room = tmp->current;
+		while (room)
+		{
+			printf("%s ", room->name);
+			room = room->where;
+		}
+		i++;
+		tmp = tmp->next;
+	}
+	}
+	if (map->endway
+	) {
+		tmp = map->endway->path;
+		i = 1;
+		printf("\nENDWAYS:\n");
+		while (tmp) {
+			printf("\n%d\n", i);
+			room = tmp->current;
+			while (room) {
+				printf("%s ", room->name);
+				room = room->where;
+			}
+			i++;
+			tmp = tmp->next;
+		}
+	}
+	printf("\n\n");
+}
 
 void			*main_algo_part(t_main *map)
 {
@@ -64,7 +68,7 @@ void			*main_algo_part(t_main *map)
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
 		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
-	//tmp_function(map);
+	tmp_function(map);
 }
 
 int			main(int ac, char **av)

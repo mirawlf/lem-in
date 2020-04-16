@@ -309,10 +309,13 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/lemin.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/link_left_pieces_of_parts.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/move_one_way.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/move_one_way.c">
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/new_heads.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/new_tails.c">
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/parser_and_filling.c">

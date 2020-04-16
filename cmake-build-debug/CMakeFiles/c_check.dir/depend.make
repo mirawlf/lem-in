@@ -305,12 +305,20 @@ CMakeFiles/c_check.dir/sources/lemin.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/lemin.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/lemin.c.obj: ../sources/lemin.c
 
-CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.obj: ../sources/link_left_pieces_of_parts.c
-
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../sources/move_one_way.c
+
+CMakeFiles/c_check.dir/sources/new_heads.c.obj: ../includes/lemin.h
+CMakeFiles/c_check.dir/sources/new_heads.c.obj: ../libft/get_next_line.h
+CMakeFiles/c_check.dir/sources/new_heads.c.obj: ../libft/libft.h
+CMakeFiles/c_check.dir/sources/new_heads.c.obj: ../sources/new_heads.c
+
+CMakeFiles/c_check.dir/sources/new_tails.c.obj: ../includes/lemin.h
+CMakeFiles/c_check.dir/sources/new_tails.c.obj: ../libft/get_next_line.h
+CMakeFiles/c_check.dir/sources/new_tails.c.obj: ../libft/libft.h
+CMakeFiles/c_check.dir/sources/new_tails.c.obj: ../sources/new_tails.c
 
 CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: ../libft/get_next_line.h

@@ -27,10 +27,6 @@ void             search_next_room(t_room *current, t_main *map)
     link = map->all_links_here;
     while (link)
     {
-//    	if (!ft_strcmp(link->first_room->name, "Yip3") || !ft_strcmp(link->first_room->name, "Gva3")
-//    	|| !ft_strcmp(link->first_room, "Wzv0") || !ft_strcmp(link->second_room->name, "Yip3") ||
-//    	!ft_strcmp(link->second_room->name, "Gva3") || !ft_strcmp(link->second_room, "Wzv0"))
-//    		printf("stop");
         if (link->first_room == current && !link->second_room->from && !link->second_room->where
         && !link->second_room->is_dead_end && link->checked != 2 &&
         best_room(link->first_room, link->second_room, map)
@@ -91,5 +87,6 @@ void        search_intersections(t_main *map)
         link = link->next;
     }
     search_left_paths(map);
-//    link_left_pieces(map);
+    new_tails(map);
+    new_heads(map);
 }

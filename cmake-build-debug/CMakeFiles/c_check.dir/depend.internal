@@ -305,13 +305,21 @@ CMakeFiles/c_check.dir/sources/lemin.c.obj
  ../libft/get_next_line.h
  ../libft/libft.h
  C:/Users/Elmira/Desktop/c_check/sources/lemin.c
-CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.obj
- C:/Users/Elmira/Desktop/c_check/sources/link_left_pieces_of_parts.c
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj
  ../includes/lemin.h
  ../libft/get_next_line.h
  ../libft/libft.h
  C:/Users/Elmira/Desktop/c_check/sources/move_one_way.c
+CMakeFiles/c_check.dir/sources/new_heads.c.obj
+ ../includes/lemin.h
+ ../libft/get_next_line.h
+ ../libft/libft.h
+ C:/Users/Elmira/Desktop/c_check/sources/new_heads.c
+CMakeFiles/c_check.dir/sources/new_tails.c.obj
+ ../includes/lemin.h
+ ../libft/get_next_line.h
+ ../libft/libft.h
+ C:/Users/Elmira/Desktop/c_check/sources/new_tails.c
 CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj
  ../includes/lemin.h
  ../libft/get_next_line.h

@@ -42,7 +42,14 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 	tmp = map->paths;
 	while (tmp->current != old)
 		tmp = tmp->next;
-	tmp->current = new;
+	//if (tmp->current == old)
+		tmp->current = new;
+	//else
+	//{
+	//	if (!(tmp->next = (t_path*)ft_memalloc(sizeof(t_path))))
+	//		ft_error("malloc failed\n");
+	//	tmp->next->current = new;
+	//}
 	start = map->startway->path;
 	while (start->next->current != new)
 		start = start->next;
@@ -71,13 +78,35 @@ void 		try_to_change_tails(t_room *current, t_main *map)
 	while (link)
 	{
 		if (link->first_room == current && !link->second_room->is_dead_end
-		&& check_length(current, link->second_room->from) > 0
-		&& reach_end(link->second_room, map->end) == 1)
-			exchange(current, link->second_room, map);
+		&& check_length(current, link->second_room->from) > 0)
+		{
+			if (reach_end(link->second_room, map->end) == 1)
+				exchange(current, link->second_room, map);
+			else
+			{
+				link->second_room->from->where = NULL;
+				link->second_room->from = link->first_room;
+				link->first_room->where = link->second_room;
+				if (!link->second_room->where)
+					search_next_room(link->second_room, map);
+			}
+			break;
+		}
 		else if (link->second_room == current && !link->first_room->is_dead_end
-		&& check_length(current, link->first_room->from) > 0
-		&& reach_end(link->first_room, map->end) == 1)
-			exchange(current, link->first_room, map);
+		&& check_length(current, link->first_room->from) > 0)
+		{
+			if (reach_end(link->first_room, map->end) == 1)
+				exchange(current, link->first_room, map);
+			else
+			{
+				link->first_room->from->where = NULL;
+				link->first_room->from = link->second_room;
+				link->second_room->where = link->first_room;
+				if (!link->first_room->where)
+					search_next_room(link->first_room, map);
+			}
+			break;
+		}
 		link = link->next;
 	}
 }

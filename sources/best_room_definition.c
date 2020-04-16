@@ -20,19 +20,23 @@ int				compare_paths(t_room *best, t_room *current)
 
 	old = 0;
 	new = 0;
-	tmp = best->where;
-	while (tmp)
+	if (best && current)
 	{
-		old++;
-		tmp = tmp->where;
+		tmp = best->where;
+		while (tmp)
+		{
+			old++;
+			tmp = tmp->where;
+		}
+		tmp = current;
+		while (tmp)
+		{
+			new++;
+			tmp = tmp->where;
+		}
+		return (old - new);
 	}
-	tmp = current;
-	while (tmp)
-	{
-		new++;
-		tmp = tmp->where;
-	}
-	return (old - new);
+
 }
 
 void			remake_paths2(t_room *best, t_room *current, t_main *map)

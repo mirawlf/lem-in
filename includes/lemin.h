@@ -23,10 +23,8 @@ typedef struct 		s_room
 	int 			x;		//x координата комнаты
 	int 			y;		//y координата комнаты
 	int 			level;  // 1 Step 1 шаг
-	int 			was_checked; // проверка Level == 1
 	int 			neighbours; //количество соседей
 	int 			is_dead_end; //если тупик 1
-	int 			has_pair;
 	int 			steps;
 	int 			is_part_of_path;
 	int 			inputs;
@@ -140,7 +138,8 @@ void 				search_left_paths(t_main *map);
 void				auxiliary2(t_room *from, t_room *where, t_link *link, t_main *map);
 int 				has_link(t_room *current, t_room *possible, t_main *map);
 int 				reach_end(t_room *room,  t_room *end);
-void 				link_left_pieces(t_main *map);
+void 				new_tails(t_main *map);
+void 				new_heads(t_main *map);
 
 /*
  * ants' movements

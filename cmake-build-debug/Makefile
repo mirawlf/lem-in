@@ -2120,33 +2120,6 @@ sources/lemin.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/lemin.c.s
 .PHONY : sources/lemin.c.s
 
-sources/link_left_pieces_of_parts.obj: sources/link_left_pieces_of_parts.c.obj
-
-.PHONY : sources/link_left_pieces_of_parts.obj
-
-# target to build an object file
-sources/link_left_pieces_of_parts.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.obj
-.PHONY : sources/link_left_pieces_of_parts.c.obj
-
-sources/link_left_pieces_of_parts.i: sources/link_left_pieces_of_parts.c.i
-
-.PHONY : sources/link_left_pieces_of_parts.i
-
-# target to preprocess a source file
-sources/link_left_pieces_of_parts.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.i
-.PHONY : sources/link_left_pieces_of_parts.c.i
-
-sources/link_left_pieces_of_parts.s: sources/link_left_pieces_of_parts.c.s
-
-.PHONY : sources/link_left_pieces_of_parts.s
-
-# target to generate assembly for a file
-sources/link_left_pieces_of_parts.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/link_left_pieces_of_parts.c.s
-.PHONY : sources/link_left_pieces_of_parts.c.s
-
 sources/move_one_way.obj: sources/move_one_way.c.obj
 
 .PHONY : sources/move_one_way.obj
@@ -2173,6 +2146,60 @@ sources/move_one_way.s: sources/move_one_way.c.s
 sources/move_one_way.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/move_one_way.c.s
 .PHONY : sources/move_one_way.c.s
+
+sources/new_heads.obj: sources/new_heads.c.obj
+
+.PHONY : sources/new_heads.obj
+
+# target to build an object file
+sources/new_heads.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/new_heads.c.obj
+.PHONY : sources/new_heads.c.obj
+
+sources/new_heads.i: sources/new_heads.c.i
+
+.PHONY : sources/new_heads.i
+
+# target to preprocess a source file
+sources/new_heads.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/new_heads.c.i
+.PHONY : sources/new_heads.c.i
+
+sources/new_heads.s: sources/new_heads.c.s
+
+.PHONY : sources/new_heads.s
+
+# target to generate assembly for a file
+sources/new_heads.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/new_heads.c.s
+.PHONY : sources/new_heads.c.s
+
+sources/new_tails.obj: sources/new_tails.c.obj
+
+.PHONY : sources/new_tails.obj
+
+# target to build an object file
+sources/new_tails.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/new_tails.c.obj
+.PHONY : sources/new_tails.c.obj
+
+sources/new_tails.i: sources/new_tails.c.i
+
+.PHONY : sources/new_tails.i
+
+# target to preprocess a source file
+sources/new_tails.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/new_tails.c.i
+.PHONY : sources/new_tails.c.i
+
+sources/new_tails.s: sources/new_tails.c.s
+
+.PHONY : sources/new_tails.s
+
+# target to generate assembly for a file
+sources/new_tails.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/new_tails.c.s
+.PHONY : sources/new_tails.c.s
 
 sources/parser_and_filling.obj: sources/parser_and_filling.c.obj
 
@@ -2783,12 +2810,15 @@ help:
 	@echo ... sources/lemin.obj
 	@echo ... sources/lemin.i
 	@echo ... sources/lemin.s
-	@echo ... sources/link_left_pieces_of_parts.obj
-	@echo ... sources/link_left_pieces_of_parts.i
-	@echo ... sources/link_left_pieces_of_parts.s
 	@echo ... sources/move_one_way.obj
 	@echo ... sources/move_one_way.i
 	@echo ... sources/move_one_way.s
+	@echo ... sources/new_heads.obj
+	@echo ... sources/new_heads.i
+	@echo ... sources/new_heads.s
+	@echo ... sources/new_tails.obj
+	@echo ... sources/new_tails.i
+	@echo ... sources/new_tails.s
 	@echo ... sources/parser_and_filling.obj
 	@echo ... sources/parser_and_filling.i
 	@echo ... sources/parser_and_filling.s

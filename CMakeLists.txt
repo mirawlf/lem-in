@@ -95,4 +95,4 @@ add_executable(c_check
         sources/second_searching.c
         sources/utils.c
         sources/valid.c
-        sources/ways_modification.c sources/parser_and_filling.c sources/path_or_its_part_is_found.c sources/remake_paths.c sources/link_left_pieces_of_parts.c)
+        sources/ways_modification.c sources/parser_and_filling.c sources/path_or_its_part_is_found.c sources/remake_paths.c sources/new_tails.c sources/new_heads.c)

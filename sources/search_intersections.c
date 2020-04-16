@@ -5,13 +5,17 @@ void		delete_this_path(t_main *map, t_path *path)
 	t_path	*tmp;
 
 	if (map->endway->path == path)
+	{
+		free(path);
 		map->endway->path = map->endway->path->next;
+	}
 	else
 	{
 		tmp = map->endway->path;
 		while (tmp->next != path)
 			tmp = tmp->next;
 		tmp->next = path->next;
+		free(path);
 	}
 }
 
@@ -37,24 +41,37 @@ int 		path_found(t_room *room, t_main *map)
 	t_room	*possible;
 
 	current = room;
-	path = map->endway->path;
-	while (path)
-	{
-		possible = path->current;
-		while (possible)
+//	if (map->endway->path)
+//	{
+		path = map->endway->path;
+		while (path)
 		{
-			if (has_link(current, possible, map))
+			possible = path->current;
+			while (possible)
 			{
-				current->where = possible;
-				possible->from = current;
-				delete_this_path(map, path);
-				return (1);
+				if (has_link(current, possible, map))
+				{
+					current->where = possible;
+					possible->from = current;
+					delete_this_path(map, path);
+					return (1);
+				}
+				possible = possible->where;
 			}
-			possible = possible->where;
-		}
-		path = path->next;
+			path = path->next;
+//		}
 	}
 	return (0);
+}
+
+t_room		*last_room(t_room *start)
+{
+	t_room	*last;
+
+	last = start;
+	while (last->where)
+		last = last->where;
+	return (last);
 }
 
 void 		search_left_paths(t_main *map)
@@ -68,8 +85,8 @@ void 		search_left_paths(t_main *map)
 		path = map->startway->path;
 		while (path)
 		{
-			current = path->current;
-			start = current;
+			start = path->current;
+			current = last_room(start);
 			while (current)
 			{
 				if (path_found(current, map) == 1)
@@ -77,7 +94,7 @@ void 		search_left_paths(t_main *map)
 					second_rooms(start, map);
 					break;
 				}
-				current = current->where;
+				current = current->from;
 			}
 			path = path->next;
 		}
