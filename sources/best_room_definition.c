@@ -20,8 +20,6 @@ int				compare_paths(t_room *best, t_room *current)
 
 	old = 0;
 	new = 0;
-	if (best && current)
-	{
 		tmp = best->where;
 		while (tmp)
 		{
@@ -35,7 +33,6 @@ int				compare_paths(t_room *best, t_room *current)
 			tmp = tmp->where;
 		}
 		return (old - new);
-	}
 
 }
 
