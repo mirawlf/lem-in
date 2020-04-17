@@ -100,8 +100,8 @@ void 		search_left_paths(t_main *map)
 					}
 					current = current->from;
 				}
-				path = path->next;
 			}
+			path = path->next;
 		}
 	}
 }

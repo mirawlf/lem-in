@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/search_intersections.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/search_intersections.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/ways_modification.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ways_modification.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +32,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sources/search_intersections.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="481">
+                <state relative-caret-position="277">
                   <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
                 </state>
               </provider>
@@ -43,7 +41,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sources/second_searching.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1051">
+                <state relative-caret-position="271">
                   <caret line="88" selection-start-line="88" selection-end-line="88" />
                 </state>
               </provider>
@@ -62,7 +60,7 @@
             <entry file="file://$PROJECT_DIR$/sources/lemin.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="118">
-                  <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+                  <caret line="66" selection-start-line="66" selection-end-line="66" />
                 </state>
               </provider>
             </entry>
@@ -101,7 +99,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sources/new_tails.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="379">
+                <state relative-caret-position="328">
                   <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
                 </state>
               </provider>
@@ -199,7 +197,7 @@
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
     <option name="y" value="13" />
     <option name="width" value="1346" />
@@ -223,11 +221,6 @@
               <item name="c_check" type="b2602c69:ProjectViewProjectNode" />
               <item name="c_check" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="c_check" type="b2602c69:ProjectViewProjectNode" />
-              <item name="c_check" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="c_check" type="b2602c69:ProjectViewProjectNode" />
@@ -278,7 +271,7 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.c_check">
-    <configuration name="c_check" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\Elmira\Desktop\c_check\maps\checker_map" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_check" TARGET_NAME="c_check" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_check" RUN_TARGET_NAME="c_check">
+    <configuration name="c_check" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\Elmira\Desktop\c_check\maps\superposition2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_check" TARGET_NAME="c_check" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_check" RUN_TARGET_NAME="c_check">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -419,12 +412,12 @@
       <workItem from="1586641431924" duration="1961000" />
       <workItem from="1586644397827" duration="803000" />
       <workItem from="1587055044546" duration="8845000" />
-      <workItem from="1587120544138" duration="8873000" />
+      <workItem from="1587120544138" duration="10580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136866000" />
+    <option name="totallyTimeSpent" value="138573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +429,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49747476" visible="true" weight="0.18154311" />
@@ -444,7 +437,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09165303" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30441898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3420622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -588,6 +581,21 @@
           <url>file://$PROJECT_DIR$/sources/second_searching.c</url>
           <line>89</line>
           <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sources/lemin.c</url>
+          <line>66</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sources/second_searching.c</url>
+          <line>88</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sources/search_intersections.c</url>
+          <line>87</line>
+          <option name="timeStamp" value="190" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -852,13 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/lemin.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sources/ways_modification.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-137">
@@ -866,24 +867,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sources/new_tails.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/lemin.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sources/second_searching.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1051">
+        <state relative-caret-position="271">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/search_intersections.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="277">
           <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/new_tails.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
         </state>
       </provider>
     </entry>
