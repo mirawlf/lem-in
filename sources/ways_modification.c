@@ -25,7 +25,7 @@ int 		check_length(t_room *current, t_room *prev)
 /*old thing without path adding
  *
  * */
-void		exchange(t_room *current, t_room *variant, t_main *map)
+/*void		exchange(t_room *current, t_room *variant, t_main *map)
 {
 	t_room	*old;
 	t_room	*new;
@@ -56,8 +56,8 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 	while (start->next->current != new)
 		start = start->next;
 	start->next->current = old;
-}
-/*void		exchange(t_room *current, t_room *variant, t_main *map)
+}*/
+void		exchange(t_room *current, t_room *variant, t_main *map)
 {
 	t_room	*old;
 	t_room	*new;
@@ -91,7 +91,7 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 	while (start->next->current != new)
 		start = start->next;
 	start->next->current = old;
-}*/
+}
 /*
  * delete this?
  */
