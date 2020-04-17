@@ -87,10 +87,24 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 			ft_error("malloc failed\n");
 		tmp->next->current = new;
 	}
-	start = map->startway->path;
-	while (start->next->current != new)
-		start = start->next;
-	start->next->current = old;
+	if (old->level == 2)
+	{
+		start = map->startway->path;
+		while (start->current != new)
+				start = start->next;
+		start->current = old;
+	}
+	else
+	{
+		start = map->endway->path;
+		while (start->current != old)
+			start = start->next;
+		start->current = NULL;
+		start = map->startway->path;
+		while (start->current != new)
+			start = start->next;
+		start->current = NULL;
+	}
 }
 /*
  * delete this?
