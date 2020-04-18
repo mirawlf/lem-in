@@ -89,4 +89,5 @@ void        search_intersections(t_main *map)
     search_left_paths(map);
     new_tails(map);
     new_heads(map);
+    search_left_paths(map);
 }

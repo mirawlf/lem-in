@@ -87,7 +87,7 @@ void 		search_left_paths(t_main *map)
 		path = map->startway->path;
 		while (path)
 		{
-			if (path->current)
+			if (path->current && !reach_end(path->current, map->end))
 			{
 				start = path->current;
 				current = last_room(start);
