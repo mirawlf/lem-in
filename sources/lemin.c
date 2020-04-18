@@ -82,6 +82,7 @@ int			main(int ac, char **av)
 		map = parse_input(av, map);
 		printf("kewl!\n");
 	}
+	nice_link(map);
 	main_algo_part(map);
 	lets_go(map);
 	printf ("not kewl!\n");
