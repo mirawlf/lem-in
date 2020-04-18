@@ -51,7 +51,7 @@ void             search_next_room(t_room *current, t_main *map)
 
 void             another_possible_ways(t_room *room, t_main *map)
 {
-    t_path *tmp;
+    t_path		*tmp;
 
     if (!map->startway)
     {
@@ -76,7 +76,9 @@ void             another_possible_ways(t_room *room, t_main *map)
 void        search_intersections(t_main *map)
 {
     t_link  *link;
+	int 	i;
 
+	i = 0;
     link = map->all_links_here;
     while (link)
     {
@@ -86,8 +88,13 @@ void        search_intersections(t_main *map)
             another_possible_ways(link->first_room, map);
         link = link->next;
     }
-    search_left_paths(map);
-    new_tails(map);
-    new_heads(map);
-    search_left_paths(map);
+    if (map->startway && map->endway)
+	{
+    	while (i++ < 2)
+		{
+			search_left_paths(map);
+			new_tails(map);
+			new_heads(map);
+		}
+	}
 }
