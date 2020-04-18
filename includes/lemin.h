@@ -155,6 +155,7 @@ int					make_start_step(t_ant *ant, t_main *main);
 t_ant				*make_normal_step(t_ant *ant, t_main *main);
 void				print_step(int ant_num, char *room_name, t_main *main);
 t_ant				*del_ant(t_ant *ant, t_main *main);
+void 				nice_link(t_main *main);
 
 /*
  * utils
