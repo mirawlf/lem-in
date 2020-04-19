@@ -90,6 +90,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_check.dir/sources/remake_paths.c.obj"
   "CMakeFiles/c_check.dir/sources/new_tails.c.obj"
   "CMakeFiles/c_check.dir/sources/new_heads.c.obj"
+  "CMakeFiles/c_check.dir/sources/start_end_link.c.obj"
+  "CMakeFiles/c_check.dir/sources/last_passageway.c.obj"
   "c_check.pdb"
   "c_check.exe"
   "c_check.exe.manifest"

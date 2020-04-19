@@ -14,7 +14,7 @@ void		change_path_in_structure(t_room *oldstart, t_room *newstart, t_main *map)
 		}
 		path = path->next;
 	}
-	path = map->startway;
+	path = map->startway->path;
 	while (path)
 	{
 		if (path->current == newstart)
@@ -63,7 +63,7 @@ static int 	new_head_found(t_room *start, t_room *current, t_main *map)
 		start_of_path = possible;
 		while (possible)
 		{
-			if (has_link(current, possible, map) && compare_paths2(current, possible->from) > 0)
+			if (has_link(current, possible, map->all_links_here) && compare_paths2(current, possible->from) > 0)
 			{
 				possible->from->where = NULL;
 				possible->from = current;

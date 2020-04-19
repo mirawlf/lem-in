@@ -14,7 +14,7 @@ static int	found_shorter_path(t_room *current, t_main *map)
 			possible = path->current;
 			while (possible)
 			{
-				if (has_link(current, possible, map) && reach_end(possible, map->end)
+				if (has_link(current, possible, map->all_links_here) && reach_end(possible, map->end)
 				&& compare_paths(current->where, possible) > 0)
 				{
 					tmp = current->where;

@@ -300,6 +300,11 @@ CMakeFiles/c_check.dir/sources/go.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/go.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/go.c.obj: ../sources/go.c
 
+CMakeFiles/c_check.dir/sources/last_passageway.c.obj: ../includes/lemin.h
+CMakeFiles/c_check.dir/sources/last_passageway.c.obj: ../libft/get_next_line.h
+CMakeFiles/c_check.dir/sources/last_passageway.c.obj: ../libft/libft.h
+CMakeFiles/c_check.dir/sources/last_passageway.c.obj: ../sources/last_passageway.c
+
 CMakeFiles/c_check.dir/sources/lemin.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/lemin.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/lemin.c.obj: ../libft/libft.h
@@ -374,6 +379,11 @@ CMakeFiles/c_check.dir/sources/second_searching.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/second_searching.c.obj: ../libft/get_next_line.h
 CMakeFiles/c_check.dir/sources/second_searching.c.obj: ../libft/libft.h
 CMakeFiles/c_check.dir/sources/second_searching.c.obj: ../sources/second_searching.c
+
+CMakeFiles/c_check.dir/sources/start_end_link.c.obj: ../includes/lemin.h
+CMakeFiles/c_check.dir/sources/start_end_link.c.obj: ../libft/get_next_line.h
+CMakeFiles/c_check.dir/sources/start_end_link.c.obj: ../libft/libft.h
+CMakeFiles/c_check.dir/sources/start_end_link.c.obj: ../sources/start_end_link.c
 
 CMakeFiles/c_check.dir/sources/utils.c.obj: ../includes/lemin.h
 CMakeFiles/c_check.dir/sources/utils.c.obj: ../libft/get_next_line.h

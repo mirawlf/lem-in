@@ -306,6 +306,9 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/go.c">
 			<Option target="c_check"/>
 		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/last_passageway.c">
+			<Option target="c_check"/>
+		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/lemin.c">
 			<Option target="c_check"/>
 		</Unit>
@@ -349,6 +352,9 @@
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/second_searching.c">
+			<Option target="c_check"/>
+		</Unit>
+		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/start_end_link.c">
 			<Option target="c_check"/>
 		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/utils.c">

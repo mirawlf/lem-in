@@ -4,28 +4,17 @@ void		delete_this_path(t_main *map, t_path *path)
 {
 	t_path	*tmp;
 
-	if (map->endway->path == path)
-	{
-		//free(path);
-		ft_memdel((void*)path);
-		map->endway->path = map->endway->path->next;
-	}
-	else
-	{
-		tmp = map->endway->path;
-		while (tmp->next != path)
-			tmp = tmp->next;
-		tmp->next = path->next;
-		//free(path);
-		ft_memdel((void*)path);
-	}
+	tmp = map->endway->path;
+	while (tmp != path)
+		tmp = tmp->next;
+	tmp->current = NULL;
 }
 
-int 		has_link(t_room *current, t_room *possible, t_main *map)
+int 		has_link(t_room *current, t_room *possible, /*t_main *map*/t_link *linklist)
 {
 	t_link	*link;
 
-	link = map->all_links_here;
+	link = linklist;
 	while (link)
 	{
 		if ((link->first_room == current && link->second_room == possible)
@@ -43,25 +32,22 @@ int 		path_found(t_room *room, t_main *map)
 	t_room	*possible;
 
 	current = room;
-//	if (map->endway->path)
-//	{
-		path = map->endway->path;
-		while (path)
+	path = map->endway->path;
+	while (path)
+	{
+		possible = path->current;
+		while (possible)
 		{
-			possible = path->current;
-			while (possible)
+			if (has_link(current, possible, map->all_links_here))
 			{
-				if (has_link(current, possible, map))
-				{
-					current->where = possible;
-					possible->from = current;
-					delete_this_path(map, path);
-					return (1);
-				}
-				possible = possible->where;
+				current->where = possible;
+				possible->from = current;
+				delete_this_path(map, path);
+				return (1);
 			}
-			path = path->next;
-//		}
+			possible = possible->where;
+		}
+		path = path->next;
 	}
 	return (0);
 }

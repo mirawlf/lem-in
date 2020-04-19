@@ -120,6 +120,7 @@ void				*main_algo_part(t_main *map);
 void				dead_ends(t_main *map);
 void				next_levels(t_main *map, int max_curr_lvl);
 void				count_inputs_and_outputs(t_main *map);
+void 				start_end_link(t_main *main);
 void				start_searching(t_room *room, t_main *map);
 void				search_previous_room(t_room *current, t_main *map);
 t_room				*best_variant(t_room *current, t_room *variant, t_main *map);
@@ -136,10 +137,11 @@ int 				check_length(t_room *current, t_room *prev);
 void 				try_to_change_tails(t_room *current, t_main *map);
 void 				search_left_paths(t_main *map);
 void				auxiliary2(t_room *from, t_room *where, t_link *link, t_main *map);
-int 				has_link(t_room *current, t_room *possible, t_main *map);
+int 				has_link(t_room *current, t_room *possible, t_link *linklist);
 int 				reach_end(t_room *room,  t_room *end);
 void 				new_tails(t_main *map);
 void 				new_heads(t_main *map);
+void				number_of_path_increasing(t_main *map);
 
 /*
  * ants' movements
@@ -155,7 +157,6 @@ int					make_start_step(t_ant *ant, t_main *main);
 t_ant				*make_normal_step(t_ant *ant, t_main *main);
 void				print_step(int ant_num, char *room_name, t_main *main);
 t_ant				*del_ant(t_ant *ant, t_main *main);
-void 				nice_link(t_main *main);
 
 /*
  * utils

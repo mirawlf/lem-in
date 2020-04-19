@@ -2093,6 +2093,33 @@ sources/go.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/go.c.s
 .PHONY : sources/go.c.s
 
+sources/last_passageway.obj: sources/last_passageway.c.obj
+
+.PHONY : sources/last_passageway.obj
+
+# target to build an object file
+sources/last_passageway.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/last_passageway.c.obj
+.PHONY : sources/last_passageway.c.obj
+
+sources/last_passageway.i: sources/last_passageway.c.i
+
+.PHONY : sources/last_passageway.i
+
+# target to preprocess a source file
+sources/last_passageway.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/last_passageway.c.i
+.PHONY : sources/last_passageway.c.i
+
+sources/last_passageway.s: sources/last_passageway.c.s
+
+.PHONY : sources/last_passageway.s
+
+# target to generate assembly for a file
+sources/last_passageway.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/last_passageway.c.s
+.PHONY : sources/last_passageway.c.s
+
 sources/lemin.obj: sources/lemin.c.obj
 
 .PHONY : sources/lemin.obj
@@ -2498,6 +2525,33 @@ sources/second_searching.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/second_searching.c.s
 .PHONY : sources/second_searching.c.s
 
+sources/start_end_link.obj: sources/start_end_link.c.obj
+
+.PHONY : sources/start_end_link.obj
+
+# target to build an object file
+sources/start_end_link.c.obj:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/start_end_link.c.obj
+.PHONY : sources/start_end_link.c.obj
+
+sources/start_end_link.i: sources/start_end_link.c.i
+
+.PHONY : sources/start_end_link.i
+
+# target to preprocess a source file
+sources/start_end_link.c.i:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/start_end_link.c.i
+.PHONY : sources/start_end_link.c.i
+
+sources/start_end_link.s: sources/start_end_link.c.s
+
+.PHONY : sources/start_end_link.s
+
+# target to generate assembly for a file
+sources/start_end_link.c.s:
+	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/start_end_link.c.s
+.PHONY : sources/start_end_link.c.s
+
 sources/utils.obj: sources/utils.c.obj
 
 .PHONY : sources/utils.obj
@@ -2807,6 +2861,9 @@ help:
 	@echo ... sources/go.obj
 	@echo ... sources/go.i
 	@echo ... sources/go.s
+	@echo ... sources/last_passageway.obj
+	@echo ... sources/last_passageway.i
+	@echo ... sources/last_passageway.s
 	@echo ... sources/lemin.obj
 	@echo ... sources/lemin.i
 	@echo ... sources/lemin.s
@@ -2852,6 +2909,9 @@ help:
 	@echo ... sources/second_searching.obj
 	@echo ... sources/second_searching.i
 	@echo ... sources/second_searching.s
+	@echo ... sources/start_end_link.obj
+	@echo ... sources/start_end_link.i
+	@echo ... sources/start_end_link.s
 	@echo ... sources/utils.obj
 	@echo ... sources/utils.i
 	@echo ... sources/utils.s

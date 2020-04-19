@@ -1330,6 +1330,34 @@ CMakeFiles/c_check.dir/sources/new_heads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/new_heads.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\new_heads.c -o CMakeFiles\c_check.dir\sources\new_heads.c.s
 
+CMakeFiles/c_check.dir/sources/start_end_link.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/start_end_link.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/start_end_link.c.obj: ../sources/start_end_link.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/c_check.dir/sources/start_end_link.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\start_end_link.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c
+
+CMakeFiles/c_check.dir/sources/start_end_link.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/start_end_link.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c > CMakeFiles\c_check.dir\sources\start_end_link.c.i
+
+CMakeFiles/c_check.dir/sources/start_end_link.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/start_end_link.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c -o CMakeFiles\c_check.dir\sources\start_end_link.c.s
+
+CMakeFiles/c_check.dir/sources/last_passageway.c.obj: CMakeFiles/c_check.dir/flags.make
+CMakeFiles/c_check.dir/sources/last_passageway.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
+CMakeFiles/c_check.dir/sources/last_passageway.c.obj: ../sources/last_passageway.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/c_check.dir/sources/last_passageway.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\last_passageway.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c
+
+CMakeFiles/c_check.dir/sources/last_passageway.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/last_passageway.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c > CMakeFiles\c_check.dir\sources\last_passageway.c.i
+
+CMakeFiles/c_check.dir/sources/last_passageway.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/last_passageway.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c -o CMakeFiles\c_check.dir\sources\last_passageway.c.s
+
 # Object files for target c_check
 c_check_OBJECTS = \
 "CMakeFiles/c_check.dir/libft/ft_atoi.c.obj" \
@@ -1422,7 +1450,9 @@ c_check_OBJECTS = \
 "CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj" \
 "CMakeFiles/c_check.dir/sources/remake_paths.c.obj" \
 "CMakeFiles/c_check.dir/sources/new_tails.c.obj" \
-"CMakeFiles/c_check.dir/sources/new_heads.c.obj"
+"CMakeFiles/c_check.dir/sources/new_heads.c.obj" \
+"CMakeFiles/c_check.dir/sources/start_end_link.c.obj" \
+"CMakeFiles/c_check.dir/sources/last_passageway.c.obj"
 
 # External object files for target c_check
 c_check_EXTERNAL_OBJECTS =
@@ -1518,11 +1548,13 @@ c_check.exe: CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj
 c_check.exe: CMakeFiles/c_check.dir/sources/remake_paths.c.obj
 c_check.exe: CMakeFiles/c_check.dir/sources/new_tails.c.obj
 c_check.exe: CMakeFiles/c_check.dir/sources/new_heads.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/start_end_link.c.obj
+c_check.exe: CMakeFiles/c_check.dir/sources/last_passageway.c.obj
 c_check.exe: CMakeFiles/c_check.dir/build.make
 c_check.exe: CMakeFiles/c_check.dir/linklibs.rsp
 c_check.exe: CMakeFiles/c_check.dir/objects1.rsp
 c_check.exe: CMakeFiles/c_check.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Linking C executable c_check.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Linking C executable c_check.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c_check.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
