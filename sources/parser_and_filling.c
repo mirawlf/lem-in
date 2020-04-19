@@ -52,6 +52,7 @@ t_main		*parse_input(char **av, t_main *map)
 {
 	map->del_me_fd = open(av[1], O_RDONLY);
 	map = structure_filling(map);
+	map->original_ants = map->ants;
 
 //эту всю парашу можно сократить вот этот вот стракчер филлинг на кой он вообще
 	return(map);
