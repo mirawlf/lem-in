@@ -1,46 +1,51 @@
-LEMIN = lemin
+NAME = lemin
 
-#FLAGS = -Wall -Wextra -Werror
+SRC_DIR = sources
+HDR_DIR = includes
+OBJ_DIR = objects
 
-MAKE = make
+LFT = libft.a
+LFT_DIR = libft
 
-SRC_FILES =  ant_steps.c ants_run_like_shit.c check_end_connections.c tips_for_algo.c \
-        filling.c find_yourself_a_room.c freeshing.c get_me_paths_lawd.c go.c lemin.c \
-        levels_and_links.c move_one_way.c path_finder.c redrum.c after_finding_paths.c \
-        search_paths.c soulmates.c utils.c valid.c best_room_definition.c
+SRC_FILES = after_finding_paths.c ant_steps.c ants_run_like_shit.c best_next.c \
+            best_room_definition.c freeshing.c go.c last_passageway.c lemin.c \
+            move_one_way.c path_finder.c read_ants.c read_links.c read_rooms.c \
+            rooms_description.c search_intersections.c search_paths.c second_searching.c \
+            utils.c valid.c ways_modification.c parser_and_filling.c path_or_its_part_is_found.c
+            remake_paths.c new_tails.c new_heads.c start_end_link.c
 
-INCL_FILE = lemin.h
+SRCS = $(addprefix $(SRC_DIR)/,$(SRC_FILES)
+OBJS = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(SRCS))
+DEPS = $(OBJS:.o=.c)
 
-SRC = ./sources/
+CC = gcc
+RM = rm -rf
+FLGS = -Wall -Wextra -Werror
+IFLGS = -I $(HDR_DIR) -I $(LFT_DIR)
+LFLGS = -L $(LFT_DIR) -lft
 
-INCL = ./includes/
+.PHONY: all clean fclean re
 
-LIB = ./libft/libft.a
+all: $(NAME)
 
-OBJ = $(SRC:.c=.o)
+$(LFT_DIR)/$(LFT):
+    $(MAKE) -C $(LFT_DIR)
 
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.c | $(OBJ_DIR)
+	$(CC) $(CFLGS) $(DFLGS) -c -o $@ $< $(IFLGS)
 
-!!!!!!!!!!!!!
-дописать addprefix и исправить src
-!!!!!!!!!!!!!
+$(OBJ_DIR):
+	mkdir -p $(OBJ_DIR)
 
-all:$(LEMIN)
-
-%.o: %.c
-	    gcc $(FLAGS) -c -o $@ $< -g
-
-$(LEMIN): $(LIB) $(OBJ)
-	    gcc -g -I $(INCL) $(LIB) -o $(LEMIN) $(SRC)
-
-$(LIB):
-	    $(MAKE) -C ./libft/
+$(NAME): $(LFT_DIR)/$(LFT) $(OBJS)
+	$(CC) -o $(NAME) $(OBJS) $(LFLGS)
 
 clean:
-	    $(MAKE) clean -C ./libft
-		rm -f $(OBJ)
+	$(MAKE) -C $(LFT_DIR) clean
+	$(RM) $(OBJ_DIR)
 
 fclean: clean
-	    $(MAKE) fclean -C ./libft
-		rm -f $(LEMIN)
+	$(MAKE) -C $(LFT_DIR) fclean
+	$(RM) $(NAME)
 
 re: fclean all

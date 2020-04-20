@@ -92,6 +92,7 @@ typedef struct		s_main
 	char 			*courier;
 	t_toend         *endway;
 	t_fromstart     *startway;
+	int				print_paths;
 }					t_main;
 
 /**

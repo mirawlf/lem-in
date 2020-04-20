@@ -83,6 +83,7 @@ add_executable(c_check
         sources/best_room_definition.c
         sources/freeshing.c
         sources/go.c
+        sources/last_passageway.c
         sources/lemin.c
         sources/move_one_way.c
         sources/path_finder.c
@@ -101,4 +102,4 @@ add_executable(c_check
         sources/remake_paths.c
         sources/new_tails.c
         sources/new_heads.c
-        sources/start_end_link.c sources/last_passageway.c)
+        sources/start_end_link.c)
