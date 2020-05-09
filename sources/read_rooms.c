@@ -99,8 +99,9 @@ int 	read_rooms(t_main *data)
 		if (is_room(line))
 		{
 			rooms = make_room(rooms, line, data);
-			if (valid_coords(rooms, data->all_rooms_here));
-				continue ;
+			if (valid_coords(rooms, data->all_rooms_here))
+			    return (0);
+			continue;
 		}
 		if (is_link(line))
 		{

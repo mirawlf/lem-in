@@ -62,4 +62,5 @@ int 	is_step(char *step)
 		return (0);
 	if (step[0] == 'L')
 		return (1);
+	return (0);
 }

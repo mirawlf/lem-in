@@ -1,12 +1,12 @@
-cmake_minimum_required(VERSION 3.14)
-project(c_check C)
+cmake_minimum_required(VERSION 3.16)
+project(LEMIN C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
 include_directories(libft)
 
-add_executable(c_check
+add_executable(LEMIN
         includes/lemin.h
         libft/ft_atoi.c
         libft/ft_bzero.c
@@ -86,20 +86,20 @@ add_executable(c_check
         sources/last_passageway.c
         sources/lemin.c
         sources/move_one_way.c
+        sources/new_heads.c
+        sources/new_tails.c
+        sources/parser_and_filling.c
         sources/path_finder.c
+        sources/path_or_its_part_is_found.c
         sources/read_ants.c
         sources/read_links.c
         sources/read_rooms.c
+        sources/remake_paths.c
         sources/rooms_description.c
         sources/search_intersections.c
         sources/search_paths.c
         sources/second_searching.c
+        sources/start_end_link.c
         sources/utils.c
         sources/valid.c
-        sources/ways_modification.c
-        sources/parser_and_filling.c
-        sources/path_or_its_part_is_found.c
-        sources/remake_paths.c
-        sources/new_tails.c
-        sources/new_heads.c
-        sources/start_end_link.c)
+        sources/ways_modification.c)

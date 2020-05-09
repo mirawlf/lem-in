@@ -56,7 +56,7 @@ void			tmp_function(t_main	*map)
 	printf("\n\n");
 }
 
-void			*main_algo_part(t_main *map)
+void			main_algo_part(t_main *map)
 {
 	map->start->level = 1;
 	map->end->level = -1;

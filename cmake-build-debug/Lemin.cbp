@@ -2,306 +2,377 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="Lemin"/>
+		<Option title="LEMIN"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/samymone/Lemin/cmake-build-debug"/>
+				<Option working_dir="/Users/student/Desktop/LEMIN/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/samymone/Lemin/cmake-build-debug"/>
+				<Option working_dir="/Users/student/Desktop/LEMIN/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/samymone/Lemin/cmake-build-debug"/>
+				<Option working_dir="/Users/student/Desktop/LEMIN/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Lemin">
-				<Option output="/Users/samymone/Lemin/cmake-build-debug/Lemin" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/samymone/Lemin/cmake-build-debug"/>
+			<Target title="LEMIN">
+				<Option output="/Users/student/Desktop/LEMIN/cmake-build-debug/LEMIN" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/student/Desktop/LEMIN/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/samymone/Lemin/."/>
-					<Add directory="/Users/samymone/Lemin/libft"/>
-					<Add directory="/Users/samymone/Lemin/libft/includes"/>
-					<Add directory="/Users/samymone/Lemin/libft/srcs"/>
+					<Add directory="/Users/student/Desktop/LEMIN/includes"/>
+					<Add directory="/Users/student/Desktop/LEMIN/libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lemin"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 LEMIN"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Lemin/fast">
-				<Option output="/Users/samymone/Lemin/cmake-build-debug/Lemin" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/samymone/Lemin/cmake-build-debug"/>
+			<Target title="LEMIN/fast">
+				<Option output="/Users/student/Desktop/LEMIN/cmake-build-debug/LEMIN" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/student/Desktop/LEMIN/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/samymone/Lemin/."/>
-					<Add directory="/Users/samymone/Lemin/libft"/>
-					<Add directory="/Users/samymone/Lemin/libft/includes"/>
-					<Add directory="/Users/samymone/Lemin/libft/srcs"/>
+					<Add directory="/Users/student/Desktop/LEMIN/includes"/>
+					<Add directory="/Users/student/Desktop/LEMIN/libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lemin/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/samymone/Lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 LEMIN/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/student/Desktop/LEMIN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/samymone/Lemin/lemin.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/includes/lemin.h">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/lemin.h">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_atoi.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/includes/get_next_line.h">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_bzero.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/includes/libft.h">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_delarr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_abs.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_isalnum.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_atoi.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_isalpha.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_atoi_base.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_isascii.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_bzero.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_isdigit.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_isalnum.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_isprint.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_isalpha.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_itoa.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_isascii.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_listlast.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_isdigit.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstadd.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_isprint.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstcount.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_itoa.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstdel.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_itoa_base.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstdelcont.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_lstadd.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstdelone.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_lstaddback.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstfind.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_lstdel.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstiter.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_lstdelone.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstmap.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_lstiter.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_lstnew.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_lstmap.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_memalloc.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_lstnew.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_memccpy.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_memalloc.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_memchr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_memccpy.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_memcmp.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_memchr.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_memcpy.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_memcmp.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_memdel.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_memcpy.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_memmove.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_memdel.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_memset.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_memmove.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_power.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_memset.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_putchar.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_power.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_putchar_fd.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_putchar.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_putendl.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_putchar_fd.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_putendl_fd.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_putendl.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_putnbr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_putendl_fd.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_putnbr_fd.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_putnbr.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_putstr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_putnbr_fd.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_putstr_fd.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_putstr.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strcat.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_putstr_fd.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strchr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_revmemcpy.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strclr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strcat.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strcmp.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strchr.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strcpy.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strclr.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strdel.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strcmp.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strdup.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strcpy.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strequ.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strdel.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_striter.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strdup.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_striteri.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strequ.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strjoin.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_striter.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strlcat.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_striteri.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strlen.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strjoin.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strmap.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strlcat.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strmapi.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strlen.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strncat.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strmap.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strncmp.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strmapi.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strncpy.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strncat.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strnequ.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strncmp.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strnew.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strncpy.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strnstr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strndup.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strrchr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strnequ.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strsplit.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strnew.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strstr.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strnjoin.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strsub.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strnstr.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_strtrim.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strrchr.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_swap.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strsplit.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_tolower.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strstr.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/ft_toupper.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strsub.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/get_next_line.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_strtrim.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/get_next_line.h">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_tolower.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/libft/libft.h">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/ft_toupper.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/after_finding_paths.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/libft/srcs/get_next_line.c">
-			<Option target="Lemin"/>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/ant_steps.c">
+			<Option target="LEMIN"/>
 		</Unit>
-		<Unit filename="/Users/samymone/Lemin/CMakeLists.txt">
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/ants_run_like_shit.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/best_next.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/best_room_definition.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/freeshing.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/go.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/last_passageway.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/lemin.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/move_one_way.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/new_heads.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/new_tails.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/parser_and_filling.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/path_finder.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/path_or_its_part_is_found.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/read_ants.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/read_links.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/read_rooms.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/remake_paths.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/rooms_description.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/search_intersections.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/search_paths.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/second_searching.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/start_end_link.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/utils.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/valid.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/sources/ways_modification.c">
+			<Option target="LEMIN"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/LEMIN/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

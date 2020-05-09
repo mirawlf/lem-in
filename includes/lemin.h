@@ -117,7 +117,7 @@ int					duplicate_links(t_link *link, t_main *data);
  * algo functions
  */
 
-void				*main_algo_part(t_main *map);
+void				main_algo_part(t_main *map);
 void				dead_ends(t_main *map);
 void				next_levels(t_main *map, int max_curr_lvl);
 void				count_inputs_and_outputs(t_main *map);
@@ -148,7 +148,7 @@ void				number_of_path_increasing(t_main *map);
  * ants' movements
  */
 
-void				*count_steps(t_main *map);
+void				count_steps(t_main *map);
 t_path				**make_path_array(t_main *main);
 void				lets_go(t_main *map);
 int					can_i_go_please(t_room *room);

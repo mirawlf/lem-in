@@ -77,7 +77,7 @@ t_path			**make_path_array(t_main *main)
 }
 
 
-void			*count_steps(t_main *map)
+void			count_steps(t_main *map)
 {
 	t_room		*current;
 	t_room		*room;
