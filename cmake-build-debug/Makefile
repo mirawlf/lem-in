@@ -2255,33 +2255,6 @@ sources/parser_and_filling.c.s:
 	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/parser_and_filling.c.s
 .PHONY : sources/parser_and_filling.c.s
 
-sources/path_finder.obj: sources/path_finder.c.obj
-
-.PHONY : sources/path_finder.obj
-
-# target to build an object file
-sources/path_finder.c.obj:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_finder.c.obj
-.PHONY : sources/path_finder.c.obj
-
-sources/path_finder.i: sources/path_finder.c.i
-
-.PHONY : sources/path_finder.i
-
-# target to preprocess a source file
-sources/path_finder.c.i:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_finder.c.i
-.PHONY : sources/path_finder.c.i
-
-sources/path_finder.s: sources/path_finder.c.s
-
-.PHONY : sources/path_finder.s
-
-# target to generate assembly for a file
-sources/path_finder.c.s:
-	$(MAKE) -f CMakeFiles\c_check.dir\build.make CMakeFiles/c_check.dir/sources/path_finder.c.s
-.PHONY : sources/path_finder.c.s
-
 sources/path_or_its_part_is_found.obj: sources/path_or_its_part_is_found.c.obj
 
 .PHONY : sources/path_or_its_part_is_found.obj
@@ -2879,9 +2852,6 @@ help:
 	@echo ... sources/parser_and_filling.obj
 	@echo ... sources/parser_and_filling.i
 	@echo ... sources/parser_and_filling.s
-	@echo ... sources/path_finder.obj
-	@echo ... sources/path_finder.i
-	@echo ... sources/path_finder.s
 	@echo ... sources/path_or_its_part_is_found.obj
 	@echo ... sources/path_or_its_part_is_found.i
 	@echo ... sources/path_or_its_part_is_found.s

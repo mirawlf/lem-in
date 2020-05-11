@@ -12,17 +12,17 @@
 
 #include "lemin.h"
 
-int 	can_i_go_please(t_room *room)///////пройтись по функциям, я эту хуйню как минимум в старт степе проверяю лишний раз, а вот надо ли?
+int			can_i_go_please(t_room *room)///////пройтись по функциям, я эту хуйню как минимум в старт степе проверяю лишний раз, а вот надо ли?
 {
 	if (!room->ant)
 		return (1);////если в комнате нет муравья
 	return (0);////если есть
 }
 
-t_ant 	*del_ant(t_ant *ant, t_main *main)
+t_ant		*del_ant(t_ant *ant, t_main *main)
 {
 	////////////will be like this for now/////will optimize later if required
-	t_ant *start;
+	t_ant	*start;
 
 	start = main->first_ant;
 	if (ant == start)
@@ -44,7 +44,7 @@ t_ant 	*del_ant(t_ant *ant, t_main *main)
 	return (ant);
 }
 
-t_ant 	*make_normal_step(t_ant *ant, t_main *main)
+t_ant 		*make_normal_step(t_ant *ant, t_main *main)
 {
 	ant->curr_room->ant = NULL;
 	ant->curr_room = ant->curr_room->where;
@@ -60,21 +60,23 @@ t_ant 	*make_normal_step(t_ant *ant, t_main *main)
 
 static int	count_delta(t_path **path_array, int i)
 {
-	int delta = 0;
-	int i2;
-	i2 = i;
+	int		delta;
+	int		i2;
 
+	delta = 0;
+	i2 = i;
 	while (i2 > 0)
 		delta += (path_array[i]->current->steps - path_array[--i2]->current->steps);
 	return (delta);
 }
 
-static int choose_way(t_ant *ant, t_path **path_array, int ways_amount, int ants_amount)
+static int	choose_way(t_ant *ant, t_path **path_array, int ways_amount, int ants_amount)
 {
-	int i;
-	int delta = 0;
+	int		i;
+	int		delta;
 
 	i = -1;
+	delta = 0;
 	while (++i < ways_amount)
 	{
 		if (i)
@@ -88,9 +90,9 @@ static int choose_way(t_ant *ant, t_path **path_array, int ways_amount, int ants
 	return (0);
 }
 
-int 	make_start_step(t_ant *ant, t_main *main)
+int			make_start_step(t_ant *ant, t_main *main)
 {
-	int	way;
+	int		way;
 
 	way = choose_way(ant, main->path_array, main->paths_amount, main->ants);
 	if (can_i_go_please(main->path_array[way]->current))

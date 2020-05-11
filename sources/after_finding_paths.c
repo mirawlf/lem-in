@@ -12,6 +12,17 @@
 
 #include "lemin.h"
 
+static void		next_path(int pos, int stp, char *start)
+{
+	ft_putstr("Path ");
+	ft_putnbr(pos);
+	ft_putstr(", steps: ");
+	ft_putnbr(stp);
+	ft_putstr("\n");
+	ft_putstr(start);
+	ft_putstr(" ");
+}
+
 static void		print_paths(t_path **paths, int paths_amount, t_room *start)
 {
 	int 		i;
@@ -20,17 +31,17 @@ static void		print_paths(t_path **paths, int paths_amount, t_room *start)
 	i = 0;
 	while (i < paths_amount)
 	{
-		printf("Path ||%d||, steps: %d\n%s ", i + 1, paths[i]->current->steps + 1, start->name);
+		next_path(i + 1, paths[i]->current->steps + 1, start->name);
 		room = paths[i]->current;
 		while (room)
 		{
-			printf("%s ", room->name);
+			ft_putstr(room->name);
+			ft_putstr(" ");
 			room = room->where;
 		}
-		printf("\n\n");
+		ft_putstr("\n\n");
 		i++;
 	}
-
 }
 
 static void		sort_paths(t_path **paths, int paths_amount)
@@ -78,11 +89,11 @@ t_path			**make_path_array(t_main *main)
 		start = start->next;
 	}
 	sort_paths(result, paths_amount);
-	if (main->print_paths == 1)
-	{
+	//if (main->print_paths == 1)
+	//{
 		print_paths(result, paths_amount, main->start);
-		exit(-1);//проверить на утечки
-	}
+	//	exit(-1);//проверить на утечки
+	//}
 	return (result);
 }
 

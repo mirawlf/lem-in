@@ -171,7 +171,7 @@ void 		try_to_change_tails(t_room *current, t_main *map)
 		if (link->first_room == current && !link->second_room->is_dead_end
 		&& check_length(current, link->second_room->from) > 0)
 		{
-			if (reach_end(link->second_room, map->end) == 1 /*ok careful here*//*fuck it&& is_written_in_history2(link->second_room, map->paths)*/)
+			if (reach_end(link->second_room, map->end) == 1)
 				exchange(current, link->second_room, map);
 			else
 			{

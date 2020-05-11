@@ -86,7 +86,6 @@ add_executable(c_check
         sources/last_passageway.c
         sources/lemin.c
         sources/move_one_way.c
-        sources/path_finder.c
         sources/read_ants.c
         sources/read_links.c
         sources/read_rooms.c

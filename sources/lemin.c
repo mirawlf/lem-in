@@ -75,21 +75,17 @@ int			main(int ac, char **av)
 {
 	t_main	*map;
 
-	if (ac == 2)
+	if (ac > 1)
 	{
-		if (!(map = (t_main*)ft_memalloc(sizeof(t_main))))
+//		if (ac == 3 && !ft_strcmp(av[2], "-p"))
+//			map->print_paths = 1;
+//		else
+//			ft_error("Unknown flag");
+		if (!(map = (t_main *)ft_memalloc(sizeof(t_main))))
 			return (-1);
-		if (ac == 2)
-			map = parse_input(av, map);
-		else if (ac == 3)
-		{
-			if (!ft_strcmp(av[2], "-p"))
-				map->print_paths = 1;
-			else
-				ft_error("Unknown flag");
-		}
-		printf("kewl!\n");
+		map = parse_input(av, map);
 	}
+	printf("kewl!\n");
 	start_end_link(map);
 	main_algo_part(map);
 	lets_go(map);

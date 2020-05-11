@@ -33,7 +33,6 @@ int				compare_paths(t_room *best, t_room *current)
 			tmp = tmp->where;
 		}
 		return (old - new);
-
 }
 
 void			remake_paths2(t_room *best, t_room *current, t_main *map)
@@ -45,7 +44,6 @@ void			remake_paths2(t_room *best, t_room *current, t_main *map)
 		current->from = best;
 		start_searching(map->end, map);
 	}
-
 }
 
 t_room			*best_variant4(t_room *current, t_room *variant, t_main *map)

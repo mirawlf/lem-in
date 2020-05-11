@@ -75,7 +75,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_check.dir/sources/last_passageway.c.obj"
   "CMakeFiles/c_check.dir/sources/lemin.c.obj"
   "CMakeFiles/c_check.dir/sources/move_one_way.c.obj"
-  "CMakeFiles/c_check.dir/sources/path_finder.c.obj"
   "CMakeFiles/c_check.dir/sources/read_ants.c.obj"
   "CMakeFiles/c_check.dir/sources/read_links.c.obj"
   "CMakeFiles/c_check.dir/sources/read_rooms.c.obj"

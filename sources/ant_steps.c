@@ -18,7 +18,6 @@ static int 	count_paths(t_path *paths)
 	t_path	*curr;
 
 	curr = paths;
-
 	while (curr)
 	{
 		i++;

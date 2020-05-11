@@ -83,7 +83,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Elmira/Desktop/c_check/sources/new_heads.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/sources/new_heads.c.obj"
   "C:/Users/Elmira/Desktop/c_check/sources/new_tails.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/sources/new_tails.c.obj"
   "C:/Users/Elmira/Desktop/c_check/sources/parser_and_filling.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj"
-  "C:/Users/Elmira/Desktop/c_check/sources/path_finder.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/sources/path_finder.c.obj"
   "C:/Users/Elmira/Desktop/c_check/sources/path_or_its_part_is_found.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj"
   "C:/Users/Elmira/Desktop/c_check/sources/read_ants.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/sources/read_ants.c.obj"
   "C:/Users/Elmira/Desktop/c_check/sources/read_links.c" "C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir/sources/read_links.c.obj"

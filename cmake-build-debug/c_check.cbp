@@ -324,9 +324,6 @@
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/parser_and_filling.c">
 			<Option target="c_check"/>
 		</Unit>
-		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/path_finder.c">
-			<Option target="c_check"/>
-		</Unit>
 		<Unit filename="C:/Users/Elmira/Desktop/c_check/sources/path_or_its_part_is_found.c">
 			<Option target="c_check"/>
 		</Unit>

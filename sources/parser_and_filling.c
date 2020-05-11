@@ -41,16 +41,15 @@ static int 		read_data(t_main *data)
 
 t_main		*structure_filling(t_main *map)
 {
-
 	if (!read_data(map))
-		ft_error("CHTO TO POSHLO NE TAK LOL");//////////check leaks
+		ft_error("ERROR");//////////check leaks
 	ant_colony_creation(map->ants, map);
 	return (map);
 }
 
 t_main		*parse_input(char **av, t_main *map)
 {
-	map->del_me_fd = open(av[1], O_RDONLY);
+	map->del_me_fd = open(av[1], O_RDONLY); //место av[1] должен быть 0
 	map = structure_filling(map);
 	map->original_ants = map->ants;
 
