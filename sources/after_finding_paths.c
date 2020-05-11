@@ -12,26 +12,11 @@
 
 #include "lemin.h"
 
-
-static void		sort_paths(t_path **paths, int paths_amount, t_room *start)
+static void		print_paths(t_path **paths, int paths_amount, t_room *start)
 {
-	int			i;
-	t_path		*temp;
+	int 		i;
 	t_room		*room;
 
-	if (!paths || !paths_amount)
-		ft_error("NO PATHS IN SORTING!");
-	i = -1;
-	while (++i < (paths_amount - 1))
-	{
-		if (paths[i]->current->steps > paths[i + 1]->current->steps)
-		{
-			temp = paths[i];
-			paths[i] = paths[i + 1];
-			paths[i + 1] = temp;
-			i = -1;
-		}
-	}
 	i = 0;
 	while (i < paths_amount)
 	{
@@ -46,6 +31,26 @@ static void		sort_paths(t_path **paths, int paths_amount, t_room *start)
 		i++;
 	}
 
+}
+
+static void		sort_paths(t_path **paths, int paths_amount)
+{
+	int			i;
+	t_path		*temp;
+
+	if (!paths || !paths_amount)
+		ft_error("NO PATHS IN SORTING!");
+	i = -1;
+	while (++i < (paths_amount - 1))
+	{
+		if (paths[i]->current->steps > paths[i + 1]->current->steps)
+		{
+			temp = paths[i];
+			paths[i] = paths[i + 1];
+			paths[i + 1] = temp;
+			i = -1;
+		}
+	}
 }
 
 t_path			**make_path_array(t_main *main)
@@ -72,7 +77,12 @@ t_path			**make_path_array(t_main *main)
 		result[i] = start;
 		start = start->next;
 	}
-	sort_paths(result, paths_amount, main->start);
+	sort_paths(result, paths_amount);
+	if (main->print_paths == 1)
+	{
+		print_paths(result, paths_amount, main->start);
+		exit(-1);//проверить на утечки
+	}
 	return (result);
 }
 

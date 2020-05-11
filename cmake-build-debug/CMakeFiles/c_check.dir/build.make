@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,1303 +60,1303 @@ CMakeFiles/c_check.dir/libft/ft_atoi.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_atoi.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_atoi.c.obj: ../libft/ft_atoi.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_check.dir/libft/ft_atoi.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_atoi.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_atoi.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_atoi.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_atoi.c
 
 CMakeFiles/c_check.dir/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_atoi.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_atoi.c > CMakeFiles\c_check.dir\libft\ft_atoi.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_atoi.c > CMakeFiles\c_check.dir\libft\ft_atoi.c.i
 
 CMakeFiles/c_check.dir/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_atoi.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_atoi.c -o CMakeFiles\c_check.dir\libft\ft_atoi.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_atoi.c -o CMakeFiles\c_check.dir\libft\ft_atoi.c.s
 
 CMakeFiles/c_check.dir/libft/ft_bzero.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_bzero.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_bzero.c.obj: ../libft/ft_bzero.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_check.dir/libft/ft_bzero.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_bzero.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_bzero.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_bzero.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_bzero.c
 
 CMakeFiles/c_check.dir/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_bzero.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_bzero.c > CMakeFiles\c_check.dir\libft\ft_bzero.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_bzero.c > CMakeFiles\c_check.dir\libft\ft_bzero.c.i
 
 CMakeFiles/c_check.dir/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_bzero.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_bzero.c -o CMakeFiles\c_check.dir\libft\ft_bzero.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_bzero.c -o CMakeFiles\c_check.dir\libft\ft_bzero.c.s
 
 CMakeFiles/c_check.dir/libft/ft_delarr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_delarr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_delarr.c.obj: ../libft/ft_delarr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/c_check.dir/libft/ft_delarr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_delarr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_delarr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_delarr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_delarr.c
 
 CMakeFiles/c_check.dir/libft/ft_delarr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_delarr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_delarr.c > CMakeFiles\c_check.dir\libft\ft_delarr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_delarr.c > CMakeFiles\c_check.dir\libft\ft_delarr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_delarr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_delarr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_delarr.c -o CMakeFiles\c_check.dir\libft\ft_delarr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_delarr.c -o CMakeFiles\c_check.dir\libft\ft_delarr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_isalnum.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_isalnum.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_isalnum.c.obj: ../libft/ft_isalnum.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/c_check.dir/libft/ft_isalnum.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isalnum.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isalnum.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isalnum.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isalnum.c
 
 CMakeFiles/c_check.dir/libft/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_isalnum.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isalnum.c > CMakeFiles\c_check.dir\libft\ft_isalnum.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isalnum.c > CMakeFiles\c_check.dir\libft\ft_isalnum.c.i
 
 CMakeFiles/c_check.dir/libft/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_isalnum.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isalnum.c -o CMakeFiles\c_check.dir\libft\ft_isalnum.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isalnum.c -o CMakeFiles\c_check.dir\libft\ft_isalnum.c.s
 
 CMakeFiles/c_check.dir/libft/ft_isalpha.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_isalpha.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_isalpha.c.obj: ../libft/ft_isalpha.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/c_check.dir/libft/ft_isalpha.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isalpha.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isalpha.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isalpha.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isalpha.c
 
 CMakeFiles/c_check.dir/libft/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_isalpha.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isalpha.c > CMakeFiles\c_check.dir\libft\ft_isalpha.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isalpha.c > CMakeFiles\c_check.dir\libft\ft_isalpha.c.i
 
 CMakeFiles/c_check.dir/libft/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_isalpha.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isalpha.c -o CMakeFiles\c_check.dir\libft\ft_isalpha.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isalpha.c -o CMakeFiles\c_check.dir\libft\ft_isalpha.c.s
 
 CMakeFiles/c_check.dir/libft/ft_isascii.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_isascii.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_isascii.c.obj: ../libft/ft_isascii.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/c_check.dir/libft/ft_isascii.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isascii.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isascii.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isascii.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isascii.c
 
 CMakeFiles/c_check.dir/libft/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_isascii.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isascii.c > CMakeFiles\c_check.dir\libft\ft_isascii.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isascii.c > CMakeFiles\c_check.dir\libft\ft_isascii.c.i
 
 CMakeFiles/c_check.dir/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_isascii.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isascii.c -o CMakeFiles\c_check.dir\libft\ft_isascii.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isascii.c -o CMakeFiles\c_check.dir\libft\ft_isascii.c.s
 
 CMakeFiles/c_check.dir/libft/ft_isdigit.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_isdigit.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_isdigit.c.obj: ../libft/ft_isdigit.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/c_check.dir/libft/ft_isdigit.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isdigit.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isdigit.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isdigit.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isdigit.c
 
 CMakeFiles/c_check.dir/libft/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_isdigit.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isdigit.c > CMakeFiles\c_check.dir\libft\ft_isdigit.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isdigit.c > CMakeFiles\c_check.dir\libft\ft_isdigit.c.i
 
 CMakeFiles/c_check.dir/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_isdigit.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isdigit.c -o CMakeFiles\c_check.dir\libft\ft_isdigit.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isdigit.c -o CMakeFiles\c_check.dir\libft\ft_isdigit.c.s
 
 CMakeFiles/c_check.dir/libft/ft_isprint.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_isprint.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_isprint.c.obj: ../libft/ft_isprint.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/c_check.dir/libft/ft_isprint.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isprint.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isprint.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_isprint.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_isprint.c
 
 CMakeFiles/c_check.dir/libft/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_isprint.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isprint.c > CMakeFiles\c_check.dir\libft\ft_isprint.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_isprint.c > CMakeFiles\c_check.dir\libft\ft_isprint.c.i
 
 CMakeFiles/c_check.dir/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_isprint.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isprint.c -o CMakeFiles\c_check.dir\libft\ft_isprint.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_isprint.c -o CMakeFiles\c_check.dir\libft\ft_isprint.c.s
 
 CMakeFiles/c_check.dir/libft/ft_itoa.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_itoa.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_itoa.c.obj: ../libft/ft_itoa.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/c_check.dir/libft/ft_itoa.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_itoa.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_itoa.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_itoa.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_itoa.c
 
 CMakeFiles/c_check.dir/libft/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_itoa.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_itoa.c > CMakeFiles\c_check.dir\libft\ft_itoa.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_itoa.c > CMakeFiles\c_check.dir\libft\ft_itoa.c.i
 
 CMakeFiles/c_check.dir/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_itoa.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_itoa.c -o CMakeFiles\c_check.dir\libft\ft_itoa.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_itoa.c -o CMakeFiles\c_check.dir\libft\ft_itoa.c.s
 
 CMakeFiles/c_check.dir/libft/ft_listlast.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_listlast.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_listlast.c.obj: ../libft/ft_listlast.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/c_check.dir/libft/ft_listlast.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_listlast.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_listlast.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_listlast.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_listlast.c
 
 CMakeFiles/c_check.dir/libft/ft_listlast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_listlast.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_listlast.c > CMakeFiles\c_check.dir\libft\ft_listlast.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_listlast.c > CMakeFiles\c_check.dir\libft\ft_listlast.c.i
 
 CMakeFiles/c_check.dir/libft/ft_listlast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_listlast.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_listlast.c -o CMakeFiles\c_check.dir\libft\ft_listlast.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_listlast.c -o CMakeFiles\c_check.dir\libft\ft_listlast.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstadd.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstadd.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstadd.c.obj: ../libft/ft_lstadd.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/c_check.dir/libft/ft_lstadd.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstadd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstadd.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstadd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstadd.c
 
 CMakeFiles/c_check.dir/libft/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstadd.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstadd.c > CMakeFiles\c_check.dir\libft\ft_lstadd.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstadd.c > CMakeFiles\c_check.dir\libft\ft_lstadd.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstadd.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstadd.c -o CMakeFiles\c_check.dir\libft\ft_lstadd.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstadd.c -o CMakeFiles\c_check.dir\libft\ft_lstadd.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstcount.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstcount.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstcount.c.obj: ../libft/ft_lstcount.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/c_check.dir/libft/ft_lstcount.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstcount.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstcount.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstcount.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstcount.c
 
 CMakeFiles/c_check.dir/libft/ft_lstcount.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstcount.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstcount.c > CMakeFiles\c_check.dir\libft\ft_lstcount.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstcount.c > CMakeFiles\c_check.dir\libft\ft_lstcount.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstcount.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstcount.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstcount.c -o CMakeFiles\c_check.dir\libft\ft_lstcount.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstcount.c -o CMakeFiles\c_check.dir\libft\ft_lstcount.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstdel.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstdel.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstdel.c.obj: ../libft/ft_lstdel.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/c_check.dir/libft/ft_lstdel.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstdel.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstdel.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstdel.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstdel.c
 
 CMakeFiles/c_check.dir/libft/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstdel.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstdel.c > CMakeFiles\c_check.dir\libft\ft_lstdel.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstdel.c > CMakeFiles\c_check.dir\libft\ft_lstdel.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstdel.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstdel.c -o CMakeFiles\c_check.dir\libft\ft_lstdel.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstdel.c -o CMakeFiles\c_check.dir\libft\ft_lstdel.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstdelcont.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstdelcont.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstdelcont.c.obj: ../libft/ft_lstdelcont.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/c_check.dir/libft/ft_lstdelcont.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstdelcont.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelcont.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstdelcont.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelcont.c
 
 CMakeFiles/c_check.dir/libft/ft_lstdelcont.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstdelcont.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelcont.c > CMakeFiles\c_check.dir\libft\ft_lstdelcont.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelcont.c > CMakeFiles\c_check.dir\libft\ft_lstdelcont.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstdelcont.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstdelcont.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelcont.c -o CMakeFiles\c_check.dir\libft\ft_lstdelcont.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelcont.c -o CMakeFiles\c_check.dir\libft\ft_lstdelcont.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstdelone.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstdelone.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstdelone.c.obj: ../libft/ft_lstdelone.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/c_check.dir/libft/ft_lstdelone.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstdelone.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelone.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstdelone.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelone.c
 
 CMakeFiles/c_check.dir/libft/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstdelone.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelone.c > CMakeFiles\c_check.dir\libft\ft_lstdelone.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelone.c > CMakeFiles\c_check.dir\libft\ft_lstdelone.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstdelone.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelone.c -o CMakeFiles\c_check.dir\libft\ft_lstdelone.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstdelone.c -o CMakeFiles\c_check.dir\libft\ft_lstdelone.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstfind.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstfind.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstfind.c.obj: ../libft/ft_lstfind.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/c_check.dir/libft/ft_lstfind.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstfind.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstfind.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstfind.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstfind.c
 
 CMakeFiles/c_check.dir/libft/ft_lstfind.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstfind.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstfind.c > CMakeFiles\c_check.dir\libft\ft_lstfind.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstfind.c > CMakeFiles\c_check.dir\libft\ft_lstfind.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstfind.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstfind.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstfind.c -o CMakeFiles\c_check.dir\libft\ft_lstfind.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstfind.c -o CMakeFiles\c_check.dir\libft\ft_lstfind.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstiter.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstiter.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstiter.c.obj: ../libft/ft_lstiter.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/c_check.dir/libft/ft_lstiter.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstiter.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstiter.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstiter.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstiter.c
 
 CMakeFiles/c_check.dir/libft/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstiter.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstiter.c > CMakeFiles\c_check.dir\libft\ft_lstiter.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstiter.c > CMakeFiles\c_check.dir\libft\ft_lstiter.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstiter.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstiter.c -o CMakeFiles\c_check.dir\libft\ft_lstiter.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstiter.c -o CMakeFiles\c_check.dir\libft\ft_lstiter.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstmap.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstmap.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstmap.c.obj: ../libft/ft_lstmap.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/c_check.dir/libft/ft_lstmap.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstmap.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstmap.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstmap.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstmap.c
 
 CMakeFiles/c_check.dir/libft/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstmap.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstmap.c > CMakeFiles\c_check.dir\libft\ft_lstmap.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstmap.c > CMakeFiles\c_check.dir\libft\ft_lstmap.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstmap.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstmap.c -o CMakeFiles\c_check.dir\libft\ft_lstmap.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstmap.c -o CMakeFiles\c_check.dir\libft\ft_lstmap.c.s
 
 CMakeFiles/c_check.dir/libft/ft_lstnew.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_lstnew.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_lstnew.c.obj: ../libft/ft_lstnew.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/c_check.dir/libft/ft_lstnew.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstnew.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstnew.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_lstnew.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_lstnew.c
 
 CMakeFiles/c_check.dir/libft/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_lstnew.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstnew.c > CMakeFiles\c_check.dir\libft\ft_lstnew.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_lstnew.c > CMakeFiles\c_check.dir\libft\ft_lstnew.c.i
 
 CMakeFiles/c_check.dir/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_lstnew.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstnew.c -o CMakeFiles\c_check.dir\libft\ft_lstnew.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_lstnew.c -o CMakeFiles\c_check.dir\libft\ft_lstnew.c.s
 
 CMakeFiles/c_check.dir/libft/ft_memalloc.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_memalloc.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_memalloc.c.obj: ../libft/ft_memalloc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/c_check.dir/libft/ft_memalloc.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memalloc.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memalloc.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memalloc.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memalloc.c
 
 CMakeFiles/c_check.dir/libft/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_memalloc.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memalloc.c > CMakeFiles\c_check.dir\libft\ft_memalloc.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memalloc.c > CMakeFiles\c_check.dir\libft\ft_memalloc.c.i
 
 CMakeFiles/c_check.dir/libft/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_memalloc.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memalloc.c -o CMakeFiles\c_check.dir\libft\ft_memalloc.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memalloc.c -o CMakeFiles\c_check.dir\libft\ft_memalloc.c.s
 
 CMakeFiles/c_check.dir/libft/ft_memccpy.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_memccpy.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_memccpy.c.obj: ../libft/ft_memccpy.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/c_check.dir/libft/ft_memccpy.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memccpy.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memccpy.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memccpy.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memccpy.c
 
 CMakeFiles/c_check.dir/libft/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_memccpy.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memccpy.c > CMakeFiles\c_check.dir\libft\ft_memccpy.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memccpy.c > CMakeFiles\c_check.dir\libft\ft_memccpy.c.i
 
 CMakeFiles/c_check.dir/libft/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_memccpy.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memccpy.c -o CMakeFiles\c_check.dir\libft\ft_memccpy.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memccpy.c -o CMakeFiles\c_check.dir\libft\ft_memccpy.c.s
 
 CMakeFiles/c_check.dir/libft/ft_memchr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_memchr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_memchr.c.obj: ../libft/ft_memchr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/c_check.dir/libft/ft_memchr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memchr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memchr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memchr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memchr.c
 
 CMakeFiles/c_check.dir/libft/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_memchr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memchr.c > CMakeFiles\c_check.dir\libft\ft_memchr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memchr.c > CMakeFiles\c_check.dir\libft\ft_memchr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_memchr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memchr.c -o CMakeFiles\c_check.dir\libft\ft_memchr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memchr.c -o CMakeFiles\c_check.dir\libft\ft_memchr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_memcmp.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_memcmp.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_memcmp.c.obj: ../libft/ft_memcmp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/c_check.dir/libft/ft_memcmp.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memcmp.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memcmp.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memcmp.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memcmp.c
 
 CMakeFiles/c_check.dir/libft/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_memcmp.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memcmp.c > CMakeFiles\c_check.dir\libft\ft_memcmp.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memcmp.c > CMakeFiles\c_check.dir\libft\ft_memcmp.c.i
 
 CMakeFiles/c_check.dir/libft/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_memcmp.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memcmp.c -o CMakeFiles\c_check.dir\libft\ft_memcmp.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memcmp.c -o CMakeFiles\c_check.dir\libft\ft_memcmp.c.s
 
 CMakeFiles/c_check.dir/libft/ft_memcpy.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_memcpy.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_memcpy.c.obj: ../libft/ft_memcpy.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/c_check.dir/libft/ft_memcpy.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memcpy.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memcpy.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memcpy.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memcpy.c
 
 CMakeFiles/c_check.dir/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_memcpy.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memcpy.c > CMakeFiles\c_check.dir\libft\ft_memcpy.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memcpy.c > CMakeFiles\c_check.dir\libft\ft_memcpy.c.i
 
 CMakeFiles/c_check.dir/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_memcpy.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memcpy.c -o CMakeFiles\c_check.dir\libft\ft_memcpy.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memcpy.c -o CMakeFiles\c_check.dir\libft\ft_memcpy.c.s
 
 CMakeFiles/c_check.dir/libft/ft_memdel.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_memdel.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_memdel.c.obj: ../libft/ft_memdel.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/c_check.dir/libft/ft_memdel.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memdel.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memdel.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memdel.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memdel.c
 
 CMakeFiles/c_check.dir/libft/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_memdel.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memdel.c > CMakeFiles\c_check.dir\libft\ft_memdel.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memdel.c > CMakeFiles\c_check.dir\libft\ft_memdel.c.i
 
 CMakeFiles/c_check.dir/libft/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_memdel.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memdel.c -o CMakeFiles\c_check.dir\libft\ft_memdel.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memdel.c -o CMakeFiles\c_check.dir\libft\ft_memdel.c.s
 
 CMakeFiles/c_check.dir/libft/ft_memmove.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_memmove.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_memmove.c.obj: ../libft/ft_memmove.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/c_check.dir/libft/ft_memmove.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memmove.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memmove.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memmove.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memmove.c
 
 CMakeFiles/c_check.dir/libft/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_memmove.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memmove.c > CMakeFiles\c_check.dir\libft\ft_memmove.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memmove.c > CMakeFiles\c_check.dir\libft\ft_memmove.c.i
 
 CMakeFiles/c_check.dir/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_memmove.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memmove.c -o CMakeFiles\c_check.dir\libft\ft_memmove.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memmove.c -o CMakeFiles\c_check.dir\libft\ft_memmove.c.s
 
 CMakeFiles/c_check.dir/libft/ft_memset.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_memset.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_memset.c.obj: ../libft/ft_memset.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/c_check.dir/libft/ft_memset.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memset.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memset.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_memset.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_memset.c
 
 CMakeFiles/c_check.dir/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_memset.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memset.c > CMakeFiles\c_check.dir\libft\ft_memset.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_memset.c > CMakeFiles\c_check.dir\libft\ft_memset.c.i
 
 CMakeFiles/c_check.dir/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_memset.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memset.c -o CMakeFiles\c_check.dir\libft\ft_memset.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_memset.c -o CMakeFiles\c_check.dir\libft\ft_memset.c.s
 
 CMakeFiles/c_check.dir/libft/ft_power.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_power.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_power.c.obj: ../libft/ft_power.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/c_check.dir/libft/ft_power.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_power.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_power.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_power.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_power.c
 
 CMakeFiles/c_check.dir/libft/ft_power.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_power.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_power.c > CMakeFiles\c_check.dir\libft\ft_power.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_power.c > CMakeFiles\c_check.dir\libft\ft_power.c.i
 
 CMakeFiles/c_check.dir/libft/ft_power.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_power.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_power.c -o CMakeFiles\c_check.dir\libft\ft_power.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_power.c -o CMakeFiles\c_check.dir\libft\ft_power.c.s
 
 CMakeFiles/c_check.dir/libft/ft_putchar.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_putchar.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_putchar.c.obj: ../libft/ft_putchar.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/c_check.dir/libft/ft_putchar.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putchar.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putchar.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putchar.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putchar.c
 
 CMakeFiles/c_check.dir/libft/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_putchar.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putchar.c > CMakeFiles\c_check.dir\libft\ft_putchar.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putchar.c > CMakeFiles\c_check.dir\libft\ft_putchar.c.i
 
 CMakeFiles/c_check.dir/libft/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_putchar.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putchar.c -o CMakeFiles\c_check.dir\libft\ft_putchar.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putchar.c -o CMakeFiles\c_check.dir\libft\ft_putchar.c.s
 
 CMakeFiles/c_check.dir/libft/ft_putchar_fd.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_putchar_fd.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_putchar_fd.c.obj: ../libft/ft_putchar_fd.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/c_check.dir/libft/ft_putchar_fd.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putchar_fd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putchar_fd.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putchar_fd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putchar_fd.c
 
 CMakeFiles/c_check.dir/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_putchar_fd.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putchar_fd.c > CMakeFiles\c_check.dir\libft\ft_putchar_fd.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putchar_fd.c > CMakeFiles\c_check.dir\libft\ft_putchar_fd.c.i
 
 CMakeFiles/c_check.dir/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_putchar_fd.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putchar_fd.c -o CMakeFiles\c_check.dir\libft\ft_putchar_fd.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putchar_fd.c -o CMakeFiles\c_check.dir\libft\ft_putchar_fd.c.s
 
 CMakeFiles/c_check.dir/libft/ft_putendl.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_putendl.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_putendl.c.obj: ../libft/ft_putendl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/c_check.dir/libft/ft_putendl.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putendl.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putendl.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putendl.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putendl.c
 
 CMakeFiles/c_check.dir/libft/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_putendl.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putendl.c > CMakeFiles\c_check.dir\libft\ft_putendl.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putendl.c > CMakeFiles\c_check.dir\libft\ft_putendl.c.i
 
 CMakeFiles/c_check.dir/libft/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_putendl.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putendl.c -o CMakeFiles\c_check.dir\libft\ft_putendl.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putendl.c -o CMakeFiles\c_check.dir\libft\ft_putendl.c.s
 
 CMakeFiles/c_check.dir/libft/ft_putendl_fd.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_putendl_fd.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_putendl_fd.c.obj: ../libft/ft_putendl_fd.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/c_check.dir/libft/ft_putendl_fd.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putendl_fd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putendl_fd.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putendl_fd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putendl_fd.c
 
 CMakeFiles/c_check.dir/libft/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_putendl_fd.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putendl_fd.c > CMakeFiles\c_check.dir\libft\ft_putendl_fd.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putendl_fd.c > CMakeFiles\c_check.dir\libft\ft_putendl_fd.c.i
 
 CMakeFiles/c_check.dir/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_putendl_fd.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putendl_fd.c -o CMakeFiles\c_check.dir\libft\ft_putendl_fd.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putendl_fd.c -o CMakeFiles\c_check.dir\libft\ft_putendl_fd.c.s
 
 CMakeFiles/c_check.dir/libft/ft_putnbr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_putnbr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_putnbr.c.obj: ../libft/ft_putnbr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/c_check.dir/libft/ft_putnbr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putnbr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putnbr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr.c
 
 CMakeFiles/c_check.dir/libft/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_putnbr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr.c > CMakeFiles\c_check.dir\libft\ft_putnbr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr.c > CMakeFiles\c_check.dir\libft\ft_putnbr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_putnbr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr.c -o CMakeFiles\c_check.dir\libft\ft_putnbr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr.c -o CMakeFiles\c_check.dir\libft\ft_putnbr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_putnbr_fd.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_putnbr_fd.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_putnbr_fd.c.obj: ../libft/ft_putnbr_fd.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/c_check.dir/libft/ft_putnbr_fd.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putnbr_fd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr_fd.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putnbr_fd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr_fd.c
 
 CMakeFiles/c_check.dir/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_putnbr_fd.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr_fd.c > CMakeFiles\c_check.dir\libft\ft_putnbr_fd.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr_fd.c > CMakeFiles\c_check.dir\libft\ft_putnbr_fd.c.i
 
 CMakeFiles/c_check.dir/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_putnbr_fd.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr_fd.c -o CMakeFiles\c_check.dir\libft\ft_putnbr_fd.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putnbr_fd.c -o CMakeFiles\c_check.dir\libft\ft_putnbr_fd.c.s
 
 CMakeFiles/c_check.dir/libft/ft_putstr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_putstr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_putstr.c.obj: ../libft/ft_putstr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/c_check.dir/libft/ft_putstr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putstr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putstr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putstr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putstr.c
 
 CMakeFiles/c_check.dir/libft/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_putstr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putstr.c > CMakeFiles\c_check.dir\libft\ft_putstr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putstr.c > CMakeFiles\c_check.dir\libft\ft_putstr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_putstr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putstr.c -o CMakeFiles\c_check.dir\libft\ft_putstr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putstr.c -o CMakeFiles\c_check.dir\libft\ft_putstr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_putstr_fd.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_putstr_fd.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_putstr_fd.c.obj: ../libft/ft_putstr_fd.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/c_check.dir/libft/ft_putstr_fd.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putstr_fd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putstr_fd.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_putstr_fd.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_putstr_fd.c
 
 CMakeFiles/c_check.dir/libft/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_putstr_fd.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putstr_fd.c > CMakeFiles\c_check.dir\libft\ft_putstr_fd.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_putstr_fd.c > CMakeFiles\c_check.dir\libft\ft_putstr_fd.c.i
 
 CMakeFiles/c_check.dir/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_putstr_fd.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putstr_fd.c -o CMakeFiles\c_check.dir\libft\ft_putstr_fd.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_putstr_fd.c -o CMakeFiles\c_check.dir\libft\ft_putstr_fd.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strcat.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strcat.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strcat.c.obj: ../libft/ft_strcat.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/c_check.dir/libft/ft_strcat.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strcat.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strcat.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strcat.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strcat.c
 
 CMakeFiles/c_check.dir/libft/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strcat.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strcat.c > CMakeFiles\c_check.dir\libft\ft_strcat.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strcat.c > CMakeFiles\c_check.dir\libft\ft_strcat.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strcat.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strcat.c -o CMakeFiles\c_check.dir\libft\ft_strcat.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strcat.c -o CMakeFiles\c_check.dir\libft\ft_strcat.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strchr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strchr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strchr.c.obj: ../libft/ft_strchr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/c_check.dir/libft/ft_strchr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strchr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strchr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strchr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strchr.c
 
 CMakeFiles/c_check.dir/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strchr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strchr.c > CMakeFiles\c_check.dir\libft\ft_strchr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strchr.c > CMakeFiles\c_check.dir\libft\ft_strchr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strchr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strchr.c -o CMakeFiles\c_check.dir\libft\ft_strchr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strchr.c -o CMakeFiles\c_check.dir\libft\ft_strchr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strclr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strclr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strclr.c.obj: ../libft/ft_strclr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/c_check.dir/libft/ft_strclr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strclr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strclr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strclr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strclr.c
 
 CMakeFiles/c_check.dir/libft/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strclr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strclr.c > CMakeFiles\c_check.dir\libft\ft_strclr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strclr.c > CMakeFiles\c_check.dir\libft\ft_strclr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strclr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strclr.c -o CMakeFiles\c_check.dir\libft\ft_strclr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strclr.c -o CMakeFiles\c_check.dir\libft\ft_strclr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strcmp.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strcmp.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strcmp.c.obj: ../libft/ft_strcmp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/c_check.dir/libft/ft_strcmp.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strcmp.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strcmp.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strcmp.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strcmp.c
 
 CMakeFiles/c_check.dir/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strcmp.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strcmp.c > CMakeFiles\c_check.dir\libft\ft_strcmp.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strcmp.c > CMakeFiles\c_check.dir\libft\ft_strcmp.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strcmp.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strcmp.c -o CMakeFiles\c_check.dir\libft\ft_strcmp.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strcmp.c -o CMakeFiles\c_check.dir\libft\ft_strcmp.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strcpy.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strcpy.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strcpy.c.obj: ../libft/ft_strcpy.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/c_check.dir/libft/ft_strcpy.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strcpy.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strcpy.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strcpy.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strcpy.c
 
 CMakeFiles/c_check.dir/libft/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strcpy.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strcpy.c > CMakeFiles\c_check.dir\libft\ft_strcpy.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strcpy.c > CMakeFiles\c_check.dir\libft\ft_strcpy.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strcpy.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strcpy.c -o CMakeFiles\c_check.dir\libft\ft_strcpy.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strcpy.c -o CMakeFiles\c_check.dir\libft\ft_strcpy.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strdel.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strdel.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strdel.c.obj: ../libft/ft_strdel.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/c_check.dir/libft/ft_strdel.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strdel.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strdel.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strdel.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strdel.c
 
 CMakeFiles/c_check.dir/libft/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strdel.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strdel.c > CMakeFiles\c_check.dir\libft\ft_strdel.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strdel.c > CMakeFiles\c_check.dir\libft\ft_strdel.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strdel.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strdel.c -o CMakeFiles\c_check.dir\libft\ft_strdel.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strdel.c -o CMakeFiles\c_check.dir\libft\ft_strdel.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strdup.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strdup.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strdup.c.obj: ../libft/ft_strdup.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/c_check.dir/libft/ft_strdup.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strdup.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strdup.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strdup.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strdup.c
 
 CMakeFiles/c_check.dir/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strdup.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strdup.c > CMakeFiles\c_check.dir\libft\ft_strdup.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strdup.c > CMakeFiles\c_check.dir\libft\ft_strdup.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strdup.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strdup.c -o CMakeFiles\c_check.dir\libft\ft_strdup.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strdup.c -o CMakeFiles\c_check.dir\libft\ft_strdup.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strequ.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strequ.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strequ.c.obj: ../libft/ft_strequ.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/c_check.dir/libft/ft_strequ.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strequ.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strequ.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strequ.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strequ.c
 
 CMakeFiles/c_check.dir/libft/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strequ.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strequ.c > CMakeFiles\c_check.dir\libft\ft_strequ.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strequ.c > CMakeFiles\c_check.dir\libft\ft_strequ.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strequ.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strequ.c -o CMakeFiles\c_check.dir\libft\ft_strequ.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strequ.c -o CMakeFiles\c_check.dir\libft\ft_strequ.c.s
 
 CMakeFiles/c_check.dir/libft/ft_striter.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_striter.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_striter.c.obj: ../libft/ft_striter.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/c_check.dir/libft/ft_striter.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_striter.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_striter.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_striter.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_striter.c
 
 CMakeFiles/c_check.dir/libft/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_striter.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_striter.c > CMakeFiles\c_check.dir\libft\ft_striter.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_striter.c > CMakeFiles\c_check.dir\libft\ft_striter.c.i
 
 CMakeFiles/c_check.dir/libft/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_striter.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_striter.c -o CMakeFiles\c_check.dir\libft\ft_striter.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_striter.c -o CMakeFiles\c_check.dir\libft\ft_striter.c.s
 
 CMakeFiles/c_check.dir/libft/ft_striteri.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_striteri.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_striteri.c.obj: ../libft/ft_striteri.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/c_check.dir/libft/ft_striteri.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_striteri.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_striteri.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_striteri.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_striteri.c
 
 CMakeFiles/c_check.dir/libft/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_striteri.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_striteri.c > CMakeFiles\c_check.dir\libft\ft_striteri.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_striteri.c > CMakeFiles\c_check.dir\libft\ft_striteri.c.i
 
 CMakeFiles/c_check.dir/libft/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_striteri.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_striteri.c -o CMakeFiles\c_check.dir\libft\ft_striteri.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_striteri.c -o CMakeFiles\c_check.dir\libft\ft_striteri.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strjoin.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strjoin.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strjoin.c.obj: ../libft/ft_strjoin.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/c_check.dir/libft/ft_strjoin.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strjoin.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strjoin.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strjoin.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strjoin.c
 
 CMakeFiles/c_check.dir/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strjoin.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strjoin.c > CMakeFiles\c_check.dir\libft\ft_strjoin.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strjoin.c > CMakeFiles\c_check.dir\libft\ft_strjoin.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strjoin.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strjoin.c -o CMakeFiles\c_check.dir\libft\ft_strjoin.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strjoin.c -o CMakeFiles\c_check.dir\libft\ft_strjoin.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strlcat.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strlcat.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strlcat.c.obj: ../libft/ft_strlcat.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/c_check.dir/libft/ft_strlcat.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strlcat.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strlcat.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strlcat.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strlcat.c
 
 CMakeFiles/c_check.dir/libft/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strlcat.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strlcat.c > CMakeFiles\c_check.dir\libft\ft_strlcat.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strlcat.c > CMakeFiles\c_check.dir\libft\ft_strlcat.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strlcat.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strlcat.c -o CMakeFiles\c_check.dir\libft\ft_strlcat.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strlcat.c -o CMakeFiles\c_check.dir\libft\ft_strlcat.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strlen.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strlen.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strlen.c.obj: ../libft/ft_strlen.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/c_check.dir/libft/ft_strlen.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strlen.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strlen.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strlen.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strlen.c
 
 CMakeFiles/c_check.dir/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strlen.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strlen.c > CMakeFiles\c_check.dir\libft\ft_strlen.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strlen.c > CMakeFiles\c_check.dir\libft\ft_strlen.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strlen.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strlen.c -o CMakeFiles\c_check.dir\libft\ft_strlen.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strlen.c -o CMakeFiles\c_check.dir\libft\ft_strlen.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strmap.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strmap.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strmap.c.obj: ../libft/ft_strmap.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/c_check.dir/libft/ft_strmap.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strmap.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strmap.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strmap.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strmap.c
 
 CMakeFiles/c_check.dir/libft/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strmap.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strmap.c > CMakeFiles\c_check.dir\libft\ft_strmap.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strmap.c > CMakeFiles\c_check.dir\libft\ft_strmap.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strmap.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strmap.c -o CMakeFiles\c_check.dir\libft\ft_strmap.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strmap.c -o CMakeFiles\c_check.dir\libft\ft_strmap.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strmapi.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strmapi.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strmapi.c.obj: ../libft/ft_strmapi.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/c_check.dir/libft/ft_strmapi.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strmapi.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strmapi.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strmapi.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strmapi.c
 
 CMakeFiles/c_check.dir/libft/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strmapi.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strmapi.c > CMakeFiles\c_check.dir\libft\ft_strmapi.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strmapi.c > CMakeFiles\c_check.dir\libft\ft_strmapi.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strmapi.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strmapi.c -o CMakeFiles\c_check.dir\libft\ft_strmapi.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strmapi.c -o CMakeFiles\c_check.dir\libft\ft_strmapi.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strncat.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strncat.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strncat.c.obj: ../libft/ft_strncat.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/c_check.dir/libft/ft_strncat.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strncat.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strncat.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strncat.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strncat.c
 
 CMakeFiles/c_check.dir/libft/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strncat.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strncat.c > CMakeFiles\c_check.dir\libft\ft_strncat.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strncat.c > CMakeFiles\c_check.dir\libft\ft_strncat.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strncat.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strncat.c -o CMakeFiles\c_check.dir\libft\ft_strncat.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strncat.c -o CMakeFiles\c_check.dir\libft\ft_strncat.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strncmp.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strncmp.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strncmp.c.obj: ../libft/ft_strncmp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/c_check.dir/libft/ft_strncmp.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strncmp.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strncmp.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strncmp.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strncmp.c
 
 CMakeFiles/c_check.dir/libft/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strncmp.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strncmp.c > CMakeFiles\c_check.dir\libft\ft_strncmp.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strncmp.c > CMakeFiles\c_check.dir\libft\ft_strncmp.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strncmp.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strncmp.c -o CMakeFiles\c_check.dir\libft\ft_strncmp.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strncmp.c -o CMakeFiles\c_check.dir\libft\ft_strncmp.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strncpy.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strncpy.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strncpy.c.obj: ../libft/ft_strncpy.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/c_check.dir/libft/ft_strncpy.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strncpy.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strncpy.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strncpy.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strncpy.c
 
 CMakeFiles/c_check.dir/libft/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strncpy.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strncpy.c > CMakeFiles\c_check.dir\libft\ft_strncpy.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strncpy.c > CMakeFiles\c_check.dir\libft\ft_strncpy.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strncpy.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strncpy.c -o CMakeFiles\c_check.dir\libft\ft_strncpy.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strncpy.c -o CMakeFiles\c_check.dir\libft\ft_strncpy.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strnequ.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strnequ.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strnequ.c.obj: ../libft/ft_strnequ.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/c_check.dir/libft/ft_strnequ.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strnequ.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strnequ.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strnequ.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strnequ.c
 
 CMakeFiles/c_check.dir/libft/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strnequ.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strnequ.c > CMakeFiles\c_check.dir\libft\ft_strnequ.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strnequ.c > CMakeFiles\c_check.dir\libft\ft_strnequ.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strnequ.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strnequ.c -o CMakeFiles\c_check.dir\libft\ft_strnequ.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strnequ.c -o CMakeFiles\c_check.dir\libft\ft_strnequ.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strnew.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strnew.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strnew.c.obj: ../libft/ft_strnew.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/c_check.dir/libft/ft_strnew.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strnew.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strnew.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strnew.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strnew.c
 
 CMakeFiles/c_check.dir/libft/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strnew.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strnew.c > CMakeFiles\c_check.dir\libft\ft_strnew.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strnew.c > CMakeFiles\c_check.dir\libft\ft_strnew.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strnew.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strnew.c -o CMakeFiles\c_check.dir\libft\ft_strnew.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strnew.c -o CMakeFiles\c_check.dir\libft\ft_strnew.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strnstr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strnstr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strnstr.c.obj: ../libft/ft_strnstr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/c_check.dir/libft/ft_strnstr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strnstr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strnstr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strnstr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strnstr.c
 
 CMakeFiles/c_check.dir/libft/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strnstr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strnstr.c > CMakeFiles\c_check.dir\libft\ft_strnstr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strnstr.c > CMakeFiles\c_check.dir\libft\ft_strnstr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strnstr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strnstr.c -o CMakeFiles\c_check.dir\libft\ft_strnstr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strnstr.c -o CMakeFiles\c_check.dir\libft\ft_strnstr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strrchr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strrchr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strrchr.c.obj: ../libft/ft_strrchr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/c_check.dir/libft/ft_strrchr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strrchr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strrchr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strrchr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strrchr.c
 
 CMakeFiles/c_check.dir/libft/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strrchr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strrchr.c > CMakeFiles\c_check.dir\libft\ft_strrchr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strrchr.c > CMakeFiles\c_check.dir\libft\ft_strrchr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strrchr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strrchr.c -o CMakeFiles\c_check.dir\libft\ft_strrchr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strrchr.c -o CMakeFiles\c_check.dir\libft\ft_strrchr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strsplit.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strsplit.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strsplit.c.obj: ../libft/ft_strsplit.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/c_check.dir/libft/ft_strsplit.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strsplit.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strsplit.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strsplit.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strsplit.c
 
 CMakeFiles/c_check.dir/libft/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strsplit.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strsplit.c > CMakeFiles\c_check.dir\libft\ft_strsplit.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strsplit.c > CMakeFiles\c_check.dir\libft\ft_strsplit.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strsplit.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strsplit.c -o CMakeFiles\c_check.dir\libft\ft_strsplit.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strsplit.c -o CMakeFiles\c_check.dir\libft\ft_strsplit.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strstr.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strstr.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strstr.c.obj: ../libft/ft_strstr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/c_check.dir/libft/ft_strstr.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strstr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strstr.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strstr.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strstr.c
 
 CMakeFiles/c_check.dir/libft/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strstr.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strstr.c > CMakeFiles\c_check.dir\libft\ft_strstr.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strstr.c > CMakeFiles\c_check.dir\libft\ft_strstr.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strstr.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strstr.c -o CMakeFiles\c_check.dir\libft\ft_strstr.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strstr.c -o CMakeFiles\c_check.dir\libft\ft_strstr.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strsub.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strsub.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strsub.c.obj: ../libft/ft_strsub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/c_check.dir/libft/ft_strsub.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strsub.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strsub.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strsub.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strsub.c
 
 CMakeFiles/c_check.dir/libft/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strsub.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strsub.c > CMakeFiles\c_check.dir\libft\ft_strsub.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strsub.c > CMakeFiles\c_check.dir\libft\ft_strsub.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strsub.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strsub.c -o CMakeFiles\c_check.dir\libft\ft_strsub.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strsub.c -o CMakeFiles\c_check.dir\libft\ft_strsub.c.s
 
 CMakeFiles/c_check.dir/libft/ft_strtrim.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_strtrim.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_strtrim.c.obj: ../libft/ft_strtrim.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/c_check.dir/libft/ft_strtrim.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strtrim.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strtrim.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_strtrim.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_strtrim.c
 
 CMakeFiles/c_check.dir/libft/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_strtrim.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strtrim.c > CMakeFiles\c_check.dir\libft\ft_strtrim.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_strtrim.c > CMakeFiles\c_check.dir\libft\ft_strtrim.c.i
 
 CMakeFiles/c_check.dir/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_strtrim.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strtrim.c -o CMakeFiles\c_check.dir\libft\ft_strtrim.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_strtrim.c -o CMakeFiles\c_check.dir\libft\ft_strtrim.c.s
 
 CMakeFiles/c_check.dir/libft/ft_swap.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_swap.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_swap.c.obj: ../libft/ft_swap.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/c_check.dir/libft/ft_swap.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_swap.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_swap.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_swap.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_swap.c
 
 CMakeFiles/c_check.dir/libft/ft_swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_swap.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_swap.c > CMakeFiles\c_check.dir\libft\ft_swap.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_swap.c > CMakeFiles\c_check.dir\libft\ft_swap.c.i
 
 CMakeFiles/c_check.dir/libft/ft_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_swap.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_swap.c -o CMakeFiles\c_check.dir\libft\ft_swap.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_swap.c -o CMakeFiles\c_check.dir\libft\ft_swap.c.s
 
 CMakeFiles/c_check.dir/libft/ft_tolower.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_tolower.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_tolower.c.obj: ../libft/ft_tolower.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/c_check.dir/libft/ft_tolower.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_tolower.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_tolower.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_tolower.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_tolower.c
 
 CMakeFiles/c_check.dir/libft/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_tolower.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_tolower.c > CMakeFiles\c_check.dir\libft\ft_tolower.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_tolower.c > CMakeFiles\c_check.dir\libft\ft_tolower.c.i
 
 CMakeFiles/c_check.dir/libft/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_tolower.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_tolower.c -o CMakeFiles\c_check.dir\libft\ft_tolower.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_tolower.c -o CMakeFiles\c_check.dir\libft\ft_tolower.c.s
 
 CMakeFiles/c_check.dir/libft/ft_toupper.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/ft_toupper.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/ft_toupper.c.obj: ../libft/ft_toupper.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/c_check.dir/libft/ft_toupper.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_toupper.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_toupper.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\ft_toupper.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\ft_toupper.c
 
 CMakeFiles/c_check.dir/libft/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/ft_toupper.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_toupper.c > CMakeFiles\c_check.dir\libft\ft_toupper.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\ft_toupper.c > CMakeFiles\c_check.dir\libft\ft_toupper.c.i
 
 CMakeFiles/c_check.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/ft_toupper.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_toupper.c -o CMakeFiles\c_check.dir\libft\ft_toupper.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\ft_toupper.c -o CMakeFiles\c_check.dir\libft\ft_toupper.c.s
 
 CMakeFiles/c_check.dir/libft/get_next_line.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/libft/get_next_line.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/libft/get_next_line.c.obj: ../libft/get_next_line.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/c_check.dir/libft/get_next_line.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\get_next_line.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\get_next_line.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\libft\get_next_line.c.obj   -c C:\Users\Elmira\Desktop\c_check\libft\get_next_line.c
 
 CMakeFiles/c_check.dir/libft/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/libft/get_next_line.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\get_next_line.c > CMakeFiles\c_check.dir\libft\get_next_line.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\libft\get_next_line.c > CMakeFiles\c_check.dir\libft\get_next_line.c.i
 
 CMakeFiles/c_check.dir/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/libft/get_next_line.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\get_next_line.c -o CMakeFiles\c_check.dir\libft\get_next_line.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\libft\get_next_line.c -o CMakeFiles\c_check.dir\libft\get_next_line.c.s
 
 CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj: ../sources/after_finding_paths.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/c_check.dir/sources/after_finding_paths.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\after_finding_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\after_finding_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c
 
 CMakeFiles/c_check.dir/sources/after_finding_paths.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/after_finding_paths.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c > CMakeFiles\c_check.dir\sources\after_finding_paths.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c > CMakeFiles\c_check.dir\sources\after_finding_paths.c.i
 
 CMakeFiles/c_check.dir/sources/after_finding_paths.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/after_finding_paths.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c -o CMakeFiles\c_check.dir\sources\after_finding_paths.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\after_finding_paths.c -o CMakeFiles\c_check.dir\sources\after_finding_paths.c.s
 
 CMakeFiles/c_check.dir/sources/ant_steps.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/ant_steps.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/ant_steps.c.obj: ../sources/ant_steps.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/c_check.dir/sources/ant_steps.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ant_steps.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ant_steps.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c
 
 CMakeFiles/c_check.dir/sources/ant_steps.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/ant_steps.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c > CMakeFiles\c_check.dir\sources\ant_steps.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c > CMakeFiles\c_check.dir\sources\ant_steps.c.i
 
 CMakeFiles/c_check.dir/sources/ant_steps.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/ant_steps.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c -o CMakeFiles\c_check.dir\sources\ant_steps.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ant_steps.c -o CMakeFiles\c_check.dir\sources\ant_steps.c.s
 
 CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj: ../sources/ants_run_like_shit.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c
 
 CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c > CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c > CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.i
 
 CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/ants_run_like_shit.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c -o CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ants_run_like_shit.c -o CMakeFiles\c_check.dir\sources\ants_run_like_shit.c.s
 
 CMakeFiles/c_check.dir/sources/best_next.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/best_next.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/best_next.c.obj: ../sources/best_next.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/c_check.dir/sources/best_next.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\best_next.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\best_next.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\best_next.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\best_next.c
 
 CMakeFiles/c_check.dir/sources/best_next.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/best_next.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\best_next.c > CMakeFiles\c_check.dir\sources\best_next.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\best_next.c > CMakeFiles\c_check.dir\sources\best_next.c.i
 
 CMakeFiles/c_check.dir/sources/best_next.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/best_next.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\best_next.c -o CMakeFiles\c_check.dir\sources\best_next.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\best_next.c -o CMakeFiles\c_check.dir\sources\best_next.c.s
 
 CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/best_room_definition.c.obj: ../sources/best_room_definition.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/c_check.dir/sources/best_room_definition.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\best_room_definition.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\best_room_definition.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c
 
 CMakeFiles/c_check.dir/sources/best_room_definition.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/best_room_definition.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c > CMakeFiles\c_check.dir\sources\best_room_definition.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c > CMakeFiles\c_check.dir\sources\best_room_definition.c.i
 
 CMakeFiles/c_check.dir/sources/best_room_definition.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/best_room_definition.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c -o CMakeFiles\c_check.dir\sources\best_room_definition.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\best_room_definition.c -o CMakeFiles\c_check.dir\sources\best_room_definition.c.s
 
 CMakeFiles/c_check.dir/sources/freeshing.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/freeshing.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/freeshing.c.obj: ../sources/freeshing.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/c_check.dir/sources/freeshing.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\freeshing.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\freeshing.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\freeshing.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\freeshing.c
 
 CMakeFiles/c_check.dir/sources/freeshing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/freeshing.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\freeshing.c > CMakeFiles\c_check.dir\sources\freeshing.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\freeshing.c > CMakeFiles\c_check.dir\sources\freeshing.c.i
 
 CMakeFiles/c_check.dir/sources/freeshing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/freeshing.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\freeshing.c -o CMakeFiles\c_check.dir\sources\freeshing.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\freeshing.c -o CMakeFiles\c_check.dir\sources\freeshing.c.s
 
 CMakeFiles/c_check.dir/sources/go.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/go.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/go.c.obj: ../sources/go.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/c_check.dir/sources/go.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\go.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\go.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\go.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\go.c
 
 CMakeFiles/c_check.dir/sources/go.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/go.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\go.c > CMakeFiles\c_check.dir\sources\go.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\go.c > CMakeFiles\c_check.dir\sources\go.c.i
 
 CMakeFiles/c_check.dir/sources/go.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/go.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\go.c -o CMakeFiles\c_check.dir\sources\go.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\go.c -o CMakeFiles\c_check.dir\sources\go.c.s
 
 CMakeFiles/c_check.dir/sources/last_passageway.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/last_passageway.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/last_passageway.c.obj: ../sources/last_passageway.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/c_check.dir/sources/last_passageway.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\last_passageway.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\last_passageway.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c
 
 CMakeFiles/c_check.dir/sources/last_passageway.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/last_passageway.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c > CMakeFiles\c_check.dir\sources\last_passageway.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c > CMakeFiles\c_check.dir\sources\last_passageway.c.i
 
 CMakeFiles/c_check.dir/sources/last_passageway.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/last_passageway.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c -o CMakeFiles\c_check.dir\sources\last_passageway.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\last_passageway.c -o CMakeFiles\c_check.dir\sources\last_passageway.c.s
 
 CMakeFiles/c_check.dir/sources/lemin.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/lemin.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/lemin.c.obj: ../sources/lemin.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/c_check.dir/sources/lemin.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\lemin.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\lemin.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\lemin.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\lemin.c
 
 CMakeFiles/c_check.dir/sources/lemin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/lemin.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\lemin.c > CMakeFiles\c_check.dir\sources\lemin.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\lemin.c > CMakeFiles\c_check.dir\sources\lemin.c.i
 
 CMakeFiles/c_check.dir/sources/lemin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/lemin.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\lemin.c -o CMakeFiles\c_check.dir\sources\lemin.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\lemin.c -o CMakeFiles\c_check.dir\sources\lemin.c.s
 
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/move_one_way.c.obj: ../sources/move_one_way.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/c_check.dir/sources/move_one_way.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\move_one_way.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\move_one_way.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c
 
 CMakeFiles/c_check.dir/sources/move_one_way.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/move_one_way.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c > CMakeFiles\c_check.dir\sources\move_one_way.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c > CMakeFiles\c_check.dir\sources\move_one_way.c.i
 
 CMakeFiles/c_check.dir/sources/move_one_way.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/move_one_way.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c -o CMakeFiles\c_check.dir\sources\move_one_way.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\move_one_way.c -o CMakeFiles\c_check.dir\sources\move_one_way.c.s
 
 CMakeFiles/c_check.dir/sources/path_finder.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/path_finder.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/path_finder.c.obj: ../sources/path_finder.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/c_check.dir/sources/path_finder.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\path_finder.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\path_finder.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\path_finder.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\path_finder.c
 
 CMakeFiles/c_check.dir/sources/path_finder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/path_finder.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\path_finder.c > CMakeFiles\c_check.dir\sources\path_finder.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\path_finder.c > CMakeFiles\c_check.dir\sources\path_finder.c.i
 
 CMakeFiles/c_check.dir/sources/path_finder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/path_finder.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\path_finder.c -o CMakeFiles\c_check.dir\sources\path_finder.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\path_finder.c -o CMakeFiles\c_check.dir\sources\path_finder.c.s
 
 CMakeFiles/c_check.dir/sources/read_ants.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/read_ants.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/read_ants.c.obj: ../sources/read_ants.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/c_check.dir/sources/read_ants.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_ants.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_ants.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_ants.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_ants.c
 
 CMakeFiles/c_check.dir/sources/read_ants.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/read_ants.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_ants.c > CMakeFiles\c_check.dir\sources\read_ants.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_ants.c > CMakeFiles\c_check.dir\sources\read_ants.c.i
 
 CMakeFiles/c_check.dir/sources/read_ants.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/read_ants.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_ants.c -o CMakeFiles\c_check.dir\sources\read_ants.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_ants.c -o CMakeFiles\c_check.dir\sources\read_ants.c.s
 
 CMakeFiles/c_check.dir/sources/read_links.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/read_links.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/read_links.c.obj: ../sources/read_links.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/c_check.dir/sources/read_links.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_links.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_links.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_links.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_links.c
 
 CMakeFiles/c_check.dir/sources/read_links.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/read_links.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_links.c > CMakeFiles\c_check.dir\sources\read_links.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_links.c > CMakeFiles\c_check.dir\sources\read_links.c.i
 
 CMakeFiles/c_check.dir/sources/read_links.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/read_links.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_links.c -o CMakeFiles\c_check.dir\sources\read_links.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_links.c -o CMakeFiles\c_check.dir\sources\read_links.c.s
 
 CMakeFiles/c_check.dir/sources/read_rooms.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/read_rooms.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/read_rooms.c.obj: ../sources/read_rooms.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/c_check.dir/sources/read_rooms.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_rooms.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\read_rooms.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c
 
 CMakeFiles/c_check.dir/sources/read_rooms.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/read_rooms.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c > CMakeFiles\c_check.dir\sources\read_rooms.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c > CMakeFiles\c_check.dir\sources\read_rooms.c.i
 
 CMakeFiles/c_check.dir/sources/read_rooms.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/read_rooms.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c -o CMakeFiles\c_check.dir\sources\read_rooms.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\read_rooms.c -o CMakeFiles\c_check.dir\sources\read_rooms.c.s
 
 CMakeFiles/c_check.dir/sources/rooms_description.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/rooms_description.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/rooms_description.c.obj: ../sources/rooms_description.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/c_check.dir/sources/rooms_description.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\rooms_description.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\rooms_description.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c
 
 CMakeFiles/c_check.dir/sources/rooms_description.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/rooms_description.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c > CMakeFiles\c_check.dir\sources\rooms_description.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c > CMakeFiles\c_check.dir\sources\rooms_description.c.i
 
 CMakeFiles/c_check.dir/sources/rooms_description.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/rooms_description.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c -o CMakeFiles\c_check.dir\sources\rooms_description.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\rooms_description.c -o CMakeFiles\c_check.dir\sources\rooms_description.c.s
 
 CMakeFiles/c_check.dir/sources/search_intersections.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/search_intersections.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/search_intersections.c.obj: ../sources/search_intersections.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/c_check.dir/sources/search_intersections.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\search_intersections.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\search_intersections.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c
 
 CMakeFiles/c_check.dir/sources/search_intersections.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/search_intersections.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c > CMakeFiles\c_check.dir\sources\search_intersections.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c > CMakeFiles\c_check.dir\sources\search_intersections.c.i
 
 CMakeFiles/c_check.dir/sources/search_intersections.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/search_intersections.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c -o CMakeFiles\c_check.dir\sources\search_intersections.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\search_intersections.c -o CMakeFiles\c_check.dir\sources\search_intersections.c.s
 
 CMakeFiles/c_check.dir/sources/search_paths.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/search_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/search_paths.c.obj: ../sources/search_paths.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/c_check.dir/sources/search_paths.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\search_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\search_paths.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\search_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\search_paths.c
 
 CMakeFiles/c_check.dir/sources/search_paths.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/search_paths.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\search_paths.c > CMakeFiles\c_check.dir\sources\search_paths.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\search_paths.c > CMakeFiles\c_check.dir\sources\search_paths.c.i
 
 CMakeFiles/c_check.dir/sources/search_paths.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/search_paths.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\search_paths.c -o CMakeFiles\c_check.dir\sources\search_paths.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\search_paths.c -o CMakeFiles\c_check.dir\sources\search_paths.c.s
 
 CMakeFiles/c_check.dir/sources/second_searching.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/second_searching.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/second_searching.c.obj: ../sources/second_searching.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/c_check.dir/sources/second_searching.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\second_searching.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\second_searching.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\second_searching.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\second_searching.c
 
 CMakeFiles/c_check.dir/sources/second_searching.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/second_searching.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\second_searching.c > CMakeFiles\c_check.dir\sources\second_searching.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\second_searching.c > CMakeFiles\c_check.dir\sources\second_searching.c.i
 
 CMakeFiles/c_check.dir/sources/second_searching.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/second_searching.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\second_searching.c -o CMakeFiles\c_check.dir\sources\second_searching.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\second_searching.c -o CMakeFiles\c_check.dir\sources\second_searching.c.s
 
 CMakeFiles/c_check.dir/sources/utils.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/utils.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/utils.c.obj: ../sources/utils.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/c_check.dir/sources/utils.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\utils.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\utils.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\utils.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\utils.c
 
 CMakeFiles/c_check.dir/sources/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/utils.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\utils.c > CMakeFiles\c_check.dir\sources\utils.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\utils.c > CMakeFiles\c_check.dir\sources\utils.c.i
 
 CMakeFiles/c_check.dir/sources/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/utils.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\utils.c -o CMakeFiles\c_check.dir\sources\utils.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\utils.c -o CMakeFiles\c_check.dir\sources\utils.c.s
 
 CMakeFiles/c_check.dir/sources/valid.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/valid.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/valid.c.obj: ../sources/valid.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/c_check.dir/sources/valid.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\valid.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\valid.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\valid.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\valid.c
 
 CMakeFiles/c_check.dir/sources/valid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/valid.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\valid.c > CMakeFiles\c_check.dir\sources\valid.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\valid.c > CMakeFiles\c_check.dir\sources\valid.c.i
 
 CMakeFiles/c_check.dir/sources/valid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/valid.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\valid.c -o CMakeFiles\c_check.dir\sources\valid.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\valid.c -o CMakeFiles\c_check.dir\sources\valid.c.s
 
 CMakeFiles/c_check.dir/sources/ways_modification.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/ways_modification.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/ways_modification.c.obj: ../sources/ways_modification.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/c_check.dir/sources/ways_modification.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ways_modification.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\ways_modification.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c
 
 CMakeFiles/c_check.dir/sources/ways_modification.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/ways_modification.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c > CMakeFiles\c_check.dir\sources\ways_modification.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c > CMakeFiles\c_check.dir\sources\ways_modification.c.i
 
 CMakeFiles/c_check.dir/sources/ways_modification.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/ways_modification.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c -o CMakeFiles\c_check.dir\sources\ways_modification.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\ways_modification.c -o CMakeFiles\c_check.dir\sources\ways_modification.c.s
 
 CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj: ../sources/parser_and_filling.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/c_check.dir/sources/parser_and_filling.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\parser_and_filling.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\parser_and_filling.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\parser_and_filling.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\parser_and_filling.c
 
 CMakeFiles/c_check.dir/sources/parser_and_filling.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/parser_and_filling.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\parser_and_filling.c > CMakeFiles\c_check.dir\sources\parser_and_filling.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\parser_and_filling.c > CMakeFiles\c_check.dir\sources\parser_and_filling.c.i
 
 CMakeFiles/c_check.dir/sources/parser_and_filling.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/parser_and_filling.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\parser_and_filling.c -o CMakeFiles\c_check.dir\sources\parser_and_filling.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\parser_and_filling.c -o CMakeFiles\c_check.dir\sources\parser_and_filling.c.s
 
 CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj: ../sources/path_or_its_part_is_found.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\path_or_its_part_is_found.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\path_or_its_part_is_found.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\path_or_its_part_is_found.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\path_or_its_part_is_found.c
 
 CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\path_or_its_part_is_found.c > CMakeFiles\c_check.dir\sources\path_or_its_part_is_found.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\path_or_its_part_is_found.c > CMakeFiles\c_check.dir\sources\path_or_its_part_is_found.c.i
 
 CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/path_or_its_part_is_found.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\path_or_its_part_is_found.c -o CMakeFiles\c_check.dir\sources\path_or_its_part_is_found.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\path_or_its_part_is_found.c -o CMakeFiles\c_check.dir\sources\path_or_its_part_is_found.c.s
 
 CMakeFiles/c_check.dir/sources/remake_paths.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/remake_paths.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/remake_paths.c.obj: ../sources/remake_paths.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/c_check.dir/sources/remake_paths.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\remake_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\remake_paths.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\remake_paths.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\remake_paths.c
 
 CMakeFiles/c_check.dir/sources/remake_paths.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/remake_paths.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\remake_paths.c > CMakeFiles\c_check.dir\sources\remake_paths.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\remake_paths.c > CMakeFiles\c_check.dir\sources\remake_paths.c.i
 
 CMakeFiles/c_check.dir/sources/remake_paths.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/remake_paths.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\remake_paths.c -o CMakeFiles\c_check.dir\sources\remake_paths.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\remake_paths.c -o CMakeFiles\c_check.dir\sources\remake_paths.c.s
 
 CMakeFiles/c_check.dir/sources/new_tails.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/new_tails.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/new_tails.c.obj: ../sources/new_tails.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/c_check.dir/sources/new_tails.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\new_tails.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\new_tails.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\new_tails.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\new_tails.c
 
 CMakeFiles/c_check.dir/sources/new_tails.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/new_tails.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\new_tails.c > CMakeFiles\c_check.dir\sources\new_tails.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\new_tails.c > CMakeFiles\c_check.dir\sources\new_tails.c.i
 
 CMakeFiles/c_check.dir/sources/new_tails.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/new_tails.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\new_tails.c -o CMakeFiles\c_check.dir\sources\new_tails.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\new_tails.c -o CMakeFiles\c_check.dir\sources\new_tails.c.s
 
 CMakeFiles/c_check.dir/sources/new_heads.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/new_heads.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/new_heads.c.obj: ../sources/new_heads.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/c_check.dir/sources/new_heads.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\new_heads.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\new_heads.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\new_heads.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\new_heads.c
 
 CMakeFiles/c_check.dir/sources/new_heads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/new_heads.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\new_heads.c > CMakeFiles\c_check.dir\sources\new_heads.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\new_heads.c > CMakeFiles\c_check.dir\sources\new_heads.c.i
 
 CMakeFiles/c_check.dir/sources/new_heads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/new_heads.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\new_heads.c -o CMakeFiles\c_check.dir\sources\new_heads.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\new_heads.c -o CMakeFiles\c_check.dir\sources\new_heads.c.s
 
 CMakeFiles/c_check.dir/sources/start_end_link.c.obj: CMakeFiles/c_check.dir/flags.make
 CMakeFiles/c_check.dir/sources/start_end_link.c.obj: CMakeFiles/c_check.dir/includes_C.rsp
 CMakeFiles/c_check.dir/sources/start_end_link.c.obj: ../sources/start_end_link.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elmira\Desktop\c_check\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/c_check.dir/sources/start_end_link.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\start_end_link.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_check.dir\sources\start_end_link.c.obj   -c C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c
 
 CMakeFiles/c_check.dir/sources/start_end_link.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_check.dir/sources/start_end_link.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c > CMakeFiles\c_check.dir\sources\start_end_link.c.i
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c > CMakeFiles\c_check.dir\sources\start_end_link.c.i
 
 CMakeFiles/c_check.dir/sources/start_end_link.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_check.dir/sources/start_end_link.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c -o CMakeFiles\c_check.dir\sources\start_end_link.c.s
+	D:\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elmira\Desktop\c_check\sources\start_end_link.c -o CMakeFiles\c_check.dir\sources\start_end_link.c.s
 
 # Object files for target c_check
 c_check_OBJECTS = \

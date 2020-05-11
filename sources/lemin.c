@@ -79,7 +79,15 @@ int			main(int ac, char **av)
 	{
 		if (!(map = (t_main*)ft_memalloc(sizeof(t_main))))
 			return (-1);
-		map = parse_input(av, map);
+		if (ac == 2)
+			map = parse_input(av, map);
+		else if (ac == 3)
+		{
+			if (!ft_strcmp(av[2], "-p"))
+				map->print_paths = 1;
+			else
+				ft_error("Unknown flag");
+		}
 		printf("kewl!\n");
 	}
 	start_end_link(map);
