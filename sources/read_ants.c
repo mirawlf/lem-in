@@ -11,22 +11,26 @@
 /* ************************************************************************** */
 
 #include "lemin.h"
+#include "get_next_line.h"
 
-static int		is_ants(char *line)
+static int		is_ants(char **line)
 {
 	if (is_all_digits(line))
-		return (ft_atoi(line));
+		return (ft_atoi(*line));
 	return (0);
 }
 
 int				read_ants(t_main *data)
 {
-	char		*line;
+	char		**line;
 	int			ants;
 
 	ants = 0;
-	while (get_next_line(data->del_me_fd, &line) > 0)
+	printf("ant\n");
+	line = (char **)malloc(sizeof(char*));
+	while (get_next_line(data->fd, line) > 0)
 	{
+	    printf("%s\n", *line);
 		if (line)
 		{
 			if (is_comment(line))

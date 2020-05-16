@@ -56,7 +56,7 @@ void			tmp_function(t_main	*map)
 	printf("\n\n");
 }
 
-void			*main_algo_part(t_main *map)
+void			main_algo_part(t_main *map)
 {
 	map->start->level = 1;
 	map->end->level = -1;
@@ -74,21 +74,29 @@ void			*main_algo_part(t_main *map)
 int			main(int ac, char **av)
 {
 	t_main	*map;
+	int     flag;
 
-	if (ac > 1)
+	flag = 0;
+	if (ac >= 2)
 	{
-//		if (ac == 3 && !ft_strcmp(av[2], "-p"))
-//			map->print_paths = 1;
-//		else
-//			ft_error("Unknown flag");
-		if (!(map = (t_main *)ft_memalloc(sizeof(t_main))))
-			return (-1);
-		map = parse_input(av, map);
-	}
-	printf("kewl!\n");
-	start_end_link(map);
-	main_algo_part(map);
-	lets_go(map);
-	printf ("not kewl!\n");
+        if (ac == 3 && !ft_strcmp(av[1], "-p"))
+            flag = 3;
+        else if (ac == 2)
+            flag = 2;
+        else
+            ft_error("ERROR");
+        if (!(map = (t_main *) ft_memalloc(sizeof(t_main))))
+            return (-1);
+        map->print_paths = flag;
+        printf("fd: %d, name: %s\n", map->fd, av[ac - 1]);
+        map = parse_input(av, map);
+        printf("kewl!\n");
+        start_end_link(map);
+        main_algo_part(map);
+        lets_go(map);
+        printf("not kewl!\n");
+    }
+	else
+        ft_error("ERROR");
 	return (0);
 }

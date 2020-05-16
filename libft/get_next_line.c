@@ -3,111 +3,82 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/01 16:21:58 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/09/01 16:21:58 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/05/31 15:27:44 by samymone          #+#    #+#             */
+/*   Updated: 2019/06/04 15:38:41 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-static t_fd_list	*new_t_fd_list(int fd)
+static int	returned_line(char **s, char **line, int fd)
 {
-	t_fd_list	*temp;
+    char	*tmp;
+    int		i;
 
-	temp = (t_fd_list*)malloc(sizeof(t_fd_list));
-	temp->fd = fd;
-	temp->str = ft_strnew(0);
-	temp->next = NULL;
-	temp->prev = NULL;
-	return (temp);
+    i = 0;
+    while (s[fd][i] != '\n' && s[fd][i] != '\0')
+        i++;
+    if (s[fd][i] == '\n')
+    {
+        if (!(*line = ft_strsub(s[fd], 0, i)))
+            return (-1);
+        tmp = ft_strsub(s[fd], i + 1, ft_strlen(s[fd]));
+        ft_strdel(&s[fd]);
+        s[fd] = ft_strsub(tmp, 0, ft_strlen(tmp));
+        ft_strdel(&tmp);
+        if (s[fd][0] == '\0')
+            ft_strdel(&s[fd]);
+    }
+    else if (s[fd][i] == '\0')
+    {
+        if (!(*line = ft_strsub(s[fd], 0, i)))
+            return (-1);
+        ft_strdel(&s[fd]);
+    }
+    return (1);
 }
 
-static int			del_list(t_fd_list **temp, t_fd_list **start_list)
+int			free_func(char **s, int fd)
 {
-	t_fd_list *next;
-
-	if (*temp == *start_list)
-		*start_list = NULL;
-	next = (*temp)->next;
-	if ((*temp)->prev)
-		(*temp)->prev->next = (*temp)->next;
-	if ((*temp)->next)
-		(*temp)->next->prev = (*temp)->prev;
-	free((*temp)->str);
-	free(*temp);
-	*temp = next;
-	return (-1);
+    free(s[fd]);
+    return (-1);
 }
 
-static t_fd_list	*find_t_fd_list(const int fd, t_fd_list **start_list)
+int			get_next_line(const int fd, char **line)
 {
-	t_fd_list			*temp;
+    static char	*s[10240];
+    int     	ret;
+    char		buf[BUFF_SIZE + 1];
+    char		*tmp;
 
-	temp = *start_list;
-	if (!*start_list)
-		*start_list = new_t_fd_list(fd);
-	temp = *start_list;
-	while (temp->next && temp->fd != fd)
-		temp = temp->next;
-	if (!(temp->fd == fd))
-	{
-		temp->next = new_t_fd_list(fd);
-		temp->next->prev = temp;
-		temp = temp->next;
-	}
-	return (temp);
-}
-
-static int			read_to_list(t_fd_list *temp, t_fd_list **start_list)
-{
-	char			buff[BUFF_SIZE + 1];
-	char			*temp_str;
-	int				ch_read;
-
-	ft_memset(buff, '\0', BUFF_SIZE);
-	while ((ch_read = read(temp->fd, buff, BUFF_SIZE)))
-	{
-		if (ch_read < 0)
-			return (del_list(&temp, start_list));
-		buff[ch_read] = '\0';
-		temp_str = ft_strjoin(temp->str, buff);
-		free(temp->str);
-		temp->str = temp_str;
-		if (!temp_str)
-			return (del_list(&temp, start_list));
-		if (ft_strchr(buff, '\n'))
-			break ;
-	}
-	return (1);
-}
-
-int					get_next_line(const int fd, char **line)
-{
-	t_fd_list			*temp;
-	char				*temp_str;
-	char				*ptr;
-	static t_fd_list	*start_list;
-
-	ptr = NULL;
-	if (fd < 0 || !line || BUFF_SIZE < 0)
-		return (-1);
-	temp = find_t_fd_list(fd, &start_list);
-	if (read_to_list(temp, &start_list) == -1)
-		return (-1);
-	if (!(*temp->str))
-		return (del_list(&temp, &start_list) + 1);
-	temp_str = temp->str;
-	if ((ptr = ft_strchr(temp_str, '\n')))
-	{
-		*ptr = '\0';
-		temp->str = ft_strdup(ptr + 1);
-	}
-	else
-		temp->str = ft_strdup("\0");
-	if (*temp_str || ptr)
-		*line = ft_strdup(temp_str);
-	free(temp_str);
-	return (1);
+    if (!line || BUFF_SIZE <= 0 || fd < 0 || fd > 10240)
+        return (-1);
+    s[fd] = (s[fd] == NULL) ? ft_strnew(0) : s[fd];
+    printf("fd %d\n", fd);
+    while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
+    {
+        buf[ret] = '\0';
+        tmp = s[fd];
+        if (!(s[fd] = ft_strjoin(s[fd], buf)))
+            return (free_func(s, fd));
+        free(tmp);
+        if (ft_strchr(s[fd], '\n'))
+            break ;
+    }
+    if (ret < 0)
+    {
+        printf("-1\n");
+        return (-1);
+    }
+    else if (ret == 0 && (s[fd] == NULL || s[fd][0] == '\0'))
+    {
+        printf("0\n");
+        return (0);
+    }
+    else
+        printf("-100\n");
+    printf("returned line %d\n", returned_line(s, line, fd));
+    return (returned_line(s, line, fd));
 }

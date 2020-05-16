@@ -28,7 +28,7 @@ static t_path	*shortest_way(t_path *paths)
 	return (actual);
 }
 
-static int		go_one_way(t_main *main)//////ЭТО КСТАТИ ПРОВЕРЯЮТ ВОТ ТАК ПРЕКОЛ БЛЯДЬ
+static void		go_one_way(t_main *main)//////ЭТО КСТАТИ ПРОВЕРЯЮТ ВОТ ТАК ПРЕКОЛ БЛЯДЬ
 {
 	int			i; //////testiing lines
 	t_path		*best_way;
@@ -45,7 +45,7 @@ static int		go_one_way(t_main *main)//////ЭТО КСТАТИ ПРОВЕРЯЮТ
 	ft_error("0 ANTS LEFT HOPE ITS OK");
 }
 
-static int		go_many_ways(t_main *main)
+static void 	go_many_ways(t_main *main)
 {
 	int			i = 0; //////testiing lines
 
@@ -57,7 +57,7 @@ static int		go_many_ways(t_main *main)
 	}
 	ft_putstr("\nNumber of lines: ");
 	ft_putnbr(i);
-	ft_error("0 ANTS LEFT HOPE ITS OK");
+	ft_error("\n 0 ANTS LEFT HOPE ITS OK");
 }
 
 void 			lets_go(t_main *main)

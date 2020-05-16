@@ -13,8 +13,24 @@ stdlib.h
 -
 stdio.h
 -
+../libft/get_next_line.h
+../libft/get_next_line.h
 
 ../libft/get_next_line.h
+stdio.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
 libft.h
 ../libft/libft.h
 
@@ -32,7 +48,7 @@ stdio.h
 get_next_line.h
 ../libft/get_next_line.h
 
-C:/Users/Elmira/Desktop/c_check/sources/path_finder.c
+/Users/student/Desktop/Lemin2/sources/lemin.c
 lemin.h
-C:/Users/Elmira/Desktop/c_check/sources/lemin.h
+/Users/student/Desktop/Lemin2/sources/lemin.h
 

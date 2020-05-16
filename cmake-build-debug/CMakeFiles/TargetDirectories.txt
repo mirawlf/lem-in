@@ -1,3 +1,3 @@
-C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/c_check.dir
-C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Elmira/Desktop/c_check/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/student/Desktop/Lemin2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/student/Desktop/Lemin2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/student/Desktop/Lemin2/cmake-build-debug/CMakeFiles/c_check.dir

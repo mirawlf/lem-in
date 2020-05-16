@@ -34,14 +34,14 @@ int			ft_error(const char *error)
 	exit(-1);
 }
 
-int			del_line_and_return(char *line, int ret)
+int			del_line_and_return(char **line, int ret)
 {
 	free(line);
 	line = NULL;
 	return (ret);
 }
 
-int			is_all_digits(char *line)
+int			is_all_digits(char **line)
 {
 	int		i;
 
@@ -50,7 +50,7 @@ int			is_all_digits(char *line)
 		return (0);
 	while (line[++i])
 	{
-		if (line[i] >= '0' && line[i] <= '9')
+		if (*line[i] >= '0' && *line[i] <= '9')
 			continue;
 		else
 			return (0);

@@ -12,17 +12,17 @@
 
 #include "lemin.h"
 
-int 	is_comment(char *line)
+int 	is_comment(char **line)
 {
 	int	len;
 
 	len = 0;
 	if (line)
 	{
-		len = ft_strlen(line);
+		len = ft_strlen(*line);
 		if (len > 1)
 		{
-			if (line[0] == '#'/* && line[1] != '#'*/)
+			if (*line[0] == '#'/* && line[1] != '#'*/)
 				return (1);
 	/*		else if (len > 2)
 			{
@@ -34,22 +34,22 @@ int 	is_comment(char *line)
 	return (0);
 }
 
-int 	is_room(char *line)
+int 	is_room(char **line)
 {
 	if (!line)
 		return (0);
-	if (split_bits(line, ' ') != 3)
+	if (split_bits(*line, ' ') != 3)
 		return (0);
-	if (line[0] == 'L')
+	if (*line[0] == 'L')
 		return (0);
 	return (1);
 }
 
-int 	is_link(char *line)
+int 	is_link(char **line)
 {
 	if (!line)
 		return (0);
-	if (split_bits(line, '-') != 2)
+	if (split_bits(*line, '-') != 2)
 		return (0);
 	return (1);
 }
@@ -62,4 +62,5 @@ int 	is_step(char *step)
 		return (0);
 	if (step[0] == 'L')
 		return (1);
+	return (0);
 }

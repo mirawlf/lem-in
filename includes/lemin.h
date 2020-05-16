@@ -16,6 +16,7 @@
 #include "../libft/libft.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include "../libft/get_next_line.h"
 
 typedef struct 		s_room
 {
@@ -88,7 +89,7 @@ typedef struct		s_main
 	int 			paths_amount;
 	int 			start_connections;
 	int				end_connections;
-	int 			del_me_fd;
+	int 			fd;
 	char 			*courier;
 	t_toend         *endway;
 	t_fromstart     *startway;
@@ -107,9 +108,9 @@ int					read_rooms(t_main *data);
  * validation
  */
 
-int					is_link(char *line);
-int					is_room(char *line);
-int					is_comment(char *line);
+int					is_link(char **line);
+int					is_room(char **line);
+int					is_comment(char **line);
 int					valid_coords(t_room *room, t_room *list);
 int					duplicate_links(t_link *link, t_main *data);
 
@@ -117,7 +118,7 @@ int					duplicate_links(t_link *link, t_main *data);
  * algo functions
  */
 
-void				*main_algo_part(t_main *map);
+void				main_algo_part(t_main *map);
 void				dead_ends(t_main *map);
 void				next_levels(t_main *map, int max_curr_lvl);
 void				count_inputs_and_outputs(t_main *map);
@@ -148,7 +149,7 @@ void				number_of_path_increasing(t_main *map);
  * ants' movements
  */
 
-void				*count_steps(t_main *map);
+void				count_steps(t_main *map);
 t_path				**make_path_array(t_main *main);
 void				lets_go(t_main *map);
 int					can_i_go_please(t_room *room);
@@ -165,8 +166,8 @@ t_ant				*del_ant(t_ant *ant, t_main *main);
 
 void				del_str_arr(char **to_delete);//////////эти функции делают одно и то же, надо бы убрать одну из них, ту, что похуже
 int					split_bits(char *line, char c);
-int					is_all_digits(char *line);
-int					del_line_and_return(char *line, int ret);
+int					is_all_digits(char **line);
+int					del_line_and_return(char **line, int ret);
 
 
 /**

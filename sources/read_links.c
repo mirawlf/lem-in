@@ -86,9 +86,9 @@ static t_link	*initital_link(t_main *data)
 	return (result);
 }
 
-static int		is_command(char *line)
+static int		is_command(char **line)
 {
-	if (ft_strequ(line, "##start") || ft_strequ(line, "##end"))
+	if (ft_strequ(*line, "##start") || ft_strequ(*line, "##end"))
 		return (1);
 	return (0);
 }
@@ -96,26 +96,27 @@ static int		is_command(char *line)
 int				read_links(t_main *data)
 {
 	t_link		*link;
-	char		*line;
+	char		**line;
 	int			check;
 
 	if (!(link = initital_link(data)))
 		return (0);
-	while (get_next_line(data->del_me_fd, &line) > 0)
+	printf("links\n");
+	while (get_next_line(data->fd, line) > 0)
 	{
 //		if (get_next_line(data->del_me_fd, &line) != 1)
 //			del_line_and_return(line, 0);
 		if (is_comment(line))
 		{
 			check = is_command(line);
-			ft_strdel(&line);
+			ft_strdel(line);
 			if (!check)
 				continue;
 			break;
 		}
 		if (is_link(line))
 		{
-			link = make_link(line, link, data);
+			link = make_link(*line, link, data);
 			if (link)
 				continue;
 			else
