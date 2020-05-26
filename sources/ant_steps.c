@@ -76,15 +76,18 @@ void		make_step(t_main *main, t_path **path_array)
 	ant = main->first_ant;
 	while (ant != NULL)
 	{
-		if (!can_i_go_please(ant->curr_room->where) ||
-		!make_start_step(ant, main))
-			break;
-		if (ant->curr_room != main->start &&
-		can_i_go_please(ant->curr_room->where))
+		if (ant->curr_room != main->start)
+		{
+			if (!can_i_go_please(ant->curr_room->where))
+				break ;
 			ant = make_normal_step(ant, main);
-		else if (ant->curr_room == main->start &&
-		make_start_step(ant, main))
+		}
+		else if (ant->curr_room == main->start)
+		{
+			if (!make_start_step(ant, main))
+				break ;
 			ant = ant->next;
+		}
 		else if (ant->curr_room == main->end && ant->next)
 			ant = ant->next;
 	}

@@ -12,15 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/ant_steps.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ant_steps.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/ants_run_like_shit.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/lemin.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/move_one_way.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/move_one_way.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/new_tails.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/new_tails.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,6 +248,7 @@
       <workItem from="1590489745970" duration="604000" />
       <workItem from="1590491809998" duration="10584000" />
       <workItem from="1590503185518" duration="2249000" />
+      <workItem from="1590505685998" duration="298000" />
     </task>
     <servers />
   </component>

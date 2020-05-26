@@ -31,15 +31,18 @@ void		make_oneway_step(t_main *main, t_path *best_path)
 	ant = main->first_ant;
 	while (ant != NULL)
 	{
-		if (!can_i_go_please(ant->curr_room->where) ||
-		!make_start_oneway_step(ant, main, best_path))
-			break;
-		if (ant->curr_room != main->start &&
-		can_i_go_please(ant->curr_room->where))
+		if (ant->curr_room != main->start)
+		{
+			if (!can_i_go_please(ant->curr_room->where))
+				break ;
 			ant = make_normal_step(ant, main);
-		else if (ant->curr_room == main->start &&
-		make_start_oneway_step(ant, main, best_path))
+		}
+		else if (ant->curr_room == main->start)
+		{
+			if (!make_start_oneway_step(ant, main, best_path))
+				break ;
 			ant = ant->next;
+		}
 		else if (ant->curr_room == main->end && ant->next)
 			ant = ant->next;
 	}
