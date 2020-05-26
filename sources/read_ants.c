@@ -1,36 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   read_map.c                                         :+:      :+:    :+:   */
+/*   read_ants.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/03 21:04:35 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/03/15 21:26:20 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/05/20 17:03:37 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 17:03:39 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
-#include "get_next_line.h"
 
-static int		is_ants(char **line)
+static int		is_ants(char *line)
 {
 	if (is_all_digits(line))
-		return (ft_atoi(*line));
+		return (ft_atoi(line));
 	return (0);
 }
 
 int				read_ants(t_main *data)
 {
-	char		**line;
+	char		*line;
 	int			ants;
 
 	ants = 0;
-	printf("ant\n");
-	line = (char **)malloc(sizeof(char*));
-	while (get_next_line(data->fd, line) > 0)
+	while (get_next_line(0, &line) > 0)
 	{
-	    printf("%s\n", *line);
 		if (line)
 		{
 			if (is_comment(line))
@@ -41,7 +37,7 @@ int				read_ants(t_main *data)
 				if (!ants)
 					del_line_and_return(line, 0);
 				data->ants = ants;
-				break;
+				break ;
 			}
 		}
 	}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/25 21:16:14 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/02/09 15:34:30 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/05/20 18:09:11 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 18:09:13 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,14 +34,14 @@ int			ft_error(const char *error)
 	exit(-1);
 }
 
-int			del_line_and_return(char **line, int ret)
+int			del_line_and_return(char *line, int ret)
 {
 	free(line);
 	line = NULL;
 	return (ret);
 }
 
-int			is_all_digits(char **line)
+int			is_all_digits(char *line)
 {
 	int		i;
 
@@ -50,7 +50,7 @@ int			is_all_digits(char **line)
 		return (0);
 	while (line[++i])
 	{
-		if (*line[i] >= '0' && *line[i] <= '9')
+		if (line[i] >= '0' && line[i] <= '9')
 			continue;
 		else
 			return (0);
@@ -67,7 +67,7 @@ int			split_bits(char *line, char c)
 	i = -1;
 	j = -1;
 	split = NULL;
-	if (!(split = ft_strsplit(line,  c)))
+	if (!(split = ft_strsplit(line, c)))
 		return (0);
 	while (split[++i])
 		continue ;
@@ -83,7 +83,7 @@ void		del_str_arr(char **to_delete)
 	i = -1;
 	if (to_delete)
 	{
-		while(to_delete[++i])
+		while (to_delete[++i])
 			ft_strdel(&to_delete[i]);
 		free(to_delete);
 	}

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   last_passageway.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/05/20 16:55:50 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 16:55:53 by student          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "lemin.h"
 
 t_room		*new_next_room(t_room *current, t_path *ends, t_link *linklist)
@@ -50,7 +62,7 @@ void		startway_minimize(t_room *current, t_path *starts)
 	path->current = NULL;
 }
 
-void 		split_path(t_room *current, t_room *next, t_room *prev, t_main *map)
+void		split_path(t_room *current, t_room *next, t_room *prev, t_main *map)
 {
 	t_room	*tmp;
 
@@ -93,17 +105,17 @@ void		number_of_path_increasing(t_main *map)
 					if (new_prev)
 					{
 						split_path(room, new_next, new_prev, map);
-						break;
+						break ;
 					}
 					room2 = room2->where;
 				}
 			}
 			if (new_next && new_prev)
-				break;
+				break ;
 			room = room->where;
 		}
 		if (new_next && new_prev)
-			break;
+			break ;
 		path = path->next;
 	}
 }

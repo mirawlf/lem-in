@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsub.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/21 16:34:28 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/04 11:27:25 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/13 21:35:53 by samymone          #+#    #+#             */
+/*   Updated: 2019/04/17 17:54:29 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,29 +14,21 @@
 
 char	*ft_strsub(char const *s, unsigned int start, size_t len)
 {
-	char	*result;
-	int		counter;
+	char	*fresh;
+	size_t	i;
 
-	if (!s)
+	if (s == NULL)
 		return (NULL);
-	counter = (int)len;
-	result = (char*)malloc((len + 1) * sizeof(char));
-	if (result == NULL)
+	fresh = (char*)malloc(sizeof(char) * (len + 1));
+	if (fresh == NULL)
 		return (NULL);
-	while (*s && start > 0)
+	i = 0;
+	while (i < len)
 	{
-		s++;
-		start--;
+		fresh[i] = s[start];
+		i++;
+		start++;
 	}
-	while (*s && len > 0)
-	{
-		*result = *s;
-		result++;
-		s++;
-		len--;
-	}
-	*result = '\0';
-	while (counter-- > 0)
-		result--;
-	return (result);
+	fresh[i] = '\0';
+	return (fresh);
 }

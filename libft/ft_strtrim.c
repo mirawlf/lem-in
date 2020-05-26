@@ -3,64 +3,82 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/21 17:36:04 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/04 11:27:25 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/13 23:00:33 by samymone          #+#    #+#             */
+/*   Updated: 2019/05/04 16:27:11 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	int	checklenwwsps(char const *s)
+static size_t	spaces(char const *s)
 {
-	int len;
+	size_t		sp;
+	int			i;
 
-	if (!s)
-		return (0);
-	len = 0;
-	while (*s && (*s == ' ' || *s == '\t' || *s == '\n'))
-		s++;
-	while (*s)
+	sp = 0;
+	i = 0;
+	if (ft_strlen(s) > 0)
 	{
-		s++;
-		len++;
+		while (s[i] == ' ' || s[i] == '\t' || s[i] == '\n')
+			i++;
+		sp = i;
+		i = ft_strlen(s) - 1;
+		while (s[i] == ' ' || s[i] == '\t' || s[i] == '\n' || s[i] == '\0')
+		{
+			i--;
+			sp++;
+		}
+		return (sp);
 	}
-	if (*s == '\0')
-		s--;
-	while (*s && (*s == ' ' || *s == '\t' || *s == '\n'))
-	{
-		s--;
-		len--;
-	}
-	return (len);
+	return (0);
 }
 
-char		*ft_strtrim(char const *s)
+static size_t	first_char(char const *s)
 {
-	int		i;
-	int		ii;
-	char	*copy;
+	size_t		f;
 
-	if (!s)
-		return (NULL);
-	i = checklenwwsps(s);
-	if (i < 0)
-		i = 0;
-	ii = i;
-	copy = (char*)malloc((i + 1) * sizeof(char));
-	if (copy == NULL)
-		return (NULL);
-	while (*s && (*s == ' ' || *s == '\t' || *s == '\n'))
-		s++;
-	while (*s && i > 0)
+	f = 0;
+	while (s[f] == ' ' || s[f] == '\t' || s[f] == '\n')
+		f++;
+	return (f);
+}
+
+static size_t	last_char(char const *s)
+{
+	size_t		l;
+
+	if (ft_strlen(s) > 0)
 	{
-		*copy = *s;
-		i--;
-		copy++;
-		s++;
+		l = ft_strlen(s) - 1;
+		while (s[l] == ' ' || s[l] == '\t' || s[l] == '\n' || s[l] == '\0')
+			l--;
+		return (l);
 	}
-	*copy = '\0';
-	copy = copy - ii;
-	return (copy);
+	return (0);
+}
+
+char			*ft_strtrim(char const *s)
+{
+	char		*fresh;
+	size_t		f;
+	size_t		l;
+
+	if (s == NULL)
+		return (NULL);
+	f = first_char(s);
+	l = last_char(s);
+	if (ft_strlen(s) == f)
+	{
+		fresh = (char*)malloc(sizeof(char));
+		*fresh = '\0';
+		return (fresh);
+	}
+	fresh = (char*)malloc(sizeof(char) * (ft_strlen(s) - spaces(s) + 1));
+	if (fresh == NULL)
+		return (NULL);
+	ft_strncpy(fresh, (char*)&s[f], l - f + 1);
+	fresh[l - f + 1] = '\0';
+	return (fresh);
 }

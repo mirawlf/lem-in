@@ -1,10 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ways_modification.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/05/20 18:22:34 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 18:22:36 by student          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "lemin.h"
 
-int 		check_length(t_room *current, t_room *prev)
+int			check_length(t_room *current, t_room *prev)
 {
 	t_room	*tmp;
-	int 	old;
-	int 	new;
+	int		old;
+	int		new;
 
 	old = 0;
 	new = 0;
@@ -22,41 +34,7 @@ int 		check_length(t_room *current, t_room *prev)
 	}
 	return (old - new);
 }
-/*old thing without path adding
- *
- * */
-/*void		exchange(t_room *current, t_room *variant, t_main *map)
-{
-	t_room	*old;
-	t_room	*new;
-	t_path	*tmp;
-	t_path	*start;
 
-	old = variant->from;
-	old->where = NULL;
-	new = current;
-	variant->from = current;
-	current->where = variant;
-	while (old->from)
-		old = old->from;
-	while (new->from)
-		new = new->from;
-	tmp = map->paths;
-	while (tmp->current != old)
-		tmp = tmp->next;
-	//if (tmp->current == old)
-	tmp->current = new;
-	//else
-	//{
-	//	if (!(tmp->next = (t_path*)ft_memalloc(sizeof(t_path))))
-	//		ft_error("malloc failed\n");
-	//	tmp->next->current = new;
-	//}
-	start = map->startway->path;
-	while (start->next->current != new)
-		start = start->next;
-	start->next->current = old;
-}*/
 void		exchange(t_room *current, t_room *variant, t_main *map)
 {
 	t_room	*old;
@@ -84,14 +62,14 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 		while (tmp->next)
 			tmp = tmp->next;
 		if (!(tmp->next = (t_path*)ft_memalloc(sizeof(t_path))))
-			ft_error("malloc failed\n");
+			ft_error("ERROR");
 		tmp->next->current = new;
 	}
 	if (old->level == 2)
 	{
 		start = map->startway->path;
 		while (start->current != new)
-				start = start->next;
+			start = start->next;
 		start->current = old;
 	}
 	else
@@ -106,48 +84,8 @@ void		exchange(t_room *current, t_room *variant, t_main *map)
 		start->current = NULL;
 	}
 }
-/*
- * delete this?
- */
-static int is_written_in_history2(t_room *check, t_path *paths)
-{
-	t_path *start = paths;
-	t_room *finder;
 
-	finder = check;
-	while (finder->from)
-		finder = finder->from;
-	while (start)
-	{
-		if (start->current == finder)
-			return (1);
-		start = start->next;
-	}
-	return (0);
-}
-static int is_written_in_history(t_room *check, t_path *paths)
-{
-	t_path *start;
-	t_room *checker;
-
-	if (!check || !paths)
-		return (0);
-	start = paths;
-	while (start)
-	{
-		checker = start->current;
-		while (checker)
-		{
-			if (checker == check)
-				return (1);
-			checker = checker->next;
-		}
-		start = start->next;
-	}
-	return (0);
-}
-
-int 		reach_end(t_room *room,  t_room *end)
+int			reach_end(t_room *room, t_room *end)
 {
 	t_room	*tmp;
 
@@ -161,7 +99,7 @@ int 		reach_end(t_room *room,  t_room *end)
 	return (0);
 }
 
-void 		try_to_change_tails(t_room *current, t_main *map)
+void		try_to_change_tails(t_room *current, t_main *map)
 {
 	t_link	*link;
 
@@ -181,7 +119,7 @@ void 		try_to_change_tails(t_room *current, t_main *map)
 				if (!link->second_room->where)
 					search_next_room(link->second_room, map);
 			}
-			break;
+			break ;
 		}
 		else if (link->second_room == current && !link->first_room->is_dead_end
 		&& check_length(current, link->first_room->from) > 0)
@@ -196,7 +134,7 @@ void 		try_to_change_tails(t_room *current, t_main *map)
 				if (!link->first_room->where)
 					search_next_room(link->first_room, map);
 			}
-			break;
+			break ;
 		}
 		link = link->next;
 	}

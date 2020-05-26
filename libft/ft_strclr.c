@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strclr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/21 13:51:46 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/04 11:27:25 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/11 19:46:06 by samymone          #+#    #+#             */
+/*   Updated: 2019/04/14 03:03:06 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,7 @@
 
 void	ft_strclr(char *s)
 {
-	if (!s)
+	if (s == NULL)
 		return ;
-	while (*s)
-	{
-		*s = '\0';
-		s++;
-	}
+	ft_memset((void*)s, '\0', ft_strlen(s));
 }

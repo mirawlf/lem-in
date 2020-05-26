@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/03 13:35:50 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/06 13:27:09 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/05/04 15:34:13 by samymone          #+#    #+#             */
+/*   Updated: 2019/05/04 18:04:47 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,26 +14,16 @@
 
 t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
-	t_list	*first;
-	t_list	*new;
+	t_list	*fresh;
 
-	if (!lst || !f)
+	if (lst == NULL)
 		return (NULL);
-	new = ft_lstnew(NULL, 0);
-	if (!new)
-		return (NULL);
-	if (!(new = f(lst)))
-		return (NULL);
-	first = new;
-	while (lst->next)
+	fresh = f(lst);
+	if (lst && f)
 	{
-		lst = lst->next;
-		if (!(new->next = f(lst)))
-		{
-			ft_lstdel(&first, ft_lstdelcont);
-			return (NULL);
-		}
-		new = new->next;
+		fresh = f(lst);
+		if ((*lst).next)
+			(*fresh).next = ft_lstmap((*lst).next, f);
 	}
-	return (first);
+	return (fresh);
 }

@@ -1,6 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   new_heads.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/05/19 18:10:16 by student           #+#    #+#             */
+/*   Updated: 2020/05/19 18:10:19 by student          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "lemin.h"
 
-void		change_path_in_structure(t_room *oldstart, t_room *newstart, t_main *map)
+void		change_path_in_structure(t_room *oldstart,
+		t_room *newstart, t_main *map)
 {
 	t_path	*path;
 
@@ -10,7 +23,7 @@ void		change_path_in_structure(t_room *oldstart, t_room *newstart, t_main *map)
 		if (path->current == oldstart)
 		{
 			path->current = newstart;
-			return;
+			return ;
 		}
 		path = path->next;
 	}
@@ -20,7 +33,7 @@ void		change_path_in_structure(t_room *oldstart, t_room *newstart, t_main *map)
 		if (path->current == newstart)
 		{
 			path->current = oldstart;
-			return;
+			return ;
 		}
 		path = path->next;
 	}
@@ -47,10 +60,9 @@ int				compare_paths2(t_room *best, t_room *current)
 		tmp = tmp->from;
 	}
 	return (old - new);
-
 }
 
-static int 	new_head_found(t_room *start, t_room *current, t_main *map)
+static int	new_head_found(t_room *start, t_room *current, t_main *map)
 {
 	t_path	*path;
 	t_room	*possible;
@@ -78,11 +90,11 @@ static int 	new_head_found(t_room *start, t_room *current, t_main *map)
 	return (0);
 }
 
-void 		new_heads(t_main *map)
+void		new_heads(t_main *map)
 {
-	t_path *path;
-	t_room *room;
-	t_room *start;
+	t_path	*path;
+	t_room	*room;
+	t_room	*start;
 
 	if (map->startway)
 	{
@@ -93,14 +105,14 @@ void 		new_heads(t_main *map)
 				if (reach_end(path->current, map->end))
 				{
 					path = path->next;
-					continue;
+					continue ;
 				}
 				start = path->current;
 				room = start;
 				while (room)
 				{
 					if (new_head_found(start, room, map))
-						break;
+						break ;
 					room = room->where;
 				}
 				path = path->next;
@@ -108,4 +120,3 @@ void 		new_heads(t_main *map)
 		}
 	}
 }
-

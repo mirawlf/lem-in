@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   move_one_way.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/09 15:49:08 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/02/09 15:58:10 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/05/20 16:59:18 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 16:59:20 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void		make_oneway_step(t_main *main, t_path *best_path)
 	{
 		if (ant->curr_room != main->start)
 		{
-			can_step = can_i_go_please(ant->curr_room->where);////////оптимизировать
+			can_step = can_i_go_please(ant->curr_room->where);
 			if (!can_step)
 				break ;
 			ant = make_normal_step(ant, main);
@@ -49,7 +49,7 @@ void		make_oneway_step(t_main *main, t_path *best_path)
 			ant = ant->next;
 			continue ;
 		}
-		else if (ant->curr_room == main->end)/////а такое будет?
+		else if (ant->curr_room == main->end)
 		{
 			if (ant->next)
 			{

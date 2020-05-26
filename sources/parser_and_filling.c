@@ -1,5 +1,16 @@
-#include "lemin.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parser_and_filling.c                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/05/19 18:08:54 by student           #+#    #+#             */
+/*   Updated: 2020/05/19 18:08:58 by student          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include "lemin.h"
 
 t_main		*ant_colony_creation(int quant, t_main *map)
 {
@@ -12,7 +23,7 @@ t_main		*ant_colony_creation(int quant, t_main *map)
 		if (!i)
 		{
 			if (!(ant = (t_ant*)ft_memalloc(sizeof(t_ant))))
-				ft_error("ANTS FAILED to ALLOC");
+				ft_error("ERROR");
 			map->first_ant = ant;
 		}
 		ant->num = quant - i;
@@ -20,13 +31,13 @@ t_main		*ant_colony_creation(int quant, t_main *map)
 		if ((i + 1) == quant)
 			return (map);
 		if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
-			ft_error("ANTS FAILED to ALLOC");
+			ft_error("ERROR");
 		ant = ant->next;
 	}
 	return (NULL);
 }
 
-static int 		read_data(t_main *data)
+static int	read_data(t_main *data)
 {
 	if (!read_ants(data))
 		return (0);
@@ -42,17 +53,14 @@ static int 		read_data(t_main *data)
 t_main		*structure_filling(t_main *map)
 {
 	if (!read_data(map))
-		ft_error("ERROR");//////////check leaks
+		ft_error("ERROR");
 	ant_colony_creation(map->ants, map);
 	return (map);
 }
 
-t_main		*parse_input(char **av, t_main *map)
+t_main		*parse_input(t_main *map)
 {
-	map->fd = open(av[1], O_RDONLY); //место av[1] должен быть 0
 	map = structure_filling(map);
 	map->original_ants = map->ants;
-
-//эту всю парашу можно сократить вот этот вот стракчер филлинг на кой он вообще
-	return(map);
+	return (map);
 }

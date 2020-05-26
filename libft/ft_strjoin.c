@@ -3,48 +3,38 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/21 16:48:54 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/16 11:05:54 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/13 22:46:15 by samymone          #+#    #+#             */
+/*   Updated: 2019/04/17 17:54:56 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	size_t	slen(char const *s1, char const *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	size_t len;
+	char	*fresh;
+	int		l;
 
-	len = ft_strlen(s1) + ft_strlen(s2);
-	return (len);
-}
-
-char			*ft_strjoin(char const *s1, char const *s2)
-{
-	char	*result;
-	int		len;
-
-	if (!s1 || !s2)
+	if (s1 == NULL || s2 == NULL)
 		return (NULL);
-	len = slen(s1, s2) + 1;
-	result = (char*)malloc((len) * sizeof(char));
-	if (result == NULL)
+	l = ft_strlen(s1) + ft_strlen(s2);
+	fresh = (char*)malloc(sizeof(char) * (l + 1));
+	if (fresh == NULL)
 		return (NULL);
-	while (*s1)
+	while (*s1 != '\0')
 	{
-		*result = *s1;
-		result++;
+		*fresh = *s1;
+		fresh++;
 		s1++;
 	}
 	while (*s2)
 	{
-		*result = *s2;
-		result++;
+		*fresh = *s2;
+		fresh++;
 		s2++;
 	}
-	*result = '\0';
-	while (len-- > 1)
-		result--;
-	return (result);
+	*fresh = '\0';
+	return (fresh - l);
 }

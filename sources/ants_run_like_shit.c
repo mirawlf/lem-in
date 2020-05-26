@@ -3,31 +3,30 @@
 /*                                                        :::      ::::::::   */
 /*   ants_run_like_shit.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/26 18:57:50 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/02/09 14:16:38 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/05/20 16:41:30 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 16:41:32 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-int			can_i_go_please(t_room *room)///////пройтись по функциям, я эту хуйню как минимум в старт степе проверяю лишний раз, а вот надо ли?
+int			can_i_go_please(t_room *room)
 {
 	if (!room->ant)
-		return (1);////если в комнате нет муравья
-	return (0);////если есть
+		return (1);
+	return (0);
 }
 
 t_ant		*del_ant(t_ant *ant, t_main *main)
 {
-	////////////will be like this for now/////will optimize later if required
 	t_ant	*start;
 
 	start = main->first_ant;
 	if (ant == start)
 	{
-		main->first_ant = main->first_ant->next;/////////////тут везде сеги вылезут лол
+		main->first_ant = main->first_ant->next;
 		ft_memdel((void*)&ant);
 		ant = main->first_ant;
 	}
@@ -44,16 +43,13 @@ t_ant		*del_ant(t_ant *ant, t_main *main)
 	return (ant);
 }
 
-t_ant 		*make_normal_step(t_ant *ant, t_main *main)
+t_ant		*make_normal_step(t_ant *ant, t_main *main)
 {
 	ant->curr_room->ant = NULL;
 	ant->curr_room = ant->curr_room->where;
 	print_step(ant->num, ant->curr_room->name, main);
 	if (ant->curr_room == main->end)
-	{
-		ant = del_ant(ant, main);
-		return (ant);/////////сразу ретернить дел ант надо
-	}
+		return (del_ant(ant, main));
 	ant = ant->next;
 	return (ant);
 }
@@ -66,11 +62,13 @@ static int	count_delta(t_path **path_array, int i)
 	delta = 0;
 	i2 = i;
 	while (i2 > 0)
-		delta += (path_array[i]->current->steps - path_array[--i2]->current->steps);
+		delta += (path_array[i]->current->steps -
+				path_array[--i2]->current->steps);
 	return (delta);
 }
 
-static int	choose_way(t_ant *ant, t_path **path_array, int ways_amount, int ants_amount)
+static int	choose_way(t_ant *ant, t_path **path_array, int ways_amount,
+		int ants_amount)
 {
 	int		i;
 	int		delta;
@@ -81,7 +79,7 @@ static int	choose_way(t_ant *ant, t_path **path_array, int ways_amount, int ants
 	{
 		if (i)
 			delta = count_delta(path_array, i);
-		if (ant->num > delta && ants_amount > delta)/////ants amount may be excessive?
+		if (ant->num > delta && ants_amount > delta)
 		{
 			if (can_i_go_please(path_array[i]->current))
 				return (i);

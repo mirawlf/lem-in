@@ -3,16 +3,39 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/26 18:33:17 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/01 14:04:37 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/08 20:01:07 by samymone          #+#    #+#             */
+/*   Updated: 2019/05/03 16:46:15 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr(int n)
+static void	num(int n)
 {
-	ft_putnbr_fd(n, 1);
+	if (n > 9)
+		ft_putnbr(n / 10);
+	ft_putchar(n % 10 + '0');
+}
+
+void		ft_putnbr(int n)
+{
+	if (n > 2147483647 || n < -2147483648)
+		return ;
+	if (n == -2147483648)
+	{
+		ft_putstr("-2147483648");
+		return ;
+	}
+	if (n >= -2147483647 && n <= 2147483647)
+	{
+		if (n < 0)
+		{
+			ft_putchar('-');
+			num(-n);
+		}
+		else
+			num(n);
+	}
 }

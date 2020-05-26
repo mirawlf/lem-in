@@ -1,16 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   delete_useless_links.c                             :+:      :+:    :+:   */
+/*   rooms_description.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/25 15:52:05 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/25 15:52:07 by samymone         ###   ########.fr       */
+/*   Created: 2020/05/20 17:47:16 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 17:47:18 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <mach/vm_region.h>
 #include "lemin.h"
 
 void			dead_ends(t_main *map)
@@ -55,11 +54,11 @@ void			next_levels(t_main *map, int max_curr_lvl)
 			link = link->next;
 			continue;
 		}
-		if (link->first_room->level == max_curr_lvl
-			&& !link->second_room->level && !link->second_room->is_dead_end)
+		if (link->first_room->level == max_curr_lvl &&
+		!link->second_room->level && !link->second_room->is_dead_end)
 			change = appoint_level(link->second_room, link, max_curr_lvl + 1);
-		else if (link->second_room->level == max_curr_lvl
-				 && !link->first_room->level && !link->first_room->is_dead_end)
+		else if (link->second_room->level == max_curr_lvl &&
+		!link->first_room->level && !link->first_room->is_dead_end)
 			change = appoint_level(link->first_room, link, max_curr_lvl + 1);
 		link = link->next;
 	}
@@ -75,13 +74,13 @@ void			count_inputs_and_outputs(t_main *map)
 	while (link)
 	{
 		if (link->first_room == map->end ||
-			link->second_room->level < link->first_room->level)
+		link->second_room->level < link->first_room->level)
 		{
 			link->first_room->inputs++;
 			link->second_room->outputs++;
 		}
 		else if (link->second_room == map->end ||
-				 link->first_room->level < link->second_room->level)
+		link->first_room->level < link->second_room->level)
 		{
 			link->second_room->inputs++;
 			link->first_room->outputs++;

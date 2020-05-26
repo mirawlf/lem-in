@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   search_intersections.c                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/05/20 17:49:48 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 17:49:51 by student          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "lemin.h"
 
 void		delete_this_path(t_main *map, t_path *path)
@@ -10,7 +22,7 @@ void		delete_this_path(t_main *map, t_path *path)
 	tmp->current = NULL;
 }
 
-int 		has_link(t_room *current, t_room *possible, /*t_main *map*/t_link *linklist)
+int			has_link(t_room *current, t_room *possible, t_link *linklist)
 {
 	t_link	*link;
 
@@ -25,7 +37,7 @@ int 		has_link(t_room *current, t_room *possible, /*t_main *map*/t_link *linklis
 	return (0);
 }
 
-int 		path_found(t_room *room, t_main *map)
+int			path_found(t_room *room, t_main *map)
 {
 	t_room	*current;
 	t_path	*path;
@@ -62,7 +74,7 @@ t_room		*last_room(t_room *start)
 	return (last);
 }
 
-void 		search_left_paths(t_main *map)
+void		search_left_paths(t_main *map)
 {
 	t_path	*path;
 	t_room	*current;
@@ -82,7 +94,7 @@ void 		search_left_paths(t_main *map)
 					if (path_found(current, map) == 1)
 					{
 						second_rooms(start, map);
-						break;
+						break ;
 					}
 					current = current->from;
 				}

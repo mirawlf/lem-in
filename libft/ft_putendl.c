@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/26 18:29:45 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/04/26 18:31:30 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/14 01:03:59 by samymone          #+#    #+#             */
+/*   Updated: 2019/04/14 01:09:13 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,5 @@
 void	ft_putendl(char const *s)
 {
 	ft_putstr(s);
-	write(1, "\n", 1);
+	ft_putchar('\n');
 }

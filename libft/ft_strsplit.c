@@ -3,83 +3,82 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <samymone@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/24 12:33:23 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/05 13:56:29 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/22 13:12:36 by samymone          #+#    #+#             */
+/*   Updated: 2019/05/04 18:58:05 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	size_t	sizecount(const char *s, char c)
+static size_t	words(char const *s, char c)
 {
-	size_t	word_len;
+	size_t	split;
+	size_t	num;
+	int		i;
 
-	word_len = 0;
-	while (*s != c && *s != '\0')
+	split = 0;
+	num = 0;
+	i = 0;
+	while (s[i])
 	{
-		word_len++;
-		s++;
+		if (i == 0 && s[i] != c)
+			num++;
+		if (s[i] == c && split == 0)
+		{
+			split = 1;
+		}
+		else if (s[i] != c && split == 1)
+		{
+			split = 0;
+			num++;
+		}
+		i++;
 	}
-	word_len++;
-	return (word_len);
+	num++;
+	return (num);
 }
 
-static	size_t	wordcount(const char *s, char c)
+static size_t	chars(char const *s, char c)
 {
-	size_t	word;
-	int		flag;
+	size_t	len;
 
-	flag = 0;
-	word = 0;
-	while (*s)
+	len = 0;
+	while (*s != c && *s != '\0')
 	{
-		if (*s == c)
-			s++;
-		else if (*s != c && flag == 0)
-		{
-			flag = 1;
-			while (*s != c && *s)
-			{
-				s++;
-			}
-			if (*s == c || !*s)
-			{
-				word++;
-				flag = 0;
-			}
-		}
+		len++;
+		s++;
 	}
-	word++;
-	return (word);
+	len++;
+	return (len);
 }
 
 char			**ft_strsplit(char const *s, char c)
 {
-	char	**result;
+	size_t	num;
 	size_t	i;
-	size_t	counter;
+	size_t	k;
+	char	**fresh;
 
-	i = 0;
-	if (!s || !(result = (char**)malloc((wordcount(s, c)) * sizeof(char*))))
+	if (!s || !(fresh = (char**)malloc(sizeof(char*) * (words(s, c)))))
 		return (NULL);
-	while (*s)
+	num = 0;
+	i = words(s, c);
+	while (num < (i - 1))
 	{
-		if (*s != c && !(counter = 0))
-		{
-			if (!(result[i] = (char*)malloc((sizecount(s, c)) * sizeof(char))))
-			{
-				ft_delarr((void**)result);
-				return (NULL);
-			}
-			while (*s != c && *s)
-				result[i][counter++] = *s++;
-			result[i++][counter] = '\0';
-		}
-		else
+		while (*s == c && *s)
 			s++;
+		if (*s != c && !(k = 0))
+		{
+			if (!(fresh[num] = (char*)malloc(sizeof(char) * (chars(s, c)))))
+				return (NULL);
+			while (*s != c && *s)
+				fresh[num][k++] = *s++;
+			fresh[num][k] = '\0';
+		}
+		num++;
 	}
-	result[i] = NULL;
-	return (result);
+	fresh[num] = NULL;
+	return (fresh);
 }

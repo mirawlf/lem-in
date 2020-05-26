@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   new_tails.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/05/19 18:10:04 by student           #+#    #+#             */
+/*   Updated: 2020/05/19 18:10:06 by student          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "lemin.h"
 
 static int	found_shorter_path(t_room *current, t_main *map)
@@ -14,7 +26,8 @@ static int	found_shorter_path(t_room *current, t_main *map)
 			possible = path->current;
 			while (possible)
 			{
-				if (has_link(current, possible, map->all_links_here) && reach_end(possible, map->end)
+				if (has_link(current, possible, map->all_links_here)
+				&& reach_end(possible, map->end)
 				&& compare_paths(current->where, possible) > 0)
 				{
 					tmp = current->where;
@@ -32,7 +45,7 @@ static int	found_shorter_path(t_room *current, t_main *map)
 	return (0);
 }
 
-void 		new_tails(t_main *map)
+void		new_tails(t_main *map)
 {
 	t_path	*path;
 	t_room	*current;
@@ -46,7 +59,7 @@ void 		new_tails(t_main *map)
 			while (current->where != map->end)
 			{
 				if (found_shorter_path(current, map) == 1)
-					break;
+					break ;
 				current = current->where;
 			}
 			path = path->next;

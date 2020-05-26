@@ -3,20 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ant_steps.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/01 16:47:04 by cyuriko           #+#    #+#             */
-/*   Updated: 2020/02/08 14:44:36 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/05/20 16:38:23 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 16:38:25 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-static int 	count_paths(t_path *paths)
+static int	count_paths(t_path *paths)
 {
-	int i = 0;
+	int		i;
 	t_path	*curr;
 
+	i = 0;
 	curr = paths;
 	while (curr)
 	{
@@ -26,10 +27,10 @@ static int 	count_paths(t_path *paths)
 	return (i);
 }
 
-static void sort_path_array(t_path **path_array, int array_size)
+static void	sort_path_array(t_path **path_array, int array_size)
 {
-	int i;
-	t_path *temp;
+	int		i;
+	t_path	*temp;
 
 	i = 0;
 	while (i < array_size)
@@ -44,21 +45,20 @@ static void sort_path_array(t_path **path_array, int array_size)
 	}
 }
 
-void	init_walkthrough(t_main *main)
+void		init_walkthrough(t_main *main)
 {
-	int	paths;
-	int i;
-	t_path *curr;
+	int		paths;
+	int		i;
+	t_path	*curr;
+	t_path	**path_array;
 
 	i = -1;
 	curr = main->paths;
-	t_path	**path_array;
-
 	paths = count_paths(main->paths);
 	if (!paths)
-		ft_error("FAILED TO FIND VALID PAthS TO MOVE EM ANTS");
+		ft_error("ERROR");
 	if (!(path_array = (t_path**)ft_memalloc(sizeof(t_path) * paths)))
-		ft_error("failed to alloc memory for paths array");
+		ft_error("ERROR");
 	while (++i < paths)
 	{
 		path_array[i] = curr;
@@ -67,10 +67,10 @@ void	init_walkthrough(t_main *main)
 	sort_path_array(path_array, paths);
 }
 
-void		make_step(t_main  *main, t_path **path_array)
+void		make_step(t_main *main, t_path **path_array)
 {
-	t_ant *ant;
-	int 	can_step;
+	t_ant	*ant;
+	int		can_step;
 
 	can_step = 1;
 	ant = main->first_ant;
@@ -78,9 +78,9 @@ void		make_step(t_main  *main, t_path **path_array)
 	{
 		if (ant->curr_room != main->start)
 		{
-			can_step = can_i_go_please(ant->curr_room->where);////////оптимизировать
+			can_step = can_i_go_please(ant->curr_room->where);
 			if (!can_step)
-				break;
+				break ;
 			ant = make_normal_step(ant, main);
 			continue ;
 		}
@@ -88,12 +88,11 @@ void		make_step(t_main  *main, t_path **path_array)
 		{
 			can_step = make_start_step(ant, main);
 			if (!can_step)
-				break;
-
+				break ;
 			ant = ant->next;
 			continue ;
 		}
-		else if (ant->curr_room == main->end)/////а такое будет?
+		else if (ant->curr_room == main->end)
 		{
 			if (ant->next)
 			{

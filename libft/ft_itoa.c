@@ -3,76 +3,72 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/26 17:53:31 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/05 14:18:14 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/05/05 12:02:18 by samymone          #+#    #+#             */
+/*   Updated: 2019/05/09 14:48:08 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	int		countdigits(int n)
+static size_t	discharge(size_t i, size_t j)
 {
-	size_t	i;
-	int		digit;
+	size_t m;
+	size_t k;
+	size_t g;
 
-	digit = 0;
-	i = 0;
-	if (n == 0)
-		return (1);
-	if (n < 0)
+	m = 10;
+	k = 1;
+	g = 0;
+	while (g < (i - j))
 	{
-		n = n * -1;
-		i++;
+		k *= m;
+		g++;
 	}
-	while (n != 0)
-	{
-		if ((n - digit) % 10 != 0)
-			digit++;
-		else
-		{
-			i++;
-			n = (n - digit) / 10;
-			digit = 0;
-		}
-	}
-	return (i);
+	return (k);
 }
 
-static	int		capturedigits(int n)
+static char		*string(size_t i, size_t n3, int n)
 {
-	int digit;
+	size_t	j;
+	char	*s;
 
-	digit = 0;
-	while ((n - digit) % 10 != 0)
-		digit++;
-	return (digit);
+	j = 0;
+	if (!(s = (char*)malloc(sizeof(char) * (i + 1))))
+		return (NULL);
+	while (j < i)
+	{
+		if (j == 0 && n < 0)
+			s[j] = '-';
+		else
+			s[j] = (n3 % discharge(i, j) / (0.1 * discharge(i, j))) + '0';
+		j++;
+	}
+	s[j] = '\0';
+	return (s);
 }
 
 char			*ft_itoa(int n)
 {
-	char	*result;
-	int		len;
+	size_t	n2;
+	size_t	i;
+	size_t	n3;
 
-	len = countdigits(n);
-	result = (char*)malloc((len + 1) * sizeof(char));
-	if (result == NULL)
-		return (NULL);
+	n2 = 0;
+	i = 0;
 	if (n < 0)
 	{
-		n = n * -1;
-		result[0] = '-';
+		i++;
+		n2 = (unsigned)(n * -1);
 	}
-	result[len] = '\0';
-	len--;
-	if (n == 0)
-		result[0] = 0 + '0';
-	while (n != 0)
+	else
+		n2 = n;
+	n3 = n2;
+	while (n2 > 0 || (n2 == 0 && i < 1))
 	{
-		result[len] = capturedigits(n) + '0';
-		n = (n - capturedigits(n)) / 10;
-		len--;
+		i++;
+		n2 /= 10;
 	}
-	return (result);
+	return (string(i, n3, n));
 }

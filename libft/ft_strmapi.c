@@ -3,34 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/21 15:20:46 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/05 17:03:29 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/13 21:05:57 by samymone          #+#    #+#             */
+/*   Updated: 2019/05/04 16:22:55 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char		*ft_strmapi(char const *s, char (*f)(unsigned int, char))
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;
 	char			*fresh;
 
-	if (!s || !f)
+	if (s == NULL)
 		return (NULL);
 	i = 0;
-	fresh = (char *)malloc((ft_strlen(s) + 1) * sizeof(char));
+	fresh = (char*)malloc(sizeof(char) * (ft_strlen(s) + 1));
 	if (fresh == NULL)
 		return (NULL);
-	while (*s)
+	while (s[i])
 	{
-		if (!(fresh[i] = f(i, *s)))
-		{
-			ft_strdel(&fresh);
-			return (NULL);
-		}
-		s++;
+		fresh[i] = f(i, s[i]);
 		i++;
 	}
 	fresh[i] = '\0';

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   search_paths.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/08 16:16:03 by samymone          #+#    #+#             */
-/*   Updated: 2020/03/08 16:16:05 by samymone         ###   ########.fr       */
+/*   Created: 2020/05/20 17:53:20 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 17:53:22 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,8 @@ void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
 		second_rooms(first, map);
 }
 
-int			first_check_for_searching(t_room *current, t_link *link, t_main *map)
+int			first_check_for_searching(t_room *current, t_link *link,
+		t_main *map)
 {
 	if (link->first_room == current)
 	{
@@ -49,7 +50,8 @@ int			first_check_for_searching(t_room *current, t_link *link, t_main *map)
 	return (0);
 }
 
-int			second_check_for_searching(t_room *current, t_link *link, t_main *map)
+int			second_check_for_searching(t_room *current, t_link *link,
+		t_main *map)
 {
 	if (link->second_room == current)
 	{
@@ -90,6 +92,13 @@ void		search_previous_room(t_room *current, t_main *map)
 	start_searching(map->end, map);
 }
 
+static int	tmp_statement(t_room *current, t_room *another, t_room *end)
+{
+	if (current == end && !another->where && another->level)
+		return (1);
+	return (0);
+}
+
 void		start_searching(t_room *room, t_main *map)
 {
 	t_link	*link;
@@ -99,12 +108,12 @@ void		start_searching(t_room *room, t_main *map)
 	link = map->all_links_here;
 	while (link)
 	{
-		if (link->first_room == map->end && !link->second_room->where && link->second_room->level)
+		if (tmp_statement(link->first_room, link->second_room, map->end))
 		{
 			if (!tmp || tmp->level > link->second_room->level)
 				tmp = link->second_room;
 		}
-		else if (link->second_room == map->end && !link->first_room->where && link->first_room->level)
+		else if (tmp_statement(link->second_room, link->first_room, map->end))
 		{
 			if (!tmp || tmp->level > link->first_room->level)
 				tmp = link->first_room;

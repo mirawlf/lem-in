@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <cyuriko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/21 13:41:01 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/05/05 17:44:28 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/13 19:32:29 by samymone          #+#    #+#             */
+/*   Updated: 2019/05/09 14:16:17 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,12 @@
 
 char	*ft_strnew(size_t size)
 {
-	char *fresh;
+	char	*fresh;
 
-	if (!(fresh = ft_memalloc((size + 1) * sizeof(char)))
-	|| ((size + 1) < size))
+	if (size + 1 == 0)
+		return (NULL);
+	fresh = (char*)malloc(size + 1);
+	if (fresh == NULL)
 		return (NULL);
 	ft_memset(fresh, '\0', size + 1);
 	return (fresh);

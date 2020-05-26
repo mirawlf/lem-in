@@ -3,40 +3,32 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyuriko <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/18 17:39:47 by cyuriko           #+#    #+#             */
-/*   Updated: 2019/04/24 13:54:26 by cyuriko          ###   ########.fr       */
+/*   Created: 2019/04/13 15:37:38 by samymone          #+#    #+#             */
+/*   Updated: 2019/05/05 17:24:58 by samymone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strnstr(const char *str1, const char *str2, size_t len)
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
-	int i;
+	size_t	i;
 
 	i = 0;
-	if (*str2 == '\0')
-		return ((char*)str1);
-	while (*str1 && len > 0)
+	if (*needle == '\0')
+		return ((char*)haystack);
+	while (*haystack && i < len)
 	{
-		while (*str2 && (*str1 == *str2) && len-- > 0)
+		if ((ft_strncmp(haystack, needle, ft_strlen(needle)) == 0) &&
+		(ft_strlen(needle) + i - 1) < len)
 		{
-			if (*str1++ == *str2++)
-				i++;
+			if (i < len)
+				return ((char*)haystack);
 		}
-		if (*str2 == '\0')
-		{
-			str1 = str1 - i;
-			return ((char*)str1);
-		}
-		str1 = str1 - i;
-		str2 = str2 - i;
-		len = len + i;
-		i = 0;
-		len--;
-		str1++;
+		haystack++;
+		i++;
 	}
 	return (NULL);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   go.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/06 14:19:38 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/09 16:13:24 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/05/20 16:55:12 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 16:55:14 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,9 @@ static t_path	*shortest_way(t_path *paths)
 	return (actual);
 }
 
-static void		go_one_way(t_main *main)//////ЭТО КСТАТИ ПРОВЕРЯЮТ ВОТ ТАК ПРЕКОЛ БЛЯДЬ
+static void		go_one_way(t_main *main)
 {
-	int			i; //////testiing lines
+	int			i;
 	t_path		*best_way;
 
 	i = 0;
@@ -42,28 +42,29 @@ static void		go_one_way(t_main *main)//////ЭТО КСТАТИ ПРОВЕРЯЮ�
 	}
 	ft_putstr("\nNumber of lines: ");
 	ft_putnbr(i);
+	ft_putstr("\n");
 	ft_error("0 ANTS LEFT HOPE ITS OK");
 }
 
-static void 	go_many_ways(t_main *main)
+static void		go_many_ways(t_main *main)
 {
-	int			i = 0; //////testiing lines
+	int			i;
 
+	i = 0;
 	while (main->ants)
 	{
 		++i;
 		make_step(main, main->path_array);
-
 	}
 	ft_putstr("\nNumber of lines: ");
 	ft_putnbr(i);
-	ft_error("\n 0 ANTS LEFT HOPE ITS OK");
 }
 
-void 			lets_go(t_main *main)
+void			lets_go(t_main *main)
 {
-	if (main->paths_amount == 1 || main->end_connections == 1 || main->start_connections == 1)
-		go_one_way(main);/////take the shortest route
+	if (main->paths_amount == 1 || main->end_connections == 1
+	|| main->start_connections == 1)
+		go_one_way(main);
 	else
-		go_many_ways(main);///////do all the cool stuff with different paths
+		go_many_ways(main);
 }

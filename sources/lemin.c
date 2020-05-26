@@ -3,60 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   lemin.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/27 16:26:38 by samymone          #+#    #+#             */
-/*   Updated: 2020/03/15 22:08:57 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/05/20 16:58:39 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 16:58:41 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void			tmp_function(t_main	*map)
+static void help_function(void)
 {
-	t_path		*tmp;
-	t_room		*room;
-	int 		i;
-
-	printf("\nSTARTWAYS:\n");
-	i = 1;
-
-	if (map->startway)
-	{
-		tmp = map->startway->path;
-	while (tmp)
-	{
-		printf("\n%d\n", i);
-		room = tmp->current;
-		while (room)
-		{
-			printf("%s ", room->name);
-			room = room->where;
-		}
-		i++;
-		tmp = tmp->next;
-	}
-	}
-	if (map->endway
-	) {
-		tmp = map->endway->path;
-		i = 1;
-		printf("\nENDWAYS:\n");
-		while (tmp) {
-			printf("\n%d\n", i);
-			room = tmp->current;
-			while (room) {
-				printf("%s ", room->name);
-				room = room->where;
-			}
-			i++;
-			tmp = tmp->next;
-		}
-	}
-	printf("\n\n");
+	ft_putstr("\n\t\tHELP MENU\n");
+	ft_putstr("-h\tdisplays help menu and closes programm\n");
+	ft_putstr("-p\tdisplays all found paths and number of steps for each"
+		   " one\n");
+	ft_putstr("-s\tdisplays ants' steps\n\n");
+	exit(1);
 }
 
-void			main_algo_part(t_main *map)
+void		main_algo_part(t_main *map)
 {
 	map->start->level = 1;
 	map->end->level = -1;
@@ -68,35 +34,33 @@ void			main_algo_part(t_main *map)
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
 		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
-	tmp_function(map);
 }
 
 int			main(int ac, char **av)
 {
 	t_main	*map;
-	int     flag;
+	int		flag;
 
 	flag = 0;
-	if (ac >= 2)
+	if (ac > 1)
 	{
-        if (ac == 3 && !ft_strcmp(av[1], "-p"))
-            flag = 3;
-        else if (ac == 2)
-            flag = 2;
-        else
-            ft_error("ERROR");
-        if (!(map = (t_main *) ft_memalloc(sizeof(t_main))))
-            return (-1);
-        map->print_paths = flag;
-        printf("fd: %d, name: %s\n", map->fd, av[ac - 1]);
-        map = parse_input(av, map);
-        printf("kewl!\n");
-        start_end_link(map);
-        main_algo_part(map);
-        lets_go(map);
-        printf("not kewl!\n");
-    }
+		if (ac == 2 && !ft_strcmp(av[1], "-p"))
+			flag = 1;
+		else if (ac == 2 && !ft_strcmp(av[1], "-s"))
+			flag = 0;
+		else if (ac == 2 && !ft_strcmp(av[1],  "-h"))
+			help_function();
+		else
+			ft_error("ERROR");
+		if (!(map = (t_main*)ft_memalloc(sizeof(t_main))))
+			return (-1);
+		map->print_paths = flag;
+		map = parse_input(map);
+		start_end_link(map);
+		main_algo_part(map);
+		lets_go(map);
+	}
 	else
-        ft_error("ERROR");
+		help_function();
 	return (0);
 }

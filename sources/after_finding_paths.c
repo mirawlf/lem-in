@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   search_path.c                                      :+:      :+:    :+:   */
+/*   after_finding_paths.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samymone <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/06 15:09:34 by samymone          #+#    #+#             */
-/*   Updated: 2020/02/06 22:35:57 by cyuriko          ###   ########.fr       */
+/*   Created: 2020/05/20 16:36:45 by student           #+#    #+#             */
+/*   Updated: 2020/05/20 16:36:48 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static void		next_path(int pos, int stp, char *start)
 
 static void		print_paths(t_path **paths, int paths_amount, t_room *start)
 {
-	int 		i;
+	int			i;
 	t_room		*room;
 
 	i = 0;
@@ -50,7 +50,7 @@ static void		sort_paths(t_path **paths, int paths_amount)
 	t_path		*temp;
 
 	if (!paths || !paths_amount)
-		ft_error("NO PATHS IN SORTING!");
+		ft_error("ERROR");
 	i = -1;
 	while (++i < (paths_amount - 1))
 	{
@@ -82,21 +82,20 @@ t_path			**make_path_array(t_main *main)
 	main->paths_amount = paths_amount;
 	start = main->paths;
 	if (!(result = (t_path**)ft_memalloc(sizeof(t_path*) * paths_amount)))
-		ft_error("FAILED TO ALLOC PATH ARRAY");
+		ft_error("ERROR");
 	while (++i < paths_amount)
 	{
 		result[i] = start;
 		start = start->next;
 	}
 	sort_paths(result, paths_amount);
-	//if (main->print_paths == 1)
-	//{
+	if (main->print_paths == 1)
+	{
 		print_paths(result, paths_amount, main->start);
-	//	exit(-1);//проверить на утечки
-	//}
+		exit(-1);
+	}
 	return (result);
 }
-
 
 void			count_steps(t_main *map)
 {
