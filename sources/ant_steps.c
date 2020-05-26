@@ -12,6 +12,30 @@
 
 #include "lemin.h"
 
+t_ant		*del_ant(t_ant *ant, t_main *main)
+{
+	t_ant	*start;
+
+	start = main->first_ant;
+	if (ant == start)
+	{
+		main->first_ant = main->first_ant->next;
+		ft_memdel((void*)&ant);
+		ant = main->first_ant;
+	}
+	else
+	{
+		while (start->next != ant)
+			start = start->next;
+		if (ant->next)
+			start->next = ant->next;
+		ft_memdel((void*)&ant);
+		ant = start->next;
+	}
+	main->ants--;
+	return (ant);
+}
+
 static int	count_paths(t_path *paths)
 {
 	int		i;
@@ -45,61 +69,24 @@ static void	sort_path_array(t_path **path_array, int array_size)
 	}
 }
 
-void		init_walkthrough(t_main *main)
-{
-	int		paths;
-	int		i;
-	t_path	*curr;
-	t_path	**path_array;
-
-	i = -1;
-	curr = main->paths;
-	paths = count_paths(main->paths);
-	if (!paths)
-		ft_error("ERROR");
-	if (!(path_array = (t_path**)ft_memalloc(sizeof(t_path) * paths)))
-		ft_error("ERROR");
-	while (++i < paths)
-	{
-		path_array[i] = curr;
-		curr = curr->next;
-	}
-	sort_path_array(path_array, paths);
-}
-
 void		make_step(t_main *main, t_path **path_array)
 {
 	t_ant	*ant;
-	int		can_step;
 
-	can_step = 1;
 	ant = main->first_ant;
 	while (ant != NULL)
 	{
-		if (ant->curr_room != main->start)
-		{
-			can_step = can_i_go_please(ant->curr_room->where);
-			if (!can_step)
-				break ;
+		if (!can_i_go_please(ant->curr_room->where) ||
+		!make_start_step(ant, main))
+			break;
+		if (ant->curr_room != main->start &&
+		can_i_go_please(ant->curr_room->where))
 			ant = make_normal_step(ant, main);
-			continue ;
-		}
-		else if (ant->curr_room == main->start)
-		{
-			can_step = make_start_step(ant, main);
-			if (!can_step)
-				break ;
+		else if (ant->curr_room == main->start &&
+		make_start_step(ant, main))
 			ant = ant->next;
-			continue ;
-		}
-		else if (ant->curr_room == main->end)
-		{
-			if (ant->next)
-			{
-				ant = ant->next;
-				continue;
-			}
-		}
+		else if (ant->curr_room == main->end && ant->next)
+			ant = ant->next;
 	}
 	ft_putchar('\n');
 }

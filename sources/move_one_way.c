@@ -27,36 +27,21 @@ static int	make_start_oneway_step(t_ant *ant, t_main *main, t_path *best_way)
 void		make_oneway_step(t_main *main, t_path *best_path)
 {
 	t_ant	*ant;
-	int		can_step;
 
-	can_step = 1;
 	ant = main->first_ant;
 	while (ant != NULL)
 	{
-		if (ant->curr_room != main->start)
-		{
-			can_step = can_i_go_please(ant->curr_room->where);
-			if (!can_step)
-				break ;
+		if (!can_i_go_please(ant->curr_room->where) ||
+		!make_start_oneway_step(ant, main, best_path))
+			break;
+		if (ant->curr_room != main->start &&
+		can_i_go_please(ant->curr_room->where))
 			ant = make_normal_step(ant, main);
-			continue ;
-		}
-		else if (ant->curr_room == main->start)
-		{
-			can_step = make_start_oneway_step(ant, main, best_path);
-			if (!can_step)
-				break ;
+		else if (ant->curr_room == main->start &&
+		make_start_oneway_step(ant, main, best_path))
 			ant = ant->next;
-			continue ;
-		}
-		else if (ant->curr_room == main->end)
-		{
-			if (ant->next)
-			{
-				ant = ant->next;
-				continue;
-			}
-		}
+		else if (ant->curr_room == main->end && ant->next)
+			ant = ant->next;
 	}
 	ft_putchar('\n');
 }

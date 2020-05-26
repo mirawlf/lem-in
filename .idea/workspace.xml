@@ -14,103 +14,13 @@
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_check.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_check" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/lemin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/libft/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/author" beforeDir="false" afterPath="$PROJECT_DIR$/libft/author" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_atoi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_bzero.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_bzero.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isalnum.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_isalnum.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isalpha.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_isalpha.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isascii.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_isascii.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isdigit.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_isdigit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_isprint.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_isprint.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_itoa.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_lstadd.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_lstadd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_lstdel.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_lstdel.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_lstdelone.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_lstdelone.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_lstiter.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_lstiter.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_lstmap.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_lstmap.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_lstnew.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_lstnew.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memalloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memalloc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memccpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memccpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memchr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memcmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memcpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memdel.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memdel.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memmove.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memmove.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_memset.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_memset.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putchar.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_putchar.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putchar_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_putchar_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putendl.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_putendl.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putendl_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_putendl_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putnbr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_putnbr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putnbr_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_putnbr_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_putstr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_putstr_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_putstr_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strcat.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strchr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strclr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strclr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strcmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strcpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strdel.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strdel.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strdup.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strdup.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strequ.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strequ.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_striter.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_striter.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_striteri.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_striteri.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strjoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strjoin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strlcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strlcat.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strlen.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strlen.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strmap.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strmap.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strmapi.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strmapi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strncat.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strncat.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strncmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strncmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strncpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strncpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strnequ.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strnequ.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strnew.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strnew.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strnstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strnstr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strrchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strrchr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strsplit.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strsplit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strstr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strsub.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strsub.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_strtrim.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strtrim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_tolower.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_tolower.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_toupper.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_toupper.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/get_next_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/get_next_line.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/get_next_line.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/get_next_line.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/after_finding_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/after_finding_paths.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/ant_steps.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ant_steps.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/ants_run_like_shit.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ants_run_like_shit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/best_next.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/best_next.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/best_room_definition.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/best_room_definition.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/freeshing.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/freeshing.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/go.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/go.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/last_passageway.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/last_passageway.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/ants_run_like_shit.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/lemin.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/move_one_way.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/move_one_way.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/new_heads.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/new_heads.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/new_tails.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/new_tails.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/parser_and_filling.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/parser_and_filling.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/path_or_its_part_is_found.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/path_or_its_part_is_found.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_ants.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_ants.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_links.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_rooms.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_rooms.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/remake_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/remake_paths.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/rooms_description.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/rooms_description.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/search_intersections.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/search_intersections.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/search_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/search_paths.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/second_searching.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/second_searching.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/start_end_link.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/start_end_link.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/utils.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/valid.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/valid.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/ways_modification.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ways_modification.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ТЗ" beforeDir="false" afterPath="$PROJECT_DIR$/ТЗ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +254,8 @@
       <workItem from="1590483898266" duration="727000" />
       <workItem from="1590484715445" duration="888000" />
       <workItem from="1590489745970" duration="604000" />
-      <workItem from="1590491809998" duration="3096000" />
+      <workItem from="1590491809998" duration="10584000" />
+      <workItem from="1590503185518" duration="2249000" />
     </task>
     <servers />
   </component>
@@ -426,28 +337,32 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="591" y="182" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1589896201199" />
+    <state x="546" y="159" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590496146534">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="546" y="159" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.977@0.23.1920.977" timestamp="1590496146534" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>33</line>
+          <line>32</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>60</line>
+          <line>59</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/new_tails.c</url>
-          <line>31</line>
+          <line>46</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -507,12 +422,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>39</line>
+          <line>38</line>
           <option name="timeStamp" value="267" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -522,7 +437,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>45</line>
+          <line>44</line>
           <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

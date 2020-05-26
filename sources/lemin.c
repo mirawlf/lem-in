@@ -12,12 +12,11 @@
 
 #include "lemin.h"
 
-static void help_function(void)
+static void	help_function(void)
 {
 	ft_putstr("\n\t\tHELP MENU\n");
 	ft_putstr("-h\tdisplays help menu and closes programm\n");
-	ft_putstr("-p\tdisplays all found paths and number of steps for each"
-		   " one\n");
+	ft_putstr("-p\tdisplays all found paths and demanded steps for each one\n");
 	ft_putstr("-s\tdisplays ants' steps\n\n");
 	exit(1);
 }
@@ -48,7 +47,7 @@ int			main(int ac, char **av)
 			flag = 1;
 		else if (ac == 2 && !ft_strcmp(av[1], "-s"))
 			flag = 0;
-		else if (ac == 2 && !ft_strcmp(av[1],  "-h"))
+		else if (ac == 2 && !ft_strcmp(av[1], "-h"))
 			help_function();
 		else
 			ft_error("ERROR");

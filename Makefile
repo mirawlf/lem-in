@@ -7,7 +7,7 @@ OBJ_DIR = objects
 LFT = libft.a
 LFT_DIR = libft
 
-SRC_FILES = after_finding_paths.c ant_steps.c ants_run_like_shit.c best_next.c \
+SRC_FILES = after_finding_paths.c ant_steps.c ants_run.c best_next.c \
             best_room_definition.c  best_previous_room1.c  best_previous_room2.c \
             best_previous_room3.c best_previous_room4.c freeshing.c go.c last_passageway.c lemin.c \
             move_one_way.c read_ants.c read_links.c read_rooms.c \
@@ -19,7 +19,7 @@ SRCS = $(addprefix $(SRC_DIR)/,$(SRC_FILES))
 OBJS = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(SRCS))
 DEPS = $(OBJS:.o=.c)
 
-CC = gcc
+CC = gcc -g -fsanitize=address
 RM = rm -rf
 FLGS = -Wall -Wextra -Werror
 IFLGS = -I $(HDR_DIR) -I $(LFT_DIR)

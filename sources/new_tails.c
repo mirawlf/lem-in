@@ -12,6 +12,23 @@
 
 #include "lemin.h"
 
+static int	statement(t_room *current, t_room *possible,
+		t_link *link, t_room *end)
+{
+	if (has_link(current, possible, link)
+	&& reach_end(possible, end)
+	&& compare_paths(current->where, possible) > 0)
+		return (1);
+	return (0);
+}
+
+static void	new_pointers(t_room *tmp, t_room *current, t_room *possible)
+{
+	tmp = current->where;
+	current->where = possible;
+	possible->from = current;
+}
+
 static int	found_shorter_path(t_room *current, t_main *map)
 {
 	t_path	*path;
@@ -26,13 +43,9 @@ static int	found_shorter_path(t_room *current, t_main *map)
 			possible = path->current;
 			while (possible)
 			{
-				if (has_link(current, possible, map->all_links_here)
-				&& reach_end(possible, map->end)
-				&& compare_paths(current->where, possible) > 0)
+				if (statement(current, possible, map->all_links_here, map->end))
 				{
-					tmp = current->where;
-					current->where = possible;
-					possible->from = current;
+					new_pointers(tmp, current, possible);
 					if (tmp && tmp->from)
 						tmp->from = NULL;
 					return (1);
