@@ -39,6 +39,8 @@ t_main		*ant_colony_creation(int quant, t_main *map)
 
 static int	read_data(t_main *data)
 {
+	if (!(data->mapfile = ft_memalloc(sizeof(t_mapfile))))
+		ft_error("ERROR");
 	if (!read_ants(data))
 		return (0);
 	if (!read_rooms(data))

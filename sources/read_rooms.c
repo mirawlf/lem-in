@@ -12,9 +12,9 @@
 
 #include "lemin.h"
 
-int			valid_coords(t_room *room, t_room *list)
+int					valid_coords(t_room *room, t_room *list)
 {
-	t_room	*start;
+	t_room			*start;
 
 	start = list;
 	while (start)
@@ -29,10 +29,10 @@ int			valid_coords(t_room *room, t_room *list)
 	return (1);
 }
 
-static t_room	*make_room(t_room *room, char *line, t_main *data)
+static t_room		*make_room(t_room *room, char *line, t_main *data)
 {
-	t_room		*result;
-	char		**room_data;
+	t_room			*result;
+	char			**room_data;
 
 	if (!(result = (t_room*)ft_memalloc(sizeof(t_room))))
 		return (NULL);
@@ -50,13 +50,19 @@ static t_room	*make_room(t_room *room, char *line, t_main *data)
 	return (result);
 }
 
-static int		start_end_check(char *line, t_room **rooms, t_main *data)
+static int			flag_value(int flag, char *line)
 {
-	int			flag;
-
-	flag = 0;
 	flag += (ft_strequ(line, "##start") ? 1 : 0);
 	flag += (ft_strequ(line, "##end") ? 2 : 0);
+	return (flag);
+}
+
+static int			start_end_check(char *line, t_room **rooms, t_main *data)
+{
+	int				flag;
+
+	flag = 0;
+	flag = flag_value(flag, line);
 	ft_strdel(&line);
 	if (flag != 1 && flag != 2)
 		return (1);
@@ -80,17 +86,23 @@ static int		start_end_check(char *line, t_room **rooms, t_main *data)
 	return (del_line_and_return(line, 0));
 }
 
-int			read_rooms(t_main *data)
+int					read_rooms(t_main *data)
 {
-	char	*line;
-	t_room	*rooms;
+	char			*line;
+	t_room			*rooms;
+	t_mapfile		*tmp;
 
 	rooms = NULL;
+	tmp = data->mapfile;
 	while (1)
 	{
-
 		if (get_next_line(0, &line) != 1)
 			del_line_and_return(line, 0);
+		while (tmp->next)
+			tmp = tmp->next;
+		if (!(tmp->next = ft_memalloc(sizeof(t_mapfile)))
+		|| !(tmp->next->text = ft_strdup(line)))
+			ft_error("ERROR");
 		if (is_comment(line))
 		{
 			if (!start_end_check(line, &rooms, data))
@@ -102,7 +114,7 @@ int			read_rooms(t_main *data)
 			rooms = make_room(rooms, line, data);
 			if (valid_coords(rooms, data->all_rooms_here))
 				return (0);
-			continue ;
+			continue;
 		}
 		if (is_link(line))
 		{

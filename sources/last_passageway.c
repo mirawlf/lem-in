@@ -83,9 +83,9 @@ void		number_of_path_increasing(t_main *map)
 {
 	t_path	*path;
 	t_room	*room;
-	t_room	*room2;
 	t_room	*new_next;
 	t_room	*new_prev;
+	t_room	*room2;
 
 	path = map->paths;
 	new_next = NULL;
@@ -95,13 +95,15 @@ void		number_of_path_increasing(t_main *map)
 		room = path->current;
 		while (room)
 		{
-			new_next = new_next_room(room, map->endway->path, map->all_links_here);
+			new_next = new_next_room(room, map->endway->path,
+					map->all_links_here);
 			if (new_next)
 			{
 				room2 = room->where;
 				while (room2)
 				{
-					new_prev = new_prev_room(room2, map->startway->path, map->all_links_here);
+					new_prev = new_prev_room(room2, map->startway->path,
+							map->all_links_here);
 					if (new_prev)
 					{
 						split_path(room, new_next, new_prev, map);

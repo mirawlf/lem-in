@@ -80,9 +80,8 @@ void		search_left_paths(t_main *map)
 	t_room	*current;
 	t_room	*start;
 
-	if (map->startway)
+	if ((path = map->startway->path) != NULL)
 	{
-		path = map->startway->path;
 		while (path)
 		{
 			if (path->current && !reach_end(path->current, map->end))

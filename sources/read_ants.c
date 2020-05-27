@@ -29,6 +29,8 @@ int				read_ants(t_main *data)
 	{
 		if (line)
 		{
+			if (!data->mapfile->text)
+				data->mapfile->text = ft_strdup(line);
 			if (is_comment(line))
 				continue;
 			else

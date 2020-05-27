@@ -44,7 +44,7 @@ static void		print_paths(t_path **paths, int paths_amount, t_room *start)
 	}
 }
 
-static void		sort_paths(t_path **paths, int paths_amount)
+static void		sort_paths(t_path **paths, int paths_amount, t_main *map)
 {
 	int			i;
 	t_path		*temp;
@@ -61,6 +61,12 @@ static void		sort_paths(t_path **paths, int paths_amount)
 			paths[i + 1] = temp;
 			i = -1;
 		}
+	}
+	if (map->print_paths == 1)
+	{
+		print_map(map->mapfile);
+		print_paths(paths, paths_amount, map->start);
+		exit(-1);
 	}
 }
 
@@ -88,12 +94,7 @@ t_path			**make_path_array(t_main *main)
 		result[i] = start;
 		start = start->next;
 	}
-	sort_paths(result, paths_amount);
-	if (main->print_paths == 1)
-	{
-		print_paths(result, paths_amount, main->start);
-		exit(-1);
-	}
+	sort_paths(result, paths_amount, main);
 	return (result);
 }
 

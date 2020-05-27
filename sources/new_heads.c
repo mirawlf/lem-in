@@ -39,11 +39,11 @@ void		change_path_in_structure(t_room *oldstart,
 	}
 }
 
-int				compare_paths2(t_room *best, t_room *current)
+int			compare_paths2(t_room *best, t_room *current)
 {
-	int			old;
-	int			new;
-	t_room		*tmp;
+	int		old;
+	int		new;
+	t_room	*tmp;
 
 	old = 0;
 	new = 0;
@@ -75,7 +75,8 @@ static int	new_head_found(t_room *start, t_room *current, t_main *map)
 		start_of_path = possible;
 		while (possible)
 		{
-			if (has_link(current, possible, map->all_links_here) && compare_paths2(current, possible->from) > 0)
+			if (has_link(current, possible, map->all_links_here)
+			&& compare_paths2(current, possible->from) > 0)
 			{
 				possible->from->where = NULL;
 				possible->from = current;
@@ -102,18 +103,16 @@ void		new_heads(t_main *map)
 		{
 			while (path)
 			{
-				if (reach_end(path->current, map->end))
+				if (!reach_end(path->current, map->end))
 				{
-					path = path->next;
-					continue ;
-				}
-				start = path->current;
-				room = start;
-				while (room)
-				{
-					if (new_head_found(start, room, map))
-						break ;
-					room = room->where;
+					start = path->current;
+					room = start;
+					while (room)
+					{
+						if (new_head_found(start, room, map))
+							break ;
+						room = room->where;
+					}
 				}
 				path = path->next;
 			}

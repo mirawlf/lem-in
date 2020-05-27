@@ -67,4 +67,5 @@ void			lets_go(t_main *main)
 		go_one_way(main);
 	else
 		go_many_ways(main);
+	ft_putstr("\n");
 }

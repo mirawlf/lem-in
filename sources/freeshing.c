@@ -12,12 +12,7 @@
 
 #include "lemin.h"
 
-/*
- * потом добавить чистку комнат и муравьев, тк если все збс при считывании, то
- * нужно будет все фришить в конце программы
- */
-
-void 		free_rooms(t_room *room, t_room *start, t_room *end)
+void		free_rooms(t_room *room, t_room *start, t_room *end)
 {
 	t_room	*tmp;
 	t_room	*next;
@@ -39,7 +34,7 @@ void 		free_rooms(t_room *room, t_room *start, t_room *end)
 	}
 }
 
-void 		free_links(t_link *link)
+void		free_links(t_link *link)
 {
 	t_link	*tmp;
 	t_link	*next;
@@ -54,7 +49,7 @@ void 		free_links(t_link *link)
 	}
 }
 
-void 		free_paths(t_path *path)
+void		free_paths(t_path *path)
 {
 	t_path	*tmp;
 	t_path	*next;
@@ -62,18 +57,17 @@ void 		free_paths(t_path *path)
 	tmp = path;
 	while (tmp)
 	{
-
 		next = tmp->next;
 		free(tmp->next);
 		free(tmp);
 		if (tmp->next)
 			tmp = next;
-		else if(tmp->next->next)
+		else if (tmp->next->next)
 			tmp = tmp->next->next;
 	}
 }
 
-void 		free_ants(t_ant *ant)
+void		free_ants(t_ant *ant)
 {
 	t_ant	*tmp;
 	t_ant	*next;
@@ -84,12 +78,24 @@ void 		free_ants(t_ant *ant)
 		tmp->num = 0;
 		next = tmp->next;
 		//free(tmp->prev);//есть ли prev??? // Teper' est'
-		free(tmp->next);
 		free(tmp);
 		tmp = next;
 	}
 }
 
+void 		free_mapfile(t_mapfile *mapfile)
+{
+	t_mapfile	*tmp;
+	t_mapfile	*next;
+
+	tmp = mapfile;
+	while (tmp)
+	{
+		next = tmp->next;
+		free(tmp);
+		tmp = next;
+	}
+}
 
 void		freeshing(t_main *map)
 {
@@ -117,69 +123,14 @@ void		freeshing(t_main *map)
 	map->first_ant = NULL;
 	free(map->path_array);
 	map->path_array = NULL;
+	free_mapfile(map->mapfile);
+	free(map->mapfile);
 	free(map);
 }
 
-/*
- *
- *
- * old
- */
-
-//void		free_map(t_main *map)
-//{
-//	if (map)
-//		free(map);
-//}
-//
-//void		free_rooms(t_room *room)
-//{
-//	if (!room)
-//		return ;
-//	while(room->next)
-//		free_rooms(room->next);////////а room?
-//	if (room->name)
-//		free(room->name);
-//	free(room);
-//}
-//
-///*/void		free_ant(int i, t_ant *ant)
-//{
-//	t_ant	*curr;
-//
-//	while (i-- > 0)
-//	{
-//		if (ant->next)
-//			curr = ant->next;
-//		ant->num = 0;///////зачем
-//	//	free(ant->prev);
-//		free(ant->next);
-//		free(ant->curr_room);
-//		ant = curr;
-//	}
-//	free(ant);
-//}*/
-//
-//void		free_split(char **split)
-//{
-//	int		i;
-//
-//	i = 0;
-//	if (split)
-//	{
-//		while(split[i])
-//		{
-//			ft_strdel(&split[i]);
-//			i++;
-//		}
-//		free(split);
-//	}
-//	split = NULL;
-//}
-
-void			free_path(t_room *current, t_main *map)
+void		free_path(t_room *current, t_main *map)
 {
-	t_room		*tmp;
+	t_room	*tmp;
 
 	while (current && current->where != map->end)
 	{

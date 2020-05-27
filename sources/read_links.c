@@ -101,11 +101,18 @@ int				read_links(t_main *data)
 	t_link		*link;
 	char		*line;
 	int			check;
+	t_mapfile 	*tmp;
 
+	tmp = data->mapfile;
 	if (!(link = initital_link(data)))
 		return (0);
 	while (get_next_line(0, &line) > 0)
 	{
+		while (tmp->next)
+			tmp = tmp->next;
+		if (!(tmp->next = ft_memalloc(sizeof(t_mapfile)))
+		|| !(tmp->next->text = ft_strdup(line)))
+			ft_error("ERROR");
 		if (is_comment(line))
 		{
 			check = is_command(line);

@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-static void	help_function(void)
+static void		help_function(void)
 {
 	ft_putstr("\n\t\tHELP MENU\n");
 	ft_putstr("-h\tdisplays help menu and closes programm\n");
@@ -21,7 +21,21 @@ static void	help_function(void)
 	exit(1);
 }
 
-void		main_algo_part(t_main *map)
+void			print_map(t_mapfile *text)
+{
+	t_mapfile	*line;
+
+	line = text;
+	while (line)
+	{
+		ft_putstr(line->text);
+		ft_putstr("\n");
+		line = line->next;
+	}
+	ft_putstr("\n");
+}
+
+void			main_algo_part(t_main *map)
 {
 	map->start->level = 1;
 	map->end->level = -1;
@@ -33,12 +47,13 @@ void		main_algo_part(t_main *map)
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
 		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
+	print_map(map->mapfile);
 }
 
-int			main(int ac, char **av)
+int				main(int ac, char **av)
 {
-	t_main	*map;
-	int		flag;
+	t_main		*map;
+	int			flag;
 
 	flag = 0;
 	if (ac > 1)
@@ -58,6 +73,7 @@ int			main(int ac, char **av)
 		start_end_link(map);
 		main_algo_part(map);
 		lets_go(map);
+		freeshing(map);
 	}
 	else
 		help_function();

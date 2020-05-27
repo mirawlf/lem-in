@@ -9,8 +9,8 @@ LFT_DIR = libft
 
 SRC_FILES = after_finding_paths.c ant_steps.c ants_run.c best_next.c \
             best_room_definition.c  best_previous_room1.c  best_previous_room2.c \
-            best_previous_room3.c best_previous_room4.c freeshing.c go.c last_passageway.c lemin.c \
-            move_one_way.c read_ants.c read_links.c read_rooms.c \
+            best_previous_room3.c best_previous_room4.c exchange.c freeshing.c go.c\
+            last_passageway.c lemin.c move_one_way.c read_ants.c read_links.c read_rooms.c \
             rooms_description.c search_intersections.c search_paths.c second_searching.c \
             utils.c valid.c ways_modification.c parser_and_filling.c path_or_its_part_is_found.c \
             remake_paths.c new_tails.c new_heads.c start_end_link.c

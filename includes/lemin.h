@@ -68,8 +68,14 @@ typedef struct		s_toend
 
 typedef struct		s_fromstart
 {
-	t_path			*path;
+	t_path *path;
 }					t_fromstart;
+
+typedef struct		s_mapfile
+{
+	char 			*text;
+	struct s_mapfile	*next;
+}					t_mapfile;
 
 typedef struct		s_main
 {
@@ -94,7 +100,7 @@ typedef struct		s_main
 	t_toend			*endway;
 	t_fromstart		*startway;
 	int				print_paths;
-	char			*file;
+	t_mapfile 		*mapfile;
 }					t_main;
 
 /*
@@ -139,6 +145,7 @@ void				auxiliary(t_room *first, t_room *second,
 					t_link *link, t_main *map);
 int					compare_paths(t_room *best, t_room *current);
 void				remake_paths(t_room *current, t_main *map);
+void 				exchange(t_room *current, t_room *variant, t_main *map);
 void				free_path(t_room *current, t_main *map);
 void				second_rooms(t_room *room, t_main *map);
 void				possible_ways(t_room *room, t_main *map);
@@ -185,10 +192,16 @@ int					del_line_and_return(char *line, int ret);
 */
 
 void				free_rooms(t_room *room, t_room *start, t_room *end);
-//void				freeshing(t_main *map);
+void				freeshing(t_main *map);
 t_main				*parse_input(t_main *map);
 t_main				*structure_filling(t_main *map);
 int 				ft_error(const char *error);
 t_main				*ant_colony_creation(int quant, t_main *map);
+
+/*
+ * printing
+ */
+
+void			print_map(t_mapfile *text);
 
 #endif
