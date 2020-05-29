@@ -12,25 +12,18 @@
 
 #include "lemin.h"
 
-void		free_rooms(t_room *room, t_room *start, t_room *end)
+void		free_rooms(t_room *room)
 {
 	t_room	*tmp;
-	t_room	*next;
 
 	tmp = room;
-	while (tmp)
+	if (tmp)
 	{
-		if (tmp != start && tmp != end)
-		{
-			free(tmp->where);
-			free(tmp->from);
-		}
 		free(tmp->name);
-		free(tmp->ant); //надо ли? или только для комнаты end???
-		next = tmp->next;
-		free(tmp->next);
+		free_rooms(tmp->next);
+		//tmp->where = NULL;
+		//tmp->from = NULL;
 		free(tmp);
-		tmp = next;
 	}
 }
 
@@ -39,11 +32,10 @@ void		free_links(t_link *link)
 	t_link	*tmp;
 	t_link	*next;
 
-	tmp = link;
 	while (tmp)
 	{
-		next = tmp->next;
-		free(tmp->next);
+		if (tmp->next)
+			next = tmp->next;
 		free(tmp);
 		tmp = next;
 	}
@@ -52,18 +44,12 @@ void		free_links(t_link *link)
 void		free_paths(t_path *path)
 {
 	t_path	*tmp;
-	t_path	*next;
 
 	tmp = path;
-	while (tmp)
+	if (tmp)
 	{
-		next = tmp->next;
-		free(tmp->next);
+		free_paths(tmp->next);
 		free(tmp);
-		if (tmp->next)
-			tmp = next;
-		else if (tmp->next->next)
-			tmp = tmp->next->next;
 	}
 }
 
@@ -86,12 +72,13 @@ void		free_ants(t_ant *ant)
 void 		free_mapfile(t_mapfile *mapfile)
 {
 	t_mapfile	*tmp;
-	t_mapfile	*next;
+	t_mapfile 	*next;
 
 	tmp = mapfile;
 	while (tmp)
 	{
 		next = tmp->next;
+		free(tmp->text);
 		free(tmp);
 		tmp = next;
 	}
@@ -99,32 +86,34 @@ void 		free_mapfile(t_mapfile *mapfile)
 
 void		freeshing(t_main *map)
 {
-	free_rooms(map->all_rooms_here, map->start, map->end);
-	free(map->all_rooms_here);
+	free_rooms(map->all_rooms_here);
 	map->all_rooms_here = NULL;
-	free_links(map->all_links_here);
-	free(map->all_links_here);
+	//free_links(map->all_links_here);
 	map->all_links_here = NULL;
-	free(map->start);
-	free(map->end);
 	free(map->line);
 	free(map->courier);
 	free_paths(map->paths);
-	free(map->paths);
+	//free(map->paths);
 	map->paths = NULL;
-	free_paths(map->endway->path);
-	free(map->endway);
-	map->endway = NULL;
-	free_paths(map->startway->path);
-	free(map->startway);
-	map->startway = NULL;
+	if (map->endway)
+	{
+		free_paths(map->endway->path);
+		//free(map->endway);
+		map->endway = NULL;
+	}
+	if (map->startway)
+	{
+		free_paths(map->startway->path);
+		//free(map->startway);
+		map->startway = NULL;
+	}
 	free_ants(map->first_ant);
 	free(map->first_ant);
 	map->first_ant = NULL;
 	free(map->path_array);
 	map->path_array = NULL;
 	free_mapfile(map->mapfile);
-	free(map->mapfile);
+//	free(map->mapfile);
 	free(map);
 }
 

@@ -51,7 +51,6 @@ typedef struct		s_link
 	int				checked;
 	int				is_valid;
 	int				has_pair;
-
 	struct s_link	*next;
 }					t_link;
 
@@ -120,6 +119,7 @@ int					is_room(char *line);
 int					is_comment(char *line);
 int					valid_coords(t_room *room, t_room *list);
 int					duplicate_links(t_link *link, t_main *data);
+void				new_line_for_mapfile(t_mapfile *tmp, char *line);
 
 /*
 ** algo functions
@@ -191,7 +191,7 @@ int					del_line_and_return(char *line, int ret);
 ** freeshing
 */
 
-void				free_rooms(t_room *room, t_room *start, t_room *end);
+void				free_rooms(t_room *room);
 void				freeshing(t_main *map);
 t_main				*parse_input(t_main *map);
 t_main				*structure_filling(t_main *map);

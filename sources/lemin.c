@@ -14,9 +14,10 @@
 
 static void		help_function(void)
 {
-	ft_putstr("\n\t\tHELP MENU\n");
+	ft_putstr("\nSpecify, what exactly you want to see:\n\n");
+	ft_putstr("\t\tHELP MENU\n");
 	ft_putstr("-h\tdisplays help menu and closes programm\n");
-	ft_putstr("-p\tdisplays all found paths and demanded steps for each one\n");
+	ft_putstr("-p\tdisplays just paths and demanded steps for each one\n");
 	ft_putstr("-s\tdisplays ants' steps\n\n");
 	exit(1);
 }
@@ -77,5 +78,5 @@ int				main(int ac, char **av)
 	}
 	else
 		help_function();
-	return (0);
+	//exit(1);
 }

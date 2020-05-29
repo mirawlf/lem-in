@@ -1,0 +1,6 @@
+
+		HELP MENU
+-h	displays help menu and closes programm
+-p	displays all found paths and demanded steps for each one
+-s	displays ants' steps
+

@@ -86,6 +86,12 @@ static int			start_end_check(char *line, t_room **rooms, t_main *data)
 	return (del_line_and_return(line, 0));
 }
 
+static int			reached_links(t_main *data, char *line)
+{
+	data->courier = line;
+	return (1);
+}
+
 int					read_rooms(t_main *data)
 {
 	char			*line;
@@ -98,17 +104,11 @@ int					read_rooms(t_main *data)
 	{
 		if (get_next_line(0, &line) != 1)
 			del_line_and_return(line, 0);
-		while (tmp->next)
-			tmp = tmp->next;
-		if (!(tmp->next = ft_memalloc(sizeof(t_mapfile)))
-		|| !(tmp->next->text = ft_strdup(line)))
-			ft_error("ERROR");
-		if (is_comment(line))
-		{
-			if (!start_end_check(line, &rooms, data))
-				return (0);
-			continue ;
-		}
+		new_line_for_mapfile(tmp, line);
+		if (is_comment(line) && !start_end_check(line, &rooms, data))
+			return (0);
+		else if (is_comment(line) && start_end_check(line, &rooms, data))
+			continue;
 		if (is_room(line))
 		{
 			rooms = make_room(rooms, line, data);
@@ -117,11 +117,6 @@ int					read_rooms(t_main *data)
 			continue;
 		}
 		if (is_link(line))
-		{
-			data->courier = line;
-			return (1);
-		}
-		break ;
+			return (reached_links(data, line));
 	}
-	return (0);
 }

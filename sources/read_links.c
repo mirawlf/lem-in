@@ -96,23 +96,28 @@ static int		is_command(char *line)
 	return (0);
 }
 
+void			new_line_for_mapfile(t_mapfile *tmp, char *line)
+{
+	while (tmp->next)
+		tmp = tmp->next;
+	if (!(tmp->next = ft_memalloc(sizeof(t_mapfile)))
+		|| !(tmp->next->text = ft_strdup(line)))
+		ft_error("ERROR");
+}
+
 int				read_links(t_main *data)
 {
 	t_link		*link;
 	char		*line;
 	int			check;
-	t_mapfile 	*tmp;
+	t_mapfile	*tmp;
 
 	tmp = data->mapfile;
 	if (!(link = initital_link(data)))
 		return (0);
 	while (get_next_line(0, &line) > 0)
 	{
-		while (tmp->next)
-			tmp = tmp->next;
-		if (!(tmp->next = ft_memalloc(sizeof(t_mapfile)))
-		|| !(tmp->next->text = ft_strdup(line)))
-			ft_error("ERROR");
+		new_line_for_mapfile(tmp, line);
 		if (is_comment(line))
 		{
 			check = is_command(line);
@@ -121,15 +126,10 @@ int				read_links(t_main *data)
 				continue;
 			break ;
 		}
-		if (is_link(line))
-		{
-			link = make_link(line, link, data);
-			if (link)
-				continue;
-			else
-				return (0);
-		}
-		break ;
+		if (is_link(line) && (link = make_link(line, link, data)))
+			continue;
+		else
+			return (0);
 	}
 	return (1);
 }

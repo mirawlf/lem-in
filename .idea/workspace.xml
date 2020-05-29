@@ -13,22 +13,15 @@
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/lemin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/after_finding_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/after_finding_paths.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/freeshing.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/freeshing.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/go.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/go.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/last_passageway.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/last_passageway.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/lemin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/new_heads.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/new_heads.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/parser_and_filling.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/parser_and_filling.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_ants.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_ants.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/read_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_links.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/read_rooms.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_rooms.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/remake_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/remake_paths.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/search_intersections.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/search_intersections.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/ways_modification.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ways_modification.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +258,11 @@
       <workItem from="1590491809998" duration="10584000" />
       <workItem from="1590503185518" duration="2249000" />
       <workItem from="1590505685998" duration="1478000" />
-      <workItem from="1590574643181" duration="16039000" />
+      <workItem from="1590574643181" duration="16602000" />
+      <workItem from="1590746986395" duration="435000" />
+      <workItem from="1590748452414" duration="793000" />
+      <workItem from="1590749985692" duration="2675000" />
+      <workItem from="1590752888554" duration="8047000" />
     </task>
     <servers />
   </component>
@@ -361,17 +358,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>46</line>
+          <line>47</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>74</line>
+          <line>75</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -411,12 +408,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>71</line>
+          <line>72</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>53</line>
+          <line>54</line>
           <option name="timeStamp" value="267" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -426,7 +423,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>59</line>
+          <line>60</line>
           <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
