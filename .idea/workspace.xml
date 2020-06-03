@@ -11,12 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/last_passageway.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/last_passageway.c" afterDir="false" />
-    </list>
+    <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,6 +254,7 @@
       <workItem from="1590752888554" duration="9808000" />
       <workItem from="1590765614120" duration="671000" />
       <workItem from="1591203944609" duration="364000" />
+      <workItem from="1591210164462" duration="619000" />
     </task>
     <servers />
   </component>

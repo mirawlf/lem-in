@@ -37,10 +37,9 @@ void			freeshing(t_main *map)
 	free(map->path_array);
 	map->path_array = NULL;
 	free_mapfile(map->mapfile);
-	free(map);
 }
 
-static void		help_function(void)
+static void		help_function(void )
 {
 	ft_putstr("\nSpecify, what exactly you want to see:\n\n");
 	ft_putstr("\t\tHELP MENU\n");
@@ -67,7 +66,7 @@ void			main_algo_part(t_main *map)
 
 int				main(int ac, char **av)
 {
-	t_main		*map;
+	t_main		map;
 	int			flag;
 
 	flag = 0;
@@ -81,14 +80,14 @@ int				main(int ac, char **av)
 			help_function();
 		else
 			ft_error("ERROR");
-		if (!(map = (t_main*)ft_memalloc(sizeof(t_main))))
-			return (-1);
-		map->print_paths = flag;
-		map = parse_input(map);
-		start_end_link(map);
-		main_algo_part(map);
-		lets_go(map);
-		freeshing(map);
+		//if (!(map = (t_main*)ft_memalloc(sizeof(t_main))))
+		//	return (-1);
+		map.print_paths = flag;
+		parse_input(&map);
+		start_end_link(&map);
+		main_algo_part(&map);
+		lets_go(&map);
+		freeshing(&map);
 	}
 	else
 		help_function();
