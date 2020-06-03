@@ -84,14 +84,11 @@ typedef struct			s_main
 	char				*line;
 	t_room				*all_rooms_here;
 	t_link				*all_links_here;
-	int					reached_end;
-	int					rooms;
 	t_path				*paths;
 	t_path				**path_array;
 	int					paths_amount;
 	int					start_connections;
 	int					end_connections;
-	int					fd;
 	char				*courier;
 	t_toend				*endway;
 	t_fromstart			*startway;
