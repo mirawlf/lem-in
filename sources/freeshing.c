@@ -28,11 +28,14 @@ void			free_rooms(t_room *room)
 void			free_links(t_link *link)
 {
 	t_link		*tmp;
+	t_link		*next;
 
+	tmp = link;
 	while (tmp)
 	{
-		free_links(tmp->next);
+		next = tmp->next;
 		free(tmp);
+		tmp = next;
 	}
 }
 

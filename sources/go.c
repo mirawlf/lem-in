@@ -42,8 +42,6 @@ static void		go_one_way(t_main *main)
 	}
 	ft_putstr("\nNumber of lines: ");
 	ft_putnbr(i);
-	ft_putstr("\n");
-	ft_error("0 ANTS LEFT HOPE ITS OK");
 }
 
 static void		go_many_ways(t_main *main)

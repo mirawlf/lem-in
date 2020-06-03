@@ -16,7 +16,7 @@ void			freeshing(t_main *map)
 {
 	free_rooms(map->all_rooms_here);
 	map->all_rooms_here = NULL;
-	map->all_links_here = NULL;
+	free_links(map->all_links_here);
 	free(map->line);
 	free(map->courier);
 	free_paths(map->paths);
