@@ -50,13 +50,6 @@ static t_room		*make_room(t_room *room, char *line, t_main *data)
 	return (result);
 }
 
-static int			flag_value(int flag, char *line)
-{
-	flag += (ft_strequ(line, "##start") ? 1 : 0);
-	flag += (ft_strequ(line, "##end") ? 2 : 0);
-	return (flag);
-}
-
 static int			start_end_check(char *line, t_room **rooms, t_main *data)
 {
 	int				flag;

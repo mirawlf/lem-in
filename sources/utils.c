@@ -12,22 +12,6 @@
 
 #include "lemin.h"
 
-void		print_step(int ant_num, char *room_name, t_main *main)
-{
-	ft_putchar('L');
-	ft_putnbr((main->original_ants + 1 - ant_num));
-	ft_putchar('-');
-	ft_putstr(room_name);
-	ft_putchar(' ');
-}
-
-int			print_line(int ret, char *line)
-{
-	ft_putstr_fd(line, 1);
-	ft_putchar('\n');
-	return (ret);
-}
-
 int			ft_error(const char *error)
 {
 	ft_putendl_fd(error, 2);
@@ -74,17 +58,4 @@ int			split_bits(char *line, char c)
 	while (split[++j])
 		ft_strdel(&split[j]);
 	return (i);
-}
-
-void		del_str_arr(char **to_delete)
-{
-	int		i;
-
-	i = -1;
-	if (to_delete)
-	{
-		while (to_delete[++i])
-			ft_strdel(&to_delete[i]);
-		free(to_delete);
-	}
 }

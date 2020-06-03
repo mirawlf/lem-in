@@ -49,13 +49,16 @@ int		is_link(char *line)
 	return (1);
 }
 
-int		is_step(char *step)
+int		is_command(char *line)
 {
-	if (!step)
-		return (0);
-	if (ft_strlen(step) < 3)
-		return (0);
-	if (step[0] == 'L')
+	if (ft_strequ(line, "##start") || ft_strequ(line, "##end"))
 		return (1);
 	return (0);
+}
+
+int		flag_value(int flag, char *line)
+{
+	flag += (ft_strequ(line, "##start") ? 1 : 0);
+	flag += (ft_strequ(line, "##end") ? 2 : 0);
+	return (flag);
 }

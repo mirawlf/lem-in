@@ -13,15 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/lemin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/freeshing.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/freeshing.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/last_passageway.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/last_passageway.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/lemin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_links.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_rooms.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_rooms.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +256,9 @@
       <workItem from="1590746986395" duration="435000" />
       <workItem from="1590748452414" duration="793000" />
       <workItem from="1590749985692" duration="2675000" />
-      <workItem from="1590752888554" duration="8047000" />
+      <workItem from="1590752888554" duration="9808000" />
+      <workItem from="1590765614120" duration="671000" />
+      <workItem from="1591203944609" duration="364000" />
     </task>
     <servers />
   </component>

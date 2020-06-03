@@ -89,22 +89,6 @@ static t_link	*initital_link(t_main *data)
 	return (result);
 }
 
-static int		is_command(char *line)
-{
-	if (ft_strequ(line, "##start") || ft_strequ(line, "##end"))
-		return (1);
-	return (0);
-}
-
-void			new_line_for_mapfile(t_mapfile *tmp, char *line)
-{
-	while (tmp->next)
-		tmp = tmp->next;
-	if (!(tmp->next = ft_memalloc(sizeof(t_mapfile)))
-		|| !(tmp->next->text = ft_strdup(line)))
-		ft_error("ERROR");
-}
-
 int				read_links(t_main *data)
 {
 	t_link		*link;

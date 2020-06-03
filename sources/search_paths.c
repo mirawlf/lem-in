@@ -12,30 +12,6 @@
 
 #include "lemin.h"
 
-void		auxiliary(t_room *first, t_room *second, t_link *link, t_main *map)
-{
-	if (second->level != 1)
-	{
-		if (first != map->end)
-		{
-			if (first->from == NULL && second->where == NULL)
-			{
-				second->where = first;
-				first->from = second;
-				link->checked = 2;
-			}
-		}
-		else
-		{
-			second->where = first;
-			link->checked = 2;
-		}
-		search_previous_room(second, map);
-	}
-	else
-		second_rooms(first, map);
-}
-
 int			first_check_for_searching(t_room *current, t_link *link,
 		t_main *map)
 {
