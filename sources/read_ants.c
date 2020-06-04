@@ -35,11 +35,12 @@ int				read_ants(t_main *data)
 			else
 			{
 				if (!is_ants(line))
-					del_line_and_return(line, 0);
-				data->ants = ants;
+					return (del_line_and_return(line, 0));
+				data->ants = is_ants(line);
 				break ;
 			}
 		}
 	}
-	return ((ret > 0) ? del_line_and_return(line, 1) : del_line_and_return(line, 0));
+	return ((ret > 0) ? del_line_and_return(line, 1) :
+	del_line_and_return(line, 0));
 }

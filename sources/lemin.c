@@ -34,7 +34,7 @@ void			freeshing(t_main *map)
 	free_mapfile(map->mapfile);
 }
 
-static void		help_function(void )
+static void		help_function(void)
 {
 	ft_putstr("\nSpecify, what exactly you want to see:\n\n");
 	ft_putstr("\t\tHELP MENU\n");
@@ -75,8 +75,6 @@ int				main(int ac, char **av)
 			help_function();
 		else
 			ft_error("ERROR! UNKNOWN FLAGS OR INCORRECT INPUT");
-		//if (!(map = (t_main*)ft_memalloc(sizeof(t_main))))
-		//	return (-1);
 		map.print_paths = flag;
 		parse_input(&map);
 		start_end_link(&map);
