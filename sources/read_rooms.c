@@ -54,7 +54,6 @@ static int			start_end_check(char *line, t_room **rooms, t_main *data)
 {
 	int				flag;
 
-//	printf("check\n");
 	flag = 0;
 	flag = flag_value(flag, line);
 	ft_strdel(&line);
@@ -95,11 +94,8 @@ int					read_rooms(t_main *data)
 	rooms = NULL;
 	while ((ret = get_next_line(0, &line)) > 0)
 	{
-		//printf("%s\n", line);
 		new_line_for_mapfile(data->mapfile, line);
-	//	if (is_comment(line) && !start_end_check(line, &rooms, data))
-	//		return (0);
-		 if (is_comment(line) && start_end_check(line, &rooms, data))
+		if (is_comment(line) && start_end_check(line, &rooms, data))
 			continue;
 		if (is_room(line))
 		{
