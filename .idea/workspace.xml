@@ -25,27 +25,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/rooms_description.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1270" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/search_intersections.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1508" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/search_paths.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1508" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/second_searching.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-454">
@@ -72,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/read_rooms.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-794">
@@ -82,10 +61,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/lemin.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/utils.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="889">
-              <caret line="59" column="15" lean-forward="true" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+            <state relative-caret-position="141">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ТЗ">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -159,6 +165,9 @@
         <option value="$PROJECT_DIR$/sources/path_or_its_part_is_found.c" />
         <option value="$PROJECT_DIR$/sources/read_input.c" />
         <option value="$PROJECT_DIR$/sources/second_searching.c" />
+        <option value="$PROJECT_DIR$/sources/utils.c" />
+        <option value="$PROJECT_DIR$/ТЗ" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -182,16 +191,6 @@
             <path>
               <item name="lem-in" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lem-in" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lem-in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lem-in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,12 +236,12 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.lem-in">
-    <configuration name="c_lemin" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\scump\c_lemin\flow-one" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lem-in" TARGET_NAME="c_lemin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lem-in" RUN_TARGET_NAME="c_lemin">
+    <configuration name="c_lemin" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\scump\c_lemin\flow-one" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="c_lemin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="c_lemin">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="last_lin" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/flow-big" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lem-in" TARGET_NAME="last_lin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lem-in" RUN_TARGET_NAME="last_lin">
+    <configuration name="last_lin" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/flow-big" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="last_lin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="last_lin">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -252,7 +251,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lemin_github" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/flow-superposition" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lem-in" TARGET_NAME="last_lin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lem-in" RUN_TARGET_NAME="last_lin">
+    <configuration name="lemin_github" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/flow-superposition" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="last_lin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="last_lin">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -406,12 +405,12 @@
       <workItem from="1590765614120" duration="671000" />
       <workItem from="1591203944609" duration="364000" />
       <workItem from="1591210164462" duration="619000" />
-      <workItem from="1591224981523" duration="3859000" />
+      <workItem from="1591224981523" duration="4419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3859000" />
+    <option name="totallyTimeSpent" value="4419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -685,13 +684,6 @@
         <state relative-caret-position="-1236" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/lemin.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sources/move_one_way.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-590" />
@@ -767,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/utils.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
-          <caret line="59" column="15" lean-forward="true" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sources/valid.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -804,6 +789,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-794">
           <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/lemin.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ТЗ">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

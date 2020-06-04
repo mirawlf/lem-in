@@ -11,3 +11,5 @@ a.out
 *.su
 *.idb
 *.pdb
+./cmake-build-debug/
+CMakeList.txt
