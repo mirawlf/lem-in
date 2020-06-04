@@ -13,15 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/3waytest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maps/3waytest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/map1" beforeDir="false" afterPath="$PROJECT_DIR$/maps/map1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/map2" beforeDir="false" afterPath="$PROJECT_DIR$/maps/map2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/lemin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_ants.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_ants.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_rooms.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_rooms.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ТЗ" beforeDir="false" afterPath="$PROJECT_DIR$/ТЗ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/utils.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,11 +265,12 @@
       <workItem from="1591203944609" duration="364000" />
       <workItem from="1591210164462" duration="619000" />
       <workItem from="1591224981523" duration="4419000" />
+      <workItem from="1591297539345" duration="699000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="732" y="227" key="#c_check" timestamp="1589558455641">
@@ -376,11 +370,6 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>70</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/second_searching.c</url>
           <line>99</line>
           <option name="timeStamp" value="240" />
@@ -399,11 +388,6 @@
           <url>file://$PROJECT_DIR$/sources/ways_modification.c</url>
           <line>48</line>
           <option name="timeStamp" value="257" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/lemin.c</url>
-          <line>67</line>
-          <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/lemin.c</url>
