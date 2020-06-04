@@ -50,7 +50,7 @@ static void		sort_paths(t_path **paths, int paths_amount, t_main *map)
 	t_path		*temp;
 
 	if (!paths || !paths_amount)
-		ft_error("ERROR");
+		ft_error("ERROR! CAN'T SEE ANY PATH");
 	i = -1;
 	while (++i < (paths_amount - 1))
 	{
@@ -88,7 +88,7 @@ t_path			**make_path_array(t_main *main)
 	main->paths_amount = paths_amount;
 	start = main->paths;
 	if (!(result = (t_path**)ft_memalloc(sizeof(t_path*) * paths_amount)))
-		ft_error("ERROR");
+		ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 	while (++i < paths_amount)
 	{
 		result[i] = start;

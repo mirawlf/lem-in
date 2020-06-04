@@ -94,14 +94,12 @@ int				read_links(t_main *data)
 	t_link		*link;
 	char		*line;
 	int			check;
-	t_mapfile	*tmp;
 
-	tmp = data->mapfile;
 	if (!(link = initital_link(data)))
 		return (0);
 	while (get_next_line(0, &line) > 0)
 	{
-		new_line_for_mapfile(tmp, line);
+		new_line_for_mapfile(data->mapfile, line);
 		if (is_comment(line))
 		{
 			check = is_command(line);

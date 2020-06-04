@@ -23,7 +23,7 @@ t_main		*ant_colony_creation(int quant, t_main *map)
 		if (!i)
 		{
 			if (!(ant = (t_ant*)ft_memalloc(sizeof(t_ant))))
-				ft_error("ERROR");
+				ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 			map->first_ant = ant;
 		}
 		ant->num = quant - i;
@@ -31,7 +31,7 @@ t_main		*ant_colony_creation(int quant, t_main *map)
 		if ((i + 1) == quant)
 			return (map);
 		if (!(ant->next = (t_ant*)ft_memalloc(sizeof(t_ant))))
-			ft_error("ERROR");
+			ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 		ant = ant->next;
 	}
 	return (NULL);
@@ -40,7 +40,7 @@ t_main		*ant_colony_creation(int quant, t_main *map)
 static int	read_data(t_main *data)
 {
 	if (!(data->mapfile = ft_memalloc(sizeof(t_mapfile))))
-		ft_error("ERROR");
+		ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 	if (!read_ants(data))
 		return (0);
 	if (!read_rooms(data))
@@ -55,7 +55,7 @@ static int	read_data(t_main *data)
 t_main		*structure_filling(t_main *map)
 {
 	if (!read_data(map))
-		ft_error("ERROR");
+		ft_error("ERROR! INCORRECT INPUT DATA");
 	ant_colony_creation(map->ants, map);
 	return (map);
 }

@@ -25,11 +25,14 @@ void			del_str_arr(char **to_delete)
 	}
 }
 
-void			new_line_for_mapfile(t_mapfile *tmp, char *line)
+void			new_line_for_mapfile(t_mapfile *mapfile, char *line)
 {
+	t_mapfile	*tmp;
+
+	tmp = mapfile;
 	while (tmp->next)
 		tmp = tmp->next;
 	if (!(tmp->next = ft_memalloc(sizeof(t_mapfile)))
 		|| !(tmp->next->text = ft_strdup(line)))
-		ft_error("ERROR");
+		ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 }

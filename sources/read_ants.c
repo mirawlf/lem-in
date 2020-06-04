@@ -14,7 +14,7 @@
 
 static int		is_ants(char *line)
 {
-	if (is_all_digits(line))
+	if (is_all_digits(line) && (ft_atoi(line) * 10 / 10 == ft_atoi(line)))
 		return (ft_atoi(line));
 	return (0);
 }
@@ -22,10 +22,9 @@ static int		is_ants(char *line)
 int				read_ants(t_main *data)
 {
 	char		*line;
-	int			ants;
+	int			ret;
 
-	ants = 0;
-	while (get_next_line(0, &line) > 0)
+	while ((ret = get_next_line(0, &line)) > 0)
 	{
 		if (line)
 		{
@@ -35,13 +34,12 @@ int				read_ants(t_main *data)
 				continue;
 			else
 			{
-				ants = is_ants(line);
-				if (!ants)
+				if (!is_ants(line))
 					del_line_and_return(line, 0);
 				data->ants = ants;
 				break ;
 			}
 		}
 	}
-	return (del_line_and_return(line, 1));
+	return ((ret > 0) ? del_line_and_return(line, 1) : del_line_and_return(line, 0));
 }

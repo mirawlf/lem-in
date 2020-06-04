@@ -19,7 +19,7 @@ void			second_rooms(t_room *room, t_main *map)
 	if (!map->paths)
 	{
 		if (!(map->paths = (t_path *)ft_memalloc(sizeof(t_path))))
-			ft_error("ERROR\n");
+			ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 		map->paths->current = room;
 	}
 	else
@@ -27,7 +27,8 @@ void			second_rooms(t_room *room, t_main *map)
 		tmp = map->paths;
 		while (tmp->next)
 			tmp = tmp->next;
-		tmp->next = (t_path *)ft_memalloc(sizeof(t_path));
+		if (!(tmp->next = (t_path *)ft_memalloc(sizeof(t_path))))
+			ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 		tmp = tmp->next;
 		tmp->current = room;
 	}
@@ -41,7 +42,7 @@ void			possible_ways(t_room *room, t_main *map)
 	{
 		if (!(map->endway = (t_toend*)ft_memalloc(sizeof(t_toend)))
 			|| !(map->endway->path = (t_path*)ft_memalloc(sizeof(t_path))))
-			ft_error("ERROR");
+			ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 		map->endway->path->current = room;
 	}
 	else
@@ -49,7 +50,8 @@ void			possible_ways(t_room *room, t_main *map)
 		tmp = map->endway->path;
 		while (tmp->next)
 			tmp = tmp->next;
-		tmp->next = (t_path*)ft_memalloc(sizeof(t_path));
+		if (!(tmp->next = (t_path*)ft_memalloc(sizeof(t_path))))
+			ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 		tmp = tmp->next;
 		tmp->current = room;
 	}

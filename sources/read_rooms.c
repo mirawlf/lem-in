@@ -89,15 +89,12 @@ int					read_rooms(t_main *data)
 {
 	char			*line;
 	t_room			*rooms;
-	t_mapfile		*tmp;
+	int				ret;
 
 	rooms = NULL;
-	tmp = data->mapfile;
-	while (1)
+	while ((ret = get_next_line(0, &line)) > 0)
 	{
-		if (get_next_line(0, &line) != 1)
-			del_line_and_return(line, 0);
-		new_line_for_mapfile(tmp, line);
+		new_line_for_mapfile(data->mapfile, line);
 		if (is_comment(line) && !start_end_check(line, &rooms, data))
 			return (0);
 		else if (is_comment(line) && start_end_check(line, &rooms, data))
@@ -112,4 +109,6 @@ int					read_rooms(t_main *data)
 		if (is_link(line))
 			return (reached_links(data, line));
 	}
+	if (ret < 1)
+		return (del_line_and_return(line, 0));
 }

@@ -23,7 +23,7 @@ static void	first_if_else(t_path *tmp, t_room *old,
 		while (tmp->next)
 			tmp = tmp->next;
 		if (!(tmp->next = (t_path*)ft_memalloc(sizeof(t_path))))
-			ft_error("ERROR");
+			ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 		tmp->next->current = new;
 	}
 }

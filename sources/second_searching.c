@@ -58,7 +58,7 @@ void		another_possible_ways(t_room *room, t_main *map)
 	{
 		if (!(map->startway = (t_fromstart*)ft_memalloc(sizeof(t_fromstart)))
 		|| !(map->startway->path = (t_path*)ft_memalloc(sizeof(t_path))))
-			ft_error("ERROR");
+			ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 		map->startway->path->current = room;
 	}
 	else

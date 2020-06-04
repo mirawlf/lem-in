@@ -97,10 +97,13 @@ typedef struct			s_main
 }						t_main;
 
 /*
-** reading input data
+** reading & parsing input data, filling structure
 */
 
+t_main					*parse_input(t_main *map);
+t_main					*structure_filling(t_main *map);
 int						read_ants(t_main *data);
+t_main					*ant_colony_creation(int quant, t_main *map);
 int						read_links(t_main *data);
 int						read_rooms(t_main *data);
 
@@ -112,10 +115,9 @@ int						is_link(char *line);
 int						is_room(char *line);
 int						is_comment(char *line);
 int						is_command(char *line);
-int						flag_value(int flag, char *line);
+int						is_all_digits(char *line);
 int						valid_coords(t_room *room, t_room *list);
 int						duplicate_links(t_link *link, t_main *data);
-void					new_line_for_mapfile(t_mapfile *tmp, char *line);
 
 /*
 ** algo functions
@@ -179,8 +181,14 @@ void					make_oneway_step(t_main *main, t_path *best_path);
 void					make_step(t_main *main, t_path **path_array);
 int						make_start_step(t_ant *ant, t_main *main);
 t_ant					*make_normal_step(t_ant *ant, t_main *main);
-void					print_step(int ant_num, char *room_name, t_main *main);
 t_ant					*del_ant(t_ant *ant, t_main *main);
+
+/*
+** printing
+*/
+
+void					print_map(t_mapfile *text);
+void					print_step(int ant_num, char *room_name, t_main *main);
 
 /*
 ** utils
@@ -188,28 +196,20 @@ t_ant					*del_ant(t_ant *ant, t_main *main);
 
 void					del_str_arr(char **to_delete);
 int						split_bits(char *line, char c);
-int						is_all_digits(char *line);
+void					new_line_for_mapfile(t_mapfile *tmp, char *line);
 int						del_line_and_return(char *line, int ret);
+int						flag_value(int flag, char *line);
 
 /*
 ** freeshing
 */
 
-void					free_rooms(t_room *room);
 void					freeshing(t_main *map);
-t_main					*parse_input(t_main *map);
-t_main					*structure_filling(t_main *map);
-int						ft_error(const char *error);
-t_main					*ant_colony_creation(int quant, t_main *map);
+void					free_rooms(t_room *room);
 void					free_mapfile(t_mapfile *mapfile);
 void					free_ants(t_ant *ant);
 void					free_paths(t_path *path);
 void					free_links(t_link *link);
-
-/*
-** printing
-*/
-
-void					print_map(t_mapfile *text);
+int						ft_error(const char *error);
 
 #endif

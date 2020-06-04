@@ -14,13 +14,12 @@
 
 void			freeshing(t_main *map)
 {
-	free_rooms(map->all_rooms_here);
-	map->all_rooms_here = NULL;
-	free_links(map->all_links_here);
-	free(map->line);
-	free(map->courier);
-	free_paths(map->paths);
-	map->paths = NULL;
+	(map->first_ant != NULL) ? free_ants(map->first_ant) : 1;
+	(map->all_rooms_here != NULL) ? free_rooms(map->all_rooms_here) : 1;
+	(map->all_links_here != NULL) ? free_links(map->all_links_here) : 1;
+	(map->line != NULL) ? free(map->line) : 1;
+	(map->courier) ? free(map->courier) : 1;
+	(map->paths != NULL) ? free_paths(map->paths) : 1;
 	if (map->endway)
 	{
 		free_paths(map->endway->path);
@@ -31,11 +30,7 @@ void			freeshing(t_main *map)
 		free_paths(map->startway->path);
 		map->startway = NULL;
 	}
-	free_ants(map->first_ant);
-	free(map->first_ant);
-	map->first_ant = NULL;
 	free(map->path_array);
-	map->path_array = NULL;
 	free_mapfile(map->mapfile);
 }
 
@@ -60,7 +55,7 @@ void			main_algo_part(t_main *map)
 	search_intersections(map);
 	count_steps(map);
 	if (!(map->path_array = make_path_array(map)))
-		ft_error("PATH ARRAYING FAILED IN NECESSARY ROOMS");
+		ft_error("ERROR! CAN'T MALLOC STRUCTURE");
 	print_map(map->mapfile);
 }
 
@@ -70,16 +65,16 @@ int				main(int ac, char **av)
 	int			flag;
 
 	flag = 0;
-	if (ac > 1)
+	if (ac > 0)
 	{
 		if (ac == 2 && !ft_strcmp(av[1], "-p"))
 			flag = 1;
-		else if (ac == 2 && !ft_strcmp(av[1], "-s"))
+		else if ((ac == 2 && !ft_strcmp(av[1], "-s")) || ac == 1)
 			flag = 0;
 		else if (ac == 2 && !ft_strcmp(av[1], "-h"))
 			help_function();
 		else
-			ft_error("ERROR");
+			ft_error("ERROR! UNKNOWN FLAGS OR INCORRECT INPUT");
 		//if (!(map = (t_main*)ft_memalloc(sizeof(t_main))))
 		//	return (-1);
 		map.print_paths = flag;
