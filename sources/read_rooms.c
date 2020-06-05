@@ -95,6 +95,8 @@ int					read_rooms(t_main *data)
 	while ((ret = get_next_line(0, &line)) > 0)
 	{
 		new_line_for_mapfile(data->mapfile, line);
+		if (is_comment(line) && start_end_comment(line))
+			return (del_line_and_return(line, 0));
 		if (is_comment(line) && start_end_check(line, &rooms, data))
 			continue;
 		if (is_room(line))

@@ -116,6 +116,7 @@ int						is_room(char *line);
 int						is_comment(char *line);
 int						is_command(char *line);
 int						is_all_digits(char *line);
+int						start_end_comment(char *line);
 int						valid_coords(t_room *room, t_room *list);
 int						duplicate_links(t_link *link, t_main *data);
 

@@ -95,3 +95,10 @@ void		free_path(t_room *current, t_main *map)
 	if (current)
 		current->from = NULL;
 }
+
+int			start_end_comment(char *line)
+{
+	if (ft_strcmp(line, "#start") != 0 || ft_strcmp(line, "#end") != 0)
+		return (0);
+	return (1);
+}

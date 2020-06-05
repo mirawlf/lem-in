@@ -12,9 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b7243d-7ba0-4a7d-a704-c3d8159ff60b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/maps/05big" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/lemin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/auxiliary.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/auxiliary.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/read_rooms.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_rooms.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,6 +270,7 @@
       <workItem from="1591210164462" duration="619000" />
       <workItem from="1591224981523" duration="4419000" />
       <workItem from="1591297539345" duration="699000" />
+      <workItem from="1591378407619" duration="3113000" />
     </task>
     <servers />
   </component>
